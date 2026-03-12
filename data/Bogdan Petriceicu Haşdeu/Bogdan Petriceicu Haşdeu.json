@@ -1,0 +1,207 @@
+{
+  "autor": "Bogdan Petriceicu Haşdeu",
+  "poza": "data/Bogdan Petriceicu Haşdeu/bibliografie/bogdan-petriceicu-hasdeu.jpg",
+  "bibliografie_path": "data/Bogdan Petriceicu Haşdeu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adevăratul poet",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Adevăratul poet.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Alb si negru",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Alb si negru.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Bradul",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Bradul.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Ciocârlia",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Ciocârlia.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Complotul bubei",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Complotul bubei.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cranul lui Mihai Viteazul",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Cranul lui Mihai Viteazul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Către o doamnă de 39 de ani",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Către o doamnă de 39 de ani.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Din iarna",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Din iarna.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Domnita Voichita",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Domnita Voichita.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Dorul",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Dorul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Femeia inecata",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Femeia inecata.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Frunzele",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Frunzele.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Gaudeamus",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Gaudeamus.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Ionascu Voda",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Ionascu-Voda.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "La Casa De Nebuni",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/La Casa De Nebuni.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "La iulia",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/La iulia.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "La Romania",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/La Romania.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Lilica",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Lilica.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Lui N. Nicoleanu",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Lui N. Nicoleanu.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Luntrea",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Luntrea.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Magda lui Arbore",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Magda lui Arbore.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Mater Dolorosa",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Mater Dolorosa.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Muntele si valea",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Muntele si valea.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "O doină postumă",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/O doină postumă.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Odă la ciocoi",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Odă la ciocoi.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Saracia",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Saracia.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Stefan si Radul",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Stefan si Radul.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Sunt roman",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Sunt roman.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Să vorbim româneşte",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Să vorbim româneşte.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Viersul",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Viersul.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Vornicul Iancu Moţoc",
+      "tip": "poezie",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/poezii/Vornicul Iancu Moţoc.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Ioan Vodă cel Cumplit",
+      "tip": "proza",
+      "versuri_path": "data/Bogdan Petriceicu Haşdeu/proza/Ioan Vodă cel Cumplit.txt"
+    }
+  ]
+}

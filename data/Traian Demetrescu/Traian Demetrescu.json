@@ -1,0 +1,248 @@
+{
+  "autor": "Traian Demetrescu",
+  "poza": "data/Traian Demetrescu/bibliografie/Traian Demetrescu.jpg",
+  "bibliografie_path": "data/Traian Demetrescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Acelaşi farmec",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Acelaşi farmec.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Aleluia",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Aleluia.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Ave Maria",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Ave-Maria.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Azi",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Azi.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Biletul de noroc",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Biletul de noroc.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Ciobanii",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Ciobanii.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Cireșele",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Cireșele.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Clavirul",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Clavirul.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Copii",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Copii.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Corbii",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Corbii.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Călugărul din vechiul schit",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Călugărul din vechiul schit.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Dușmani",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Dușmani.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "E trist",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/E trist.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Evreul",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Evreul.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Farmec",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Farmec.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Floare de drum",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Floare de drum.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Flori se seră",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Flori se seră.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Frunze de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Frunze de toamnă.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Gluma",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Gluma.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Gând de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Gând de toamnă.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Idilă II",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Idilă II.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Idilă",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Idilă.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Ironie",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Ironie.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Iubire",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Iubire.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "La morgă",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/La morgă.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Legea",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Legea.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Lui Eminescu",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Lui Eminescu.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Magdalena",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Magdalena.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Melancolie",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Melancolie.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Necunoscuţi",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Necunoscuţi.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "O minune",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/O minune.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Sfârșitul",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Sfârșitul.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Tablou de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Tablou de iarnă.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Tatăl",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Tatăl.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Trec orele",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Trec orele.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Unei femei",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Unei femei.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Visătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Visătorul.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Împreună",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Împreună.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Într o cârciumă murdară",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Într-o cârciumă murdară.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Șireata",
+      "tip": "poezie",
+      "versuri_path": "data/Traian Demetrescu/poezii/Șireata.txt"
+    }
+  ],
+  "proza": []
+}

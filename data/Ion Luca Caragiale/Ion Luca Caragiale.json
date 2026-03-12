@@ -1,0 +1,321 @@
+{
+  "autor": "Ion Luca Caragiale",
+  "poza": "data/Ion Luca Caragiale/bibliografie/Ion Luca Caragiale.jpg",
+  "bibliografie_path": "data/Ion Luca Caragiale/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Amiază''MAURĂ''",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Amiază''MAURĂ''.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Amicului meu",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Amicului meu.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Baladă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Baladă.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Boul şi viţelul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Boul şi viţelul.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Cameleon femeie",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Cameleon-femeie.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cochetarie",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Cochetarie.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Contimpuranilor mei",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Contimpuranilor mei.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Crucea și semiluna",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Crucea și semiluna.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Cântec studenţesc",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Cântec studenţesc.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Da... nebun",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Da... nebun.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "De ce",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/De ce.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Declarație simbolistă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Declarație simbolistă.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Discreţie",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Discreţie.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Duel",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Duel.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Elegie",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Elegie.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Erato, scapă mă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Erato, scapă-mă.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Eros",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Eros.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Excelsior",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Excelsior.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Filozoful Blagomirea",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Filozoful Blagomirea.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Finis",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Finis.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Glic",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Glic.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Graţia domniţei",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Graţia domniţei.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Iarna",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Iarna.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Idilă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Idilă.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Ion Prostul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Ion Prostul.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Moartea protestantului",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Moartea protestantului.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Odă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Odă.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Pe oceanul vremii",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Pe oceanul vremii.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Prea sărac",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Prea sărac.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Primăvara Pastel optimist",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Primăvara - Pastel optimist.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Primăvara Pastel pesimist",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Primăvara - Pastel pesimist.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Ruga spiritistului",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Ruga spiritistului.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Se poate glumi",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Se poate glumi.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Semnul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Semnul.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Sonet 1",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Sonet 1.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Sonet 2",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Sonet 2.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Sonet 3",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Sonet 3.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Sonet brutal",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Sonet brutal.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Steaua",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Steaua.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Talmud",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Talmud.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Thalasa",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Thalasa.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Triolete simboliste",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Triolete simboliste.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Unui cavaler de industrie",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Unui cavaler de industrie.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "În curând",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/În curând.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "În gondolă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/În gondolă.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Ștanțele durerii",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Luca Caragiale/poezii/Ștanțele durerii.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Bubico",
+      "tip": "proza",
+      "versuri_path": "data/Ion Luca Caragiale/proza/Bubico.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Ion",
+      "tip": "proza",
+      "versuri_path": "data/Ion Luca Caragiale/proza/Ion.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Liga",
+      "tip": "proza",
+      "versuri_path": "data/Ion Luca Caragiale/proza/Liga.txt"
+    },
+    {
+      "id": "proza-4",
+      "titlu": "Masca",
+      "tip": "proza",
+      "versuri_path": "data/Ion Luca Caragiale/proza/Masca.txt"
+    },
+    {
+      "id": "proza-5",
+      "titlu": "O blană rară",
+      "tip": "proza",
+      "versuri_path": "data/Ion Luca Caragiale/proza/O blană rară.txt"
+    }
+  ]
+}

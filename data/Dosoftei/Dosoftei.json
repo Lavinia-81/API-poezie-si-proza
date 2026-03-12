@@ -1,0 +1,98 @@
+{
+  "autor": "Dosoftei",
+  "poza": "data/Dosoftei/bibliografie/Dosoftei.jpg",
+  "bibliografie_path": "data/Dosoftei/bibliografie/Note Bibliografica.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Acrostihul sibilin",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Acrostihul sibilin.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Imnuri",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Imnuri.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Psalmul 1",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 1.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Psalmul 132",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 132.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Psalmul 2",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 2.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Psalmul 3",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 3.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Psalmul 4",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 4.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Psalmul 5",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 5.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Psalmul 50",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 50.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Psalmul 6",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 6.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Psalmul 7",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 7.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Psalmul 8",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 8.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Psalmul 9",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 9.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Psalmul 99",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Psalmul 99.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Stihuri",
+      "tip": "poezie",
+      "versuri_path": "data/Dosoftei/poezii/Stihuri.txt"
+    }
+  ],
+  "proza": []
+}

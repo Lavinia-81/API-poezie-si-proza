@@ -1,0 +1,14 @@
+{
+  "autor": "Ioan Budai Deleanu",
+  "poza": "data/Ioan Budai Deleanu/bibliografie/budai-deleanu.jpg",
+  "bibliografie_path": "data/Ioan Budai Deleanu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Țiganiada",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan Budai Deleanu/poezii/Țiganiada.txt"
+    }
+  ],
+  "proza": []
+}

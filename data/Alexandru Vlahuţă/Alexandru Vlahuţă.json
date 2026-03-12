@@ -1,0 +1,717 @@
+{
+  "autor": "Alexandru Vlahuţă",
+  "poza": "data/Alexandru Vlahuţă/bibliografie/alexandru-vlahuta.jpg",
+  "bibliografie_path": "data/Alexandru Vlahuţă/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "1907",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/1907.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "A mele visuri",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/A mele visuri.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "A revenit frumoasa primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/A revenit frumoasa primăvară.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Acrostih",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Acrostih.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Ah! Cântă mi mereu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ah! Cântă-mi mereu.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Ananghie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ananghie.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Ce dor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ce dor.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Ce fericiţi am fi mpreună",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ce fericiţi am fi-mpreună.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Ce mult aș vrea să mai iubesc o dată",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ce mult aș vrea să mai iubesc o dată.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Ce te uiți cu ochii galeși",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ce te uiți cu ochii galeși.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Christos a înviat",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Christos a înviat.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Cu a ta mână",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Cu-a ta mână.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Cum curge vremea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Cum curge vremea.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Cuvântul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Cuvântul.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Când n am ce scrie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Când n-am ce scrie.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Cârmacii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Cârmacii.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Cât ne iubeam, şi cum credeam odată",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Cât ne iubeam, şi cum credeam odată.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "D şoarei G",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/D-şoarei G.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Dar nu nțelegi că e cu neputință",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Dar nu-nțelegi că e cu neputință.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "De la fereastră",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/De la fereastră.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Delendum",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Delendum.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Din prag",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Din prag.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Din trecut",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Din trecut.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Do ut des",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Do ut des.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Dor de ducă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Dor de ducă.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Dormi în pace",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Dormi în pace.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Dorul craiului Zaraf",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Dorul craiului Zaraf.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Dorul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Dorul.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Dreptate",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Dreptate.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Eroilor martiri",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Eroilor martiri.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Eternul cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Eternul cântec.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Fustă scurtă, ghete albe, buze roșii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Fustă scurtă, ghete albe, buze roșii.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Homo homini lupus",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Homo homini lupus.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Hristos a înviat",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Hristos a înviat.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Icoane șterse",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Icoane șterse.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Ieri,azi,mâini",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ieri,azi,mâini.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Iertare",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Iertare.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Inter armă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Inter armă.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Iubire",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Iubire.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Iulia Hasdeu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Iulia Hasdeu.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "La icoană",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/La icoană.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "La statuia lui Ioan Eliade Rădulescu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/La statuia lui Ioan Eliade Rădulescu.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "La vatra rece",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/La vatra rece.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Liga domnișoarelor române",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Liga domnișoarelor române.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Linişte",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Linişte.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Lui Eminescu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Lui Eminescu.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Luna şi noaptea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Luna şi noaptea.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Lăsaţi mă singurătăţii mele",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Lăsaţi-mă singurătăţii mele.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "M am regăsit. Ce dor mi era de mine",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/M-am regăsit. Ce dor mi-era de mine.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Mamei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Mamei.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Melancolie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Melancolie.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Mă visasem într un nor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Mă visasem într-un nor.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Nehotărâre",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Nehotărâre.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Noapte de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Noapte de iarnă.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Noaptea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Noaptea.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Nu căta",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Nu căta.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Nu i de ajuns",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Nu-i de ajuns.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Nunquam ridenti",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Nunquam ridenti.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Oblonitu mi a fereastra",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Oblonitu-mi-a fereastra.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Ochi strălucitori",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Ochi strălucitori.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Omul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Omul.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Par basme",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Par basme.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Partea cea mai bună",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Partea cea mai bună.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Pe albumul d rei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Pe albumul d-rei.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Pe deal",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Pe deal.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Pentru ochii tăi răpit ai",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Pentru ochii tăi răpit-ai.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Pilde vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Pilde vechi.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Pocăință",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Pocăință.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Prima lecție",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Prima lecție.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Profiluri",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Profiluri.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Păcatul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Păcatul.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Răspuns la o cronică rimată",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Răspuns la o cronică rimată.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Scrisoare cătră un bătrân",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Scrisoare cătră un bătrân.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Sfântă muncă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sfântă muncă.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Slăvit e versul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Slăvit e versul.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Sonet (Cât ne iubeam, şi cum credeam odată)",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet (Cât ne iubeam, şi cum credeam odată).txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Sonet (Câţi ochi frumoşi şi visători, poete)",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet (Câţi ochi frumoşi şi visători, poete).txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Sonet (Din tot ce ne a fost drag mai înainte)",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet (Din tot ce ne-a fost drag mai înainte).txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Sonet (Vrăjit, tot şesul clocoteşte n soare)",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet (Vrăjit, tot şesul clocoteşte-n soare).txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Sonet I",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet I.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Sonet II",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet II.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Sonet III",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet III.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Sonet IV",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet IV.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Sonet Dar tu ţ ei fi mai aducând aminte",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet-Dar tu ţ-ei fi mai aducând aminte.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Sub legea tunului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sub legea tunului.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Sunt zece ani. Ce curios îmi pare",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sunt zece ani. Ce curios îmi pare.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Să plec",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Să plec.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Sămănătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Sămănătorul.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Tactică",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Tactică.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Tot alte vremi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Tot alte vremi.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Treci zi, treci noapte",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Treci zi, treci noapte.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Triumful aşteptării",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Triumful aşteptării.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Tu ești poet",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Tu ești poet.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Un suflet larg să mă nțeleagă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Un suflet larg să mă-nțeleagă.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Unde ni sunt visătorii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Unde ni sunt visătorii.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Unui dușman",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Unui dușman.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Valuri",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Valuri.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Vanitas",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Vanitas.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Vechilor ateneiști",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Vechilor ateneiști.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Vierme fudul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Vierme fudul.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Vifor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Vifor.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Vis de o clipă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Vis de-o clipă.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Vrăjit, tot șesul clocotește n soare",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Vrăjit, tot șesul clocotește-n soare.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Vuind s azvârl șuvoaiele devale",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Vuind s-azvârl șuvoaiele devale.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "În amurg",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/În amurg.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "În fericire",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/În fericire.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "În iuliu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/În iuliu.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "În mănăstire",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/În mănăstire.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "În pădure",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/În pădure.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "În zile grele",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/În zile grele.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "În întuneric",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/În întuneric.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Întreabă te",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Întreabă-te.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Şi mă ntrebi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Şi mă-ntrebi.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Țară de pripas",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Vlahuţă/poezii/Țară de pripas.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Scrisoare către fiica sa, Margareta",
+      "tip": "proza",
+      "versuri_path": "data/Alexandru Vlahuţă/proza/Scrisoare către fiica sa, Margareta.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Țara. Poporul fragment",
+      "tip": "proza",
+      "versuri_path": "data/Alexandru Vlahuţă/proza/Țara. Poporul - fragment.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "„Noi vrem pămînt”",
+      "tip": "proza",
+      "versuri_path": "data/Alexandru Vlahuţă/proza/„Noi vrem pămînt”.txt"
+    }
+  ]
+}

@@ -1,0 +1,987 @@
+{
+  "autor": "Grigore Alexandrescu",
+  "poza": "data/Grigore Alexandrescu/bibliografie/Grigore_Alexandrescu.jpg",
+  "bibliografie_path": "data/Grigore Alexandrescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adio La Targoviste",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Adio La Targoviste.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Adio lui Lord Byron la soția sa",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Adio lui Lord Byron la soția sa.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Adio",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Adio.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Anul 1840",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Anul 1840.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Atelajul Eterogen",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Atelajul Eterogen.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Aşteptarea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Aşteptarea.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Bala, cartogelele",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Bala, cartogelele.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Barca",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Barca.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Bată te crucea de cuc",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Bată-te crucea de cuc.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Bată te crucea de vale",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Bată-te crucea de vale.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Boul şi vițelul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Boul şi vițelul.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Buchetul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Buchetul.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Bursucul şi vulpea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Bursucul şi vulpea.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Calul vândut şi diamantul cumpărat",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Calul vândut şi diamantul cumpărat.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Candela",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Candela.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Cantec vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cantec vechi.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Cantece de peste Olt",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cantece de peste Olt.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Castorul şi alte lighioni",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Castorul şi alte lighioni.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Catârul ce şi lăuda nobilitatea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Catârul ce-şi lăuda nobilitatea.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Catârul cu clopoței",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Catârul cu clopoței.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Celui ce scria ca poezia este o boala nelecuita",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Celui ce scria ca poezia este o boala nelecuita.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Cimitirul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cimitirul.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Cine e voinic, voinic",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cine e voinic, voinic.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Codri, codri, frate codri",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Codri, codri, frate codri.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Colo n luncă la privită",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Colo-n luncă la privită.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Cometei anonsate pentru 13 iunie",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cometei anonsate pentru 13 iunie.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Confesiunea unui renegat",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Confesiunea unui renegat.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Corbii si barza",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Corbii si barza.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Cucul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cucul.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Cucule, drăguțule",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cucule, drăguțule.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Cuculeț, unde ai iernat",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cuculeț, unde-ai iernat.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Câinele izgonit",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Câinele izgonit.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Câinele soldatului",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Câinele soldatului.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Câinele şi cățelul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Câinele şi cățelul.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Câinele şi măgarul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Câinele şi măgarul.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Când mă primblam pe culare",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Când mă primblam pe culare.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Când o să guşti pacea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Când o să guşti pacea.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Cântecul Jianului",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cântecul Jianului.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Cântecul soldatului",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cântecul soldatului.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Cântă cucul să mă duc",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cântă cucul să mă duc.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Cântă cucul, se rotește",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Cântă cucul, se rotește.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "D a S.La",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/D-a S.La.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "D nei A.B",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/D-nei A.B.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "D nei M.C",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/D-nei M.C.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Dacă ți este, neica, dor",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Dacă-ți este, neica, dor.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "De ce suspin",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/De ce suspin.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "De când maica m a făcut",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/De când maica m-a făcut.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "De n ar fi ochi și sprâncene",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/De n-ar fi ochi și sprâncene.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "De nu ți ar fi leleo, dor",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/De nu ți-ar fi leleo, dor.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "De te duci, neica, cu bine",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/De te duci, neica, cu bine.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Decât neica n cale dus",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Decât neica-n cale dus.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Dervisul şi fata",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Dervisul şi fata.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Dlui",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Dlui.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Doamnei P.S.G",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Doamnei P.S.G.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Dreptatea Leului",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Dreptatea Leului.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Du te, neico, să te duci",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Du-te, neico, să te duci.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Elefantul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Elefantul.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Eliza",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Eliza.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Epistola catre Voltaire",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Epistola catre Voltaire.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Epistola Dlui I. C",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Epistola Dlui I. C.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Epistola Dlui I. V",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Epistola Dlui I. V.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Epistola Dlui V. II",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Epistola Dlui V. II.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Epistola. Alexandru Donic",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Epistola. Alexandru Donic.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Fericirea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Fericirea.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Fluturele",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Fluturele.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Foaie verde aluniță",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde aluniță.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Foaie verde arțăraș",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde arțăraș.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Foaie verde calomfir",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde calomfir.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Foaie verde de areu",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde de areu.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Foaie verde de mâlure",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde de mâlure.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Foaie verde măr mușcat",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde măr mușcat.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Foaie verde mărăcine",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde mărăcine.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Foaie verde usturoi",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Foaie verde usturoi.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Frumoasa e natura",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frumoasa e natura.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Frumusete",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frumusete.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Frunza verde mărăcine, s a dus",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frunza verde mărăcine, s-a dus.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Frunza verde mărăcine",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frunza verde mărăcine.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Frunza verde otrățel",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frunza verde otrățel.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Frunză verde de secară",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frunză verde de secară.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Frunză verde de sipică",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frunză verde de sipică.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Frunză verde mărăcine, oliolio",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Frunză verde mărăcine, oliolio.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Iepurele, Ogarul şi Copoiul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Iepurele, Ogarul şi Copoiul.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Ierte i Dumnezeu păcatul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Ierte-i Dumnezeu păcatul.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Imn",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Imn.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "In iad mai daunazi, cativa raposati",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/In iad mai daunazi, cativa raposati.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Inca o zi",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Inca o zi.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Inima mea e tristă",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Inima mea e tristă.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "La Tismana",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/La Tismana.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Lată i, lată i Dunărea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Lată-i, lată-i Dunărea.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Lebada si puii corbului",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Lebada si puii corbului.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Lele, ce păgână ești",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Lele, ce păgână ești.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Lisita, rata si gasca",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Lisita, rata si gasca.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Luna afară mi luminează",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Luna-afară-mi luminează.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Lunita, lunita",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Lunita, lunita.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Lupul moralist",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Lupul moralist.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Mangaierea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Mangaierea.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Meditaţie",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Meditaţie.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Mielul murind",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Mielul murind.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Mierla și bufnița",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Mierla și bufnița.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Miezul nopții",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Miezul nopții.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Mormintele. La Dragasani",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Mormintele. La Dragasani.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Mulțumirea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Mulțumirea.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Mândro, când eram iubiți",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Mândro, când eram iubiți.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Mângâierea unei tinere femei",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Mângâierea unei tinere femei.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Măgarul răsfățat",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Măgarul răsfățat.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Măriei sale domnului",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Măriei sale domnului.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Măriii sale domnului Alexandru I",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Măriii-sale domnului Alexandru I.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Nebunia si amorul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Nebunia si amorul.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Nina",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Nina.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Nu blestema cucul, lele",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Nu blestema cucul, lele.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Nu, a ta dragoste",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Nu, a ta dragoste.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "O impresie",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/O impresie.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "O profesiune de credinta",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/O profesiune de credinta.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Oglindele",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Oglindele.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Papagalul si celelalte pasari",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Papagalul si celelalte pasari.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "Peștera",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Peștera.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Pisica salbatica si tigrul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Pisica salbatica si tigrul.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Plîngerea deputatului",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Plîngerea deputatului.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Porcul liberat",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Porcul liberat.txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Prietesugul si amorul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Prietesugul si amorul.txt"
+    },
+    {
+      "id": "poezie-121",
+      "titlu": "Prieteșugul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Prieteșugul.txt"
+    },
+    {
+      "id": "poezie-122",
+      "titlu": "Privighetoarea în colivie",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Privighetoarea în colivie.txt"
+    },
+    {
+      "id": "poezie-123",
+      "titlu": "Privighetoarea și măgarul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Privighetoarea și măgarul.txt"
+    },
+    {
+      "id": "poezie-124",
+      "titlu": "Privighetoarea și păunul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Privighetoarea și păunul.txt"
+    },
+    {
+      "id": "poezie-125",
+      "titlu": "Puico, pentru Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Puico, pentru Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-126",
+      "titlu": "Rasaritul lunii. La Tismana",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Rasaritul lunii. La Tismana.txt"
+    },
+    {
+      "id": "poezie-127",
+      "titlu": "Raspunsul ''cometei''",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Raspunsul ''cometei''.txt"
+    },
+    {
+      "id": "poezie-128",
+      "titlu": "Razbunarea soarecilor sau moartea lui Sion",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Razbunarea soarecilor sau moartea lui Sion.txt"
+    },
+    {
+      "id": "poezie-129",
+      "titlu": "Reveria",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Reveria.txt"
+    },
+    {
+      "id": "poezie-130",
+      "titlu": "Rugaciunea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Rugaciunea.txt"
+    },
+    {
+      "id": "poezie-131",
+      "titlu": "Rău, maică, m ai blestemat",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Rău, maică, m-ai blestemat.txt"
+    },
+    {
+      "id": "poezie-132",
+      "titlu": "Satira contra lui Ion Eliade Radulescu",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Satira contra lui Ion Eliade Radulescu.txt"
+    },
+    {
+      "id": "poezie-133",
+      "titlu": "Satiră duhului meu",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Satiră duhului meu.txt"
+    },
+    {
+      "id": "poezie-134",
+      "titlu": "Suferinta",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Suferinta.txt"
+    },
+    {
+      "id": "poezie-135",
+      "titlu": "Te mai vazui o data",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Te mai vazui o data.txt"
+    },
+    {
+      "id": "poezie-136",
+      "titlu": "Topitu s au ghețile",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Topitu-s-au ghețile.txt"
+    },
+    {
+      "id": "poezie-137",
+      "titlu": "Toporul si padurea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Toporul si padurea.txt"
+    },
+    {
+      "id": "poezie-138",
+      "titlu": "Trecutul.la Manastirea 'Dealului'",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Trecutul.la Manastirea 'Dealului'.txt"
+    },
+    {
+      "id": "poezie-139",
+      "titlu": "Ucigaşul fără voie",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Ucigaşul fără voie.txt"
+    },
+    {
+      "id": "poezie-140",
+      "titlu": "Uliul şi găinile",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Uliul şi găinile.txt"
+    },
+    {
+      "id": "poezie-141",
+      "titlu": "Umbra Lui Mircea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Umbra Lui Mircea.txt"
+    },
+    {
+      "id": "poezie-142",
+      "titlu": "Un ceas e de cand anul trecu",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Un ceas e de cand anul trecu.txt"
+    },
+    {
+      "id": "poezie-143",
+      "titlu": "Un osândit la moarte pentru o vină mare",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Un osândit la moarte pentru o vină mare.txt"
+    },
+    {
+      "id": "poezie-144",
+      "titlu": "Un preot cuviios",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Un preot cuviios.txt"
+    },
+    {
+      "id": "poezie-145",
+      "titlu": "Unei necunoscute moldovence",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Unei necunoscute moldovence.txt"
+    },
+    {
+      "id": "poezie-146",
+      "titlu": "Unirea Principatelor",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Unirea Principatelor.txt"
+    },
+    {
+      "id": "poezie-147",
+      "titlu": "Ursul şi lupul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Ursul şi lupul.txt"
+    },
+    {
+      "id": "poezie-148",
+      "titlu": "Ursul și vulpea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Ursul și vulpea.txt"
+    },
+    {
+      "id": "poezie-149",
+      "titlu": "Viata campeneasca",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Viata campeneasca.txt"
+    },
+    {
+      "id": "poezie-150",
+      "titlu": "Vulpea liberală",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Vulpea liberală.txt"
+    },
+    {
+      "id": "poezie-151",
+      "titlu": "Vulpea, calul și lupul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Vulpea, calul și lupul.txt"
+    },
+    {
+      "id": "poezie-152",
+      "titlu": "Vulpoiul predicator",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Vulpoiul predicator.txt"
+    },
+    {
+      "id": "poezie-153",
+      "titlu": "Vânătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Vânătorul.txt"
+    },
+    {
+      "id": "poezie-154",
+      "titlu": "Zugravul și portretul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Zugravul și portretul.txt"
+    },
+    {
+      "id": "poezie-155",
+      "titlu": "În ore de mâhnire",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/În ore de mâhnire.txt"
+    },
+    {
+      "id": "poezie-156",
+      "titlu": "Întoarcerea",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Întoarcerea.txt"
+    },
+    {
+      "id": "poezie-157",
+      "titlu": "Între Olt și ntre Olteț",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Între Olt și-ntre Olteț.txt"
+    },
+    {
+      "id": "poezie-158",
+      "titlu": "Întristare",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Întristare.txt"
+    },
+    {
+      "id": "poezie-159",
+      "titlu": "Şarlatanul şi bolnavul",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Şarlatanul şi bolnavul.txt"
+    },
+    {
+      "id": "poezie-160",
+      "titlu": "Şoarecele şi Pisica",
+      "tip": "poezie",
+      "versuri_path": "data/Grigore Alexandrescu/poezii/Şoarecele şi Pisica.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Bistriţa",
+      "tip": "proza",
+      "versuri_path": "data/Grigore Alexandrescu/proza/Bistriţa.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "O nuntă",
+      "tip": "proza",
+      "versuri_path": "data/Grigore Alexandrescu/proza/O nuntă.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Polovraci",
+      "tip": "proza",
+      "versuri_path": "data/Grigore Alexandrescu/proza/Polovraci.txt"
+    }
+  ]
+}

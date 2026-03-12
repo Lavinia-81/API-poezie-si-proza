@@ -1,0 +1,147 @@
+{
+  "autor": "Carmen Sylva",
+  "poza": "data/Carmen Sylva/bibliografie/carmen-sylva.png",
+  "bibliografie_path": "data/Carmen Sylva/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Calafatul",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Calafatul.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Cina cea de taină",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Cina cea de taină.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Copacul",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Copacul.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cântec de clopot",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Cântec de clopot.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Dâmbovița",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Dâmbovița.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Fluturi sărutându se",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Fluturi sărutându-se.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Furtuna zice",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Furtuna zice.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Jocul mării",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Jocul mării.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "La temelia castelului Peleș",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/La temelia castelului Peleș.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Luptă",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Luptă.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Maimuţa n colivie",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Maimuţa-n colivie.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Mama",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Mama.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Mare învrăjbită",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Mare învrăjbită.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Moise",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Moise.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Muzica mării",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Muzica mării.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Prometeu",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Prometeu.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Pământului",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Pământului.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Rugăminte",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Rugăminte.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Spre culmi",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Spre culmi.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Spre seară",
+      "tip": "poezie",
+      "versuri_path": "data/Carmen Sylva/poezii/Spre seară.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Despre Eminescu",
+      "tip": "proza",
+      "versuri_path": "data/Carmen Sylva/proza/Despre Eminescu.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Peleșul",
+      "tip": "proza",
+      "versuri_path": "data/Carmen Sylva/proza/Peleșul.txt"
+    }
+  ]
+}

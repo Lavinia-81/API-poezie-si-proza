@@ -1,0 +1,112 @@
+openapi: 3.1.0
+info:
+  title: Poezii și Proză API
+  version: 1.0.0
+  description: >
+    A public API providing structured access to Romanian classical poetry and prose:
+    poems, prose texts, bibliography, and author metadata.
+
+servers:
+  - url: https://your-api-url.com
+
+paths:
+
+  /api/poeti:
+    get:
+      summary: List all authors
+      responses:
+        '200':
+          description: Successful response
+
+  /api/autor/{autor}/poezii:
+    get:
+      summary: Get all poems by an author
+      parameters:
+        - name: autor
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of poems
+
+  /api/autor/{autor}/proza:
+    get:
+      summary: Get all prose by an author
+      parameters:
+        - name: autor
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of prose
+
+  /api/cauta/{autor}/{titlu}:
+    get:
+      summary: Search by title
+      parameters:
+        - name: autor
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: titlu
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search results
+
+  /api/autor/{autor}/id/{id}:
+    get:
+      summary: Search by ID
+      parameters:
+        - name: autor
+          in: path
+          required: true
+        - name: id
+          in: path
+          required: true
+      responses:
+        '200':
+          description: Metadata for the item
+
+  /api/poezie/{autor}/{id}/versuri:
+    get:
+      summary: Get poem as JSON
+      parameters:
+        - name: autor
+          in: path
+          required: true
+        - name: id
+          in: path
+          required: true
+      responses:
+        '200':
+          description: Poem JSON
+
+  /api/poezie/{autor}/{id}/text:
+    get:
+      summary: Get poem text only
+      responses:
+        '200':
+          description: Raw text
+
+  /api/autor/{autor}/bibliografie/text:
+    get:
+      summary: Get bibliography text
+      responses:
+        '200':
+          description: Raw bibliography text
+
+  /api/autor/{autor}/poza:
+    get:
+      summary: Get author image
+      responses:
+        '200':
+          description: Image file

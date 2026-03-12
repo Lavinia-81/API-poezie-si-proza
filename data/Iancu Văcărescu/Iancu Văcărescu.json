@@ -1,0 +1,86 @@
+{
+  "autor": "Iancu Văcărescu",
+  "poza": "data/Iancu Văcărescu/bibliografie/Iancu Vacarescu.jpg",
+  "bibliografie_path": "data/Iancu Văcărescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adevărata iubire",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Adevărata iubire.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Adevărul",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Adevărul.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Bineînțeleșii",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Bineînțeleșii.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Buna Vestire",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Buna Vestire.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Ceasornicul îndreptat",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Ceasornicul îndreptat.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Glasul poporului subt despotism",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Glasul poporului subt despotism.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Ielele",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Ielele.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "La mincinosul",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/La mincinosul.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Logogrif",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Logogrif.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "O zi şi o noapte de primăvară la Văcăreşti",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/O zi şi o noapte de primăvară la Văcăreşti.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Pacea",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Pacea.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Primăvara amorului",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Primăvara amorului.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Stanţe la List",
+      "tip": "poezie",
+      "versuri_path": "data/Iancu Văcărescu/poezii/Stanţe la List.txt"
+    }
+  ],
+  "proza": []
+}

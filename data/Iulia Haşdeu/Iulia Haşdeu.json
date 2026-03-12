@@ -1,0 +1,158 @@
+{
+  "autor": "Iulia Haşdeu",
+  "poza": "data/Iulia Haşdeu/bibliografie/Iulia_Hasdeu.jpg",
+  "bibliografie_path": "data/Iulia Haşdeu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "A fi iubită",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/A fi iubită.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Cimitirul",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Cimitirul.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Collier",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Collier.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cântecul de leagăn",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Cântecul de leagăn.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "De ce",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/De ce.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Dispreţul",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Dispreţul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Evantaiul",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Evantaiul.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Femeia",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Femeia.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Himera",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Himera.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "La acest ziar",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/La acest ziar.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "La ce bun",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/La ce bun.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "La ce cugetai",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/La ce cugetai.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "La ţărmul mării",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/La ţărmul mării.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Magdalena",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Magdalena.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Martie, rîzînd în ciuda a",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Martie, rîzînd în ciuda a.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Nu mă mpiedica de a plânge",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Nu mă-mpiedica de-a plânge.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Nu ndrăznesc",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Nu-ndrăznesc.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "O, Doamne!",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/O, Doamne!.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Patria",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Patria.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Primăvara şi toamna",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Primăvara şi toamna.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Singurătate",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Singurătate.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Stelele",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Stelele.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Să fiți iubiți!",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Să fiți iubiți!.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Unei file",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Unei file.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Înserare",
+      "tip": "poezie",
+      "versuri_path": "data/Iulia Haşdeu/poezii/Înserare.txt"
+    }
+  ],
+  "proza": []
+}

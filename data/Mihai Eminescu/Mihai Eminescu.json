@@ -1,0 +1,2859 @@
+{
+  "autor": "Mihai Eminescu",
+  "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
+  "bibliografie_path": "data/Mihai Eminescu/bibliografie/Note  Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "A fost odat un cântăreț",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/A fost odat-un cântăreț.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "A frumuseţii tale forme",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/A frumuseţii tale forme.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Adio",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Adio.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Aducând cântări mulțime",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Aducând cântări mulțime.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Adânca mare",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Adânca mare.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Afară i toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Afară-i toamnă.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Ah, cerut am de la zodii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ah, cerut-am de la zodii.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Ah, mierea buzei tale",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ah, mierea buzei tale.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Ai noştri tineri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ai noştri tineri.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Albumul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Albumul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Alei mică, alei dragă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Alei mică, alei dragă.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Am pus sofa la fereastră",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Am pus sofa la fereastră.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Amalia",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Amalia.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Amicului F. I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Amicului F. I.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Amorul unei marmure",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Amorul unei marmure.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Apari să dai lumină",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Apari să dai lumină.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Asta vreu, dragul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Asta vreu, dragul meu.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Asupra operelor nouă a unui autor cunoscut",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Asupra operelor nouă a unui autor cunoscut.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Atât de fragedă...",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Atât de fragedă....txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Auzi prin frunzi uscate",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Auzi prin frunzi uscate.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Aveam o muză",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Aveam o muză.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Azi e zi întâi de mai",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Azi e zi întâi de mai.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Basmul ce i l-aș spune ei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Basmul ce i l-aș spune ei.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Basmul lui Arghir",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Basmul lui Arghir.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Bismarqueuri de falsă marcă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Bismarqueuri de falsă marcă.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Ca o făclie",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ca o făclie.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Ca și Stoa, ce pretinde",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ca și Stoa, ce pretinde.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Calul troian",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Calul troian.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Care i amorul meu în astă lume",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Care-i amorul meu în astă lume.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Care o fi în lume",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Care-o fi în lume.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Catrene",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Catrene.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Ce e amorul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ce e amorul.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Ce s alegea de doi nebuni, iubito",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ce s-alegea de doi nebuni, iubito.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Ce s alegea de noi, a mea nebună",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ce s-alegea de noi, a mea nebună.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Ce suflet trist",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ce suflet trist.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Ce te legeni",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ce te legeni.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Ce șoptești atât de tainic",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ce șoptești atât de tainic.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Ce ți doresc eu ție, dulce Românie",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ce-ți doresc eu ție, dulce Românie.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Cereți cânturi de iubire",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cereți cânturi de iubire.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Cine eşti",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cine eşti.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Cine i",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cine-i.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Coborârea apelor",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Coborârea apelor.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Codru și salon [II]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Codru și salon [II].txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Codru și salon [I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Codru și salon [I].txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Codrule, Măria ta",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Codrule, Măria-ta.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Colinde, colinde",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Colinde, colinde.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Confesiune",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Confesiune.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Copii eram noi amândoi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Copii eram noi amândoi.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Criticilor mei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Criticilor mei.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Crăiasa din povești",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Crăiasa din povești.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Cu gândiri și cu imagini",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cu gândiri și cu imagini.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Cu mâine zilele ți adaogi..",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cu mâine zilele-ți adaogi...txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Cu penetul ca sideful",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cu penetul ca sideful.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Cu pânzele atârnate",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cu pânzele-atârnate.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Cu amândouă mâinile",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cu-amândouă mâinile.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Cugetările sărmanului Dionis",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cugetările sărmanului Dionis.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Culeasă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Culeasă.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Cum negustorii din Constantinopol",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cum negustorii din Constantinopol.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Cum oceanu ntărâtat",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cum oceanu-ntărâtat.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Cum universu n stele",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cum universu-n stele.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Când amintirile..",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când amintirile...txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Când crivăţul cu iarna",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când crivăţul cu iarna.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Când marea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când marea.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Când priveşti oglinda mărei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când priveşti oglinda mărei.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Când se juca Elisa Müller",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când se juca Elisa Müller.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Când te am văzut, Verena",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când te-am văzut, Verena.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Când însuşi glasul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când însuşi glasul.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Când",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Când.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Cântec caracudesc",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cântec caracudesc.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Cântec de nuntă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cântec de nuntă.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Cântec vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cântec vechi.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Cântecul lăutarului",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cântecul lăutarului.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Câte nopți eu cugetat am",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Câte nopți eu cugetat-am.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Căci eterne sunt ale lumii toate",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Căci eterne sunt ale lumii toate.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Călin Nebunul [III]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Călin Nebunul [III].txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Călin Nebunul [II]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Călin Nebunul [II].txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Călin Nebunul [IV]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Călin Nebunul [IV].txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Călin Nebunul [I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Călin Nebunul [I].txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Călin Nebunul [V]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Călin Nebunul [V].txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Călin",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Călin.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Cărțile",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Cărțile.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Dacă iubeşti fără să speri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dacă iubeşti fără să speri.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Dacă treci râul Selenei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dacă treci râul Selenei.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Dați mi arpă de aramă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dați-mi arpă de aramă.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "De ce mă ndrept ș acum",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De ce mă-ndrept ș-acum.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "De ce n aflăm în împlinirea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De ce n-aflăm în împlinirea.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "De ce nu mi vii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De ce nu-mi vii.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "De ce să mori tu",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De ce să mori tu.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "De ce în al meu suflet",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De ce în al meu suflet.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "De câte ori, iubito",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De câte ori, iubito.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "De pe ochi ți se ridică",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De pe ochi ți se ridică.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "De vorbiți mă fac că n aud",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De vorbiți mă fac că n-aud.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "De a născoci noi ipoteze",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-a născoci noi ipoteze.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "De acuma",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-acuma.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "De ar fi mijloace",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-ar fi mijloace.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "De atâtea ori",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-atâtea ori.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "De aș avea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-aș avea.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "De aș muri ori de ai muri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-aș muri ori de-ai muri.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "De oi adormi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-oi adormi.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "De or trece anii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/De-or trece anii.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Departe sunt de tine",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Departe sunt de tine.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Despartire",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Despartire.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Diamantul Nordului",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Diamantul Nordului.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Diana",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Diana.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Din Berlin la Potsdam",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din Berlin la Potsdam.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Din cerurile albastre",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din cerurile-albastre.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Din când în când",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din când în când.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Din Halima",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din Halima.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Din Iliada",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din Iliada.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Din lyra spartă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din lyra spartă.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Din noaptea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din noaptea.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Din ocean de vise",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din ocean de vise.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Din Odisseia",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din Odisseia.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Din străinătate",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din străinătate.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Din valurile vremii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Din valurile vremii.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "Dintre sute de catarge",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dintre sute de catarge.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Doi aştri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Doi aştri.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Doina",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Doina.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Doină (Ce stă vântul să tot bată)",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Doină (Ce stă vântul să tot bată).txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Doină, doină greu îmi cazi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Doină, doină greu îmi cazi.txt"
+    },
+    {
+      "id": "poezie-121",
+      "titlu": "Dorința",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dorința.txt"
+    },
+    {
+      "id": "poezie-122",
+      "titlu": "Dormi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dormi.txt"
+    },
+    {
+      "id": "poezie-123",
+      "titlu": "Doña Sol",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Doña Sol.txt"
+    },
+    {
+      "id": "poezie-124",
+      "titlu": "Dragoste adevărată",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dragoste adevărată.txt"
+    },
+    {
+      "id": "poezie-125",
+      "titlu": "Dragostea de puiculiță",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dragostea de puiculiță.txt"
+    },
+    {
+      "id": "poezie-126",
+      "titlu": "Dragoș Vodă cel bătrân",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dragoș Vodă cel bătrân.txt"
+    },
+    {
+      "id": "poezie-127",
+      "titlu": "Dumnezeu și om",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Dumnezeu și om.txt"
+    },
+    {
+      "id": "poezie-128",
+      "titlu": "După ce atâta vreme",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/După ce atâta vreme.txt"
+    },
+    {
+      "id": "poezie-129",
+      "titlu": "E ceasul cel de taină",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/E ceasul cel de taină.txt"
+    },
+    {
+      "id": "poezie-130",
+      "titlu": "E trist ca nimeni să te știe",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/E trist ca nimeni să te știe.txt"
+    },
+    {
+      "id": "poezie-131",
+      "titlu": "E împărțită omenirea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/E împărțită omenirea.txt"
+    },
+    {
+      "id": "poezie-132",
+      "titlu": "Ea și urma cărarea n codru",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ea-și urma cărarea-n codru.txt"
+    },
+    {
+      "id": "poezie-133",
+      "titlu": "Ector și Andromache",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ector și Andromache.txt"
+    },
+    {
+      "id": "poezie-134",
+      "titlu": "Ecò [II]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ecò [II].txt"
+    },
+    {
+      "id": "poezie-135",
+      "titlu": "Ecò [I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ecò [I].txt"
+    },
+    {
+      "id": "poezie-136",
+      "titlu": "Egipetul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Egipetul.txt"
+    },
+    {
+      "id": "poezie-137",
+      "titlu": "Epigonii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Epigonii.txt"
+    },
+    {
+      "id": "poezie-138",
+      "titlu": "Eterna pace",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Eterna pace.txt"
+    },
+    {
+      "id": "poezie-139",
+      "titlu": "Eu nu cred nici în Iehova",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Eu nu cred nici în Iehova.txt"
+    },
+    {
+      "id": "poezie-140",
+      "titlu": "Eu nu vorbesc de Dumnezeul de azi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Eu nu vorbesc de Dumnezeul de-azi.txt"
+    },
+    {
+      "id": "poezie-141",
+      "titlu": "Eu număr, ah!, plângând",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Eu număr, ah!, plângând.txt"
+    },
+    {
+      "id": "poezie-142",
+      "titlu": "Fata n grădina de aur I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Fata-n grădina de aur -I.txt"
+    },
+    {
+      "id": "poezie-143",
+      "titlu": "Fata n grădina de aur II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Fata-n grădina de aur -II.txt"
+    },
+    {
+      "id": "poezie-144",
+      "titlu": "Fata n grădina de aur III",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Fata-n grădina de aur -III.txt"
+    },
+    {
+      "id": "poezie-145",
+      "titlu": "Fata n grădina de aur IV",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Fata-n grădina de aur -IV.txt"
+    },
+    {
+      "id": "poezie-146",
+      "titlu": "Felicitare lui Samson Bodnărescu",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Felicitare lui Samson Bodnărescu.txt"
+    },
+    {
+      "id": "poezie-147",
+      "titlu": "Femeia. Măr de ceartă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Femeia. Măr de ceartă.txt"
+    },
+    {
+      "id": "poezie-148",
+      "titlu": "Fiind băiet păduri cutreieram",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Fiind băiet păduri cutreieram.txt"
+    },
+    {
+      "id": "poezie-149",
+      "titlu": "Floare albastră",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Floare albastră.txt"
+    },
+    {
+      "id": "poezie-150",
+      "titlu": "Floare de tei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Floare de tei.txt"
+    },
+    {
+      "id": "poezie-151",
+      "titlu": "Foaia veştedă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Foaia veştedă.txt"
+    },
+    {
+      "id": "poezie-152",
+      "titlu": "Freamăt de codru",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Freamăt de codru.txt"
+    },
+    {
+      "id": "poezie-153",
+      "titlu": "Frumoasă şi jună",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Frumoasă şi jună.txt"
+    },
+    {
+      "id": "poezie-154",
+      "titlu": "Frumoasă i",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Frumoasă-i.txt"
+    },
+    {
+      "id": "poezie-155",
+      "titlu": "Făt Frumos din tei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Făt-Frumos din tei.txt"
+    },
+    {
+      "id": "poezie-156",
+      "titlu": "Gelozie",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Gelozie.txt"
+    },
+    {
+      "id": "poezie-157",
+      "titlu": "Gemenii [II III]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Gemenii [II-III].txt"
+    },
+    {
+      "id": "poezie-158",
+      "titlu": "Gemenii [I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Gemenii [I].txt"
+    },
+    {
+      "id": "poezie-159",
+      "titlu": "Ghazel",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ghazel.txt"
+    },
+    {
+      "id": "poezie-160",
+      "titlu": "Glossa",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Glossa.txt"
+    },
+    {
+      "id": "poezie-161",
+      "titlu": "Gândind la tine",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Gândind la tine.txt"
+    },
+    {
+      "id": "poezie-162",
+      "titlu": "Horia",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Horia.txt"
+    },
+    {
+      "id": "poezie-163",
+      "titlu": "Iambul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Iambul.txt"
+    },
+    {
+      "id": "poezie-164",
+      "titlu": "Iar când voi fi pământ",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Iar când voi fi pământ.txt"
+    },
+    {
+      "id": "poezie-165",
+      "titlu": "Iar fața ta e străvezie",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Iar fața ta e străvezie.txt"
+    },
+    {
+      "id": "poezie-166",
+      "titlu": "Icoană și privaz",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Icoană și privaz.txt"
+    },
+    {
+      "id": "poezie-167",
+      "titlu": "Iubind în taină",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Iubind în taină.txt"
+    },
+    {
+      "id": "poezie-168",
+      "titlu": "Iubitei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Iubitei.txt"
+    },
+    {
+      "id": "poezie-169",
+      "titlu": "Iubită dulce, o, mă lasă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Iubită dulce, o, mă lasă.txt"
+    },
+    {
+      "id": "poezie-170",
+      "titlu": "Izvor și râu",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Izvor și râu.txt"
+    },
+    {
+      "id": "poezie-171",
+      "titlu": "Junii corupți",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Junii corupți.txt"
+    },
+    {
+      "id": "poezie-172",
+      "titlu": "Kamadeva",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Kamadeva.txt"
+    },
+    {
+      "id": "poezie-173",
+      "titlu": "La arme",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La arme.txt"
+    },
+    {
+      "id": "poezie-174",
+      "titlu": "La Bucovina",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La Bucovina.txt"
+    },
+    {
+      "id": "poezie-175",
+      "titlu": "La Heliade",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La Heliade.txt"
+    },
+    {
+      "id": "poezie-176",
+      "titlu": "La mijloc de codru",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La mijloc de codru.txt"
+    },
+    {
+      "id": "poezie-177",
+      "titlu": "La moartea lui Eliade",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La moartea lui Eliade.txt"
+    },
+    {
+      "id": "poezie-178",
+      "titlu": "La moartea lui Neamțu",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La moartea lui Neamțu.txt"
+    },
+    {
+      "id": "poezie-179",
+      "titlu": "La moartea principelui Știrbey",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La moartea principelui Știrbey.txt"
+    },
+    {
+      "id": "poezie-180",
+      "titlu": "La mormântul lui Aron Pumnul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La mormântul lui Aron Pumnul.txt"
+    },
+    {
+      "id": "poezie-181",
+      "titlu": "La o artistă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La o artistă.txt"
+    },
+    {
+      "id": "poezie-182",
+      "titlu": "La Quadrat",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La Quadrat.txt"
+    },
+    {
+      "id": "poezie-183",
+      "titlu": "La steaua",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/La steaua.txt"
+    },
+    {
+      "id": "poezie-184",
+      "titlu": "Lacul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Lacul.txt"
+    },
+    {
+      "id": "poezie-185",
+      "titlu": "Lasă ți lumea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Lasă-ți lumea.txt"
+    },
+    {
+      "id": "poezie-186",
+      "titlu": "Lebăda",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Lebăda.txt"
+    },
+    {
+      "id": "poezie-187",
+      "titlu": "Lectură",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Lectură.txt"
+    },
+    {
+      "id": "poezie-188",
+      "titlu": "Lida",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Lida.txt"
+    },
+    {
+      "id": "poezie-189",
+      "titlu": "Locul aripelor",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Locul aripelor.txt"
+    },
+    {
+      "id": "poezie-190",
+      "titlu": "Luceafărul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Luceafărul.txt"
+    },
+    {
+      "id": "poezie-191",
+      "titlu": "Lumea îmi părea o cifră",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Lumea îmi părea o cifră.txt"
+    },
+    {
+      "id": "poezie-192",
+      "titlu": "Lumineze stelele",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Lumineze stelele.txt"
+    },
+    {
+      "id": "poezie-193",
+      "titlu": "Luna iese dintre codri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Luna iese dintre codri.txt"
+    },
+    {
+      "id": "poezie-194",
+      "titlu": "M ai chinuit atâta cu vorbe de iubire",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/M-ai chinuit atâta cu vorbe de iubire.txt"
+    },
+    {
+      "id": "poezie-195",
+      "titlu": "Ma ntrebai draga ntr o zi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ma-ntrebai draga-ntr-o zi.txt"
+    },
+    {
+      "id": "poezie-196",
+      "titlu": "Mai am un singur dor",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mai am un singur dor.txt"
+    },
+    {
+      "id": "poezie-197",
+      "titlu": "Maria Tudor",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Maria Tudor.txt"
+    },
+    {
+      "id": "poezie-198",
+      "titlu": "Melancolie",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Melancolie.txt"
+    },
+    {
+      "id": "poezie-199",
+      "titlu": "Memento mori",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Memento mori.txt"
+    },
+    {
+      "id": "poezie-200",
+      "titlu": "Menire",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Menire.txt"
+    },
+    {
+      "id": "poezie-201",
+      "titlu": "Mi am zidit monument",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mi-am zidit monument.txt"
+    },
+    {
+      "id": "poezie-202",
+      "titlu": "Mii de stele...dulce sară",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mii de stele...dulce sară.txt"
+    },
+    {
+      "id": "poezie-203",
+      "titlu": "Milly",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Milly.txt"
+    },
+    {
+      "id": "poezie-204",
+      "titlu": "Minte și inimă I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Minte și inimă - I.txt"
+    },
+    {
+      "id": "poezie-205",
+      "titlu": "Minte și inimă II III",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Minte și inimă - II - III.txt"
+    },
+    {
+      "id": "poezie-206",
+      "titlu": "Minte și inimă IV",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Minte și inimă - IV.txt"
+    },
+    {
+      "id": "poezie-207",
+      "titlu": "Miradoniz",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Miradoniz.txt"
+    },
+    {
+      "id": "poezie-208",
+      "titlu": "Miron și frumoasa fără corp I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Miron și frumoasa fără corp - I.txt"
+    },
+    {
+      "id": "poezie-209",
+      "titlu": "Miron și frumoasa fără corp II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Miron și frumoasa fără corp - II.txt"
+    },
+    {
+      "id": "poezie-210",
+      "titlu": "Miron și frumoasa fără corp III",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Miron și frumoasa fără corp - III.txt"
+    },
+    {
+      "id": "poezie-211",
+      "titlu": "Miron și frumoasa fără corp IV",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Miron și frumoasa fără corp - IV.txt"
+    },
+    {
+      "id": "poezie-212",
+      "titlu": "Misterele nopții",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Misterele nopții.txt"
+    },
+    {
+      "id": "poezie-213",
+      "titlu": "Mitologicale",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mitologicale.txt"
+    },
+    {
+      "id": "poezie-214",
+      "titlu": "Mortua est!",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mortua est!.txt"
+    },
+    {
+      "id": "poezie-215",
+      "titlu": "Mureșanu[III]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mureșanu[III].txt"
+    },
+    {
+      "id": "poezie-216",
+      "titlu": "Mureșanu[II]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mureșanu[II].txt"
+    },
+    {
+      "id": "poezie-217",
+      "titlu": "Mureșanu[IV]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mureșanu[IV].txt"
+    },
+    {
+      "id": "poezie-218",
+      "titlu": "Mureșanu[I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mureșanu[I].txt"
+    },
+    {
+      "id": "poezie-219",
+      "titlu": "Mureșanu[VI]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mureșanu[VI].txt"
+    },
+    {
+      "id": "poezie-220",
+      "titlu": "Mureșanu[V]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mureșanu[V].txt"
+    },
+    {
+      "id": "poezie-221",
+      "titlu": "Murmură glasul mării",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Murmură glasul mării.txt"
+    },
+    {
+      "id": "poezie-222",
+      "titlu": "Mușat și ursitorile",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mușat și ursitorile.txt"
+    },
+    {
+      "id": "poezie-223",
+      "titlu": "Mușatin și codrul I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mușatin și codrul - I.txt"
+    },
+    {
+      "id": "poezie-224",
+      "titlu": "Mușatin și codrul II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mușatin și codrul - II.txt"
+    },
+    {
+      "id": "poezie-225",
+      "titlu": "Mândro, mândro",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mândro, mândro.txt"
+    },
+    {
+      "id": "poezie-226",
+      "titlu": "Mănușa",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Mănușa.txt"
+    },
+    {
+      "id": "poezie-227",
+      "titlu": "Noaptea..",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Noaptea...txt"
+    },
+    {
+      "id": "poezie-228",
+      "titlu": "Noi amândoi avem același dascăl",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Noi amândoi avem același dascăl.txt"
+    },
+    {
+      "id": "poezie-229",
+      "titlu": "Nu e steluță",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Nu e steluță.txt"
+    },
+    {
+      "id": "poezie-230",
+      "titlu": "Nu mă înțelegi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Nu mă înțelegi.txt"
+    },
+    {
+      "id": "poezie-231",
+      "titlu": "Nu voi mormânt bogat",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Nu voi mormânt bogat.txt"
+    },
+    {
+      "id": "poezie-232",
+      "titlu": "Numai poetul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Numai poetul.txt"
+    },
+    {
+      "id": "poezie-233",
+      "titlu": "O arfă pe un mormânt",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O arfă pe-un mormânt.txt"
+    },
+    {
+      "id": "poezie-234",
+      "titlu": "O călărire în zori",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O călărire în zori.txt"
+    },
+    {
+      "id": "poezie-235",
+      "titlu": "O dată te văzusem",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O dată te văzusem.txt"
+    },
+    {
+      "id": "poezie-236",
+      "titlu": "O stea pin ceruri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O stea pin ceruri.txt"
+    },
+    {
+      "id": "poezie-237",
+      "titlu": "O stea în reci nămărginiri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O stea în reci nămărginiri.txt"
+    },
+    {
+      "id": "poezie-238",
+      "titlu": "O stradă prea îngustă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O stradă prea îngustă.txt"
+    },
+    {
+      "id": "poezie-239",
+      "titlu": "O, nţelepciune ai aripi de ceară",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, -nţelepciune ai aripi de ceară.txt"
+    },
+    {
+      "id": "poezie-240",
+      "titlu": "O, adevăr sublime",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, adevăr sublime.txt"
+    },
+    {
+      "id": "poezie-241",
+      "titlu": "O, chilia mea sărmană",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, chilia mea sărmană.txt"
+    },
+    {
+      "id": "poezie-242",
+      "titlu": "O, de ai ști cum șoapta ta divină",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, de-ai ști cum șoapta ta divină.txt"
+    },
+    {
+      "id": "poezie-243",
+      "titlu": "O, dulce înger blând",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, dulce înger blând.txt"
+    },
+    {
+      "id": "poezie-244",
+      "titlu": "O, mamă.",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, mamă..txt"
+    },
+    {
+      "id": "poezie-245",
+      "titlu": "O, ramâi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, ramâi.txt"
+    },
+    {
+      "id": "poezie-246",
+      "titlu": "O, rămâi, rămâi cu bine",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, rămâi, rămâi cu bine.txt"
+    },
+    {
+      "id": "poezie-247",
+      "titlu": "O, Saturn",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, Saturn.txt"
+    },
+    {
+      "id": "poezie-248",
+      "titlu": "O, stingă se a vieții",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, stingă-se a vieții.txt"
+    },
+    {
+      "id": "poezie-249",
+      "titlu": "O, te nsenină, întuneric rece",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, te-nsenină, întuneric rece.txt"
+    },
+    {
+      "id": "poezie-250",
+      "titlu": "O, vin pe marea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/O, vin pe marea.txt"
+    },
+    {
+      "id": "poezie-251",
+      "titlu": "Ochiul tău iubit",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ochiul tău iubit.txt"
+    },
+    {
+      "id": "poezie-252",
+      "titlu": "Oda(in metru antic)",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Oda(in_metru_antic).txt"
+    },
+    {
+      "id": "poezie-253",
+      "titlu": "Odin și poetul I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Odin și poetul - I.txt"
+    },
+    {
+      "id": "poezie-254",
+      "titlu": "Odin și poetul II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Odin și poetul - II.txt"
+    },
+    {
+      "id": "poezie-255",
+      "titlu": "Oliolio, codruțule",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Oliolio, codruțule.txt"
+    },
+    {
+      "id": "poezie-256",
+      "titlu": "Ondina",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ondina.txt"
+    },
+    {
+      "id": "poezie-257",
+      "titlu": "Oricare cap îngust",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Oricare cap îngust.txt"
+    },
+    {
+      "id": "poezie-258",
+      "titlu": "Oricât de mult am suferit",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Oricât de mult am suferit.txt"
+    },
+    {
+      "id": "poezie-259",
+      "titlu": "Oricâte stele",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Oricâte stele.txt"
+    },
+    {
+      "id": "poezie-260",
+      "titlu": "Pajul Cupidon",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pajul Cupidon.txt"
+    },
+    {
+      "id": "poezie-261",
+      "titlu": "Palida Madonă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Palida Madonă.txt"
+    },
+    {
+      "id": "poezie-262",
+      "titlu": "Patria vieții e numai prezentul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Patria vieții e numai prezentul.txt"
+    },
+    {
+      "id": "poezie-263",
+      "titlu": "Pe aceeași ulicioară",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pe aceeași ulicioară.txt"
+    },
+    {
+      "id": "poezie-264",
+      "titlu": "Pe gânduri ziua",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pe gânduri ziua.txt"
+    },
+    {
+      "id": "poezie-265",
+      "titlu": "Pe lângă plopii fără soț",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pe lângă plopii fără soț.txt"
+    },
+    {
+      "id": "poezie-266",
+      "titlu": "Pe un album",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pe un album.txt"
+    },
+    {
+      "id": "poezie-267",
+      "titlu": "Pentru păzirea auzului",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pentru păzirea auzului.txt"
+    },
+    {
+      "id": "poezie-268",
+      "titlu": "Pentru tălmăcirea aforismelor lui Schopenhauer",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pentru tălmăcirea aforismelor lui Schopenhauer.txt"
+    },
+    {
+      "id": "poezie-269",
+      "titlu": "Peste codri sta cetatea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Peste codri sta cetatea.txt"
+    },
+    {
+      "id": "poezie-270",
+      "titlu": "Peste vârfuri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Peste vârfuri.txt"
+    },
+    {
+      "id": "poezie-271",
+      "titlu": "Petri notae",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Petri-notae.txt"
+    },
+    {
+      "id": "poezie-272",
+      "titlu": "Phylosophia copilei",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Phylosophia copilei.txt"
+    },
+    {
+      "id": "poezie-273",
+      "titlu": "Pierdut în suferinţă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pierdut în suferinţă.txt"
+    },
+    {
+      "id": "poezie-274",
+      "titlu": "Pierdută pentru mine, zâmbind prin lume treci",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pierdută pentru mine, zâmbind prin lume treci.txt"
+    },
+    {
+      "id": "poezie-275",
+      "titlu": "Pintre stânci de piatră seacă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pintre stânci de piatră seacă.txt"
+    },
+    {
+      "id": "poezie-276",
+      "titlu": "Poet",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Poet.txt"
+    },
+    {
+      "id": "poezie-277",
+      "titlu": "Povestea codrului",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea codrului.txt"
+    },
+    {
+      "id": "poezie-278",
+      "titlu": "Povestea Dochiei și ursitorile I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea Dochiei și ursitorile - I.txt"
+    },
+    {
+      "id": "poezie-279",
+      "titlu": "Povestea Dochiei și ursitorile II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea Dochiei și ursitorile - II.txt"
+    },
+    {
+      "id": "poezie-280",
+      "titlu": "Povestea magului călător în stele[III]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea magului călător în stele[III].txt"
+    },
+    {
+      "id": "poezie-281",
+      "titlu": "Povestea magului călător în stele[II]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea magului călător în stele[II].txt"
+    },
+    {
+      "id": "poezie-282",
+      "titlu": "Povestea magului călător în stele[IV]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea magului călător în stele[IV].txt"
+    },
+    {
+      "id": "poezie-283",
+      "titlu": "Povestea magului călător în stele[I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea magului călător în stele[I].txt"
+    },
+    {
+      "id": "poezie-284",
+      "titlu": "Povestea magului călător în stele[VII]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea magului călător în stele[VII].txt"
+    },
+    {
+      "id": "poezie-285",
+      "titlu": "Povestea magului călător în stele[VI]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea magului călător în stele[VI].txt"
+    },
+    {
+      "id": "poezie-286",
+      "titlu": "Povestea magului călător în stele[V]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea magului călător în stele[V].txt"
+    },
+    {
+      "id": "poezie-287",
+      "titlu": "Povestea teiului",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Povestea teiului.txt"
+    },
+    {
+      "id": "poezie-288",
+      "titlu": "Preot și filozof",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Preot și filozof.txt"
+    },
+    {
+      "id": "poezie-289",
+      "titlu": "Prin a ramurilor mreajă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Prin a ramurilor mreajă.txt"
+    },
+    {
+      "id": "poezie-290",
+      "titlu": "Prin nopti tăcute",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Prin nopti tăcute.txt"
+    },
+    {
+      "id": "poezie-291",
+      "titlu": "Privesc orașul furnicar",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Privesc orașul furnicar.txt"
+    },
+    {
+      "id": "poezie-292",
+      "titlu": "Pustnicul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Pustnicul.txt"
+    },
+    {
+      "id": "poezie-293",
+      "titlu": "Părea c așteaptă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Părea c-așteaptă.txt"
+    },
+    {
+      "id": "poezie-294",
+      "titlu": "Renunţare",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Renunţare.txt"
+    },
+    {
+      "id": "poezie-295",
+      "titlu": "Replici",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Replici.txt"
+    },
+    {
+      "id": "poezie-296",
+      "titlu": "Revedere",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Revedere.txt"
+    },
+    {
+      "id": "poezie-297",
+      "titlu": "Rime alegorice",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Rime alegorice.txt"
+    },
+    {
+      "id": "poezie-298",
+      "titlu": "Romancero español",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Romancero español.txt"
+    },
+    {
+      "id": "poezie-299",
+      "titlu": "Rugăciune",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Rugăciune.txt"
+    },
+    {
+      "id": "poezie-300",
+      "titlu": "Rugăciunea unui dac",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Rugăciunea unui dac.txt"
+    },
+    {
+      "id": "poezie-301",
+      "titlu": "Răsai asupra mea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Răsai asupra mea.txt"
+    },
+    {
+      "id": "poezie-302",
+      "titlu": "S a dus amorul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/S-a dus amorul.txt"
+    },
+    {
+      "id": "poezie-303",
+      "titlu": "Sala i mare, strălucită",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sala-i mare, strălucită.txt"
+    },
+    {
+      "id": "poezie-304",
+      "titlu": "Sara pe deal",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sara pe deal.txt"
+    },
+    {
+      "id": "poezie-305",
+      "titlu": "Sarmis",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sarmis.txt"
+    },
+    {
+      "id": "poezie-306",
+      "titlu": "Sboar' al nopții negru flutur",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sboar' al nopții negru flutur.txt"
+    },
+    {
+      "id": "poezie-307",
+      "titlu": "Scrisoarea I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Scrisoarea I.txt"
+    },
+    {
+      "id": "poezie-308",
+      "titlu": "Scrisoarea II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Scrisoarea II.txt"
+    },
+    {
+      "id": "poezie-309",
+      "titlu": "Scrisoarea III",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Scrisoarea III.txt"
+    },
+    {
+      "id": "poezie-310",
+      "titlu": "Scrisoarea IV",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Scrisoarea IV.txt"
+    },
+    {
+      "id": "poezie-311",
+      "titlu": "Scrisoarea V",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Scrisoarea V.txt"
+    },
+    {
+      "id": "poezie-312",
+      "titlu": "Scrisori din Cordun",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Scrisori din Cordun.txt"
+    },
+    {
+      "id": "poezie-313",
+      "titlu": "Se bate miezul nopții",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Se bate miezul nopții.txt"
+    },
+    {
+      "id": "poezie-314",
+      "titlu": "Serdariu",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Serdariu.txt"
+    },
+    {
+      "id": "poezie-315",
+      "titlu": "Serenadă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Serenadă.txt"
+    },
+    {
+      "id": "poezie-316",
+      "titlu": "Singurătate",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Singurătate.txt"
+    },
+    {
+      "id": "poezie-317",
+      "titlu": "Somnoroase păsărele",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Somnoroase păsărele.txt"
+    },
+    {
+      "id": "poezie-318",
+      "titlu": "Sonet I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sonet I.txt"
+    },
+    {
+      "id": "poezie-319",
+      "titlu": "Sonet II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sonet II.txt"
+    },
+    {
+      "id": "poezie-320",
+      "titlu": "Sonet III",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sonet III.txt"
+    },
+    {
+      "id": "poezie-321",
+      "titlu": "Speranța",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Speranța.txt"
+    },
+    {
+      "id": "poezie-322",
+      "titlu": "Stai deasupră mi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Stai deasupră-mi.txt"
+    },
+    {
+      "id": "poezie-323",
+      "titlu": "Stam în fereasta susă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Stam în fereasta susă.txt"
+    },
+    {
+      "id": "poezie-324",
+      "titlu": "Stau în cerdacul tău",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Stau în cerdacul tău.txt"
+    },
+    {
+      "id": "poezie-325",
+      "titlu": "Steaua vieții",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Steaua vieții.txt"
+    },
+    {
+      "id": "poezie-326",
+      "titlu": "Stelele n cer",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Stelele-n cer.txt"
+    },
+    {
+      "id": "poezie-327",
+      "titlu": "Strigoii[III]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Strigoii[III].txt"
+    },
+    {
+      "id": "poezie-328",
+      "titlu": "Strigoii[II]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Strigoii[II].txt"
+    },
+    {
+      "id": "poezie-329",
+      "titlu": "Strigoii[I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Strigoii[I].txt"
+    },
+    {
+      "id": "poezie-330",
+      "titlu": "Strigături",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Strigături.txt"
+    },
+    {
+      "id": "poezie-331",
+      "titlu": "Sunetul păcii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sunetul păcii.txt"
+    },
+    {
+      "id": "poezie-332",
+      "titlu": "Sunt ani la mijloc",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sunt ani la mijloc.txt"
+    },
+    {
+      "id": "poezie-333",
+      "titlu": "Surori",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Surori.txt"
+    },
+    {
+      "id": "poezie-334",
+      "titlu": "Sus în curtea cea domnească",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sus în curtea cea domnească.txt"
+    },
+    {
+      "id": "poezie-335",
+      "titlu": "Să fie sara n asfințit",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Să fie sara-n asfințit.txt"
+    },
+    {
+      "id": "poezie-336",
+      "titlu": "Să țin încă o dată",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Să țin încă o dată.txt"
+    },
+    {
+      "id": "poezie-337",
+      "titlu": "Sătul de lucru",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Sătul de lucru.txt"
+    },
+    {
+      "id": "poezie-338",
+      "titlu": "Ta twam asi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ta twam asi.txt"
+    },
+    {
+      "id": "poezie-339",
+      "titlu": "Taceti! Cearta amuteasca",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Taceti! Cearta amuteasca.txt"
+    },
+    {
+      "id": "poezie-340",
+      "titlu": "Te duci",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Te duci.txt"
+    },
+    {
+      "id": "poezie-341",
+      "titlu": "Terține",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Terține.txt"
+    },
+    {
+      "id": "poezie-342",
+      "titlu": "Trecut au anii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Trecut-au anii.txt"
+    },
+    {
+      "id": "poezie-343",
+      "titlu": "Trecutele vremuri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Trecutele vremuri.txt"
+    },
+    {
+      "id": "poezie-344",
+      "titlu": "Tu cei o curtenire",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Tu cei o curtenire.txt"
+    },
+    {
+      "id": "poezie-345",
+      "titlu": "Tu mă privești cu marii ochi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Tu mă privești cu marii ochi.txt"
+    },
+    {
+      "id": "poezie-346",
+      "titlu": "Umbra lui Istrate Dabija",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Umbra lui Istrate Dabija.txt"
+    },
+    {
+      "id": "poezie-347",
+      "titlu": "Un farmec trist şi ne'nţeles",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Un farmec trist şi ne'nţeles.txt"
+    },
+    {
+      "id": "poezie-348",
+      "titlu": "Un luceafăr",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Un luceafăr.txt"
+    },
+    {
+      "id": "poezie-349",
+      "titlu": "Un om de stat",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Un om de stat.txt"
+    },
+    {
+      "id": "poezie-350",
+      "titlu": "Un roman",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Un roman.txt"
+    },
+    {
+      "id": "poezie-351",
+      "titlu": "Unda spumă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Unda spumă.txt"
+    },
+    {
+      "id": "poezie-352",
+      "titlu": "Unde fugi",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Unde fugi.txt"
+    },
+    {
+      "id": "poezie-353",
+      "titlu": "Ureche",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ureche.txt"
+    },
+    {
+      "id": "poezie-354",
+      "titlu": "Ursitorile",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ursitorile.txt"
+    },
+    {
+      "id": "poezie-355",
+      "titlu": "Urât și sărăcie",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Urât și sărăcie.txt"
+    },
+    {
+      "id": "poezie-356",
+      "titlu": "Ușoare sunt viețele multòra",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ușoare sunt viețele multòra.txt"
+    },
+    {
+      "id": "poezie-357",
+      "titlu": "Venere și Madonă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Venere și Madonă.txt"
+    },
+    {
+      "id": "poezie-358",
+      "titlu": "Veneția",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Veneția.txt"
+    },
+    {
+      "id": "poezie-359",
+      "titlu": "Venin și farmec",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Venin și farmec.txt"
+    },
+    {
+      "id": "poezie-360",
+      "titlu": "Viaţa",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Viaţa.txt"
+    },
+    {
+      "id": "poezie-361",
+      "titlu": "Viața mea fu ziuă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Viața mea fu ziuă.txt"
+    },
+    {
+      "id": "poezie-362",
+      "titlu": "Vis (versiune completă)",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Vis (versiune completă).txt"
+    },
+    {
+      "id": "poezie-363",
+      "titlu": "Vis",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Vis.txt"
+    },
+    {
+      "id": "poezie-364",
+      "titlu": "Visul unei flori",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Visul unei flori.txt"
+    },
+    {
+      "id": "poezie-365",
+      "titlu": "Vreo zgâtie de fată",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Vreo zgâtie de fată.txt"
+    },
+    {
+      "id": "poezie-366",
+      "titlu": "Zadarnic șterge vremea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Zadarnic șterge vremea.txt"
+    },
+    {
+      "id": "poezie-367",
+      "titlu": "Zburam",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Zburam.txt"
+    },
+    {
+      "id": "poezie-368",
+      "titlu": "Îmbătrânit e sufletul din mine",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Îmbătrânit e sufletul din mine.txt"
+    },
+    {
+      "id": "poezie-369",
+      "titlu": "Împărat și proletar",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Împărat și proletar.txt"
+    },
+    {
+      "id": "poezie-370",
+      "titlu": "În căutarea Șeherazadei[II]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În căutarea Șeherazadei[II].txt"
+    },
+    {
+      "id": "poezie-371",
+      "titlu": "În căutarea Șeherazadei[I]",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În căutarea Șeherazadei[I].txt"
+    },
+    {
+      "id": "poezie-372",
+      "titlu": "În fereastra despre mare",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În fereastra despre mare.txt"
+    },
+    {
+      "id": "poezie-373",
+      "titlu": "În liră mi geme și suspin un cânt",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În liră-mi geme și suspin-un cânt.txt"
+    },
+    {
+      "id": "poezie-374",
+      "titlu": "În modul vechi soarele sună",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În modul vechi soarele sună.txt"
+    },
+    {
+      "id": "poezie-375",
+      "titlu": "În ochii altor oameni",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În ochii altor oameni.txt"
+    },
+    {
+      "id": "poezie-376",
+      "titlu": "În ochii tăi citisem",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În ochii tăi citisem.txt"
+    },
+    {
+      "id": "poezie-377",
+      "titlu": "În van căta veți",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În van căta-veți.txt"
+    },
+    {
+      "id": "poezie-378",
+      "titlu": "În vremi demult trecute I",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În vremi demult trecute-I.txt"
+    },
+    {
+      "id": "poezie-379",
+      "titlu": "În vremi demult trecute II",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În vremi demult trecute-II.txt"
+    },
+    {
+      "id": "poezie-380",
+      "titlu": "În vremi demult trecute III",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În vremi demult trecute-III.txt"
+    },
+    {
+      "id": "poezie-381",
+      "titlu": "În zadar în colbul şcolii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/În zadar în colbul şcolii.txt"
+    },
+    {
+      "id": "poezie-382",
+      "titlu": "Înger de pază",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Înger de pază.txt"
+    },
+    {
+      "id": "poezie-383",
+      "titlu": "Înger și demon",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Înger și demon.txt"
+    },
+    {
+      "id": "poezie-384",
+      "titlu": "Îngere palid",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Îngere palid.txt"
+    },
+    {
+      "id": "poezie-385",
+      "titlu": "Într o lume de neguri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Într-o lume de neguri.txt"
+    },
+    {
+      "id": "poezie-386",
+      "titlu": "Între nouri și ntre mare",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Între nouri și-ntre mare.txt"
+    },
+    {
+      "id": "poezie-387",
+      "titlu": "Între pasări",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Între pasări.txt"
+    },
+    {
+      "id": "poezie-388",
+      "titlu": "Întunericul și poetul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Întunericul și poetul.txt"
+    },
+    {
+      "id": "poezie-389",
+      "titlu": "Învia v or voievozii",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Învia-v-or voievozii.txt"
+    },
+    {
+      "id": "poezie-390",
+      "titlu": "Învierea",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Învierea.txt"
+    },
+    {
+      "id": "poezie-391",
+      "titlu": "Și dacă de cu ziuă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Și dacă de cu ziuă.txt"
+    },
+    {
+      "id": "poezie-392",
+      "titlu": "Și dacă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Și dacă.txt"
+    },
+    {
+      "id": "poezie-393",
+      "titlu": "Și era ploaie cu senin",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Și era ploaie cu senin.txt"
+    },
+    {
+      "id": "poezie-394",
+      "titlu": "Și oare tot n ați înțeles",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Și oare tot n-ați înțeles.txt"
+    },
+    {
+      "id": "poezie-395",
+      "titlu": "Și răsună printre papuri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Și răsună printre papuri.txt"
+    },
+    {
+      "id": "poezie-396",
+      "titlu": "Ștefan cel Mare",
+      "tip": "poezie",
+      "versuri_path": "data/Mihai Eminescu/poezii/Ștefan cel Mare.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "A fi Critic, cu adevărat, a face o Critică Reală",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/A fi Critic, cu adevărat, a face o Critică Reală.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Am inteles co omul poate avea totul..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Am inteles co omul poate avea totul...txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Amorul meu e un păhar..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Amorul meu e un păhar...txt"
+    },
+    {
+      "id": "proza-4",
+      "titlu": "Andrei Mureșanu I",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Andrei Mureșanu-I.txt"
+    },
+    {
+      "id": "proza-5",
+      "titlu": "Andrei Mureșanu II",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Andrei Mureșanu-II.txt"
+    },
+    {
+      "id": "proza-6",
+      "titlu": "Andrei Mureșanu III",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Andrei Mureșanu-III.txt"
+    },
+    {
+      "id": "proza-7",
+      "titlu": "Antropomorfism I",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Antropomorfism-I.txt"
+    },
+    {
+      "id": "proza-8",
+      "titlu": "Antropomorfism II",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Antropomorfism-II.txt"
+    },
+    {
+      "id": "proza-9",
+      "titlu": "Archaeus",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Archaeus.txt"
+    },
+    {
+      "id": "proza-10",
+      "titlu": "Articol publicat în „Timpul“",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Articol publicat în „Timpul“.txt"
+    },
+    {
+      "id": "proza-11",
+      "titlu": "Aur, mărire şi amor",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Aur, mărire şi amor.txt"
+    },
+    {
+      "id": "proza-12",
+      "titlu": "Avatarii faraonului Tlà",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Avatarii faraonului Tlà.txt"
+    },
+    {
+      "id": "proza-13",
+      "titlu": "Aș dori din toată inima să vin acasă.",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Aș dori din toată inima să vin acasă..txt"
+    },
+    {
+      "id": "proza-14",
+      "titlu": "Borta vântului",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Borta-vântului.txt"
+    },
+    {
+      "id": "proza-15",
+      "titlu": "Caut să mi port vina mea proprie",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Caut să-mi port vina mea proprie.txt"
+    },
+    {
+      "id": "proza-16",
+      "titlu": "Ce pofteşte",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Ce pofteşte.txt"
+    },
+    {
+      "id": "proza-17",
+      "titlu": "Ceea ce dă guvernului..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Ceea ce dă guvernului...txt"
+    },
+    {
+      "id": "proza-18",
+      "titlu": "Cel mai frumos tărâm",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cel mai frumos tărâm.txt"
+    },
+    {
+      "id": "proza-19",
+      "titlu": "Cezara I",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara I.txt"
+    },
+    {
+      "id": "proza-20",
+      "titlu": "Cezara II",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara II.txt"
+    },
+    {
+      "id": "proza-21",
+      "titlu": "Cezara III",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara III.txt"
+    },
+    {
+      "id": "proza-22",
+      "titlu": "Cezara IV",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara IV.txt"
+    },
+    {
+      "id": "proza-23",
+      "titlu": "Cezara V",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara V.txt"
+    },
+    {
+      "id": "proza-24",
+      "titlu": "Cezara VI",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara VI.txt"
+    },
+    {
+      "id": "proza-25",
+      "titlu": "Cezara VII",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara VII.txt"
+    },
+    {
+      "id": "proza-26",
+      "titlu": "Cezara VIII",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Cezara VIII.txt"
+    },
+    {
+      "id": "proza-27",
+      "titlu": "Dar de ce n am aminti cu..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Dar de ce n-am aminti cu...txt"
+    },
+    {
+      "id": "proza-28",
+      "titlu": "Despre naturile oneste și..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Despre naturile oneste și...txt"
+    },
+    {
+      "id": "proza-29",
+      "titlu": "Din prea mare grijă",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Din prea mare grijă.txt"
+    },
+    {
+      "id": "proza-30",
+      "titlu": "Dormi Veronica",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Dormi Veronica.txt"
+    },
+    {
+      "id": "proza-31",
+      "titlu": "Dragă Șerbane",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Dragă Șerbane.txt"
+    },
+    {
+      "id": "proza-32",
+      "titlu": "Dulce și drăgălașă amică",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Dulce și drăgălașă amică.txt"
+    },
+    {
+      "id": "proza-33",
+      "titlu": "E natural ca..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/E natural ca...txt"
+    },
+    {
+      "id": "proza-34",
+      "titlu": "Eu sunt un om urât de multă lume",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Eu sunt un om urât de multă lume.txt"
+    },
+    {
+      "id": "proza-35",
+      "titlu": "Eu voi inimă curată și amor vecinic",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Eu voi inimă curată și amor vecinic.txt"
+    },
+    {
+      "id": "proza-36",
+      "titlu": "Eu ș așa nu mai pot fi fericit în lume",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Eu ș-așa nu mai pot fi fericit în lume.txt"
+    },
+    {
+      "id": "proza-37",
+      "titlu": "Finul lui Dumnezeu",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Finul-lui-Dumnezeu.txt"
+    },
+    {
+      "id": "proza-38",
+      "titlu": "Firul istoriei",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Firul istoriei.txt"
+    },
+    {
+      "id": "proza-39",
+      "titlu": "Garanţia învingerii adevărului",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Garanţia învingerii adevărului.txt"
+    },
+    {
+      "id": "proza-40",
+      "titlu": "Geniul",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Geniul.txt"
+    },
+    {
+      "id": "proza-41",
+      "titlu": "Iertaţi mi amărăciunea, dragi părinţi",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Iertaţi-mi amărăciunea, dragi părinţi.txt"
+    },
+    {
+      "id": "proza-42",
+      "titlu": "Iubite Tată",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Iubite Tată.txt"
+    },
+    {
+      "id": "proza-43",
+      "titlu": "Jurnalistica Timpul, 1 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica - Timpul, 1 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-44",
+      "titlu": "Jurnalistica Timpul, 15 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica - Timpul, 15 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-45",
+      "titlu": "Jurnalistica Timpul, 16 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica - Timpul, 16 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-46",
+      "titlu": "Jurnalistica Timpul, 19 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica - Timpul, 19 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-47",
+      "titlu": "Jurnalistica Timpul, 20 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica - Timpul, 20 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-48",
+      "titlu": "Jurnalistica Timpul, 21 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica - Timpul, 21 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-49",
+      "titlu": "Jurnalistica Timpul, 30 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica - Timpul, 30 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-50",
+      "titlu": "Jurnalistica, Timpul, 13 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistica, Timpul, 13 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-51",
+      "titlu": "Jurnalistică Timpul, 5 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistică - Timpul, 5 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-52",
+      "titlu": "Jurnalistică, Timpul, 6 decembrie 1879",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Jurnalistică, Timpul, 6 decembrie 1879.txt"
+    },
+    {
+      "id": "proza-53",
+      "titlu": "La curtea cuconului Vasile Creangă",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/La curtea cuconului Vasile Creangă.txt"
+    },
+    {
+      "id": "proza-54",
+      "titlu": "Legenda cântăreţului",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Legenda cântăreţului.txt"
+    },
+    {
+      "id": "proza-55",
+      "titlu": "Limba şi caracterul naţional a poporului",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Limba şi caracterul naţional a poporului.txt"
+    },
+    {
+      "id": "proza-56",
+      "titlu": "Marea pe care o văz pentru ntâia oară",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Marea pe care-o văz pentru-ntâia oară.txt"
+    },
+    {
+      "id": "proza-57",
+      "titlu": "Mi ar fi plăcut mult să trăiesc în trecut..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Mi-ar fi plăcut mult să trăiesc în trecut...txt"
+    },
+    {
+      "id": "proza-58",
+      "titlu": "Mult iubită Harietă",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Mult iubită Harietă.txt"
+    },
+    {
+      "id": "proza-59",
+      "titlu": "Mâțule, măi mâțule, mânca ți aș ochii!",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Mâțule, măi mâțule, mânca-ți-aș ochii!.txt"
+    },
+    {
+      "id": "proza-60",
+      "titlu": "Nu cunosc mândrie mai mare decât să fii român",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Nu cunosc mândrie mai mare decât să fii român.txt"
+    },
+    {
+      "id": "proza-61",
+      "titlu": "Nu e aşa ca vom fi fericiţi",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Nu e aşa ca vom fi fericiţi.txt"
+    },
+    {
+      "id": "proza-62",
+      "titlu": "Năzuiesc spre viața noastră nouă",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Năzuiesc spre viața noastră nouă.txt"
+    },
+    {
+      "id": "proza-63",
+      "titlu": "Ortografia este demnitatea..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Ortografia este demnitatea...txt"
+    },
+    {
+      "id": "proza-64",
+      "titlu": "Părintele Ermolachie Chisăliţă",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Părintele Ermolachie Chisăliţă.txt"
+    },
+    {
+      "id": "proza-65",
+      "titlu": "Revenirea la fericire",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Revenirea la fericire.txt"
+    },
+    {
+      "id": "proza-66",
+      "titlu": "Scumpii mei părinți",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Scumpii mei părinți.txt"
+    },
+    {
+      "id": "proza-67",
+      "titlu": "Se mistuie viața mea",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Se mistuie viața mea.txt"
+    },
+    {
+      "id": "proza-68",
+      "titlu": "Soarta nefericitului Şerban",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Soarta nefericitului Şerban.txt"
+    },
+    {
+      "id": "proza-69",
+      "titlu": "Supus ca un câne..",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Supus ca un câne...txt"
+    },
+    {
+      "id": "proza-70",
+      "titlu": "Să mi trimeți",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Să-mi trimeți.txt"
+    },
+    {
+      "id": "proza-71",
+      "titlu": "Sărmanul Dionis",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Sărmanul Dionis.txt"
+    },
+    {
+      "id": "proza-72",
+      "titlu": "Te sărut, Momoțelule",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Te sărut, Momoțelule.txt"
+    },
+    {
+      "id": "proza-73",
+      "titlu": "Tăcerea lui Iorgu mă împle de nelinişte",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Tăcerea lui Iorgu mă împle de nelinişte.txt"
+    },
+    {
+      "id": "proza-74",
+      "titlu": "Umbra mea",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Umbra mea.txt"
+    },
+    {
+      "id": "proza-75",
+      "titlu": "Unitatea de vederi în cabinetul actual",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Unitatea de vederi în cabinetul actual.txt"
+    },
+    {
+      "id": "proza-76",
+      "titlu": "Îmbolnăvirea lui Şerban",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Îmbolnăvirea lui Şerban.txt"
+    },
+    {
+      "id": "proza-77",
+      "titlu": "În aceste atome de spațiu și timp, cât infinit!",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/În aceste atome de spațiu și timp, cât infinit!.txt"
+    },
+    {
+      "id": "proza-78",
+      "titlu": "În curentul unor nefericiri familiale",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/În curentul unor nefericiri familiale.txt"
+    },
+    {
+      "id": "proza-79",
+      "titlu": "Întristătoarea voastră tăcere",
+      "tip": "proza",
+      "versuri_path": "data/Mihai Eminescu/proza/Întristătoarea voastră tăcere.txt"
+    }
+  ]
+}

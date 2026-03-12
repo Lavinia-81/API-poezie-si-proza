@@ -1,0 +1,416 @@
+{
+  "autor": "Alecu Donici",
+  "poza": "data/Alecu Donici/bibliografie/Alecu Doinici.jpg",
+  "bibliografie_path": "data/Alecu Donici/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adevarul sau cucosul de la moara",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Adevarul sau cucosul de la moara.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Antereul lui Arvinte",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Antereul lui Arvinte.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Ariciul şi cârtiţa",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Ariciul şi cârtiţa.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Bondarul mizantrop",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Bondarul mizantrop.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Braminul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Braminul.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Bricele",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Bricele.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Broasca şi zeul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Broasca şi zeul.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Bărbatul cu trei femei",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Bărbatul cu trei femei.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Calul şi călăreţul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Calul şi călăreţul.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Calul şi măgarul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Calul şi măgarul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Capra şi iada",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Capra şi iada.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Carele cu oale",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Carele cu oale.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Cheltuitorul şi rândunica",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Cheltuitorul şi rândunica.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Câinele lătrând",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Câinele lătrând.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Dlui grigorie alexandrescu",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Dlui grigorie alexandrescu.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Doi câini",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Doi câini.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Doi raci",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Doi raci.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Dorinţa românului din 1862",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Dorinţa românului din 1862.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Două mance şi un copil",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Două mance şi un copil.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Două poloboace",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Două poloboace.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Elefantul în domnie",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Elefantul în domnie.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Epigramă",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Epigramă.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Fierul și argintul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Fierul și argintul.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Florile",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Florile.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Frunzele şi rădăcina",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Frunzele şi rădăcina.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Furnica",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Furnica.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Galbenul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Galbenul.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Greierul şi furnica",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Greierul şi furnica.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Gândul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Gândul.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Gâştele",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Gâştele.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Jderul şi cacomul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Jderul şi cacomul.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "La buciumul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/La buciumul.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "La ceahlau",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/La ceahlau.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Leul la vânat",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Leul la vânat.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Leul şi iepurele",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Leul şi iepurele.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Liliacul și rândunelele",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Liliacul și rândunelele.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Lupul bătrân",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Lupul bătrân.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Lupul la pieire",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Lupul la pieire.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Lupul şi cucul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Lupul şi cucul.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Morarul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Morarul.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Muntele",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Muntele.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Musca",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Musca.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Muştele şi albina",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Muştele şi albina.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Măgarul şi privighetoarea",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Măgarul şi privighetoarea.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Norocul în vizită",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Norocul în vizită.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Oracolul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Oracolul.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Paingul si bondarul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Paingul si bondarul.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Parnas",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Parnas.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Pizmataretul si sarpele",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Pizmataretul si sarpele.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Poetul şi bogatul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Poetul şi bogatul.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Prietesugul si amorul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Prietesugul si amorul.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Racul, broasca şi ştiuca",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Racul, broasca şi ştiuca.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Râmătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Râmătorul.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Soarecul si guzganul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Soarecul si guzganul.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Stiglețul și ciocârlanul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Stiglețul și ciocârlanul.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Stiuca si motanul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Stiuca si motanul.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Turma si cainele",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Turma si cainele.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Umbra şi omul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Umbra şi omul.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Ursul butnar",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Ursul butnar.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Varul primare",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Varul primare.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Veverita",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Veverita.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Vulpea dubioasă",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Vulpea dubioasă.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Vulpea in livada",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Vulpea in livada.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Vulpea și măgarul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Vulpea și măgarul.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Zi intai aprili",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Zi intai aprili.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Împărţeala",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Împărţeala.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Înfiinţarea fabulei",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Înfiinţarea fabulei.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Înţeleptul şi magnatul",
+      "tip": "poezie",
+      "versuri_path": "data/Alecu Donici/poezii/Înţeleptul şi magnatul.txt"
+    }
+  ],
+  "proza": []
+}

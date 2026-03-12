@@ -1,0 +1,339 @@
+{
+  "autor": "Dimitrie Anghel",
+  "poza": "data/Dimitrie Anghel/bibliografie/dimitrie-anghel.jpg",
+  "bibliografie_path": "data/Dimitrie Anghel/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Alesul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Alesul.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Amiaza",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Amiaza.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Balul pomilor",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Balul pomilor.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Crizanteme",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Crizanteme.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Cucoşul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Cucoşul.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cum cântă marea",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Cum cântă marea.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Curcubeul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Curcubeul.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Cîntecul greierului",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Cîntecul greierului.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Darul valurilor",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Darul valurilor.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Duminica",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Duminica.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "După ploaie",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/După ploaie.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Dureri ascunse",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Dureri ascunse.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Elegie",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Elegie.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Ex Voto",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Ex-Voto.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Fantome",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Fantome.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Farmec de noapte",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Farmec de noapte.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Floarea – Soarelui",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Floarea – Soarelui.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Florile",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Florile.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Gherghina",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Gherghina.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Himera",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Himera.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Hornarul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Hornarul.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Imn",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Imn.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Liniște",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Liniște.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Marină",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Marină.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Melancolie",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Melancolie.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Metamorfoză",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Metamorfoză.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Moartea narcisului",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Moartea narcisului.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Măgheranii",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Măgheranii.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Nemulțumitul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Nemulțumitul.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Nocturnă",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Nocturnă.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Oglinda",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Oglinda.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Omul din lună",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Omul din lună.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Paharul fermecat",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Paharul fermecat.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Pastel",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Pastel.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Prolog",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Prolog.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Puterea amintirii",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Puterea amintirii.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Reverie",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Reverie.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Schimb de vești",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Schimb de vești.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Scrisoare",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Scrisoare.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Stejarul şi vâscul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Stejarul şi vâscul.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Toamna",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Toamna.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Tovarășilor mei",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Tovarășilor mei.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Ultima scrisoare",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Ultima scrisoare.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Umbra",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Umbra.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Ursita",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Ursita.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Visul unui nibelung",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Visul unui nibelung.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "În grădină",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/În grădină.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "În port",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/În port.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "În umbra de castani",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/În umbra de castani.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "În zori",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/În zori.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Şipotul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Anghel/poezii/Şipotul.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Cedrul",
+      "tip": "proza",
+      "versuri_path": "data/Dimitrie Anghel/proza/Cedrul.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Jertfa",
+      "tip": "proza",
+      "versuri_path": "data/Dimitrie Anghel/proza/Jertfa.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Mama",
+      "tip": "proza",
+      "versuri_path": "data/Dimitrie Anghel/proza/Mama.txt"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "autor": "Constantin Mille",
+  "poza": "data/Constantin Mille/bibliografie/Constantin Mille.jpg",
+  "bibliografie_path": "data/Constantin Mille/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Cătră sărăcie",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/Cătră sărăcie.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Daţi mi pace",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/Daţi-mi pace.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Drept prolog",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/Drept prolog.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Dumnezeu e nihilist",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/Dumnezeu e nihilist.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Lumea moartă",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/Lumea moartă.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Un răspuns",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/Un răspuns.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Veacul nostru",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/Veacul nostru.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "În ajunul anului nou",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Mille/poezii/În ajunul anului nou.txt"
+    }
+  ],
+  "proza": []
+}

@@ -1,0 +1,111 @@
+{
+  "autor": "Emil Isac",
+  "poza": "data/Emil Isac/bibliografie/Emil Isac.jpg",
+  "bibliografie_path": "data/Emil Isac/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "A nopților",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/A nopților.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "A venit un domnișor",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/A venit un domnișor.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Acelor ce suferă",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Acelor ce suferă.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Acvarium",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Acvarium.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Al amintirilor",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Al amintirilor.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Am sărutat în piatră",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Am sărutat în piatră.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Aștept",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Aștept.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Cântec de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Cântec de toamnă.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Cântec naiv",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Cântec naiv.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Medalion",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Medalion.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Memento",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Memento.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Nava vieții",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Nava vieții.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Ochii tăi albaștri",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Ochii tăi albaștri.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Oraș bolnăvit",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Oraș bolnăvit.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Ușă",
+      "tip": "poezie",
+      "versuri_path": "data/Emil Isac/poezii/Ușă.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Omul care și întindea mâinile",
+      "tip": "proza",
+      "versuri_path": "data/Emil Isac/proza/Omul care-și întindea mâinile.txt"
+    }
+  ]
+}

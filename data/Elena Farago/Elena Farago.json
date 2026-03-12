@@ -1,0 +1,320 @@
+{
+  "autor": "Elena Farago",
+  "poza": "data/Elena Farago/bibliografie/elena-farago.jpg",
+  "bibliografie_path": "data/Elena Farago/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Bondarul leneş",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Bondarul leneş.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Busuioc floare cu dar",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Busuioc floare cu dar.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Closca",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Closca.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cucu",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Cucu.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cântă astăzi viaţa",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Cântă astăzi viaţa.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Cătelusul schiop",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Cătelusul schiop.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Dacă mi aplec smerit genunchii",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Dacă-mi aplec smerit genunchii.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "De Ajunul Crăciunului",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/De Ajunul Crăciunului.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "De ziua mamei",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/De ziua mamei.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Despărţire",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Despărţire.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Din scrisoarea unei bătrâne",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Din scrisoarea unei bătrâne.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Doi frați cuminți",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Doi frați cuminți.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Durerii",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Durerii.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Era o fântână",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Era o fântână.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Fluturii",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Fluturii.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Furnica",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Furnica.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Fără cuvinte",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Fără cuvinte.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Gândăcelul",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Gândăcelul.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Hai nani, nani",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Hai nani, nani.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Iubeşte mi mâinile",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Iubeşte-mi mâinile.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "La marginea orașului",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/La marginea orașului.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Lumini de amurg",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Lumini de amurg.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Micul vânător",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Micul vânător.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Motanul pedepsit",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Motanul pedepsit.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Nelu",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Nelu.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Noiemvrie",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Noiemvrie.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Nu i nimeni",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Nu-i nimeni.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Nădejdii",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Nădejdii.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "O femeie trecuta vorbeste cu toamna",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/O femeie trecuta vorbeste cu toamna.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Pedeapsa mâţei",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Pedeapsa mâţei.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Puişorul moţat",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Puişorul moţat.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Reminescență",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Reminescență.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Renuntare",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Renuntare.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Romanță",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Romanță .txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Rândunea uşoară n zbor",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Rândunea uşoară-n zbor.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Rândunica",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Rândunica.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Scrisoare",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Scrisoare .txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Sfatul degetelor",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Sfatul degetelor.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Sufletul meu astăzi îşi dezgroapă morţii",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Sufletul meu astăzi îşi dezgroapă morţii.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Tacerea dezvaluitoare",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Tacerea dezvaluitoare.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Tano",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Tano.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Trecea un om pe drum",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Trecea un om pe drum.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Uitare",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Uitare.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Un apostol nebun cântă",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Un apostol nebun cântă.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Un bun rămas",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Un bun rămas.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Un gând",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Un gând.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Un porumbel",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Un porumbel.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Vine, vine iarăşi iarna",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Vine, vine iarăşi iarna.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "În ziua de Paşti",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/În ziua de Paşti.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Şi iar mi i sufletul la tine",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Şi iar mi-i sufletul la tine.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Şireata",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Farago/poezii/Şireata.txt"
+    }
+  ],
+  "proza": []
+}

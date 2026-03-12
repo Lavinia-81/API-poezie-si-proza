@@ -1,0 +1,68 @@
+{
+  "autor": "Andrei Mureşanu",
+  "poza": "data/Andrei Mureşanu/bibliografie/Andrei_Muresanu.jpg",
+  "bibliografie_path": "data/Andrei Mureşanu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Cele două căpăţâni goale",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Cele două căpăţâni goale.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Către martirii români din 1848 1849",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Către martirii români din 1848-1849.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Deşteaptă te, române",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Deşteaptă-te, române.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Eremitul din Carpaţi",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Eremitul din Carpaţi.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Mintea",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Mintea.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "O privire peste lume",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/O privire peste lume.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Omul frumos",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Omul frumos.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Simpatie la Viena",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Simpatie la Viena.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Un rămas bun de la Braşov",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Un rămas bun de la Braşov.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Un răsunet",
+      "tip": "poezie",
+      "versuri_path": "data/Andrei Mureşanu/poezii/Un răsunet.txt"
+    }
+  ],
+  "proza": []
+}

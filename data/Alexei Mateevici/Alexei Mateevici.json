@@ -1,0 +1,266 @@
+{
+  "autor": "Alexei Mateevici",
+  "poza": "data/Alexei Mateevici/bibliografie/Alexei_Mateevici.jpg",
+  "bibliografie_path": "data/Alexei Mateevici/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Atunci Când Soarele Apune",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Atunci Când Soarele Apune.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Atâtea chipuri",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Atâtea chipuri.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Basarabenilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Basarabenilor.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cantecul Zorilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Cantecul Zorilor.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Cina Cea De Taină",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Cina Cea De Taină.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cântarea slavei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Cântarea slavei.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Cântec De Leagăn",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Cântec De Leagăn.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Cântecul Clopotului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Cântecul Clopotului.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Căutarea lui Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Căutarea lui Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Deasupra Târgului Bârlad",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Deasupra Târgului Bârlad.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Dorul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Dorul.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Eu Cânt",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Eu Cânt.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Fecioara din Nazaret",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Fecioara din Nazaret.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Fie voia ta",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Fie voia ta.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Fratelui creştin",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Fratelui creştin.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Frunza Nucului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Frunza Nucului.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Hristos A înviat",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Hristos A înviat.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Hristos după cina cea de taină",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Hristos după cina cea de taină.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Hristos pruncul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Hristos pruncul.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Hristos în biserica Ierusalimului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Hristos în biserica Ierusalimului.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Intrarea Domnului Iisus Hristos în Ierusalim",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Intrarea Domnului Iisus Hristos în Ierusalim.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Iuda",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Iuda.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "La noul Neamţ",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/La noul-Neamţ.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Limba Noastră",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Limba Noastră.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Lumina Cea De Seară",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Lumina Cea De Seară.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Mama",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Mama.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Mangaiere",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Mangaiere.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Muncitorul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Muncitorul.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Pietre vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Pietre vechi.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Pocainta hotului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Pocainta hotului.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Păcătoasa",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Păcătoasa.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Rugăciune pentru pahar",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Rugăciune pentru pahar.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Seara de vară",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Seara de vară.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Tara",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Tara.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Troparul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Troparul.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Un sfat",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Un sfat.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Unora",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Unora.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Vad prabusirea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Vad prabusirea.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Viaţa",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Viaţa.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "În Betleem",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/În Betleem.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "În dimineaţa duminicii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/În dimineaţa duminicii.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "În zarea anilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/În zarea anilor.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Îngerul şi mironosiţele",
+      "tip": "poezie",
+      "versuri_path": "data/Alexei Mateevici/poezii/Îngerul şi mironosiţele.txt"
+    }
+  ],
+  "proza": []
+}

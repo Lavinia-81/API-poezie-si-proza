@@ -1,0 +1,777 @@
+{
+  "autor": "Magda Isanos",
+  "poza": "data/Magda Isanos/bibliografie/Magda Isanos.jpg",
+  "bibliografie_path": "data/Magda Isanos/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Aceste mâni",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Aceste mâni.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Acum, dimineața",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Acum, dimineața.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Acuma cântecul s a sfârsit",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Acuma cântecul s-a sfârsit.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Amiază",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Amiază.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Astept anul unu",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Astept anul unu.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Auz",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Auz.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Aș vrea",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Aș vrea.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Belsug trist",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Belsug trist.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Blestem",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Blestem.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Bunicul",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Bunicul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Bărbatul",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Bărbatul.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Caisul",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Caisul.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Calul de la birja de noapte",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Calul de la birja de noapte.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Capricii",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Capricii.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Cavalerul",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cavalerul.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Ce dar să ți fac acum că i primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ce dar să-ți fac acum că-i primăvară.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Cel puțin legănați vă ramuri",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cel puțin legănați-vă ramuri.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Cerul acela",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cerul acela.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Cine va cânta",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cine va cânta.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Clipă, desfă ţi aripile",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Clipă, desfă-ţi aripile.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Confesiuni",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Confesiuni.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Copilul meu, să nu mă cauţi",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Copilul meu, să nu mă cauţi.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Copilăria mea",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Copilăria mea.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Cu ochii mei...",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cu ochii mei....txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Cum povesteste viata",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cum povesteste viata.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Când cel iubit",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Când cel iubit.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Cânt",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cânt.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Cântarea păstoriţei",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cântarea păstoriţei.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Cântecul deşertăciunii",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Cântecul deşertăciunii.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Călătoria",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Călătoria.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Daruri",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Daruri.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "De am fi împărțit pe dreptate",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/De-am fi împărțit pe dreptate.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Departe sunt volburi",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Departe sunt volburi.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Dimineața",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Dimineața.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Doamne, n ajung pân'la tine",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Doamne, n-ajung pân'la tine.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Doamne, n am isprăvit",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Doamne, n-am isprăvit.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Doamne, unde ai să ne aşezi pe noi",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Doamne, unde-ai să ne-aşezi pe noi.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Dorinţa",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Dorinţa.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Dragostea mea",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Dragostea mea.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Dragostea",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Dragostea.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Echinox",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Echinox.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Ei sunt săracii",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ei sunt săracii.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Epilog",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Epilog.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Eu nu regret",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Eu nu regret.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Fata de cincisprezece ani",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Fata de cincisprezece ani.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Fericită de trandafirul zilei",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Fericită de trandafirul zilei.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Flori",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Flori.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Florile și fiecare sens luminos al lumii",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Florile și fiecare sens luminos al lumii.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Fraga",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Fraga.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Frumoase s câmpiile vieții",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Frumoase-s câmpiile vieții.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Fără nume",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Fără nume.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Greșeală de tipar",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Greșeală de tipar.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Gândeste te, n ar fi păcat",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Gândeste-te, n-ar fi păcat.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Iarba",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Iarba.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Icoana",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Icoana.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "In diminetile clare",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/In diminetile clare.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Interior",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Interior.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Invrăjbire",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Invrăjbire.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Ion",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ion.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Iubirea",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Iubirea.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Jucăria",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Jucăria.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "La marginea cimitirului",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/La marginea cimitirului.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "La nceput prin ferestre deschise",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/La-nceput prin ferestre deschise.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Lampa",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Lampa.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Lectura",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Lectura.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Logodnă de primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Logodnă de primăvară.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Logodnă",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Logodnă.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Macii",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Macii.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Mai sunt cateva veri",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Mai sunt cateva veri.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Mama",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Mama.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Moartea prorocitei",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Moartea prorocitei.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Multe chipuri",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Multe chipuri.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Murim... ca mâine",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Murim... ca mâine.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Mâna ta",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Mâna ta.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Mă scald în zi",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Mă scald în zi.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Naufragiu",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Naufragiu.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Noapte",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Noapte.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Nu vă scuturaţi , florilor",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Nu vă scuturaţi , florilor.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Nu ştiu cum s a făcut",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Nu ştiu cum s-a făcut.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Nuntă",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Nuntă.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "O, primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/O, primăvară.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Oamenii mă uimesc",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Oamenii mă uimesc.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Pacatul",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Pacatul.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Padurea",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Padurea.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Pentru pace ma rog",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Pentru pace ma rog.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Pentru tine",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Pentru tine.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Peste campiile viitoare",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Peste campiile viitoare.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Plina de bucurie m am desteptat",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Plina de bucurie m-am desteptat.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Ploaia de pramavara singura",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ploaia de pramavara singura.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Ploaie",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ploaie.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Pomii cei tineri",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Pomii cei tineri.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Primăvara",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Primăvara.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Prin el am cunoscut norodul",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Prin el am cunoscut norodul.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Regret",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Regret.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Rochia",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Rochia.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Râuri sfinte, mări tulburate",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Râuri sfinte, mări tulburate.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Sapho",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Sapho.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Sarută mă",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Sarută-mă.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Strofele poetului bolnav",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Strofele poetului bolnav.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Testament pentru fata mea",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Testament pentru fata mea.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Toamna",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Toamna.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Toporasi",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Toporasi.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Trebuie sa plec asta seara",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Trebuie sa plec asta seara.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Triumful iubirii",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Triumful iubirii.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Ultima zi",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ultima zi.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Ultimul sarut",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ultimul sarut.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Veac de sange",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Veac de sange.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Viata, nu ma parasi",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Viata, nu ma parasi.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Vis vegetal",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Vis vegetal.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Zeii",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Zeii.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Ziua mea netraita",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ziua mea netraita.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Zâne de roua",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Zâne de roua.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "În crâng",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/În crâng.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "În lumea asta",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/În lumea asta.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "În pădure",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/În pădure.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Întoarcere",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Întoarcere.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Întâlnire n noaptea de primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Întâlnire-n noaptea de primăvară.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Înţelepciune",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Înţelepciune.txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Ţii minte ntâia ploaie",
+      "tip": "poezie",
+      "versuri_path": "data/Magda Isanos/poezii/Ţii minte-ntâia ploaie.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Creionări",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Creionări.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Despre iubirile mari",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Despre iubirile mari.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Inseparabilele",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Inseparabilele.txt"
+    },
+    {
+      "id": "proza-4",
+      "titlu": "Magistrata",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Magistrata.txt"
+    },
+    {
+      "id": "proza-5",
+      "titlu": "Orașul cu minuni (2)",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Orașul cu minuni (2).txt"
+    },
+    {
+      "id": "proza-6",
+      "titlu": "Orașul cu minuni",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Orașul cu minuni.txt"
+    },
+    {
+      "id": "proza-7",
+      "titlu": "Studenta",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Studenta.txt"
+    },
+    {
+      "id": "proza-8",
+      "titlu": "Îngerii",
+      "tip": "proza",
+      "versuri_path": "data/Magda Isanos/proza/Îngerii.txt"
+    }
+  ]
+}

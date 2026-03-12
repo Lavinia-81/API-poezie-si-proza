@@ -1,0 +1,194 @@
+{
+  "autor": "Anton Pann",
+  "poza": "data/Anton Pann/bibliografie/Anton_Pann.jpg",
+  "bibliografie_path": "data/Anton Pann/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Astrologia",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Astrologia.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Carul frânt",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Carul frânt.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Cască ochii la tocmeală",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Cască ochii la tocmeală.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cine fură azi o ceapă",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Cine fură azi o ceapă.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Copilul sa nvata cand nu se rasfata",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Copilul sa-nvata cand nu se rasfata.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cui îi place liniștire",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Cui îi place liniștire.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Când ceri și nu ți se trece",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Când ceri și nu ți se trece.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Când se găsește în laturi",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Când se găsește în laturi.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Călătorul şi stejarul",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Călătorul şi stejarul.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Dacă n ai să mergi călare",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Dacă n-ai să mergi călare.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Despre amor sau dragoste şi ură",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Despre amor sau dragoste şi ură.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Despre cusururi sau urâciuni",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Despre cusururi sau urâciuni.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Despre frica lui Dumnezeu iarăşi",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Despre frica lui Dumnezeu iarăşi.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Despre iuţeală, mânie şi posăcie",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Despre iuţeală, mânie şi posăcie.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Despre prostie",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Despre prostie.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Despre vorbire",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Despre vorbire.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Grijile s la creditori",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Grijile-s la creditori.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Haina mai mult este privită decât persoana cinstită",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Haina mai mult este privită decât persoana cinstită.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Mulți sunt proști care",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Mulți sunt proști care.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Măgarul zburător",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Măgarul zburător.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Omul nu poate să facă un lucru la toți să placă",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Omul nu poate să facă un lucru la toți să placă.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Povestea poamelor și a legumelor",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Povestea poamelor și a legumelor.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Povestea vorbei",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Povestea vorbei.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Pân la anul, or măgarul, or samarul",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Pân-la anul, or măgarul, or samarul.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Păine la foame udată e cea mai dulce bucată",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Păine la foame udată e cea mai dulce bucată.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Scumpul",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Scumpul.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Te păzește să nu superi",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Te păzește să nu superi.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Un nebun făgăduiește și nțeleptul se amăgește",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Un nebun făgăduiește și-nțeleptul se-amăgește.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Într această lume orice de unde vine se întoarce",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Într-această lume orice de-unde vine se întoarce.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Învățătura dată rău se sparge în capul tău",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Învățătura dată rău se sparge în capul tău.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Ţermonia unui bătrân",
+      "tip": "poezie",
+      "versuri_path": "data/Anton Pann/poezii/Ţermonia unui bătrân.txt"
+    }
+  ],
+  "proza": []
+}

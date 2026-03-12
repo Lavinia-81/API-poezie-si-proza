@@ -1,0 +1,62 @@
+{
+  "autor": "Mircea Constantin Demetriade",
+  "poza": "data/Mircea Constantin Demetriade/bibliografie/Mircea_Demetriade.jpg",
+  "bibliografie_path": "data/Mircea Constantin Demetriade/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Amorul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Amorul meu.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Ca o baltă",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Ca o baltă.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Din pragul unui vis",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Din pragul unui vis.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Monotonia",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Monotonia.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Pastel alb",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Pastel alb.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Pianistul",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Pianistul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Păianjenul de aur",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Păianjenul de aur.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Sonuri şi culori",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Sonuri şi culori.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Spleen",
+      "tip": "poezie",
+      "versuri_path": "data/Mircea Constantin Demetriade/poezii/Spleen.txt"
+    }
+  ],
+  "proza": []
+}

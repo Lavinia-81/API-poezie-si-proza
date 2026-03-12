@@ -1,0 +1,56 @@
+{
+  "autor": "Elena Văcărescu",
+  "poza": "data/Elena Văcărescu/bibliografie/Vacarescu_Elena.jpg",
+  "bibliografie_path": "data/Elena Văcărescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Aprilie",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/Aprilie.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "De ai ști acele zile",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/De-ai ști acele zile.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Dragoste eternă",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/Dragoste eternă.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Mi am pus iubirea",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/Mi-am pus iubirea.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Mâna ta",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/Mâna ta.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Patriei mele",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/Patriei mele.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Rugăciune",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/Rugăciune.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Elena Văcărescu/poezii/Sonet.txt"
+    }
+  ],
+  "proza": []
+}

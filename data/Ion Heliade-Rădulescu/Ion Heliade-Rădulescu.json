@@ -1,0 +1,338 @@
+{
+  "autor": "Ion Heliade-Rădulescu",
+  "poza": "data/Ion Heliade-Rădulescu/bibliografie/Ion_Heliade_Radulescu.jpg",
+  "bibliografie_path": "data/Ion Heliade-Rădulescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adio la anul 1832",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Adio la anul 1832.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Adio la patrie",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Adio la patrie.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Aereopagul bestiilor",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Aereopagul bestiilor.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Anatolida sau Omul si fortele I",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Anatolida sau Omul si fortele I.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Anatolida sau Omul si fortele II",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Anatolida sau Omul si fortele II.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Anatolida sau Omul si fortele III",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Anatolida sau Omul si fortele III.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Anatolida sau Omul si fortele IV",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Anatolida sau Omul si fortele IV.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Anatolida sau Omul si fortele V",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Anatolida sau Omul si fortele V.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Anatolida sau Omul si fortele VI",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Anatolida sau Omul si fortele VI.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Arpa lui David",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Arpa lui David.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Calul, vulpea, lupul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Calul, vulpea, lupul.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Cavalerul Toggenburg",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Cavalerul Toggenburg.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Coada momiţelor",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Coada momiţelor.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Corbul şi vulpea",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Corbul şi vulpea.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Cumetria cioarei când s a numit privighetoare",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Cumetria cioarei când s-a numit privighetoare.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Cutremurul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Cutremurul.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Cântarea dimineţei",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Cântarea dimineţei.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Cântarea dracilor în preziua potopului",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Cântarea dracilor în preziua potopului.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Depărtarea",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Depărtarea.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Destainuirea",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Destainuirea.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Dulcamara",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Dulcamara.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Elegie I. Trecutul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Elegie I. Trecutul.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Elegie II",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Elegie II.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Epigramă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Epigramă.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Epitafe",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Epitafe.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Epitimb",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Epitimb.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Ingratul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Ingratul.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "La Elvira",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/La Elvira.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "La Maria",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/La Maria.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "La moartea lui Carlova",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/La moartea lui Carlova.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "La o mireasă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/La o mireasă.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "La Schiller",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/La Schiller.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "La un poet exilat",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/La un poet exilat.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Mihaida",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Mihaida.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Mircea şi Lazar",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Mircea şi Lazar.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Muştele şi albinele",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Muştele şi albinele.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "O noapte pe ruinele Târgoviştii",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/O noapte pe ruinele Târgoviştii.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "O voce",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/O voce.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Odă asupra aniversării de 2 septembrie 1829",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Odă asupra aniversării de 2 septembrie 1829.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Odă la pavilionul grecesc",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Odă la pavilionul grecesc.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Poezia",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Poezia.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Portret",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Portret.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Portretul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Portretul.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Primul baciu",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Primul baciu.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Serafimul şi heruvimul sau mângâierea conştiinţei şi mustrarea cugetului",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Serafimul şi heruvimul sau mângâierea conştiinţei şi mustrarea cugetului.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Serafita",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Serafita.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Sonet II",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Sonet II.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Sonet la anul 1830",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Sonet la anul 1830.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Sânta cetate",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Sânta cetate.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Un buchet de mireasă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Un buchet de mireasă.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Un muieroi şi o femeie",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Un muieroi şi o femeie.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Visul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Visul.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Zburătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Zburătorul.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "În aşteptarea lui 1848",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/În aşteptarea lui 1848.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Şaradă",
+      "tip": "poezie",
+      "versuri_path": "data/Ion Heliade-Rădulescu/poezii/Şaradă.txt"
+    }
+  ],
+  "proza": []
+}

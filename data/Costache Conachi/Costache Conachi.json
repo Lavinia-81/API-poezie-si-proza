@@ -1,0 +1,98 @@
+{
+  "autor": "Costache Conachi",
+  "poza": "data/Costache Conachi/bibliografie/Costache Conachi.jpg",
+  "bibliografie_path": "data/Costache Conachi/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Amoriul din prieteşug",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Amoriul din prieteşug.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Asară, de un vac trecut",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Asară, de-un vac trecut.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Ce este nurul",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Ce este nurul.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cu prietena mpreună",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Cu prietena-mpreună.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "De ai privi marea vr'odată",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/De-ai privi marea vr'odată.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Dorul",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Dorul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Jaloba mea",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Jaloba mea.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Mă sfârșesc, amar mă doare",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Mă sfârșesc, amar mă doare.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Nume",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Nume.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Omule, slabă fiinţă",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Omule, slabă fiinţă.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Răspunsul unei scrisori",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Răspunsul unei scrisori.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Scrisoare către Zulnia",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Scrisoare către Zulnia.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Săracelor tinerețe",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Săracelor tinerețe.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Visul amoriului",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Visul amoriului.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Ziori de ziuă se revarsă",
+      "tip": "poezie",
+      "versuri_path": "data/Costache Conachi/poezii/Ziori de ziuă se revarsă.txt"
+    }
+  ],
+  "proza": []
+}

@@ -1,0 +1,123 @@
+{
+  "autor": "Nicolae Iorga",
+  "poza": "data/Nicolae Iorga/bibliografie/Nicolae Iorga.jpg",
+  "bibliografie_path": "data/Nicolae Iorga/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adesea",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Adesea.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Azi",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Azi.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Brad bătrân",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Brad bătrân.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Ci de am fi singuri",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Ci de-am fi singuri.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "După cutremur",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/După cutremur.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Forme nouă",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Forme nouă.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Glosse",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Glosse.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Glossă",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Glossă.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Iubire",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Iubire.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Luptă",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Luptă.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Marină",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Marină.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Mistere",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Mistere.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Nu L au cunoscut",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Nu L-au cunoscut.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Pegas",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Pegas.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Regi fugari",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Regi fugari.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Serenada",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Serenada.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "În durere",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/În durere.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Învăţături",
+      "tip": "poezie",
+      "versuri_path": "data/Nicolae Iorga/poezii/Învăţături.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Să nu uităm",
+      "tip": "proza",
+      "versuri_path": "data/Nicolae Iorga/proza/Să nu uităm.txt"
+    }
+  ]
+}

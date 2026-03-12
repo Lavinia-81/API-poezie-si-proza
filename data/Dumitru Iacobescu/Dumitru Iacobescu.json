@@ -1,0 +1,104 @@
+{
+  "autor": "Dumitru Iacobescu",
+  "poza": "data/Dumitru Iacobescu/bibliografie/Dumitru Iacobescu.jpg",
+  "bibliografie_path": "data/Dumitru Iacobescu/bibliografie/Note Bibliografiece.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Amintiri în amurg",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Amintiri în amurg.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Amurg",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Amurg.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Clipe de vară",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Clipe de vară.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Dimineață",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Dimineață.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Eldorado",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Eldorado.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Gavotă",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Gavotă.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Marșul izolaților",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Marșul izolaților.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Melancoliei",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Melancoliei.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Noapte fantastică",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Noapte fantastică.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Nocturna ultimei nopți",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Nocturna ultimei nopți.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Nocturnă",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Nocturnă.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Poem de amiază",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Poem de amiază.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Spleen",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Spleen.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "În port",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/În port.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "În umbră",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/În umbră.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Încătușare",
+      "tip": "poezie",
+      "versuri_path": "data/Dumitru Iacobescu/poezii/Încătușare.txt"
+    }
+  ],
+  "proza": []
+}

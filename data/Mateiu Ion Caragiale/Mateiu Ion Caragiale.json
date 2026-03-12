@@ -1,0 +1,135 @@
+{
+  "autor": "Mateiu Ion Caragiale",
+  "poza": "data/Mateiu Ion Caragiale/bibliografie/Mateiu Ion Caragiale.jpg",
+  "bibliografie_path": "data/Mateiu Ion Caragiale/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Aspra",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Aspra.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Boierul",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Boierul.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Clio",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Clio.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cronicarul",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Cronicarul.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Curţile vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Curţile vechi.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Călugăriţa",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Călugăriţa.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Domniţa",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Domniţa.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Dormi",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Dormi.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Dregătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Dregătorul.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Grădinele amăgirii",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Grădinele amăgirii.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "La Argeş",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/La Argeş.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Lauda cuceritorului",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Lauda cuceritorului.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Mărturisire",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Mărturisire.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Noapte roşie",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Noapte roşie.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Prohodul războinicului",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Prohodul războinicului.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Sihastrul şi umbra",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Sihastrul şi umbra.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Singurătatea",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Singurătatea.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Trântorul",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Trântorul.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Întoarcerea învinsului",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Întoarcerea învinsului.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Înţeleptul",
+      "tip": "poezie",
+      "versuri_path": "data/Mateiu Ion Caragiale/poezii/Înţeleptul.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Când Omul vorbește",
+      "tip": "proza",
+      "versuri_path": "data/Mateiu Ion Caragiale/proza/Când Omul vorbește.txt"
+    }
+  ]
+}

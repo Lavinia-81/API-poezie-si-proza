@@ -1,0 +1,62 @@
+{
+  "autor": "George Ranetti",
+  "poza": "data/George Ranetti/bibliografie/George-Ranetti.jpg",
+  "bibliografie_path": "data/George Ranetti/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "0 și 1",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/0 și 1.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Amintire",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Amintire.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Ca și odinioară",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Ca și odinioară.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cântecul mării",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Cântecul mării.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Lui C. Nottara",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Lui C. Nottara.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Plugul și tunul",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Plugul și tunul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Rapsodia Dâmboviței",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Rapsodia Dâmboviței.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Sonet Fabulă",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Sonet -Fabulă.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Triptic marin",
+      "tip": "poezie",
+      "versuri_path": "data/George Ranetti/poezii/Triptic marin.txt"
+    }
+  ],
+  "proza": []
+}

@@ -1,0 +1,453 @@
+{
+  "autor": "Veronica Micle",
+  "poza": "data/Veronica Micle/bibliografie/Veronic Micle.jpg",
+  "bibliografie_path": "data/Veronica Micle/bibliografie/Note Bibliografice",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Ah! Du te",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Ah! Du-te.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Ah! Fugi",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Ah! Fugi.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Ai plecat",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Ai plecat.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Albastrelele",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Albastrelele.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Am plecat",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Am plecat.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Ar fi destul",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Ar fi destul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "As vrea să viu",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/As vrea să viu.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Aubade",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Aubade.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Ca astazi",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Ca astazi.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Ca mi ar zdrobi suspinul",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Ca mi-ar zdrobi suspinul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Cand imi plec",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Cand imi plec.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Cand noaptea e adanca",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Cand noaptea e adanca.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Ce n-ar da un mort din groapa",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Ce n-ar da un mort din groapa.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Cel din urma vis",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Cel din urma vis.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Cu gandul",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Cu gandul.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "D-nei Aristita Manolescu",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/D-nei Aristita Manolescu.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "De ce in sufletul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/De ce in sufletul meu.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "De ce ti mai numeri anii",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/De ce-ti mai numeri anii.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "De dorul tau",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/De dorul tau.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "De pe tarmurile lumii",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/De pe tarmurile lumii.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "De pe un varf",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/De pe-un varf.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "De ai şti",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/De-ai şti.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "De as putea",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/De-as putea.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Dialog liric",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Dialog liric.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Din pulberea iubirii",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Din pulberea iubirii.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Din sufletu mi",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Din sufletu-mi.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Domnisoarei Elena Theodorini",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Domnisoarei Elena Theodorini.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Drag mi ai fost",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Drag mi-ai fost.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Frumoasa, sfanta poezie",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Frumoasa, sfanta poezie.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Fugi",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Fugi.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Glasul durerei",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Glasul durerei.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Iluziile mele",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Iluziile mele.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "In cenusa",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/In cenusa.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "In dorul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/In dorul meu.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "In zadar",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/In zadar.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "La portretul unui poet",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/La portretul unui poet.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "La un portret",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/La un portret.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Lac oglinda",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Lac oglinda.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Lacrime şi lacrime",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Lacrime şi lacrime.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Langa leagan",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Langa leagan.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Lui X",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Lui X.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Lumea mare",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Lumea mare.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Lumineaza n ceruri luna",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Lumineaza-n ceruri luna.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "M am gândit",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/M-am gândit.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Moarte fugi",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Moarte fugi.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Nu esti tu",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Nu esti tu.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Nu plânge",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Nu plânge.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "O clipa dac ai amortit",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/O clipa dac-ai amortit.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "O, moarte",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/O, moarte.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Pasare cu pene albastre",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Pasare cu pene albastre.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Pe ceruri",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Pe ceruri.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Pe al meu gand",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Pe-al meu gand.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Raze de lună",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Raze de lună.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Rime la un, amic",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Rime la un, amic.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "S a pus valul",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/S-a pus valul.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Sa stii ca oriunde",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Sa stii ca oriunde.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Scrisoare",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Scrisoare.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Scrisoarea II",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Scrisoarea-II.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Si daca un dor",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Si daca-un dor.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Si pulbere, tarana",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Si pulbere, tarana.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Si ura si iubirea",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Si ura si iubirea.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Singurul noroc",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Singurul noroc.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Singură",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Singură.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Sterge ti lacrima",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Sterge-ti lacrima.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Stiu ca amorul tau",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Stiu ca amorul tau.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Sunt lacrimioarele nflorite",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Sunt lacrimioarele-nflorite.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Să pot întinde mâna",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Să pot întinde mâna.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Trista de ce i",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Trista de ce-i.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Uitarea",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Uitarea.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Visul",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Visul.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Și cum s a stins",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Și cum s-a stins.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Și te urăsc",
+      "tip": "poezie",
+      "versuri_path": "data/Veronica Micle/poezii/Și te urăsc.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Domnul Eminescu",
+      "tip": "proza",
+      "versuri_path": "data/Veronica Micle/proza/Domnul Eminescu.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Mitule Băet iubit și drăgălaș",
+      "tip": "proza",
+      "versuri_path": "data/Veronica Micle/proza/Mitule Băet iubit și drăgălaș.txt"
+    }
+  ]
+}

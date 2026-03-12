@@ -1,0 +1,536 @@
+{
+  "autor": "Ştefan Octavian Iosif",
+  "poza": "data/Ştefan Octavian Iosif/bibliografie/Ștefan_Octavian_Iosif.jpg",
+  "bibliografie_path": "data/Ştefan Octavian Iosif/bibliografie/Note Bibliografie.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Acolo",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Acolo.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Adio",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Adio.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Amintire",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Amintire.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Apa morţilor",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Apa morţilor.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "April",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/April.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Așteptare",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Așteptare.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Basm neisprăvit",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Basm neisprăvit.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Bunica",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Bunica.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Cerşetorii",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cerşetorii.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Ciobănașul",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Ciobănașul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Clopotele din Nürnberg",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Clopotele din Nürnberg.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Cobzarul",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cobzarul.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Cu fruntea n mâna albă",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cu fruntea-n mâna albă.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Câmpiei",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Câmpiei.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Câmpul libertăţii",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Câmpul libertăţii.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Când seara n ceasuri de singurătate",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Când seara-n ceasuri de singurătate.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Cântec de leagăn",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cântec de leagăn.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Cântec de primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cântec de primăvară.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Cântec sfânt",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cântec sfânt.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Cântec vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cântec vechi.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Cântărețul",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Cântărețul.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Către lună",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Către lună.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Dedicaţie",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Dedicaţie.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Din Paris",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Din Paris.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Doi prieteni",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Doi prieteni.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Doina",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Doina.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Domnu profesor",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Domnu profesor.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Dorm visurile tale",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Dorm visurile tale.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "După boală",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/După boală.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "După o citire din Eminescu",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/După o citire din Eminescu.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "E mult de atunci",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/E mult de-atunci.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Elegie",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Elegie.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Eroica hotărâre",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Eroica hotărâre.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Fulgii",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Fulgii .txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Furtuna",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Furtuna.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Goana",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Goana.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Grădina morţii",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Grădina morţii.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Harpistul",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Harpistul.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Icoane din Carpați",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Icoane din Carpați.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Ideal",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Ideal.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Ielele",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Ielele.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "IX",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/IX.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "La arme",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/La arme.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "La fereastra spre livadă",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/La fereastra spre livadă.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Linişte",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Linişte.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Lumea lor",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Lumea lor.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Mandolinate",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Mandolinate.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Mergeam în întuneric şi fără nici o ţintă",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Mergeam în întuneric şi fără nici o ţintă.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Mi e dor de un vis",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Mi-e dor de-un vis.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Mi e dor",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Mi-e dor.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Noaptea sub schele",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Noaptea sub schele.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Nopţi de veghe",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Nopţi de veghe.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Nucul",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Nucul.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Pasteluri",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Pasteluri.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Poezia",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Poezia.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Pomul fermecat",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Pomul fermecat.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Poveste",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Poveste.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Pribeagul",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Pribeagul.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Primaverii",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Primaverii.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Pîinea noastră cea de toate zilele",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Pîinea noastră cea de toate zilele.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Revedere",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Revedere.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Robul(baladă)",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Robul(baladă).txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Romanţa",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Romanţa.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Rozele",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Rozele.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Rugă",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Rugă.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Răzleţe",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Răzleţe.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "S a nnoptat",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/S-a-nnoptat.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Salcâmul",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Salcâmul.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Scrisoare lui Goga",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Scrisoare lui Goga.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Se ntorc iar zilele noroase",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Se-ntorc iar zilele noroase.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Singur",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Singur.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Somnul lui corbea",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Somnul lui corbea.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Sonet modern",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Sonet modern.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Spre primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Spre primăvară.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Surorile",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Surorile.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Sărbătoare",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Sărbătoare.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Te duci",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Te duci.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Terţine",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Terţine.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Toamnă.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Tălăngi",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Tălăngi.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Un cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Un cântec.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Un imn francez lui Eminescu",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Un imn francez lui Eminescu.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Vară",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Vară.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Veselie",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Veselie.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Înserare",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Înserare.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Învins",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Învins.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Înşiră te margăritare",
+      "tip": "poezie",
+      "versuri_path": "data/Ştefan Octavian Iosif/poezii/Înşiră-te margăritare.txt"
+    }
+  ],
+  "proza": []
+}

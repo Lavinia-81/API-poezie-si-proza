@@ -1,0 +1,188 @@
+{
+  "autor": "Cezar Bolliac",
+  "poza": "data/Cezar Bolliac/bibliografie/cezar-bolliac.jpg",
+  "bibliografie_path": "data/Cezar Bolliac/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Acvila străbună",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Acvila străbună.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Ai vrea, precum se vede, să ţi mai aduci aminte",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Ai vrea, precum se vede, să-ţi mai aduci aminte.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Alaiul unui cerşetor",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Alaiul unui cerşetor.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Apostrofă",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Apostrofă.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Carnavalul",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Carnavalul.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cele trebuincioase",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Cele trebuincioase.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Clăcaşul",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Clăcaşul.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Cugetare",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Cugetare.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Cântec oltenesc",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Cântec oltenesc.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Deşertul mi e o lume",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Deşertul mi-e o lume.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Epistolă la D.K.A.K",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Epistolă la D.K.A.K.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Holera ciocoilor",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Holera ciocoilor.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "La România",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/La România.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "La un copil",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/La un copil.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Meşterul Manole",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Meşterul Manole.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Muncitorul",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Muncitorul.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "O dimineaţă pe Caraiman",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/O dimineaţă pe Caraiman.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Ocna",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Ocna.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Pedeapsa cu moarte",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Pedeapsa cu moarte.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Salahorul",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Salahorul.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Sila",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Sila.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Speranţa în ziua de mâine",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Speranţa în ziua de mâine.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Un suvenir",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Un suvenir.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Vaca văduvei",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Vaca văduvei.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Vara",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Vara.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Zburătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Zburătorul.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Zdrobită geme inima n mine etc",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Zdrobită geme inima-n mine etc.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Şi ce ar fi poezia",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Şi ce-ar fi poezia.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Ţiganul vîndut",
+      "tip": "poezie",
+      "versuri_path": "data/Cezar Bolliac/poezii/Ţiganul vîndut.txt"
+    }
+  ],
+  "proza": []
+}

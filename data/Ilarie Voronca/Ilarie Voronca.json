@@ -1,0 +1,716 @@
+{
+  "autor": "Ilarie Voronca",
+  "poza": "data/Ilarie Voronca/bibliografie/Ilarie Veronca.jpg",
+  "bibliografie_path": "data/Ilarie Voronca/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "A reface lumea",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/A reface lumea.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "AAAA AA AAAAA AAAA E EEEEEE EEEEE EE",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/AAAA AA AAAAA AAAA E EEEEEE EEEEE EE.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Acum în tipografii",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Acum în tipografii.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Alaiul tăcerii",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Alaiul tăcerii.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Almanah",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Almanah.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Alt calendar",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Alt calendar.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Alte păreri de rău",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Alte păreri de rău.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Am aruncat",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Am aruncat.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Annie",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Annie.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Apusul îți dăruie prin frunzișul de slove",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Apusul îți dăruie prin frunzișul de slove.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Aruncă în văgăuni",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Aruncă în văgăuni.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Balcon vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Balcon vechi.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Balul coralilor",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Balul coralilor.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Broderii",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Broderii.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Brățară nopților",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Brățară nopților.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Bucurii îngăduite",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Bucurii îngăduite.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Bună ziua urcă limpede",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Bună-ziua urcă limpede.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Camera",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Camera.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Capul legat de soare",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Capul legat de soare.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Cartierele noi",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cartierele noi.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Ce scrumieră noaptea",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ce scrumieră noaptea.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Ceva luminos",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ceva luminos.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Cineva îmi vorbește",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cineva îmi vorbește.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Cină cu Jeanne Coppel",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cină cu Jeanne Coppel.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Ciubotele de șapte poști",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ciubotele de șapte poști.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Cloroform",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cloroform.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Colomba",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Colomba.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Compasu acestei ape",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Compasu-acestei ape.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Concluziuni",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Concluziuni.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Constanța",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Constanța.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Contrabanda",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Contrabanda.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Cotnar",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cotnar.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Cu inima în frunză",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cu inima în frunză.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Cu inimile albe",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cu inimile albe.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Cu lebezi înserez",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cu lebezi înserez.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Cuvinte esențiale",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Cuvinte esențiale.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Câte statui tulpina ta apleacă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Câte statui tulpina ta apleacă.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Dincolo de noi",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Dincolo de noi.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Discurs pentru comemorarea câinelui Serafina",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Discurs pentru comemorarea câinelui Serafina.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "El singur",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/El singur.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Elegie",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Elegie.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Femeia cu vioara",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Femeia cu vioara.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Frontierele văzduhului",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Frontierele văzduhului.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Frumusețea acestei lumi",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Frumusețea acestei lumi.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Fruntariile vorbelor",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Fruntariile vorbelor.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Fuga poetului",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Fuga poetului.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Gânduri pentru Soveja",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Gânduri pentru Soveja.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Hidrofil",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Hidrofil.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Hotar",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Hotar.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Hotarul de fum",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Hotarul de fum.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Ilustre ziduri",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ilustre ziduri.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Invitație la bal",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Invitație la bal.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "La o oră incertă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/La o oră incertă.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Lanterna magică",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Lanterna magică.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Laptele ierbilor",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Laptele ierbilor.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Leagănul de zăpadă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Leagănul de zăpadă.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Lene",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Lene.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Mai târziu",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Mai târziu.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Marele plugar al solitudinii",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Marele plugar al solitudinii.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Martorii",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Martorii.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Mulțime, tu",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Mulțime, tu.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Mărgelele stelelor",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Mărgelele stelelor.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Naştere glorioasă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Naştere glorioasă.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Neliniști",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Neliniști.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Noaptea e o fundă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Noaptea e o fundă.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Nopțile trec",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Nopțile trec.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Norul",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Norul.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Nu e ultima haltă, dar din înaltul acestei coline",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Nu e ultima haltă, dar din înaltul acestei coline.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "O femeie, un fulger",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/O femeie, un fulger.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "O tulpină bate la ușă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/O tulpină bate la ușă.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Ochii",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ochii.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Odăi visate",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Odăi visate.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Ora ceaiului",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ora ceaiului.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Orașul fără nume",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Orașul fără nume.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Orașul fără poeți",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Orașul fără poeți.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Oval",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Oval.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Pian",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Pian.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Pneu",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Pneu.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Poem (1)",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Poem (1).txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Poem (2)",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Poem (2).txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Pregătiri de plecare",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Pregătiri de plecare.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Priveşte",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Priveşte.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Profil tăiat dintr o lacrimă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Profil tăiat dintr-o lacrimă.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Punct",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Punct.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Păsări împart somnul în înălţime",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Păsări împart somnul în înălţime.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Păuni culorile năvălesc în priviri",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Păuni culorile năvălesc în priviri.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Ridică vioară",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ridică vioară.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Scoica de pământ",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Scoica de pământ.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Scris cu cerneală simpatică",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Scris cu cerneală simpatică.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Semnalizări [I]",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Semnalizări [I].txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Sonata",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Sonata.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Steagul singurătății",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Steagul singurătății.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Strofa I + Strofa II",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Strofa I + Strofa II.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Sângele din lampa",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Sângele din lampa.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Sângele scurs în palmă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Sângele scurs în palmă.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Să întârzii la acest profil",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Să întârzii la acest profil.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Să întârzii",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Să întârzii.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Te plimbi",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Te plimbi.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Temnița de fum",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Temnița de fum.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Tristeţi",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Tristeţi.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Tristeți de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Tristeți de toamnă.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Tu sau eu, sau orice",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Tu sau eu, sau orice.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Ulise (II)",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ulise (II).txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Ulise (III)",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ulise (III).txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Ulise (IV)",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ulise (IV).txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Ulise",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Ulise.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Un braț alunecă",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Un braț alunecă.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Un semn al lui octombrie",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Un semn al lui octombrie.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Un străin la poarta orașului",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Un străin la poarta orașului.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Un vultur în piept",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Un vultur în piept.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Uneltele călătoriei",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Uneltele călătoriei.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Viorile de fum",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Viorile de fum.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Zborul vulturului",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Zborul vulturului.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Zăpadă floare a aerului",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Zăpadă floare a aerului.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Împărțirea somnului",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Împărțirea somnului.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "În diamant tăcerea",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/În diamant tăcerea.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "În oglinzi plantele",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/În oglinzi plantele.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Îți închin",
+      "tip": "poezie",
+      "versuri_path": "data/Ilarie Voronca/poezii/Îți închin.txt"
+    }
+  ],
+  "proza": []
+}

@@ -1,0 +1,38 @@
+{
+  "autor": "Vasile Cârlova",
+  "poza": "data/Vasile Cârlova/bibliografie/Vasile Carlova.jpg",
+  "bibliografie_path": "data/Vasile Cârlova/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Marșul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Cârlova/poezii/Marșul.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Păstorul întristat",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Cârlova/poezii/Păstorul întristat.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Rugăciune",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Cârlova/poezii/Rugăciune.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Ruinurile Târgoviștii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Cârlova/poezii/Ruinurile Târgoviștii.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Înserarea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Cârlova/poezii/Înserarea.txt"
+    }
+  ],
+  "proza": []
+}

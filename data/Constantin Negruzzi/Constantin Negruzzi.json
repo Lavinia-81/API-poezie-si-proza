@@ -1,0 +1,39 @@
+{
+  "autor": "Constantin Negruzzi",
+  "poza": "data/Constantin Negruzzi/bibliografie/Constantin_Negruzzi.jpg",
+  "bibliografie_path": "data/Constantin Negruzzi/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Apolog",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Negruzzi/poezii/Apolog.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Eu sunt român",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Negruzzi/poezii/Eu sunt român.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Ghicitoare",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Negruzzi/poezii/Ghicitoare.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Melancolie",
+      "tip": "poezie",
+      "versuri_path": "data/Constantin Negruzzi/poezii/Melancolie.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Flora română",
+      "tip": "proza",
+      "versuri_path": "data/Constantin Negruzzi/proza/Flora română.txt"
+    }
+  ]
+}

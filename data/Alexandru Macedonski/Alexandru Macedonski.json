@@ -1,0 +1,1430 @@
+{
+  "autor": "Alexandru Macedonski",
+  "poza": "data/Alexandru Macedonski/bibliografie/Alexandru-Macedonski.jpg",
+  "bibliografie_path": "data/Alexandru Macedonski/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Accente intime",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Accente intime.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Acorduri sfărâmate",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Acorduri sfărâmate.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Acşam dovalar",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Acşam dovalar.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Albaspină",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Albaspină.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Alea jacta est",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Alea jacta est.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Amintiri",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Amintiri.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Amorul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Amorul.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Amărăciune",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Amărăciune.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Apolog",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Apolog.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Apus",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Apus.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Aripi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Aripi.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Asupra primului meu volum",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Asupra primului meu volum.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Avatar",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Avatar.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Avânt",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Avânt.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Banchet la curte",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Banchet la curte.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Buchetul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Buchetul.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Bucolica undă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Bucolica undă.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Bătrâna stâncă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Bătrâna stâncă.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Calul arabului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Calul arabului.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Camee I. Cuvântul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Camee - I. Cuvântul.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Camee II. Nu trebuie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Camee - II. Nu trebuie.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Camee III. Cinstitule",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Camee - III. Cinstitule.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Camee",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Camee.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Castele n Spania",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Castele-n Spania.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Castelul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Castelul.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Chipul poeziei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Chipul poeziei.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Corabia",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Corabia.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Cu morţii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Cu morţii.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Curtea cu jurați",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Curtea cu jurați.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Când aripi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Când aripi.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Când toate trec şi mbătrânesc",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Când toate trec şi-mbătrânesc.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Cântec de renaştere",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Cântec de renaştere.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Cântec voluptuos",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Cântec voluptuos.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Cântecul ploaiei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Cântecul ploaiei.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Cântecul și poetul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Cântecul și poetul.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Către viitorime",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Către viitorime.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "De aş sti",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/De-aş sti.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Desperarea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Desperarea.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Destinul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Destinul.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Destul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Destul.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Din ce în ce",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Din ce în ce.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Dor zadarnic",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Dor zadarnic.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Dormi dulce",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Dormi dulce.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Ecourile nopţii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Ecourile nopţii.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Epigraf",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Epigraf.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Epigramă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Epigramă.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Epoca",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Epoca.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Excelsior",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Excelsior.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Faunul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Faunul.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Filozofia morții",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Filozofia morții.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Focul sacru",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Focul sacru.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Formele",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Formele.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Fântâna",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Fântâna.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Geniurilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Geniurilor.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Grija de mâine",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Grija de mâine.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Gândului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Gândului.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Hinov",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Hinov.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Homo sum",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Homo sum.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Hora",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Hora.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Imn",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Imn.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "La bestii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/La bestii.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "La harpă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/La harpă.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "La suflet",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/La suflet.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "La visul profan",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/La visul profan.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Leat",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Leat.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Legenda Siminocului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Legenda Siminocului.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Leul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Leul.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Lewki",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Lewki.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Libelule",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Libelule.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Lui Cetalo Pol",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Lui Cetalo Pol.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Lupta și toate sunetele ei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Lupta și toate sunetele ei.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "M am dus departe",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/M-am dus departe.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Mai",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Mai.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Moartea este o minciună",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Moartea este o minciună.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Moise",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Moise.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Mă uit la cer",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Mă uit la cer.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Mănăstirea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Mănăstirea.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Naiada",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Naiada.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Naufragiu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Naufragiu.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Nebunul din Golia",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Nebunul din Golia.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Nepăsare",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Nepăsare.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Neron",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Neron.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Nimic, nici chiar speranţa",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Nimic, nici chiar speranţa.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Ningea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Ningea.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Niponul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Niponul.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Noapte de iulie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noapte de iulie.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Noaptea albă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea albă.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Noaptea de aprilie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de aprilie.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Noaptea de august",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de august.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Noaptea de decembrie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de decembrie.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Noaptea de februarie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de februarie.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Noaptea de ianuarie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de ianuarie.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Noaptea de iulie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de iulie.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Noaptea de mai",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de mai.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Noaptea de martie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de martie.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Noaptea de noiembrie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de noiembrie.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Noaptea de octombrie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de octombrie.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Noaptea de septembrie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea de septembrie.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Noaptea neagră",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Noaptea neagră.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Nu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Nu.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Năluca unei nopți",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Năluca unei nopți.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Nălucirea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Nălucirea.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "O umbră de dincolo de Styx",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/O umbră de dincolo de Styx.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Ocnele",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Ocnele.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Odă la condeiul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Odă la condeiul meu.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Oh! suflet orb",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Oh! suflet orb.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Orașul mic te fură ncet",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Orașul mic te fură-ncet.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Orchestrare",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Orchestrare.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Ospățul lui Pentaur",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Ospățul lui Pentaur.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Palidă umbră",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Palidă umbră.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Pe balta clară",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Pe balta clară.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Pe lacul de gardă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Pe lacul de gardă.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Pe sânurile",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Pe sânurile.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Perihelie",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Perihelie.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "Plecare",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Plecare.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Poeţii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Poeţii.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Prietenie apusă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Prietenie apusă.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Primăvara naște, floarea înflorește",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Primăvara naște, floarea înflorește.txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Primăvara",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Primăvara.txt"
+    },
+    {
+      "id": "poezie-121",
+      "titlu": "Prin șelbea ntunecoasă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Prin șelbea-ntunecoasă.txt"
+    },
+    {
+      "id": "poezie-122",
+      "titlu": "Psalmi moderni I",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - I.txt"
+    },
+    {
+      "id": "poezie-123",
+      "titlu": "Psalmi moderni II",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - II.txt"
+    },
+    {
+      "id": "poezie-124",
+      "titlu": "Psalmi moderni III",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - III.txt"
+    },
+    {
+      "id": "poezie-125",
+      "titlu": "Psalmi moderni IV",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - IV.txt"
+    },
+    {
+      "id": "poezie-126",
+      "titlu": "Psalmi moderni IX",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - IX.txt"
+    },
+    {
+      "id": "poezie-127",
+      "titlu": "Psalmi moderni V",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - V.txt"
+    },
+    {
+      "id": "poezie-128",
+      "titlu": "Psalmi moderni VI",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - VI.txt"
+    },
+    {
+      "id": "poezie-129",
+      "titlu": "Psalmi moderni VII",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - VII.txt"
+    },
+    {
+      "id": "poezie-130",
+      "titlu": "Psalmi moderni VIII",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - VIII.txt"
+    },
+    {
+      "id": "poezie-131",
+      "titlu": "Psalmi moderni X",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - X.txt"
+    },
+    {
+      "id": "poezie-132",
+      "titlu": "Psalmi moderni XI",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Psalmi moderni - XI.txt"
+    },
+    {
+      "id": "poezie-133",
+      "titlu": "Pădurea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Pădurea.txt"
+    },
+    {
+      "id": "poezie-134",
+      "titlu": "Raze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Raze.txt"
+    },
+    {
+      "id": "poezie-135",
+      "titlu": "Reîntoarcerea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Reîntoarcerea.txt"
+    },
+    {
+      "id": "poezie-136",
+      "titlu": "Rimele cântă pe harpă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rimele cântă pe harpă.txt"
+    },
+    {
+      "id": "poezie-137",
+      "titlu": "Romanţa garoafei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Romanţa garoafei.txt"
+    },
+    {
+      "id": "poezie-138",
+      "titlu": "Romanța frunzei de chiparos",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Romanța frunzei de chiparos.txt"
+    },
+    {
+      "id": "poezie-139",
+      "titlu": "Rondelul ajungerii la cer",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul ajungerii la cer.txt"
+    },
+    {
+      "id": "poezie-140",
+      "titlu": "Rondelul apei din ograda japonezului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul apei din ograda japonezului.txt"
+    },
+    {
+      "id": "poezie-141",
+      "titlu": "Rondelul beat de roze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul beat de roze.txt"
+    },
+    {
+      "id": "poezie-142",
+      "titlu": "Rondelul cascadelor de roze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul cascadelor de roze.txt"
+    },
+    {
+      "id": "poezie-143",
+      "titlu": "Rondelul cercetasilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul cercetasilor.txt"
+    },
+    {
+      "id": "poezie-144",
+      "titlu": "Rondelul chinezilor din Paris",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul chinezilor din Paris.txt"
+    },
+    {
+      "id": "poezie-145",
+      "titlu": "Rondelul contimporanilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul contimporanilor.txt"
+    },
+    {
+      "id": "poezie-146",
+      "titlu": "Rondelul coroanelor nepieritoare",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul coroanelor nepieritoare.txt"
+    },
+    {
+      "id": "poezie-147",
+      "titlu": "Rondelul crinilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul crinilor.txt"
+    },
+    {
+      "id": "poezie-148",
+      "titlu": "Rondelul ctitorilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul ctitorilor.txt"
+    },
+    {
+      "id": "poezie-149",
+      "titlu": "Rondelul cupei de Murano",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul cupei de Murano.txt"
+    },
+    {
+      "id": "poezie-150",
+      "titlu": "Rondelul de aur",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul de aur.txt"
+    },
+    {
+      "id": "poezie-151",
+      "titlu": "Rondelul dezastrului mondial",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul dezastrului mondial.txt"
+    },
+    {
+      "id": "poezie-152",
+      "titlu": "Rondelul domniţei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul domniţei.txt"
+    },
+    {
+      "id": "poezie-153",
+      "titlu": "Rondelul duminicilor de la Bellevue",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul duminicilor de la Bellevue.txt"
+    },
+    {
+      "id": "poezie-154",
+      "titlu": "Rondelul florilor de lună",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul florilor de lună.txt"
+    },
+    {
+      "id": "poezie-155",
+      "titlu": "Rondelul Franței burgheze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul Franței burgheze.txt"
+    },
+    {
+      "id": "poezie-156",
+      "titlu": "Rondelul Ioshiwarei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul Ioshiwarei.txt"
+    },
+    {
+      "id": "poezie-157",
+      "titlu": "Rondelul lucrurilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul lucrurilor.txt"
+    },
+    {
+      "id": "poezie-158",
+      "titlu": "Rondelul lui Saadi ieşind dintre roze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul lui Saadi ieşind dintre roze.txt"
+    },
+    {
+      "id": "poezie-159",
+      "titlu": "Rondelul lui Saadi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul lui Saadi.txt"
+    },
+    {
+      "id": "poezie-160",
+      "titlu": "Rondelul lui Tsing Ly Tsi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul lui Tsing-Ly-Tsi.txt"
+    },
+    {
+      "id": "poezie-161",
+      "titlu": "Rondelul lunei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul lunei.txt"
+    },
+    {
+      "id": "poezie-162",
+      "titlu": "Rondelul marilor roze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul marilor roze.txt"
+    },
+    {
+      "id": "poezie-163",
+      "titlu": "Rondelul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul meu.txt"
+    },
+    {
+      "id": "poezie-164",
+      "titlu": "Rondelul morii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul morii.txt"
+    },
+    {
+      "id": "poezie-165",
+      "titlu": "Rondelul muzmeiei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul muzmeiei.txt"
+    },
+    {
+      "id": "poezie-166",
+      "titlu": "Rondelul Mării Japoneze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul Mării Japoneze.txt"
+    },
+    {
+      "id": "poezie-167",
+      "titlu": "Rondelul nopții argintate",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul nopții argintate.txt"
+    },
+    {
+      "id": "poezie-168",
+      "titlu": "Rondelul oglindei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul oglindei.txt"
+    },
+    {
+      "id": "poezie-169",
+      "titlu": "Rondelul opiumului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul opiumului.txt"
+    },
+    {
+      "id": "poezie-170",
+      "titlu": "Rondelul orasului din Indii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul orasului din Indii.txt"
+    },
+    {
+      "id": "poezie-171",
+      "titlu": "Rondelul orasului mic",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul orasului mic.txt"
+    },
+    {
+      "id": "poezie-172",
+      "titlu": "Rondelul oraşului de altădată",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul oraşului de altădată.txt"
+    },
+    {
+      "id": "poezie-173",
+      "titlu": "Rondelul orelor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul orelor.txt"
+    },
+    {
+      "id": "poezie-174",
+      "titlu": "Rondelul Pagodei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul Pagodei.txt"
+    },
+    {
+      "id": "poezie-175",
+      "titlu": "Rondelul Parisului iad",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul Parisului iad.txt"
+    },
+    {
+      "id": "poezie-176",
+      "titlu": "Rondelul plecarei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul plecarei.txt"
+    },
+    {
+      "id": "poezie-177",
+      "titlu": "Rondelul podului de onix",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul podului de onix.txt"
+    },
+    {
+      "id": "poezie-178",
+      "titlu": "Rondelul privighetoarei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul privighetoarei.txt"
+    },
+    {
+      "id": "poezie-179",
+      "titlu": "Rondelul rozei ce înflorește",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul rozei ce înflorește.txt"
+    },
+    {
+      "id": "poezie-180",
+      "titlu": "Rondelul rozelor ce mor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul rozelor ce mor.txt"
+    },
+    {
+      "id": "poezie-181",
+      "titlu": "Rondelul rozelor de august",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul rozelor de august.txt"
+    },
+    {
+      "id": "poezie-182",
+      "titlu": "Rondelul rozelor de azi și de ieri",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul rozelor de azi și de ieri.txt"
+    },
+    {
+      "id": "poezie-183",
+      "titlu": "Rondelul rozelor din Cişmegi",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul rozelor din Cişmegi.txt"
+    },
+    {
+      "id": "poezie-184",
+      "titlu": "Rondelul sfârșitului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul sfârșitului.txt"
+    },
+    {
+      "id": "poezie-185",
+      "titlu": "Rondelul ticăloșilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul ticăloșilor.txt"
+    },
+    {
+      "id": "poezie-186",
+      "titlu": "Rondelul tiganilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul tiganilor.txt"
+    },
+    {
+      "id": "poezie-187",
+      "titlu": "Rondelul trecutului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul trecutului.txt"
+    },
+    {
+      "id": "poezie-188",
+      "titlu": "Rondelul uriașului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul uriașului.txt"
+    },
+    {
+      "id": "poezie-189",
+      "titlu": "Rondelul înălțimilor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelul înălțimilor.txt"
+    },
+    {
+      "id": "poezie-190",
+      "titlu": "Rondelurile Senei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Rondelurile Senei.txt"
+    },
+    {
+      "id": "poezie-191",
+      "titlu": "Râșmelița morților",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Râșmelița morților.txt"
+    },
+    {
+      "id": "poezie-192",
+      "titlu": "Răspuns la câțiva critici",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Răspuns la câțiva critici.txt"
+    },
+    {
+      "id": "poezie-193",
+      "titlu": "Se duce",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Se duce.txt"
+    },
+    {
+      "id": "poezie-194",
+      "titlu": "Sentința",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Sentința.txt"
+    },
+    {
+      "id": "poezie-195",
+      "titlu": "Sonetul din zări",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Sonetul din zări.txt"
+    },
+    {
+      "id": "poezie-196",
+      "titlu": "Sonetul nestematelor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Sonetul nestematelor.txt"
+    },
+    {
+      "id": "poezie-197",
+      "titlu": "Sonetul puterii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Sonetul puterii.txt"
+    },
+    {
+      "id": "poezie-198",
+      "titlu": "Stepa",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Stepa.txt"
+    },
+    {
+      "id": "poezie-199",
+      "titlu": "Strigătul inimii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Strigătul inimii.txt"
+    },
+    {
+      "id": "poezie-200",
+      "titlu": "Stuful de liliac",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Stuful de liliac.txt"
+    },
+    {
+      "id": "poezie-201",
+      "titlu": "Sub munți",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Sub munți.txt"
+    },
+    {
+      "id": "poezie-202",
+      "titlu": "Sub stele",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Sub stele.txt"
+    },
+    {
+      "id": "poezie-203",
+      "titlu": "Suo tempore",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Suo tempore.txt"
+    },
+    {
+      "id": "poezie-204",
+      "titlu": "Sărac și curat",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Sărac și curat.txt"
+    },
+    {
+      "id": "poezie-205",
+      "titlu": "Te înțeleg, o! Țepeș",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Te înțeleg, o! Țepeș.txt"
+    },
+    {
+      "id": "poezie-206",
+      "titlu": "Templul bogăţiei",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Templul bogăţiei.txt"
+    },
+    {
+      "id": "poezie-207",
+      "titlu": "Tinerețea eternă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Tinerețea eternă.txt"
+    },
+    {
+      "id": "poezie-208",
+      "titlu": "Tinerețea",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Tinerețea.txt"
+    },
+    {
+      "id": "poezie-209",
+      "titlu": "Tu ce ești a naște",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Tu ce ești a naște.txt"
+    },
+    {
+      "id": "poezie-210",
+      "titlu": "Tutunul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Tutunul.txt"
+    },
+    {
+      "id": "poezie-211",
+      "titlu": "Tânărul bătrân",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Tânărul bătrân.txt"
+    },
+    {
+      "id": "poezie-212",
+      "titlu": "Unuia",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Unuia.txt"
+    },
+    {
+      "id": "poezie-213",
+      "titlu": "Ursitoarele",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Ursitoarele.txt"
+    },
+    {
+      "id": "poezie-214",
+      "titlu": "Ură",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Ură.txt"
+    },
+    {
+      "id": "poezie-215",
+      "titlu": "Valţul rozelor",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Valţul rozelor.txt"
+    },
+    {
+      "id": "poezie-216",
+      "titlu": "Vaporul Morţii",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Vaporul Morţii.txt"
+    },
+    {
+      "id": "poezie-217",
+      "titlu": "Vasul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Vasul.txt"
+    },
+    {
+      "id": "poezie-218",
+      "titlu": "Vei crede",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Vei crede.txt"
+    },
+    {
+      "id": "poezie-219",
+      "titlu": "Vioristul",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Vioristul.txt"
+    },
+    {
+      "id": "poezie-220",
+      "titlu": "Vis de mai",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Vis de mai.txt"
+    },
+    {
+      "id": "poezie-221",
+      "titlu": "Visul fatal",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Visul fatal.txt"
+    },
+    {
+      "id": "poezie-222",
+      "titlu": "Vânt de stepe",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Vânt de stepe.txt"
+    },
+    {
+      "id": "poezie-223",
+      "titlu": "Vânt de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Vânt de toamnă.txt"
+    },
+    {
+      "id": "poezie-224",
+      "titlu": "Zadarnice sunt toate",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Zadarnice sunt toate.txt"
+    },
+    {
+      "id": "poezie-225",
+      "titlu": "Zburam",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Zburam.txt"
+    },
+    {
+      "id": "poezie-226",
+      "titlu": "Zi de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Zi de iarnă.txt"
+    },
+    {
+      "id": "poezie-227",
+      "titlu": "În arcane de pădure",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/În arcane de pădure.txt"
+    },
+    {
+      "id": "poezie-228",
+      "titlu": "În Archangel",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/În Archangel.txt"
+    },
+    {
+      "id": "poezie-229",
+      "titlu": "În atelier",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/În atelier.txt"
+    },
+    {
+      "id": "poezie-230",
+      "titlu": "În noapte",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/În noapte.txt"
+    },
+    {
+      "id": "poezie-231",
+      "titlu": "În răstriște",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/În răstriște.txt"
+    },
+    {
+      "id": "poezie-232",
+      "titlu": "Înjurați mă, prieteni",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Înjurați-mă, prieteni.txt"
+    },
+    {
+      "id": "poezie-233",
+      "titlu": "Înmormântarea și toate sunetele clopotului",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Înmormântarea și toate sunetele clopotului.txt"
+    },
+    {
+      "id": "poezie-234",
+      "titlu": "Între frunze",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Între frunze.txt"
+    },
+    {
+      "id": "poezie-235",
+      "titlu": "Știi tu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Știi tu.txt"
+    },
+    {
+      "id": "poezie-236",
+      "titlu": "Țara tainică",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Țara tainică.txt"
+    },
+    {
+      "id": "poezie-237",
+      "titlu": "Țărână",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Macedonski/poezii/Țărână.txt"
+    }
+  ],
+  "proza": []
+}

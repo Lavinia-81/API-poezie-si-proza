@@ -1,0 +1,146 @@
+{
+  "autor": "Mihail Săulescu",
+  "poza": "data/Mihail Săulescu/bibliografie/Mihai Saulescu.jpg",
+  "bibliografie_path": "data/Mihail Săulescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Aeternitas",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Aeternitas.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Aseară",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Aseară.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Cei singuri",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Cei singuri.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Celei aşteptate",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Celei aşteptate.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Cuiburile",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Cuiburile.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cânta o caterincă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Cânta o caterincă.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Durerea lui Faust",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Durerea lui Faust.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "E secetă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/E secetă.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Et nunc et simper",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Et nunc et simper.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Excelsior",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Excelsior.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Fără nume",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Fără nume.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Iulie",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Iulie.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Nevroza",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Nevroza.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Orașul",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Orașul.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Pe strada asta tristă",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Pe strada asta tristă.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Postumus",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Postumus.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Presimțire",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Presimțire.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Un vers răzleț",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Un vers răzleț.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Unei trecătoare",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Unei trecătoare.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "În mine",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/În mine.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "În Pacific, departe",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/În Pacific, departe.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "În port",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/În port.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Întuneric",
+      "tip": "poezie",
+      "versuri_path": "data/Mihail Săulescu/poezii/Întuneric.txt"
+    }
+  ],
+  "proza": []
+}

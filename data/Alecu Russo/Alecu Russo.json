@@ -1,0 +1,32 @@
+{
+  "autor": "Alecu Russo",
+  "poza": "data/Alecu Russo/bibliografie/Alecu_Russo.jpg",
+  "bibliografie_path": "data/Alecu Russo/bibliografie/Note Bibliografice.txt",
+  "poezii": [],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Amintiri",
+      "tip": "proza",
+      "versuri_path": "data/Alecu Russo/proza/Amintiri.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Cantarea Romaniei",
+      "tip": "proza",
+      "versuri_path": "data/Alecu Russo/proza/Cantarea Romaniei.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Cugetări",
+      "tip": "proza",
+      "versuri_path": "data/Alecu Russo/proza/Cugetări.txt"
+    },
+    {
+      "id": "proza-4",
+      "titlu": "Studie moldovană",
+      "tip": "proza",
+      "versuri_path": "data/Alecu Russo/proza/Studie moldovană.txt"
+    }
+  ]
+}

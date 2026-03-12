@@ -1,0 +1,86 @@
+{
+  "autor": "Vasile Conta",
+  "poza": "data/Vasile Conta/bibliografie/vasile-conta.jpg",
+  "bibliografie_path": "data/Vasile Conta/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Ce i iubirea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Ce-i iubirea.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Căderea Stambulului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Căderea Stambulului.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Dante şi Beatrice",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Dante şi Beatrice.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Dedicație",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Dedicație.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Dorinţa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Dorinţa.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Ei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Ei.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Meditaţiune",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Meditaţiune.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Omul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Omul.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Sapho",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Sapho.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Sfinxul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Sfinxul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Timpul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Timpul.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Variantă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Variantă.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Viaţa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Conta/poezii/Viaţa.txt"
+    }
+  ],
+  "proza": []
+}

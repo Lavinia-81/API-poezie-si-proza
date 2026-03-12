@@ -1,0 +1,20 @@
+{
+  "autor": "Alexandru Hrisoverghi",
+  "poza": "data/Alexandru Hrisoverghi/bibliografie/alexandru-hrisoverghi.jpg",
+  "bibliografie_path": "data/Alexandru Hrisoverghi/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Ruinelor cetăţii Neamţu",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Hrisoverghi/poezii/Ruinelor cetăţii Neamţu.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "XVIII",
+      "tip": "poezie",
+      "versuri_path": "data/Alexandru Hrisoverghi/poezii/XVIII.txt"
+    }
+  ],
+  "proza": []
+}

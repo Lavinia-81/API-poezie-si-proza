@@ -1,0 +1,326 @@
+{
+  "autor": "Dimitrie Bolintineanu",
+  "poza": "data/Dimitrie Bolintineanu/bibliografie/Dimitrie_Bolintineanu.jpg",
+  "bibliografie_path": "data/Dimitrie Bolintineanu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Apa Bârsei",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Apa Bârsei.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Baia",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Baia.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Bârlad",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Bârlad.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cahul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Cahul.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Conrad",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Conrad.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Consiliul secret",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Consiliul secret.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Coroba",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Coroba.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Cupa lui Ştefan",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Cupa lui Ştefan.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Cântec1",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Cântec1.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Daniil Sihastrul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Daniil Sihastrul.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Dochia",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Dochia.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Domnul Mavrogheni",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Domnul Mavrogheni.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Edessa",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Edessa.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Elegie",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Elegie.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Esmé",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Esmé.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Fata de la Cozia",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Fata de la Cozia.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Fatmé",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Fatmé.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Ferentarul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Ferentarul.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Herol",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Herol.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Hora lui Cuza Vodă",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Hora lui Cuza Vodă.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Ioana",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Ioana.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "La lampa mea",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/La lampa mea.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "La România",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/La România.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "La...(2)",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/La...(2).txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "La",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/La.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Mihai la pădurarul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Mihai la pădurarul.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Mihai revenind de la Dunăre",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Mihai revenind de la Dunăre.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Mircea cel mare şi solii",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Mircea cel mare şi solii.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Mircea la bătaie",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Mircea la bătaie.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Mireasa mormântului",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Mireasa mormântului.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Moartea lui Mihai Viteazul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Moartea lui Mihai Viteazul.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Monastirea Putna",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Monastirea Putna.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Morţii",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Morţii.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Muma lui Ştefan cel Mare",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Muma lui Ştefan cel Mare.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Muma tânără",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Muma tânără.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Mărioara",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Mărioara.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Năvala lui Ţepeş",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Năvala lui Ţepeş.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "O umbră",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/O umbră.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Odă",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Odă.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Peştera muştelor",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Peştera muştelor.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Plopul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Plopul.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Plângerile poetului român",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Plângerile poetului român.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Rovina",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Rovina.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Siretul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Siretul.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Timpul",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Timpul.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Un ostaş român închis peste Dunăre",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Un ostaş român închis peste Dunăre.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Visul lui Ştefan cel Mare",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Visul lui Ştefan cel Mare.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Ziua bună la ţară",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Ziua bună la ţară.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Ziulé",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Ziulé .txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Întoarcerea lui Mihai",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Întoarcerea lui Mihai.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Ştefan la moarte",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Ştefan la moarte.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Ţuţora",
+      "tip": "poezie",
+      "versuri_path": "data/Dimitrie Bolintineanu/poezii/Ţuţora.txt"
+    }
+  ],
+  "proza": []
+}

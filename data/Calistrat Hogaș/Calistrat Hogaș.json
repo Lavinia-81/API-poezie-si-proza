@@ -1,0 +1,44 @@
+{
+  "autor": "Calistrat Hogaș",
+  "poza": "data/Calistrat Hogaș/bibliografie/Calistrat Hogas.jpg",
+  "bibliografie_path": "data/Calistrat Hogaș/bibliografie/Note Bibliografice.txt",
+  "poezii": [],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Amintiri dintr o călătorie I",
+      "tip": "proza",
+      "versuri_path": "data/Calistrat Hogaș/proza/Amintiri dintr-o călătorie I.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Amintiri dintr o călătorie II",
+      "tip": "proza",
+      "versuri_path": "data/Calistrat Hogaș/proza/Amintiri dintr-o călătorie II.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Amintiri dintr o călătorie III",
+      "tip": "proza",
+      "versuri_path": "data/Calistrat Hogaș/proza/Amintiri dintr-o călătorie III.txt"
+    },
+    {
+      "id": "proza-4",
+      "titlu": "Amintiri dintr o călătorie IV",
+      "tip": "proza",
+      "versuri_path": "data/Calistrat Hogaș/proza/Amintiri dintr-o călătorie IV.txt"
+    },
+    {
+      "id": "proza-5",
+      "titlu": "Amintiri dintr o călătorie V",
+      "tip": "proza",
+      "versuri_path": "data/Calistrat Hogaș/proza/Amintiri dintr-o călătorie V.txt"
+    },
+    {
+      "id": "proza-6",
+      "titlu": "Pe drumuri de munte",
+      "tip": "proza",
+      "versuri_path": "data/Calistrat Hogaș/proza/Pe drumuri de munte.txt"
+    }
+  ]
+}

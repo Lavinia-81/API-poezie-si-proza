@@ -1,0 +1,86 @@
+{
+  "autor": "Ienăchită Văcărescu",
+  "poza": "data/Ienăchită Văcărescu/bibliografie/Ienachita_Vacarescu.jpg",
+  "bibliografie_path": "data/Ienăchită Văcărescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "A socoti că poate",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/A socoti că poate.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Amărâtă turturea",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Amărâtă turturea.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Ce ai să mi zici dă mândrie",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Ce ai să-mi zici dă mândrie.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "De a avea milostivire",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/De-a avea milostivire.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Gramatica",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Gramatica.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "La o ntristare",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/La o-ntristare.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Spune, inimioară",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Spune, inimioară.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Testament literar",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Testament literar.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Trandafirul",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Trandafirul.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Tu ești amorul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Tu ești amorul meu.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Turturica",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Turturica.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Zilele ce oi fi viu",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Zilele ce oi fi viu.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Într o grădină",
+      "tip": "poezie",
+      "versuri_path": "data/Ienăchită Văcărescu/poezii/Într-o grădină.txt"
+    }
+  ],
+  "proza": []
+}

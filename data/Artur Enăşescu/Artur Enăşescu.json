@@ -1,0 +1,68 @@
+{
+  "autor": "Artur Enăşescu",
+  "poza": "data/Artur Enăşescu/bibliografie/Artur-Enasescu.jpg",
+  "bibliografie_path": "data/Artur Enăşescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Afrodita",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Afrodita.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Balada crucii de mesteacăn",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Balada crucii de mesteacăn.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Clipe din urmă",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Clipe din urmă.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Lacrimi",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Lacrimi.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Pe un ţărm elenic",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Pe-un ţărm elenic.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Poetul",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Poetul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Sonet O! Nordul, Nordul lumilor polare",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Sonet - O! Nordul, Nordul lumilor polare.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Sonet Visez la Nordul plin de ceţuri grele",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Sonet - Visez la Nordul plin de ceţuri grele.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Visătorii",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Visătorii.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Ţiganca",
+      "tip": "poezie",
+      "versuri_path": "data/Artur Enăşescu/poezii/Ţiganca.txt"
+    }
+  ],
+  "proza": []
+}

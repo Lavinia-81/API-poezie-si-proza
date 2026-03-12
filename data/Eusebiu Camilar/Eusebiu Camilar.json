@@ -1,0 +1,218 @@
+{
+  "autor": "Eusebiu Camilar",
+  "poza": "data/Eusebiu Camilar/bibliografie/Eusebiu_Camilar.jpg",
+  "bibliografie_path": "data/Eusebiu Camilar/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Blazonul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Blazonul.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Crai nou",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Crai nou.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Creanga inimii",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Creanga inimii.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cu cât prezentul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Cu cât prezentul.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Cuvânt înainte",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Cuvânt înainte.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Cântec pentru Thalia",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Cântec pentru Thalia.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Dansul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Dansul.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Deucalion și Pyrrha",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Deucalion și Pyrrha.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Doamne, sunt singur",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Doamne, sunt singur.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Elegie",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Elegie.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Frunze",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Frunze.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Fântâna lui Furtună",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Fântâna lui Furtună.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Galopul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Galopul.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Luntrea aurie",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Luntrea aurie.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Marama de borangic",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Marama de borangic.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Nocturnă",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Nocturnă.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Nourul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Nourul.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Ploaia de atomi",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Ploaia de atomi.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Plopii monumentali",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Plopii monumentali.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Primăvara",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Primăvara.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Pulsează marea vremii",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Pulsează marea vremii.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Rugăciune",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Rugăciune.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Sakuntala",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Sakuntala.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Satul morților",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Satul morților.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Sferele",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Sferele.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Somnul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Somnul.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Sonetul pelerinului",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Sonetul pelerinului.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Spre primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Spre primăvară.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Stergar bucovinean",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Stergar bucovinean.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Sărutul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Sărutul.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Tinerete",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Tinerete.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Ulciorul",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Ulciorul.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Vioara",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Vioara.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Închinare către udeșteni",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Închinare către udeșteni.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Întruparea",
+      "tip": "poezie",
+      "versuri_path": "data/Eusebiu Camilar/poezii/Întruparea.txt"
+    }
+  ],
+  "proza": []
+}

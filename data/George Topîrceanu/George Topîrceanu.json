@@ -1,0 +1,1233 @@
+{
+  "autor": "George Topîrceanu",
+  "poza": "data/George Topîrceanu/bibliografie/George Topîrceanu.jpg",
+  "bibliografie_path": "data/George Topîrceanu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "1908",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/1908.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Acceleratul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Acceleratul.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Acuarela",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Acuarela.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Adrian Maniu Menajerie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Adrian Maniu Menajerie.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Aeroplanul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Aeroplanul.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Albumul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Albumul.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Amintire",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Amintire.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Apostrofe la lună",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Apostrofe la lună.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Aprilie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Aprilie.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Ariciul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Ariciul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Armonii vesperale",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Armonii vesperale.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Bacilul lui Koch",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Bacilul lui Koch.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Balada chibritului",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada chibritului.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Balada chiriaşului grăbit",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada chiriaşului grăbit.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Balada corbilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada corbilor.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Balada călătorului",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada călătorului.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Balada munţilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada munţilor.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Balada popii din Rudeni",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada popii din Rudeni.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Balada unei stele mici",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada unei stele mici.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Balada unui greier mic",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Balada unui greier mic.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Bene merenti",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Bene merenti.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Bimbiriţichel",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Bimbiriţichel.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Biografie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Biografie.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Bivolul şi coţofana",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Bivolul şi coţofana.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Blesteme (Tudor Arghezi)",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Blesteme (Tudor Arghezi).txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Boierul și argatul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Boierul și argatul.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Broasca testoasa",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Broasca testoasa.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Broaştele",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Broaştele.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Bustului meu",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Bustului meu.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Catrene improvizate",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Catrene improvizate.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Catrene",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Catrene.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Ceasornicului meu",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Ceasornicului meu.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Chemare",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Chemare.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Chinurile lui Ulise",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Chinurile lui Ulise.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Cin’ s a fript cu ciorbă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Cin’ s-a fript cu ciorbă.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Cioara",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Cioara.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Clipe de zbucium",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Clipe de zbucium.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Cocostârcul albastru",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Cocostârcul albastru.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Copilul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Copilul.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Cânele ovreiului",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Cânele ovreiului.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Cântec (2)",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Cântec (2).txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Cântec1",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Cântec1.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Câţi ca voi",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Câţi ca voi.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Călimara",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Călimara.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Cărturăreasa",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Cărturăreasa.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Către chipul din oglindă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Către chipul din oglindă.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "De profundis",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/De profundis.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Decorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Decorul.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Dedicaţie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Dedicaţie.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Demostene Botez, Cobe",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Demostene Botez, Cobe.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Demostene Botez, Prohod",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Demostene Botez, Prohod.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Despărţire",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Despărţire.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Din prag",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Din prag.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Din tren",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Din tren.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Distih eroic",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Distih eroic.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Doamnei Aftalion",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Doamnei Aftalion.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Doamnei Ermosa Aftalion",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Doamnei Ermosa Aftalion.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Doleanțele unui cronicar teatral",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Doleanțele unui cronicar teatral.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Eclipsă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Eclipsă.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Enigma cărţilor închise",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Enigma cărţilor închise.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Epilog",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Epilog.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Epitafuri",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Epitafuri.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Expunere de motive",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Expunere de motive.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Fabule mici pentru oameni mari",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Fabule mici pentru oameni mari.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Fabule pentru copii",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Fabule pentru copii.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Fantezie de toamna",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Fantezie de toamna.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Fata tristă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Fata tristă.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Fum",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Fum.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Furtuna",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Furtuna.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Fără adresă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Fără adresă.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Gelozie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Gelozie.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "George Coşbuc Ţiganii",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/George Coşbuc-Ţiganii.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "I. U. Soricu Închinare",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/I. U. Soricu - Închinare.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Icoanei",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Icoanei.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Iepurele",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Iepurele.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Infernul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Infernul.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Iubita",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Iubita.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Iubitei întristate",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Iubitei întristate.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "La cinematograful mut",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/La cinematograful mut.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "La Paşti",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/La Paşti.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "La vânătoare",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/La vânătoare.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "La întoarcere",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/La întoarcere.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Lacul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Lacul.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Leul deghizat",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Leul deghizat.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Lumina",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Lumina.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Manon şi des Grieux",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Manon şi des Grieux.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Martie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Martie.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Masa",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Masa.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Menajerie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Menajerie.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Menire",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Menire.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Mi a răsărit în suflet dorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Mi-a răsărit în suflet dorul.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Microscopică",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Microscopică.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Migdale amare",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Migdale amare.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Mihai Viteazul si Turcii",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Mihai Viteazul si Turcii.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Misterul nopţii",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Misterul nopţii.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Misterul nopții",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Misterul nopții.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Mucenicii",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Mucenicii.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Nebunul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Nebunul.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Noapte de august",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Noapte de august.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Noapte de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Noapte de iarnă.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Noapte de mai",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Noapte de mai.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Noapte de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Noapte de toamnă.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Noapte în ploaie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Noapte în ploaie.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Nocturnă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Nocturnă.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Noiembrie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Noiembrie.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "O noapte",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/O noapte.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Octombrie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Octombrie.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Odă sobei mele",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Odă sobei mele.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Omul și rața",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Omul și rața.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Pagini din diferiți autori",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Pagini din diferiți autori.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Pagliaccio",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Pagliaccio.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Paragini",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Paragini.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Pastel",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Pastel.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Pe marginea unui proverb",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Pe marginea unui proverb.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Ploaia",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Ploaia.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "Plouă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Plouă.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Poetul M. Săulescu",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Poetul M. Săulescu.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Poetul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Poetul.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Populară",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Populară.txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Portret",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Portret.txt"
+    },
+    {
+      "id": "poezie-121",
+      "titlu": "Poşta redacţiei",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Poşta redacţiei.txt"
+    },
+    {
+      "id": "poezie-122",
+      "titlu": "Prefaţă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Prefaţă.txt"
+    },
+    {
+      "id": "poezie-123",
+      "titlu": "Primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Primăvară.txt"
+    },
+    {
+      "id": "poezie-124",
+      "titlu": "Prohod",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Prohod.txt"
+    },
+    {
+      "id": "poezie-125",
+      "titlu": "Proză",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Proză.txt"
+    },
+    {
+      "id": "poezie-126",
+      "titlu": "Pruncul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Pruncul.txt"
+    },
+    {
+      "id": "poezie-127",
+      "titlu": "Psalm",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Psalm.txt"
+    },
+    {
+      "id": "poezie-128",
+      "titlu": "Păcatul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Păcatul.txt"
+    },
+    {
+      "id": "poezie-129",
+      "titlu": "Păinjiniş",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Păinjiniş.txt"
+    },
+    {
+      "id": "poezie-130",
+      "titlu": "Rapsodii de primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Rapsodii de primăvară.txt"
+    },
+    {
+      "id": "poezie-131",
+      "titlu": "Rapsodii de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Rapsodii de toamnă.txt"
+    },
+    {
+      "id": "poezie-132",
+      "titlu": "Rapsodii de vară",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Rapsodii de vară.txt"
+    },
+    {
+      "id": "poezie-133",
+      "titlu": "Ripostă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Ripostă.txt"
+    },
+    {
+      "id": "poezie-134",
+      "titlu": "Romanţa automobilului",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Romanţa automobilului.txt"
+    },
+    {
+      "id": "poezie-135",
+      "titlu": "Romanţa gramofonului",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Romanţa gramofonului.txt"
+    },
+    {
+      "id": "poezie-136",
+      "titlu": "Romanţă autumnală",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Romanţă autumnală.txt"
+    },
+    {
+      "id": "poezie-137",
+      "titlu": "Romanţă în stil vechi",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Romanţă în stil vechi.txt"
+    },
+    {
+      "id": "poezie-138",
+      "titlu": "Romanţă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Romanţă.txt"
+    },
+    {
+      "id": "poezie-139",
+      "titlu": "Rândunelul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Rândunelul.txt"
+    },
+    {
+      "id": "poezie-140",
+      "titlu": "Răspunsul cometei",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Răspunsul cometei.txt"
+    },
+    {
+      "id": "poezie-141",
+      "titlu": "Răspunsul micilor funcţionari",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Răspunsul micilor funcţionari.txt"
+    },
+    {
+      "id": "poezie-142",
+      "titlu": "Sahara",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Sahara.txt"
+    },
+    {
+      "id": "poezie-143",
+      "titlu": "Samson și Dalila",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Samson și Dalila.txt"
+    },
+    {
+      "id": "poezie-144",
+      "titlu": "Scamatorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Scamatorul.txt"
+    },
+    {
+      "id": "poezie-145",
+      "titlu": "Scrisoare",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Scrisoare.txt"
+    },
+    {
+      "id": "poezie-146",
+      "titlu": "Scrisori iubite",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Scrisori iubite.txt"
+    },
+    {
+      "id": "poezie-147",
+      "titlu": "Sfârşit de vară",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Sfârşit de vară.txt"
+    },
+    {
+      "id": "poezie-148",
+      "titlu": "Singur",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Singur.txt"
+    },
+    {
+      "id": "poezie-149",
+      "titlu": "Singuri",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Singuri.txt"
+    },
+    {
+      "id": "poezie-150",
+      "titlu": "Singurătate",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Singurătate.txt"
+    },
+    {
+      "id": "poezie-151",
+      "titlu": "Somnul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Somnul.txt"
+    },
+    {
+      "id": "poezie-152",
+      "titlu": "Sonet estival",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Sonet estival.txt"
+    },
+    {
+      "id": "poezie-153",
+      "titlu": "Sonet teatral",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Sonet teatral.txt"
+    },
+    {
+      "id": "poezie-154",
+      "titlu": "Sonete pluvioase",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Sonete pluvioase.txt"
+    },
+    {
+      "id": "poezie-155",
+      "titlu": "Strofe de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Strofe de iarnă.txt"
+    },
+    {
+      "id": "poezie-156",
+      "titlu": "Taina nopții",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Taina nopții.txt"
+    },
+    {
+      "id": "poezie-157",
+      "titlu": "Terţine",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Terţine.txt"
+    },
+    {
+      "id": "poezie-158",
+      "titlu": "Testamentul unui poet cunoscut",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Testamentul unui poet cunoscut.txt"
+    },
+    {
+      "id": "poezie-159",
+      "titlu": "Toamna în parc",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Toamna în parc.txt"
+    },
+    {
+      "id": "poezie-160",
+      "titlu": "Tristeţi provinciale",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Tristeţi provinciale.txt"
+    },
+    {
+      "id": "poezie-161",
+      "titlu": "Un duel",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Un duel.txt"
+    },
+    {
+      "id": "poezie-162",
+      "titlu": "Un iepure",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Un iepure.txt"
+    },
+    {
+      "id": "poezie-163",
+      "titlu": "Un romantic",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Un romantic.txt"
+    },
+    {
+      "id": "poezie-164",
+      "titlu": "Unei fosile",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Unei fosile.txt"
+    },
+    {
+      "id": "poezie-165",
+      "titlu": "Utrenie",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Utrenie.txt"
+    },
+    {
+      "id": "poezie-166",
+      "titlu": "Vade retro",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Vade retro.txt"
+    },
+    {
+      "id": "poezie-167",
+      "titlu": "Vara la ţară",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Vara la ţară.txt"
+    },
+    {
+      "id": "poezie-168",
+      "titlu": "Vecina",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Vecina.txt"
+    },
+    {
+      "id": "poezie-169",
+      "titlu": "Vin ţigăncile la crâng",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Vin ţigăncile la crâng.txt"
+    },
+    {
+      "id": "poezie-170",
+      "titlu": "Vin’, iubito",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Vin’, iubito.txt"
+    },
+    {
+      "id": "poezie-171",
+      "titlu": "Văduva și piticul",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Văduva și piticul.txt"
+    },
+    {
+      "id": "poezie-172",
+      "titlu": "Zi de vară",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Zi de vară.txt"
+    },
+    {
+      "id": "poezie-173",
+      "titlu": "Împăcare",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Împăcare.txt"
+    },
+    {
+      "id": "poezie-174",
+      "titlu": "În drum",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/În drum.txt"
+    },
+    {
+      "id": "poezie-175",
+      "titlu": "În Iaşi",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/În Iaşi.txt"
+    },
+    {
+      "id": "poezie-176",
+      "titlu": "În jurul unui divorţ",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/În jurul unui divorţ.txt"
+    },
+    {
+      "id": "poezie-177",
+      "titlu": "În loc de prefaţă",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/În loc de prefaţă.txt"
+    },
+    {
+      "id": "poezie-178",
+      "titlu": "În taina nopţii",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/În taina nopţii.txt"
+    },
+    {
+      "id": "poezie-179",
+      "titlu": "În tren",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/În tren.txt"
+    },
+    {
+      "id": "poezie-180",
+      "titlu": "Închinare",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Închinare.txt"
+    },
+    {
+      "id": "poezie-181",
+      "titlu": "Întoarcerea fiului risipitor",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Întoarcerea fiului risipitor.txt"
+    },
+    {
+      "id": "poezie-182",
+      "titlu": "Întrebare şi răspuns",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Întrebare şi răspuns.txt"
+    },
+    {
+      "id": "poezie-183",
+      "titlu": "Şoapte",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Şoapte.txt"
+    },
+    {
+      "id": "poezie-184",
+      "titlu": "Şoaptele nopţii",
+      "tip": "poezie",
+      "versuri_path": "data/George Topîrceanu/poezii/Şoaptele nopţii.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Civilizaţie locală",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Civilizaţie locală.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Deschiderea stagiunii",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Deschiderea stagiunii.txt"
+    },
+    {
+      "id": "proza-3",
+      "titlu": "Despre automobil",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Despre automobil.txt"
+    },
+    {
+      "id": "proza-4",
+      "titlu": "Despre duel",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Despre duel.txt"
+    },
+    {
+      "id": "proza-5",
+      "titlu": "Eminescu şi epigonii lui",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Eminescu şi epigonii lui.txt"
+    },
+    {
+      "id": "proza-6",
+      "titlu": "Evoluţia unui ideal",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Evoluţia unui ideal.txt"
+    },
+    {
+      "id": "proza-7",
+      "titlu": "Focul de la Moreni",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Focul de la Moreni.txt"
+    },
+    {
+      "id": "proza-8",
+      "titlu": "Hortensia Papadat Bengescu",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Hortensia Papadat-Bengescu.txt"
+    },
+    {
+      "id": "proza-9",
+      "titlu": "Ioan Slavici",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Ioan Slavici.txt"
+    },
+    {
+      "id": "proza-10",
+      "titlu": "Literatură de Crăciun",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Literatură de Crăciun.txt"
+    },
+    {
+      "id": "proza-11",
+      "titlu": "Liviu Rebreanu",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Liviu Rebreanu.txt"
+    },
+    {
+      "id": "proza-12",
+      "titlu": "Mens sana in corpore sano",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Mens sana in corpore sano.txt"
+    },
+    {
+      "id": "proza-13",
+      "titlu": "Mihail Sadoveanu",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Mihail Sadoveanu.txt"
+    },
+    {
+      "id": "proza-14",
+      "titlu": "Minunile Sf. Sisoe",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Minunile Sf. Sisoe.txt"
+    },
+    {
+      "id": "proza-15",
+      "titlu": "O aventură",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/O aventură.txt"
+    },
+    {
+      "id": "proza-16",
+      "titlu": "Panait Istrati",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Panait Istrati.txt"
+    },
+    {
+      "id": "proza-17",
+      "titlu": "Patriarhale şi cântece",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Patriarhale şi cântece.txt"
+    },
+    {
+      "id": "proza-18",
+      "titlu": "Pe un volum de Eminescu",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Pe un volum de Eminescu.txt"
+    },
+    {
+      "id": "proza-19",
+      "titlu": "Pirin Planina",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Pirin - Planina.txt"
+    },
+    {
+      "id": "proza-20",
+      "titlu": "Ţara de dincolo de negură",
+      "tip": "proza",
+      "versuri_path": "data/George Topîrceanu/proza/Ţara de dincolo de negură.txt"
+    }
+  ]
+}

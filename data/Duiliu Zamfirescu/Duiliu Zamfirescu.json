@@ -1,0 +1,308 @@
+{
+  "autor": "Duiliu Zamfirescu",
+  "poza": "data/Duiliu Zamfirescu/bibliografie/Duiliu_Zamfirescu.jpg",
+  "bibliografie_path": "data/Duiliu Zamfirescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adio, Napoli",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Adio, Napoli.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Adio",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Adio.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Alt cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Alt cântec.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Amurg",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Amurg.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "April",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/April.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "August",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/August.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Barza",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Barza.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Boul",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Boul.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Ca un mănunchi de ramuri",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Ca un mănunchi de ramuri.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Corsarul",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Corsarul.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Culcate s romaniţe",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Culcate-s romaniţe.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Curgea Siretul liniştit",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Curgea Siretul liniştit.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Cântec de mare",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Cântec de mare.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Că poate atunci",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Că poate atunci.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Dedicaţie",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Dedicaţie.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Dezgust",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Dezgust.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Djali",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Djali.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Dorinţa",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Dorinţa.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "E mort poetul",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/E mort poetul.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Fiica haosului",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Fiica haosului.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Flori de paşte",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Flori de paşte.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Fluture",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Fluture.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Fugind de tot",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Fugind de tot.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Ghici",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Ghici.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Harpista",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Harpista.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Ianuarie",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Ianuarie.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Iulie",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Iulie.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "La lună",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/La lună.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "La o fântână",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/La o fântână.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "La Orşova",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/La Orşova.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Luceafăr",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Luceafăr.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Luna lui maiu",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Luna lui maiu.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Noapte bună",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Noapte bună.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "O noapte în padure",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/O noapte în padure.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "O, suflet",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/O, suflet.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Ofelia",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Ofelia.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Opt rânduri",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Opt rânduri.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Pe o pagină de muzică",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Pe o pagină de muzică.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Preludiu",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Preludiu.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Primăvara",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Primăvara.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Rozele de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Rozele de iarnă.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "S aud",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/S-aud.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Salbele",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Salbele.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Seara de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Seara de toamnă.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Sosesc",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Sosesc.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Te am întrebat",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Te-am întrebat.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Un trandafir",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Un trandafir.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Vara",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Vara.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Versuri heterometre albe",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/Versuri heterometre albe.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "În amurg",
+      "tip": "poezie",
+      "versuri_path": "data/Duiliu Zamfirescu/poezii/În amurg.txt"
+    }
+  ],
+  "proza": []
+}

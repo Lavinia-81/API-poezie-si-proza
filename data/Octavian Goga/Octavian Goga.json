@@ -1,0 +1,1064 @@
+{
+  "autor": "Octavian Goga",
+  "poza": "data/Octavian Goga/bibliografie/Octavian Goga.jpg",
+  "bibliografie_path": "data/Octavian Goga/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "A fost odat",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/A fost odat.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "A murit",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/A murit.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Acasă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Acasă.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Aducerile – aminte",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Aducerile – aminte.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Aeternitas",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Aeternitas.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Agonie",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Agonie.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Am fost",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Am fost.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Amurg",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Amurg.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Apostolul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Apostolul.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Apus",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Apus.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Asfinţit",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Asfinţit.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Atunci",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Atunci.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Aşteptare",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Aşteptare.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Bisericuța din albac",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Bisericuța din albac.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Boboteaza",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Boboteaza.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Breve sogno",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Breve sogno.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Bătrâni",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Bătrâni.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Cade o lacrimă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cade-o lacrimă.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Cain",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cain.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Cantorul cimpoi",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cantorul cimpoi.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Carmen laboris",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Carmen laboris.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Carmen",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Carmen.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Casa noastră",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Casa noastră.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Ceahlăul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Ceahlăul.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Chemare",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Chemare.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Cinquecento",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cinquecento.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Citind pe baudelaire",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Citind pe baudelaire.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Clăcaşii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Clăcaşii.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Coboară toamna",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Coboară toamna.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Copiilor",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Copiilor.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Cosaşul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cosaşul.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Crăciunul copiilor",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Crăciunul copiilor.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Cântece II",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cântece II.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Cântecele mele",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cântecele mele.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Cântecul cămăşii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cântecul cămăşii.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Cântă moartea",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cântă moartea.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Cântăreților de la oră",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cântăreților de la oră.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Cîntec",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cîntec.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Cărbunii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Cărbunii.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Dascălul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Dascălul.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "De demult",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/De demult.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "De la noi",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/De la noi.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "De profundis",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/De profundis.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "De o să mor",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/De-o să mor.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Departe",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Departe.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Despărţire",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Despărţire.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Dimineaţa",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Dimineaţa.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Din larg",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Din larg.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Din viaţă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Din viaţă.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Doina",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Doina.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Dorinţa",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Dorinţa.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Dăscăliţa",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Dăscăliţa.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "E sărbătoare",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/E sărbătoare.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Eu stau la mal",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Eu stau la mal.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Eu ştiu un basm",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Eu ştiu un basm.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Eşti singură",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Eşti singură.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Fecunditas",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Fecunditas.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Felinarul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Felinarul.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Franzensbad",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Franzensbad.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Frumoasa cea din urmă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Frumoasa cea din urmă.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Fără ţară",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Fără ţară.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Graiul pâinii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Graiul pâinii.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Gândește te",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Gândește-te.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Hora valurilor",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Hora valurilor.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "In mormânt la Argeş",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/In mormânt la Argeş.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Inima",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Inima.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Ion crâșmarul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Ion crâșmarul.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Iubirea mea",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Iubirea mea.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "La groapa lui Laie",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/La groapa lui Laie.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "La mal",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/La mal.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "La stână",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/La stână.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Lacrimi",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Lacrimi.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Lacul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Lacul.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Lupul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Lupul.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Lăcaș străbun",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Lăcaș străbun.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Lăutarul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Lăutarul.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Mama",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mama.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Mare aeternum",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mare aeternum.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Mare moartă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mare moartă.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Marienbad",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Marienbad.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Mi a bătut un moș la poartă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mi-a bătut un moș la poartă.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Mi am făcut un cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mi-am făcut un cântec.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Mors magna",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mors magna.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Moştenire",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Moştenire.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Mucenicii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mucenicii.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Munții",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Munții.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Mă ntorc din nou",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Mă-ntorc din nou.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Măsuța mea",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Măsuța mea.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Nepotrivire",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Nepotrivire.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Noapte",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Noapte.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Noi",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Noi.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Notre dame",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Notre dame.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "O clipă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/O clipă.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "O lacrimă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/O lacrimă.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "O ramură întârziată",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/O ramură întârziată.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "O rază",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/O rază.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Oaspe vechi",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Oaspe vechi.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Oltul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Oltul.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Pace",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pace.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Pajurei cu două capete",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pajurei cu două capete.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Paris",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Paris.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Pax nobis",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pax nobis.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Pe înserate",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pe înserate.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Pe un album",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pe-un album.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Plugarii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Plugarii.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Poet",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Poet.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Poezie",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Poezie.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Portret",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Portret.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Portretul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Portretul.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Post bellum",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Post bellum.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Poveste veche",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Poveste veche.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Poveste",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Poveste.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Pribeag străin",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pribeag străin.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Pribeag",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pribeag.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "Prima lux",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Prima lux.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Profetul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Profetul.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Prăpastie",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Prăpastie.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Păcat",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Păcat.txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Pământ și cer",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Pământ și cer.txt"
+    },
+    {
+      "id": "poezie-121",
+      "titlu": "Părăsit",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Părăsit.txt"
+    },
+    {
+      "id": "poezie-122",
+      "titlu": "Părăsiți",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Părăsiți.txt"
+    },
+    {
+      "id": "poezie-123",
+      "titlu": "Rapsodie",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Rapsodie.txt"
+    },
+    {
+      "id": "poezie-124",
+      "titlu": "Resurrectio",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Resurrectio.txt"
+    },
+    {
+      "id": "poezie-125",
+      "titlu": "Revedere",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Revedere.txt"
+    },
+    {
+      "id": "poezie-126",
+      "titlu": "Reîntors",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Reîntors.txt"
+    },
+    {
+      "id": "poezie-127",
+      "titlu": "Ruga mamei",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Ruga mamei.txt"
+    },
+    {
+      "id": "poezie-128",
+      "titlu": "Rugăciune",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Rugăciune.txt"
+    },
+    {
+      "id": "poezie-129",
+      "titlu": "Răsună toaca",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Răsună toaca.txt"
+    },
+    {
+      "id": "poezie-130",
+      "titlu": "Război",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Război.txt"
+    },
+    {
+      "id": "poezie-131",
+      "titlu": "Sara",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Sara.txt"
+    },
+    {
+      "id": "poezie-132",
+      "titlu": "Scirocco",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Scirocco.txt"
+    },
+    {
+      "id": "poezie-133",
+      "titlu": "Scrisoare",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Scrisoare.txt"
+    },
+    {
+      "id": "poezie-134",
+      "titlu": "Scrisoarea Ta",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Scrisoarea Ta.txt"
+    },
+    {
+      "id": "poezie-135",
+      "titlu": "Singur",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Singur.txt"
+    },
+    {
+      "id": "poezie-136",
+      "titlu": "Singurătate",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Singurătate.txt"
+    },
+    {
+      "id": "poezie-137",
+      "titlu": "Solus ero",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Solus ero.txt"
+    },
+    {
+      "id": "poezie-138",
+      "titlu": "Stejarul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Stejarul.txt"
+    },
+    {
+      "id": "poezie-139",
+      "titlu": "Strigoii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Strigoii.txt"
+    },
+    {
+      "id": "poezie-140",
+      "titlu": "Străinul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Străinul.txt"
+    },
+    {
+      "id": "poezie-141",
+      "titlu": "Strămoşii",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Strămoşii.txt"
+    },
+    {
+      "id": "poezie-142",
+      "titlu": "Sufletul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Sufletul.txt"
+    },
+    {
+      "id": "poezie-143",
+      "titlu": "Sângele",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Sângele.txt"
+    },
+    {
+      "id": "poezie-144",
+      "titlu": "Taină",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Taină.txt"
+    },
+    {
+      "id": "poezie-145",
+      "titlu": "Tibi mare",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Tibi mare.txt"
+    },
+    {
+      "id": "poezie-146",
+      "titlu": "Toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Toamnă.txt"
+    },
+    {
+      "id": "poezie-147",
+      "titlu": "Tovarăși",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Tovarăși.txt"
+    },
+    {
+      "id": "poezie-148",
+      "titlu": "Trage ți oblonul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Trage-ți oblonul.txt"
+    },
+    {
+      "id": "poezie-149",
+      "titlu": "Trandafiri",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Trandafiri.txt"
+    },
+    {
+      "id": "poezie-150",
+      "titlu": "Trec clipele",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Trec clipele.txt"
+    },
+    {
+      "id": "poezie-151",
+      "titlu": "Trecea convoiul mortuar",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Trecea convoiul mortuar.txt"
+    },
+    {
+      "id": "poezie-152",
+      "titlu": "Trecea un om",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Trecea un om.txt"
+    },
+    {
+      "id": "poezie-153",
+      "titlu": "Trecutul",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Trecutul.txt"
+    },
+    {
+      "id": "poezie-154",
+      "titlu": "Trenurile",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Trenurile.txt"
+    },
+    {
+      "id": "poezie-155",
+      "titlu": "Tristia",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Tristia.txt"
+    },
+    {
+      "id": "poezie-156",
+      "titlu": "Tăcerea ta",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Tăcerea ta.txt"
+    },
+    {
+      "id": "poezie-157",
+      "titlu": "Un om",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Un om.txt"
+    },
+    {
+      "id": "poezie-158",
+      "titlu": "Un trandafir se stinge",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Un trandafir se stinge.txt"
+    },
+    {
+      "id": "poezie-159",
+      "titlu": "Unui scriitor vândut",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Unui scriitor vândut.txt"
+    },
+    {
+      "id": "poezie-160",
+      "titlu": "Vade retro",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Vade retro.txt"
+    },
+    {
+      "id": "poezie-161",
+      "titlu": "Vita nuova",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Vita nuova.txt"
+    },
+    {
+      "id": "poezie-162",
+      "titlu": "Voi veniţi cu mine",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Voi veniţi cu mine.txt"
+    },
+    {
+      "id": "poezie-163",
+      "titlu": "Vorbesc tăcerile",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Vorbesc tăcerile.txt"
+    },
+    {
+      "id": "poezie-164",
+      "titlu": "Vânt de seară",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Vânt de seară.txt"
+    },
+    {
+      "id": "poezie-165",
+      "titlu": "Zadarnic",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Zadarnic.txt"
+    },
+    {
+      "id": "poezie-166",
+      "titlu": "Ziua",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Ziua.txt"
+    },
+    {
+      "id": "poezie-167",
+      "titlu": "În brazi",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În brazi.txt"
+    },
+    {
+      "id": "poezie-168",
+      "titlu": "În codru",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În codru.txt"
+    },
+    {
+      "id": "poezie-169",
+      "titlu": "În drum",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În drum.txt"
+    },
+    {
+      "id": "poezie-170",
+      "titlu": "În mine câteodată",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În mine câteodată.txt"
+    },
+    {
+      "id": "poezie-171",
+      "titlu": "În munţi",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În munţi.txt"
+    },
+    {
+      "id": "poezie-172",
+      "titlu": "În muzeu",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În muzeu.txt"
+    },
+    {
+      "id": "poezie-173",
+      "titlu": "În noapte",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În noapte.txt"
+    },
+    {
+      "id": "poezie-174",
+      "titlu": "În pacea mută",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În pacea mută.txt"
+    },
+    {
+      "id": "poezie-175",
+      "titlu": "În ţintirim",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/În ţintirim.txt"
+    },
+    {
+      "id": "poezie-176",
+      "titlu": "Învins",
+      "tip": "poezie",
+      "versuri_path": "data/Octavian Goga/poezii/Învins.txt"
+    }
+  ],
+  "proza": []
+}

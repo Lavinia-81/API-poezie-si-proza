@@ -1,0 +1,123 @@
+{
+  "autor": "Ștefan Petică",
+  "poza": "data/Ștefan Petică/bibliografie/Stefan Petrica.jpg",
+  "bibliografie_path": "data/Ștefan Petică/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Amurgul are astăzi luciri ca de mătasă",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Amurgul are astăzi luciri ca de mătasă.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Apune soarele pe dealuri",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Apune soarele pe dealuri.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Când vioarele tăcură",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Când vioarele tăcură.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cântarea care n a fost spusă",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Cântarea care n-a fost spusă.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Cântecul Toamnei",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Cântecul Toamnei.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Fecioara în Alb",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Fecioara în Alb.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Iubito, tu, floare fatală",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Iubito, tu, floare fatală.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Miniaturi Furtună",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Miniaturi-Furtună.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Moartea visurilor",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Moartea visurilor.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "O Ceață–ntunecată S a Oprit",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/O Ceață–ntunecată S-a Oprit.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "O, ceasul trist al renunţării",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/O, ceasul trist al renunţării.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Păunii verzi plecară în noaptea solitară",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Păunii verzi plecară în noaptea solitară.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Se Stinse Alba Lampă, Căzând Pe Piatra Tare",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Se Stinse Alba Lampă, Căzând Pe Piatra Tare.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Semi Orient",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Semi Orient.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Serbare sgomotoasă",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Serbare sgomotoasă.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Serenade demonice",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Serenade demonice.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Şi flautul magic vorbi",
+      "tip": "poezie",
+      "versuri_path": "data/Ștefan Petică/poezii/Şi flautul magic vorbi.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Cântec uitat",
+      "tip": "proza",
+      "versuri_path": "data/Ștefan Petică/proza/Cântec uitat.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "La Poalele Crângului",
+      "tip": "proza",
+      "versuri_path": "data/Ștefan Petică/proza/La Poalele Crângului.txt"
+    }
+  ]
+}

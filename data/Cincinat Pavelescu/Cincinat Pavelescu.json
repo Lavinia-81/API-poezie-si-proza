@@ -1,0 +1,687 @@
+{
+  "autor": "Cincinat Pavelescu",
+  "poza": "data/Cincinat Pavelescu/bibliografie/Cincinat_Pavelescu.JPG",
+  "bibliografie_path": "data/Cincinat Pavelescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adio",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Adio.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Adâncuri",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Adâncuri.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Amor de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Amor de iarnă.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Amurg de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Amurg de toamnă.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Antoniu și Cleopatra",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Antoniu și Cleopatra.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Anului nou",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Anului nou.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Apologia dracului",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Apologia dracului.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Artist",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Artist.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Avatar",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Avatar.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Așteptatei",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Așteptatei.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Bogatului",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Bogatului.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Bradul și firul de iarbă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Bradul și firul de iarbă.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Bunica",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Bunica.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Cadavrul",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cadavrul.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Cantilenă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cantilenă.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Castelul solitar",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Castelul solitar.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Cele trei năluci",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cele trei năluci.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Citind romanul",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Citind romanul.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Corbii",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Corbii.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Curtezanei",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Curtezanei.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Cântec de primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cântec de primăvară.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Cântec spaniol",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cântec spaniol.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Cântec vesel",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cântec vesel.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Cântecul Malenei",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cântecul Malenei.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Cântecul omului",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Cântecul omului.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Căința domniței",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Căința domniței.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "De când te ai dus",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/De când te-ai dus.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Din Heine",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Din Heine.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Din schit",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Din schit.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Două roze",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Două roze.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Două stele",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Două stele.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Dramă mută",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Dramă mută.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "E aşa de tristă aşteptarea",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/E-aşa de tristă aşteptarea.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Egiptul",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Egiptul.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Epitalam",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Epitalam.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Eternul dialog",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Eternul dialog.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Eu sunt un haos",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Eu sunt un haos.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Exotică",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Exotică.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Fabulă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Fabulă.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Farniente",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Farniente.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Floarea mistică",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Floarea mistică.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Flori risipite",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Flori risipite.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Florile ce ţi le am dat",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Florile ce ţi le-am dat.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Frica poetului",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Frica poetului.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Frumoasa mea",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Frumoasa mea.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Groaza de mine",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Groaza de mine.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Idilă antică",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Idilă antică.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Idilă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Idilă.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Impresii de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Impresii de toamnă.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Intimă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Intimă.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "La bustul lui Eminescu",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/La bustul lui Eminescu.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "La curtea cu jurați",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/La curtea cu jurați.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Legile eterne",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Legile eterne.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Lied 1",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Lied -1.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Lied",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Lied.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Lupercus",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Lupercus.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Lăsați mâhnirea",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Lăsați mâhnirea.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Madrigal trist",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Madrigal trist.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Mamei",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Mamei.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Marelui Caragiale pe când era berar",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Marelui Caragiale pe când era berar.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Mistrețul și porcul",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Mistrețul și porcul.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Moartea",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Moartea.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Muzică de cameră",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Muzică de cameră.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Necunoscutei",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Necunoscutei.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Nocturnă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Nocturnă.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Ocultă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Ocultă.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Oglinda",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Oglinda.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Olarul și amfora",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Olarul și amfora.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Panteism",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Panteism.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Pantum",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Pantum.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Paris",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Paris.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Pastel rustic",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Pastel rustic.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Pe un album",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Pe un album.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Pentru ochii tăi",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Pentru ochii tăi.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Pescuitorii de perle",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Pescuitorii de perle.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Poema ochilor",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Poema ochilor.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Poet",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Poet.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Poetul",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Poetul.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Primăvară.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Pro domo",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Pro domo.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Păsările nopții",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Păsările nopții.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Reîntoarcerea",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Reîntoarcerea.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Rondel",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Rondel.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Răspuns",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Răspuns.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Se roagă cartea",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Se roagă cartea.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Seară turbure",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Seară turbure.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Serenadă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Serenadă.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Simbolul neantului",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Simbolul neantului.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Simfonia ploii",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Simfonia ploii.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Strofe",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Strofe.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Sunt lângă tine",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Sunt lângă tine.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Săracul și stelele",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Săracul și stelele.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Te am visat, o, madonă",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Te-am visat, o, madonă.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Tinerețea mea",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Tinerețea mea.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Trandafirul şi stejarul",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Trandafirul şi stejarul.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Trecătorului",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Trecătorului.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Târziu, când vei dormi",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Târziu, când vei dormi.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "Ultima simfonie",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Ultima simfonie.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Un cântec, numai unul",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Un cântec, numai unul.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Unui coleg",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Unui coleg.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Valeriei",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Valeriei.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Veneția",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Veneția.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Veșnicei iubite",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Veșnicei iubite.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Visez o iubire",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Visez o iubire.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Voiesc să cânt",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Voiesc să cânt.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Zadarnic",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Zadarnic.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Îmbătrânesc",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/Îmbătrânesc.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "În goana artei",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/În goana artei.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "În munți",
+      "tip": "poezie",
+      "versuri_path": "data/Cincinat Pavelescu/poezii/În munți.txt"
+    }
+  ],
+  "proza": [
+    {
+      "id": "proza-1",
+      "titlu": "Cum se face o epigramă",
+      "tip": "proza",
+      "versuri_path": "data/Cincinat Pavelescu/proza/Cum se face o epigramă.txt"
+    },
+    {
+      "id": "proza-2",
+      "titlu": "Mama",
+      "tip": "proza",
+      "versuri_path": "data/Cincinat Pavelescu/proza/Mama.txt"
+    }
+  ]
+}

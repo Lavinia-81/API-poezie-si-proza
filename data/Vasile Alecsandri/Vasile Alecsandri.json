@@ -1,0 +1,2678 @@
+{
+  "autor": "Vasile Alecsandri",
+  "poza": "data/Vasile Alecsandri/bibliografie/vasile-alecsandri.jpg",
+  "bibliografie_path": "data/Vasile Alecsandri/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "1 Mai",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/1 Mai.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "10 Mai",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/10 Mai.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "15 mai 1848",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/15 mai 1848.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "25 mai 1856",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/25 mai 1856.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Adevărul şi minciuna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Adevărul şi minciuna.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Adio II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Adio II.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Adio Moldovei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Adio Moldovei.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Adio",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Adio.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Alba de la munte",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Alba de la munte.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Altarul mănăstirii Putna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Altarul mănăstirii Putna.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Amicului A. Donici",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Amicului A. Donici.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Ana Doamna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ana Doamna.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Andrii Popa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Andrii-Popa.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Anul 1855",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Anul 1855.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Aoleo, ce fuse asta",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Aoleo, ce fuse asta.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Aolică, daolică",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Aolică, daolică.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Aolică, dodă, fa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Aolică, dodă, fa.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Arză l focul de bărbat",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Arză-l focul de bărbat.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Aşteptarea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Aşteptarea.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Baba Cloanta",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Baba Cloanta.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Baba și fata",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Baba și fata.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Baba și moșneagul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Baba și moșneagul.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Bade Trandafir",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bade Trandafir.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Balaurul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Balaurul.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Balcanul şi Carpatul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Balcanul şi Carpatul.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Balta",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Balta.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Banul Mărăcină",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Banul Mărăcină.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Barbu",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Barbu.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Barcarola venețiană",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Barcarola venețiană.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Biondineta",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Biondineta.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Biserica risipită",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Biserica risipită.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Blestemul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Blestemul.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Bogatul și săracul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bogatul și săracul.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Bogdan",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bogdan.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Bolnavul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bolnavul.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Bosforul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bosforul.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Bradul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bradul.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Brind",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Brind.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Brumărelul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Brumărelul.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Buchet, calul favorit a d rei Maria Docan",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Buchet, calul favorit a d-rei Maria Docan.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Bucovina",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bucovina.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Bujor",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bujor.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Buruian de leac",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Buruian de leac.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Busuiocul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Busuiocul.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Bălcescu murind",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bălcescu murind.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Bărăganul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Bărăganul.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Calea Robilor",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Calea Robilor.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Calul cardinalului Batori",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Calul cardinalului Batori.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Cantec ostasesc",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cantec ostasesc.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Canţonetă napolitană",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Canţonetă napolitană.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Ce gândeşti, o! Margarită",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ce gândeşti, o! Margarită.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Ceasul rău",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ceasul rău.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Chira",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Chira.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Ciclonul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ciclonul.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Cinel cinel",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cinel-cinel.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Ciobanul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ciobanul.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Ciocoiul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ciocoiul.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Cireșile",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cireșile.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Ciuma",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ciuma.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Cocoarele",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cocoarele.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Codreanul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Codreanul.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Codrul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Codrul.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Concertul în luncă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Concertul în luncă.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Constantin Brâncovanul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Constantin Brâncovanul.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Copilă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Copilă.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Corbac",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Corbac.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Corbul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Corbul.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Coroana Moldaviei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Coroana Moldaviei.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Coroana vieții Partea I – Serenadă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Coroana vieții - Partea I – Serenadă.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Cositul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cositul.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Crai nou",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Crai-nou.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Crinul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Crinul.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Cristos a înviat",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cristos a înviat.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Cucul II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cucul II.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Cucul III",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cucul III.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Cucul IV",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cucul IV.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Cucul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cucul.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Curcile",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Curcile.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Cuza Voda",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cuza Voda.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Cântec de fericire",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântec de fericire.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Cântec haiducesc",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântec haiducesc.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Cântec sicilian",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântec sicilian.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Cântece de lume",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântece de lume.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Cântece din Basarabia",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântece din Basarabia.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Cântece şi sărutări",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântece şi sărutări.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Cântecele lui Ștefan Vodă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecele lui Ștefan-Vodă.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Cântecul călugărului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecul călugărului.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Cântecul gintei latine",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecul gintei latine.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Cântecul lui Mihai Viteazul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecul lui Mihai Viteazul.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Cântecul lui Noe junior",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecul lui Noe junior.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Cântecul Margaritei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecul Margaritei.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Cântecul plugarului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecul plugarului.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Cântecul răzeșului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cântecul răzeșului.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Căderea Rinului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Căderea Rinului.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Călăreţul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Călăreţul.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Călătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Călătorul.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Căpitanul Romano",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Căpitanul Romano.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Cătana",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Cătana.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Dan, Capitan de plai",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dan, Capitan de plai.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "De crezi în poezie",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/De crezi în poezie.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "Decât rudă și vecinul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Decât rudă și vecinul.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "Dedicare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dedicare.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "Dedicație",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dedicație.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "Despărţirea II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Despărţirea II.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Despărţirea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Despărţirea.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Desteptarea Romaniei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Desteptarea Romaniei.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Dezrobirea ţiganilor",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dezrobirea ţiganilor.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Dimineata",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dimineata.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Doamnei Maria Sturza",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doamnei Maria Sturza.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Doina haiducească II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina haiducească II.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Doina haiducească III",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina haiducească III.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Doina haiducească IV",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina haiducească IV.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Doina haiducească",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina haiducească.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Doina iubirii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina iubirii.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Doina oltenească (A Jianului)",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina oltenească (A Jianului).txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "Doina oltenească II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina oltenească II.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Doina oltenească III",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina oltenească III.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Doina oltenească IV",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina oltenească IV.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Doina oltenească V",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina oltenească V.txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Doina voinicească (A lui Ion Petreanu)",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească (A lui Ion Petreanu).txt"
+    },
+    {
+      "id": "poezie-121",
+      "titlu": "Doina voinicească II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească II.txt"
+    },
+    {
+      "id": "poezie-122",
+      "titlu": "Doina voinicească III",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească III.txt"
+    },
+    {
+      "id": "poezie-123",
+      "titlu": "Doina voinicească IV",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească IV.txt"
+    },
+    {
+      "id": "poezie-124",
+      "titlu": "Doina voinicească V",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească V.txt"
+    },
+    {
+      "id": "poezie-125",
+      "titlu": "Doina voinicească VI",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească VI.txt"
+    },
+    {
+      "id": "poezie-126",
+      "titlu": "Doina voinicească VII",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească VII.txt"
+    },
+    {
+      "id": "poezie-127",
+      "titlu": "Doina voinicească",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina voinicească.txt"
+    },
+    {
+      "id": "poezie-128",
+      "titlu": "Doina",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doina.txt"
+    },
+    {
+      "id": "poezie-129",
+      "titlu": "Dolca",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dolca.txt"
+    },
+    {
+      "id": "poezie-130",
+      "titlu": "Domnica",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Domnica.txt"
+    },
+    {
+      "id": "poezie-131",
+      "titlu": "Doncila",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Doncila.txt"
+    },
+    {
+      "id": "poezie-132",
+      "titlu": "Dor de călătorie",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dor de călătorie.txt"
+    },
+    {
+      "id": "poezie-133",
+      "titlu": "Dorul de brazi",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dorul de brazi.txt"
+    },
+    {
+      "id": "poezie-134",
+      "titlu": "Dorul de mare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dorul de mare.txt"
+    },
+    {
+      "id": "poezie-135",
+      "titlu": "Dorul de ţară",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dorul de ţară.txt"
+    },
+    {
+      "id": "poezie-136",
+      "titlu": "Dorul II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dorul II.txt"
+    },
+    {
+      "id": "poezie-137",
+      "titlu": "Dorul III",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dorul III.txt"
+    },
+    {
+      "id": "poezie-138",
+      "titlu": "Dorul româncei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dorul româncei.txt"
+    },
+    {
+      "id": "poezie-139",
+      "titlu": "Dorul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dorul.txt"
+    },
+    {
+      "id": "poezie-140",
+      "titlu": "Două suflete",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Două suflete.txt"
+    },
+    {
+      "id": "poezie-141",
+      "titlu": "Dragoste",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dragoste.txt"
+    },
+    {
+      "id": "poezie-142",
+      "titlu": "Dragoș",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dragoș.txt"
+    },
+    {
+      "id": "poezie-143",
+      "titlu": "Dridri",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dridri.txt"
+    },
+    {
+      "id": "poezie-144",
+      "titlu": "Drum la deal",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Drum la deal.txt"
+    },
+    {
+      "id": "poezie-145",
+      "titlu": "Dulce înger",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dulce înger.txt"
+    },
+    {
+      "id": "poezie-146",
+      "titlu": "Dumbrava roşie I",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dumbrava roşie I.txt"
+    },
+    {
+      "id": "poezie-147",
+      "titlu": "Dumbrava roşie II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dumbrava roşie II.txt"
+    },
+    {
+      "id": "poezie-148",
+      "titlu": "Dumbrava roşie III",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dumbrava roşie III.txt"
+    },
+    {
+      "id": "poezie-149",
+      "titlu": "Dumbrava roşie IV",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dumbrava roşie IV.txt"
+    },
+    {
+      "id": "poezie-150",
+      "titlu": "Dusu s a bădiţa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Dusu-s-a bădiţa.txt"
+    },
+    {
+      "id": "poezie-151",
+      "titlu": "El R’baa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/El R’baa.txt"
+    },
+    {
+      "id": "poezie-152",
+      "titlu": "Emmi",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Emmi.txt"
+    },
+    {
+      "id": "poezie-153",
+      "titlu": "Epistola generalului Florescu",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Epistola generalului Florescu.txt"
+    },
+    {
+      "id": "poezie-154",
+      "titlu": "Erculean",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Erculean.txt"
+    },
+    {
+      "id": "poezie-155",
+      "titlu": "Este bine, nu e bine",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Este bine, nu e bine.txt"
+    },
+    {
+      "id": "poezie-156",
+      "titlu": "Fantana",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fantana.txt"
+    },
+    {
+      "id": "poezie-157",
+      "titlu": "Fata cadiului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fata cadiului.txt"
+    },
+    {
+      "id": "poezie-158",
+      "titlu": "Fată de birău",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fată de birău.txt"
+    },
+    {
+      "id": "poezie-159",
+      "titlu": "Febrilului Louis Roumieux",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Febrilului Louis Roumieux.txt"
+    },
+    {
+      "id": "poezie-160",
+      "titlu": "Femeie temută",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Femeie temută.txt"
+    },
+    {
+      "id": "poezie-161",
+      "titlu": "Floarea din pârleaz",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Floarea din pârleaz.txt"
+    },
+    {
+      "id": "poezie-162",
+      "titlu": "Floarea oceanului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Floarea oceanului.txt"
+    },
+    {
+      "id": "poezie-163",
+      "titlu": "Flori de nufăr",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Flori de nufăr.txt"
+    },
+    {
+      "id": "poezie-164",
+      "titlu": "Floricică n foi albastră",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Floricică-n foi albastră.txt"
+    },
+    {
+      "id": "poezie-165",
+      "titlu": "Floricică",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Floricică.txt"
+    },
+    {
+      "id": "poezie-166",
+      "titlu": "Floriile",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Floriile.txt"
+    },
+    {
+      "id": "poezie-167",
+      "titlu": "Fluierul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fluierul.txt"
+    },
+    {
+      "id": "poezie-168",
+      "titlu": "Fratele răzneţ",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fratele răzneţ.txt"
+    },
+    {
+      "id": "poezie-169",
+      "titlu": "Fratele",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fratele.txt"
+    },
+    {
+      "id": "poezie-170",
+      "titlu": "Fraţii Jderi",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fraţii Jderi.txt"
+    },
+    {
+      "id": "poezie-171",
+      "titlu": "Frumoasă copiliţă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Frumoasă copiliţă.txt"
+    },
+    {
+      "id": "poezie-172",
+      "titlu": "Fumatul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fumatul.txt"
+    },
+    {
+      "id": "poezie-173",
+      "titlu": "Fântâna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Fântâna.txt"
+    },
+    {
+      "id": "poezie-174",
+      "titlu": "Făt Logofăt",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Făt-Logofăt.txt"
+    },
+    {
+      "id": "poezie-175",
+      "titlu": "Garda saraiului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Garda saraiului.txt"
+    },
+    {
+      "id": "poezie-176",
+      "titlu": "Gerul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Gerul.txt"
+    },
+    {
+      "id": "poezie-177",
+      "titlu": "Ghemis",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ghemis.txt"
+    },
+    {
+      "id": "poezie-178",
+      "titlu": "Ghioaga lui Briar",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ghioaga lui Briar.txt"
+    },
+    {
+      "id": "poezie-179",
+      "titlu": "Glas din stele",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Glas din stele.txt"
+    },
+    {
+      "id": "poezie-180",
+      "titlu": "Gondoleta",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Gondoleta.txt"
+    },
+    {
+      "id": "poezie-181",
+      "titlu": "Groza",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Groza.txt"
+    },
+    {
+      "id": "poezie-182",
+      "titlu": "Haiducul rănit",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Haiducul rănit.txt"
+    },
+    {
+      "id": "poezie-183",
+      "titlu": "Hodja Murad Pașa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hodja Murad Pașa.txt"
+    },
+    {
+      "id": "poezie-184",
+      "titlu": "Hora Ardealului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hora Ardealului.txt"
+    },
+    {
+      "id": "poezie-185",
+      "titlu": "Hora de la Grivița",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hora de la Grivița.txt"
+    },
+    {
+      "id": "poezie-186",
+      "titlu": "Hora de la Plevna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hora de la Plevna.txt"
+    },
+    {
+      "id": "poezie-187",
+      "titlu": "Hora de la Sinaia",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hora de la Sinaia.txt"
+    },
+    {
+      "id": "poezie-188",
+      "titlu": "Hora Unirii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hora Unirii.txt"
+    },
+    {
+      "id": "poezie-189",
+      "titlu": "Hora",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hora.txt"
+    },
+    {
+      "id": "poezie-190",
+      "titlu": "Horea și Cloșca",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Horea și Cloșca.txt"
+    },
+    {
+      "id": "poezie-191",
+      "titlu": "Hoţul şi domniţa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Hoţul şi domniţa.txt"
+    },
+    {
+      "id": "poezie-192",
+      "titlu": "Iahtul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Iahtul.txt"
+    },
+    {
+      "id": "poezie-193",
+      "titlu": "Iarna la Sinaia",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Iarna la Sinaia.txt"
+    },
+    {
+      "id": "poezie-194",
+      "titlu": "Iarna vine",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Iarna vine.txt"
+    },
+    {
+      "id": "poezie-195",
+      "titlu": "Iarna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Iarna.txt"
+    },
+    {
+      "id": "poezie-196",
+      "titlu": "Ieri și astăzi",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ieri și astăzi.txt"
+    },
+    {
+      "id": "poezie-197",
+      "titlu": "Ileana",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ileana.txt"
+    },
+    {
+      "id": "poezie-198",
+      "titlu": "Ilenuța de la Piatra",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ilenuța de la Piatra.txt"
+    },
+    {
+      "id": "poezie-199",
+      "titlu": "Imn către soare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Imn către soare.txt"
+    },
+    {
+      "id": "poezie-200",
+      "titlu": "Imn religios",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Imn religios.txt"
+    },
+    {
+      "id": "poezie-201",
+      "titlu": "Imnul lui Stefan cel Mare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Imnul lui Stefan cel Mare.txt"
+    },
+    {
+      "id": "poezie-202",
+      "titlu": "Inelul și năframa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Inelul și năframa.txt"
+    },
+    {
+      "id": "poezie-203",
+      "titlu": "Insira te, margarite",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Insira te, margarite.txt"
+    },
+    {
+      "id": "poezie-204",
+      "titlu": "Inşiră te, mărgărite",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Inşiră te, mărgărite.txt"
+    },
+    {
+      "id": "poezie-205",
+      "titlu": "Iordachi al Lupului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Iordachi al Lupului.txt"
+    },
+    {
+      "id": "poezie-206",
+      "titlu": "Iubirile",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Iubirile.txt"
+    },
+    {
+      "id": "poezie-207",
+      "titlu": "Izvorul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Izvorul.txt"
+    },
+    {
+      "id": "poezie-208",
+      "titlu": "Jianul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Jianul.txt"
+    },
+    {
+      "id": "poezie-209",
+      "titlu": "La gura sobei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La gura sobei.txt"
+    },
+    {
+      "id": "poezie-210",
+      "titlu": "La Magenta",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La Magenta.txt"
+    },
+    {
+      "id": "poezie-211",
+      "titlu": "La moartea lui P. Cazimir",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La moartea lui P. Cazimir.txt"
+    },
+    {
+      "id": "poezie-212",
+      "titlu": "La mormântul lui Gr. Romalo",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La mormântul lui Gr. Romalo.txt"
+    },
+    {
+      "id": "poezie-213",
+      "titlu": "La Palestro",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La Palestro.txt"
+    },
+    {
+      "id": "poezie-214",
+      "titlu": "La poeţii români",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La poeţii români.txt"
+    },
+    {
+      "id": "poezie-215",
+      "titlu": "La Sevastopol",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La Sevastopol.txt"
+    },
+    {
+      "id": "poezie-216",
+      "titlu": "La Veneţia mult duioasă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/La Veneţia mult duioasă.txt"
+    },
+    {
+      "id": "poezie-217",
+      "titlu": "Lacrimioare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lacrimioare.txt"
+    },
+    {
+      "id": "poezie-218",
+      "titlu": "Lacul de Como",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lacul de Como.txt"
+    },
+    {
+      "id": "poezie-219",
+      "titlu": "Legenda ciocarliei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Legenda ciocarliei.txt"
+    },
+    {
+      "id": "poezie-220",
+      "titlu": "Legenda crinului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Legenda crinului.txt"
+    },
+    {
+      "id": "poezie-221",
+      "titlu": "Legenda de la Dorna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Legenda de la Dorna.txt"
+    },
+    {
+      "id": "poezie-222",
+      "titlu": "Legenda lacrimioarei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Legenda lacrimioarei.txt"
+    },
+    {
+      "id": "poezie-223",
+      "titlu": "Legenda randunicai",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Legenda randunicai.txt"
+    },
+    {
+      "id": "poezie-224",
+      "titlu": "Legenda sfințirii bisericii de la Curtea de Argeș",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Legenda sfințirii bisericii de la Curtea de Argeș.txt"
+    },
+    {
+      "id": "poezie-225",
+      "titlu": "Lelea vitează",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lelea vitează.txt"
+    },
+    {
+      "id": "poezie-226",
+      "titlu": "Lelița de la munteni",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lelița de la munteni.txt"
+    },
+    {
+      "id": "poezie-227",
+      "titlu": "Lelițele",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lelițele.txt"
+    },
+    {
+      "id": "poezie-228",
+      "titlu": "Lena",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lena.txt"
+    },
+    {
+      "id": "poezie-229",
+      "titlu": "Linda Raia",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Linda Raia.txt"
+    },
+    {
+      "id": "poezie-230",
+      "titlu": "Lunca din Mirceşti",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lunca din Mirceşti.txt"
+    },
+    {
+      "id": "poezie-231",
+      "titlu": "Lunca țipă, lunca zbiară",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lunca țipă, lunca zbiară.txt"
+    },
+    {
+      "id": "poezie-232",
+      "titlu": "Lupul și momița",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lupul și momița.txt"
+    },
+    {
+      "id": "poezie-233",
+      "titlu": "Lăcrimioare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Lăcrimioare.txt"
+    },
+    {
+      "id": "poezie-234",
+      "titlu": "Mai",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mai.txt"
+    },
+    {
+      "id": "poezie-235",
+      "titlu": "Maiorului Iancu Bran",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Maiorului Iancu Bran.txt"
+    },
+    {
+      "id": "poezie-236",
+      "titlu": "Malul Siretului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Malul Siretului.txt"
+    },
+    {
+      "id": "poezie-237",
+      "titlu": "Mandarinul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mandarinul.txt"
+    },
+    {
+      "id": "poezie-238",
+      "titlu": "Marea Mediterană",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Marea Mediterană.txt"
+    },
+    {
+      "id": "poezie-239",
+      "titlu": "Margarinta din Muncel",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Margarinta din Muncel.txt"
+    },
+    {
+      "id": "poezie-240",
+      "titlu": "Margarita",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Margarita.txt"
+    },
+    {
+      "id": "poezie-241",
+      "titlu": "Mart",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mart.txt"
+    },
+    {
+      "id": "poezie-242",
+      "titlu": "Mehedinţeanul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mehedinţeanul.txt"
+    },
+    {
+      "id": "poezie-243",
+      "titlu": "Meşterul Manole",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Meşterul Manole.txt"
+    },
+    {
+      "id": "poezie-244",
+      "titlu": "Miezul iernii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Miezul iernii.txt"
+    },
+    {
+      "id": "poezie-245",
+      "titlu": "Mihu copilul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mihu copilul.txt"
+    },
+    {
+      "id": "poezie-246",
+      "titlu": "Moară de vânt",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Moară de vânt.txt"
+    },
+    {
+      "id": "poezie-247",
+      "titlu": "Mogoș vornicul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mogoș vornicul.txt"
+    },
+    {
+      "id": "poezie-248",
+      "titlu": "Moldova în 1857",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Moldova în 1857.txt"
+    },
+    {
+      "id": "poezie-249",
+      "titlu": "Mormântul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mormântul.txt"
+    },
+    {
+      "id": "poezie-250",
+      "titlu": "Movila lui Burcel",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Movila lui Burcel.txt"
+    },
+    {
+      "id": "poezie-251",
+      "titlu": "Moș bătrân",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Moș bătrân.txt"
+    },
+    {
+      "id": "poezie-252",
+      "titlu": "Muierușcă din Brasau",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Muierușcă din Brasau.txt"
+    },
+    {
+      "id": "poezie-253",
+      "titlu": "Muntele de foc",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Muntele de foc.txt"
+    },
+    {
+      "id": "poezie-254",
+      "titlu": "Murad Gazi Sultanul și Becri Mustafa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Murad Gazi Sultanul și Becri Mustafa.txt"
+    },
+    {
+      "id": "poezie-255",
+      "titlu": "Mândra din Muncel",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mândra din Muncel.txt"
+    },
+    {
+      "id": "poezie-256",
+      "titlu": "Mândra Liţa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mândra Liţa.txt"
+    },
+    {
+      "id": "poezie-257",
+      "titlu": "Mândruliţă de la munte",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mândruliţă de la munte.txt"
+    },
+    {
+      "id": "poezie-258",
+      "titlu": "Măi bădiță păr sucit",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Măi bădiță păr sucit.txt"
+    },
+    {
+      "id": "poezie-259",
+      "titlu": "Mărioara, Florioara",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mărioara, Florioara.txt"
+    },
+    {
+      "id": "poezie-260",
+      "titlu": "Mărioara",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Mărioara.txt"
+    },
+    {
+      "id": "poezie-261",
+      "titlu": "N. Bălcescu murind",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/N. Bălcescu murind.txt"
+    },
+    {
+      "id": "poezie-262",
+      "titlu": "Nevasta bolnavă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Nevasta bolnavă.txt"
+    },
+    {
+      "id": "poezie-263",
+      "titlu": "Nevasta care iubește",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Nevasta care iubește.txt"
+    },
+    {
+      "id": "poezie-264",
+      "titlu": "Nevasta harnică",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Nevasta harnică.txt"
+    },
+    {
+      "id": "poezie-265",
+      "titlu": "Nevasta tâlharului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Nevasta tâlharului.txt"
+    },
+    {
+      "id": "poezie-266",
+      "titlu": "Nevasta",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Nevasta.txt"
+    },
+    {
+      "id": "poezie-267",
+      "titlu": "Noaptea albă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Noaptea albă.txt"
+    },
+    {
+      "id": "poezie-268",
+      "titlu": "Noaptea Sfântului Andrei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Noaptea Sfântului Andrei.txt"
+    },
+    {
+      "id": "poezie-269",
+      "titlu": "Noaptea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Noaptea.txt"
+    },
+    {
+      "id": "poezie-270",
+      "titlu": "Novac și corbul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Novac și corbul.txt"
+    },
+    {
+      "id": "poezie-271",
+      "titlu": "Nălucă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Nălucă.txt"
+    },
+    {
+      "id": "poezie-272",
+      "titlu": "O noapte la Alhambra",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/O noapte la Alhambra.txt"
+    },
+    {
+      "id": "poezie-273",
+      "titlu": "O noapte la ţară",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/O noapte la ţară.txt"
+    },
+    {
+      "id": "poezie-274",
+      "titlu": "O scăfârlie uriașă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/O scăfârlie uriașă.txt"
+    },
+    {
+      "id": "poezie-275",
+      "titlu": "O seară la Lido",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/O seară la Lido.txt"
+    },
+    {
+      "id": "poezie-276",
+      "titlu": "Oaspeții primăverii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Oaspeții primăverii.txt"
+    },
+    {
+      "id": "poezie-277",
+      "titlu": "Oda ostasilor romani",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Oda ostasilor romani.txt"
+    },
+    {
+      "id": "poezie-278",
+      "titlu": "Odă către Bahlui",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Odă către Bahlui.txt"
+    },
+    {
+      "id": "poezie-279",
+      "titlu": "Odă la statuia lui Ștefan cel Mare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Odă la statuia lui Ștefan cel Mare.txt"
+    },
+    {
+      "id": "poezie-280",
+      "titlu": "Odă statuiei lui Mihai Viteazul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Odă statuiei lui Mihai Viteazul.txt"
+    },
+    {
+      "id": "poezie-281",
+      "titlu": "Olteanul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Olteanul.txt"
+    },
+    {
+      "id": "poezie-282",
+      "titlu": "Omul singuratic",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Omul singuratic.txt"
+    },
+    {
+      "id": "poezie-283",
+      "titlu": "Omul urât",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Omul urât.txt"
+    },
+    {
+      "id": "poezie-284",
+      "titlu": "Omule, boule",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Omule, boule.txt"
+    },
+    {
+      "id": "poezie-285",
+      "titlu": "Oprișanul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Oprișanul.txt"
+    },
+    {
+      "id": "poezie-286",
+      "titlu": "Palatul Loredano",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Palatul Loredano.txt"
+    },
+    {
+      "id": "poezie-287",
+      "titlu": "Pastel chinez",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pastel chinez.txt"
+    },
+    {
+      "id": "poezie-288",
+      "titlu": "Pasăre galbenă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pasăre galbenă.txt"
+    },
+    {
+      "id": "poezie-289",
+      "titlu": "Patru regine",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Patru regine.txt"
+    },
+    {
+      "id": "poezie-290",
+      "titlu": "Paștele",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Paștele.txt"
+    },
+    {
+      "id": "poezie-291",
+      "titlu": "Pe albumul d nei Z",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul d-nei Z.txt"
+    },
+    {
+      "id": "poezie-292",
+      "titlu": "Pe albumul D rei Fr.Gr",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul D-rei Fr.Gr.txt"
+    },
+    {
+      "id": "poezie-293",
+      "titlu": "Pe albumul d rei Ida Vegezzi Ruscalla",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul d-rei Ida Vegezzi Ruscalla.txt"
+    },
+    {
+      "id": "poezie-294",
+      "titlu": "Pe albumul domnișoarei A. Jora",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul domnișoarei A. Jora.txt"
+    },
+    {
+      "id": "poezie-295",
+      "titlu": "Pe albumul domnișoarei Maria Docan",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul domnișoarei Maria Docan.txt"
+    },
+    {
+      "id": "poezie-296",
+      "titlu": "Pe albumul domnișoarei X",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul domnișoarei X.txt"
+    },
+    {
+      "id": "poezie-297",
+      "titlu": "Pe albumul domnișoarelor Florescu",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul domnișoarelor Florescu.txt"
+    },
+    {
+      "id": "poezie-298",
+      "titlu": "Pe albumul principesei Aglae Roseti",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul principesei Aglae Roseti.txt"
+    },
+    {
+      "id": "poezie-299",
+      "titlu": "Pe albumul principesei Maria Știrbei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul principesei Maria Știrbei.txt"
+    },
+    {
+      "id": "poezie-300",
+      "titlu": "Pe albumul Regelui",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul Regelui.txt"
+    },
+    {
+      "id": "poezie-301",
+      "titlu": "Pe albumul unei copilițe pariziene",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe albumul unei copilițe pariziene.txt"
+    },
+    {
+      "id": "poezie-302",
+      "titlu": "Pe coastele Calabriei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe coastele Calabriei.txt"
+    },
+    {
+      "id": "poezie-303",
+      "titlu": "Pe malul mării",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe malul mării.txt"
+    },
+    {
+      "id": "poezie-304",
+      "titlu": "Pe mare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe mare.txt"
+    },
+    {
+      "id": "poezie-305",
+      "titlu": "Pe sub poale de pădure",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe sub poale de pădure.txt"
+    },
+    {
+      "id": "poezie-306",
+      "titlu": "Pe un album",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe un album.txt"
+    },
+    {
+      "id": "poezie-307",
+      "titlu": "Pe vârful visurilor nalte",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pe vârful visurilor nalte.txt"
+    },
+    {
+      "id": "poezie-308",
+      "titlu": "Peneş Curcanul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Peneş Curcanul.txt"
+    },
+    {
+      "id": "poezie-309",
+      "titlu": "Pentru mândra care mi place",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pentru mândra care-mi place.txt"
+    },
+    {
+      "id": "poezie-310",
+      "titlu": "Pescarul Bosforului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pescarul Bosforului.txt"
+    },
+    {
+      "id": "poezie-311",
+      "titlu": "Pilotul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pilotul.txt"
+    },
+    {
+      "id": "poezie-312",
+      "titlu": "Plugul blestemat",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Plugul blestemat.txt"
+    },
+    {
+      "id": "poezie-313",
+      "titlu": "Plugurile",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Plugurile.txt"
+    },
+    {
+      "id": "poezie-314",
+      "titlu": "Plângerea ţării",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Plângerea ţării.txt"
+    },
+    {
+      "id": "poezie-315",
+      "titlu": "Podul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Podul.txt"
+    },
+    {
+      "id": "poezie-316",
+      "titlu": "Poetului Mistral",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Poetului Mistral.txt"
+    },
+    {
+      "id": "poezie-317",
+      "titlu": "Poetului și filologului Gabriel Azais",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Poetului și filologului Gabriel Azais.txt"
+    },
+    {
+      "id": "poezie-318",
+      "titlu": "Pohod la Sybir",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pohod la Sybir.txt"
+    },
+    {
+      "id": "poezie-319",
+      "titlu": "Poiana fermecătoare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Poiana fermecătoare.txt"
+    },
+    {
+      "id": "poezie-320",
+      "titlu": "Portret dedicat doamnei X",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Portret dedicat doamnei X.txt"
+    },
+    {
+      "id": "poezie-321",
+      "titlu": "Portret dedicat prinţesei Natalia Ghica",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Portret dedicat prinţesei Natalia Ghica.txt"
+    },
+    {
+      "id": "poezie-322",
+      "titlu": "Poruncitu mi a mândra",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Poruncitu-mi-a mândra.txt"
+    },
+    {
+      "id": "poezie-323",
+      "titlu": "Presimţire",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Presimţire.txt"
+    },
+    {
+      "id": "poezie-324",
+      "titlu": "Prier și fata iernii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Prier și fata iernii.txt"
+    },
+    {
+      "id": "poezie-325",
+      "titlu": "Primăvara",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Primăvara.txt"
+    },
+    {
+      "id": "poezie-326",
+      "titlu": "Privighetoarea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Privighetoarea.txt"
+    },
+    {
+      "id": "poezie-327",
+      "titlu": "Prutul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Prutul.txt"
+    },
+    {
+      "id": "poezie-328",
+      "titlu": "Puică bălăioară",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Puică bălăioară.txt"
+    },
+    {
+      "id": "poezie-329",
+      "titlu": "Puii cloștii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Puii cloștii.txt"
+    },
+    {
+      "id": "poezie-330",
+      "titlu": "Puișorul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Puișorul.txt"
+    },
+    {
+      "id": "poezie-331",
+      "titlu": "Pungulița",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Pungulița.txt"
+    },
+    {
+      "id": "poezie-332",
+      "titlu": "Păstorii şi plugarii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Păstorii şi plugarii.txt"
+    },
+    {
+      "id": "poezie-333",
+      "titlu": "Păsărica mării",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Păsărica mării.txt"
+    },
+    {
+      "id": "poezie-334",
+      "titlu": "Păsărica",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Păsărica.txt"
+    },
+    {
+      "id": "poezie-335",
+      "titlu": "Păunașul codrilor",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Păunașul codrilor.txt"
+    },
+    {
+      "id": "poezie-336",
+      "titlu": "Rada",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Rada.txt"
+    },
+    {
+      "id": "poezie-337",
+      "titlu": "Radu Calomfirescu",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Radu Calomfirescu.txt"
+    },
+    {
+      "id": "poezie-338",
+      "titlu": "Regina Sylva",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Regina Sylva.txt"
+    },
+    {
+      "id": "poezie-339",
+      "titlu": "Rodica",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Rodica.txt"
+    },
+    {
+      "id": "poezie-340",
+      "titlu": "Romanta de toamna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Romanta de toamna.txt"
+    },
+    {
+      "id": "poezie-341",
+      "titlu": "Romanţă II",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Romanţă II.txt"
+    },
+    {
+      "id": "poezie-342",
+      "titlu": "Romanţă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Romanţă.txt"
+    },
+    {
+      "id": "poezie-343",
+      "titlu": "Romanță pe albumul d nei M.D",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Romanță pe albumul d-nei M.D.txt"
+    },
+    {
+      "id": "poezie-344",
+      "titlu": "Român Grue Grozovanu",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Român Grue Grozovanu.txt"
+    },
+    {
+      "id": "poezie-345",
+      "titlu": "Românca de la Griviţa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Românca de la Griviţa.txt"
+    },
+    {
+      "id": "poezie-346",
+      "titlu": "Românii de pe malurile Dunării",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Românii de pe malurile Dunării.txt"
+    },
+    {
+      "id": "poezie-347",
+      "titlu": "Ronsard la Tuluză",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ronsard la Tuluză.txt"
+    },
+    {
+      "id": "poezie-348",
+      "titlu": "Rândunică",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Rândunică.txt"
+    },
+    {
+      "id": "poezie-349",
+      "titlu": "Răpirea Bucovinei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Răpirea Bucovinei.txt"
+    },
+    {
+      "id": "poezie-350",
+      "titlu": "Răvaș puică",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Răvaș puică.txt"
+    },
+    {
+      "id": "poezie-351",
+      "titlu": "Răzbunarea lui Statu Palmă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Răzbunarea lui Statu-Palmă.txt"
+    },
+    {
+      "id": "poezie-352",
+      "titlu": "Răzbunarea nevestei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Răzbunarea nevestei.txt"
+    },
+    {
+      "id": "poezie-353",
+      "titlu": "Salga",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Salga.txt"
+    },
+    {
+      "id": "poezie-354",
+      "titlu": "Sania",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sania.txt"
+    },
+    {
+      "id": "poezie-355",
+      "titlu": "Sburătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sburătorul.txt"
+    },
+    {
+      "id": "poezie-356",
+      "titlu": "Scrânciobul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Scrânciobul.txt"
+    },
+    {
+      "id": "poezie-357",
+      "titlu": "Secerișul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Secerișul.txt"
+    },
+    {
+      "id": "poezie-358",
+      "titlu": "Seguidilă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Seguidilă.txt"
+    },
+    {
+      "id": "poezie-359",
+      "titlu": "Sentinela romana",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sentinela romana.txt"
+    },
+    {
+      "id": "poezie-360",
+      "titlu": "Serenadă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Serenadă.txt"
+    },
+    {
+      "id": "poezie-361",
+      "titlu": "Sergentul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sergentul.txt"
+    },
+    {
+      "id": "poezie-362",
+      "titlu": "Serile la Mirceşti",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Serile la Mirceşti.txt"
+    },
+    {
+      "id": "poezie-363",
+      "titlu": "Sfârşit de toamnă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sfârşit de toamnă.txt"
+    },
+    {
+      "id": "poezie-364",
+      "titlu": "Sfârşitul iernii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sfârşitul iernii.txt"
+    },
+    {
+      "id": "poezie-365",
+      "titlu": "Smart",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Smart.txt"
+    },
+    {
+      "id": "poezie-366",
+      "titlu": "Soare de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Soare de iarnă.txt"
+    },
+    {
+      "id": "poezie-367",
+      "titlu": "Soarele și luna",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Soarele și luna.txt"
+    },
+    {
+      "id": "poezie-368",
+      "titlu": "Soarele, vantul si gerul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Soarele, vantul si gerul.txt"
+    },
+    {
+      "id": "poezie-369",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-370",
+      "titlu": "Sora brancardierului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sora brancardierului.txt"
+    },
+    {
+      "id": "poezie-371",
+      "titlu": "Spune, mândro",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Spune, mândro.txt"
+    },
+    {
+      "id": "poezie-372",
+      "titlu": "Steaua ţării",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Steaua ţării.txt"
+    },
+    {
+      "id": "poezie-373",
+      "titlu": "Stefan Voda si codrul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Stefan Voda si codrul.txt"
+    },
+    {
+      "id": "poezie-374",
+      "titlu": "Stejarul și cornul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Stejarul și cornul.txt"
+    },
+    {
+      "id": "poezie-375",
+      "titlu": "Stelele",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Stelele.txt"
+    },
+    {
+      "id": "poezie-376",
+      "titlu": "Steluța",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Steluța.txt"
+    },
+    {
+      "id": "poezie-377",
+      "titlu": "Strigoiul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Strigoiul.txt"
+    },
+    {
+      "id": "poezie-378",
+      "titlu": "Stroe Plopan",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Stroe Plopan.txt"
+    },
+    {
+      "id": "poezie-379",
+      "titlu": "Strofe de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Strofe de iarnă.txt"
+    },
+    {
+      "id": "poezie-380",
+      "titlu": "Strofe desperecheate",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Strofe desperecheate.txt"
+    },
+    {
+      "id": "poezie-381",
+      "titlu": "Strofe improvizate lui C. Rolla",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Strofe improvizate lui C. Rolla.txt"
+    },
+    {
+      "id": "poezie-382",
+      "titlu": "Strofe lui C. Negri",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Strofe lui C. Negri.txt"
+    },
+    {
+      "id": "poezie-383",
+      "titlu": "Strofe scrise pe un părete",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Strofe scrise pe un părete.txt"
+    },
+    {
+      "id": "poezie-384",
+      "titlu": "Strunga",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Strunga.txt"
+    },
+    {
+      "id": "poezie-385",
+      "titlu": "Străinul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Străinul.txt"
+    },
+    {
+      "id": "poezie-386",
+      "titlu": "Stăncuța",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Stăncuța.txt"
+    },
+    {
+      "id": "poezie-387",
+      "titlu": "Sultana",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sultana.txt"
+    },
+    {
+      "id": "poezie-388",
+      "titlu": "Sună pietricica n vale",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sună pietricica-n vale.txt"
+    },
+    {
+      "id": "poezie-389",
+      "titlu": "Surorii mele",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Surorii mele.txt"
+    },
+    {
+      "id": "poezie-390",
+      "titlu": "Suvenir de la Prale",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Suvenir de la Prale.txt"
+    },
+    {
+      "id": "poezie-391",
+      "titlu": "Sămănătorii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Sămănătorii.txt"
+    },
+    {
+      "id": "poezie-392",
+      "titlu": "Tita",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Tita.txt"
+    },
+    {
+      "id": "poezie-393",
+      "titlu": "Toamna țesătoare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Toamna țesătoare.txt"
+    },
+    {
+      "id": "poezie-394",
+      "titlu": "Toma Alimoș",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Toma Alimoș.txt"
+    },
+    {
+      "id": "poezie-395",
+      "titlu": "Trandafir cu două flori",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Trandafir cu două flori.txt"
+    },
+    {
+      "id": "poezie-396",
+      "titlu": "Trandafirul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Trandafirul.txt"
+    },
+    {
+      "id": "poezie-397",
+      "titlu": "Trecui valea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Trecui valea.txt"
+    },
+    {
+      "id": "poezie-398",
+      "titlu": "Tudora de la Târșor",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Tudora de la Târșor.txt"
+    },
+    {
+      "id": "poezie-399",
+      "titlu": "Tunetul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Tunetul.txt"
+    },
+    {
+      "id": "poezie-400",
+      "titlu": "Turturica",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Turturica.txt"
+    },
+    {
+      "id": "poezie-401",
+      "titlu": "Tânăra creolă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Tânăra creolă.txt"
+    },
+    {
+      "id": "poezie-402",
+      "titlu": "Tătarul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Tătarul.txt"
+    },
+    {
+      "id": "poezie-403",
+      "titlu": "Umbrei lui Nicu Ghica",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Umbrei lui Nicu Ghica.txt"
+    },
+    {
+      "id": "poezie-404",
+      "titlu": "Unor critici",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Unor critici.txt"
+    },
+    {
+      "id": "poezie-405",
+      "titlu": "Ursita mea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ursita mea.txt"
+    },
+    {
+      "id": "poezie-406",
+      "titlu": "Ursiţii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ursiţii.txt"
+    },
+    {
+      "id": "poezie-407",
+      "titlu": "Urâtul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Urâtul.txt"
+    },
+    {
+      "id": "poezie-408",
+      "titlu": "Valul lui Traian",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Valul lui Traian.txt"
+    },
+    {
+      "id": "poezie-409",
+      "titlu": "Veneția",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Veneția.txt"
+    },
+    {
+      "id": "poezie-410",
+      "titlu": "Versuri scrise în cabinetul Regelui",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Versuri scrise în cabinetul Regelui.txt"
+    },
+    {
+      "id": "poezie-411",
+      "titlu": "Vezi tu vulturul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vezi tu vulturul.txt"
+    },
+    {
+      "id": "poezie-412",
+      "titlu": "Vidra",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vidra.txt"
+    },
+    {
+      "id": "poezie-413",
+      "titlu": "Vis de iarnă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vis de iarnă.txt"
+    },
+    {
+      "id": "poezie-414",
+      "titlu": "Vis de poet",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vis de poet.txt"
+    },
+    {
+      "id": "poezie-415",
+      "titlu": "Viscolul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Viscolul.txt"
+    },
+    {
+      "id": "poezie-416",
+      "titlu": "Visul ferice",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Visul ferice.txt"
+    },
+    {
+      "id": "poezie-417",
+      "titlu": "Visul lui Petru Rareş",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Visul lui Petru Rareş.txt"
+    },
+    {
+      "id": "poezie-418",
+      "titlu": "Visul lui Tudor Vladimirescu",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Visul lui Tudor Vladimirescu.txt"
+    },
+    {
+      "id": "poezie-419",
+      "titlu": "Visul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Visul.txt"
+    },
+    {
+      "id": "poezie-420",
+      "titlu": "Visurile",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Visurile.txt"
+    },
+    {
+      "id": "poezie-421",
+      "titlu": "Vlad Țepeș și stejarul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vlad Țepeș și stejarul.txt"
+    },
+    {
+      "id": "poezie-422",
+      "titlu": "Voinicii Bucovei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Voinicii Bucovei.txt"
+    },
+    {
+      "id": "poezie-423",
+      "titlu": "Voinicul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Voinicul.txt"
+    },
+    {
+      "id": "poezie-424",
+      "titlu": "Vrăbiuţa",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vrăbiuţa.txt"
+    },
+    {
+      "id": "poezie-425",
+      "titlu": "Vulcan",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vulcan.txt"
+    },
+    {
+      "id": "poezie-426",
+      "titlu": "Vântul de la miazăzi",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vântul de la miazăzi.txt"
+    },
+    {
+      "id": "poezie-427",
+      "titlu": "Vântul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vântul.txt"
+    },
+    {
+      "id": "poezie-428",
+      "titlu": "Vânători și vânătoare",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vânători și vânătoare.txt"
+    },
+    {
+      "id": "poezie-429",
+      "titlu": "Vânătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Vânătorul.txt"
+    },
+    {
+      "id": "poezie-430",
+      "titlu": "Zburătorul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Zburătorul.txt"
+    },
+    {
+      "id": "poezie-431",
+      "titlu": "Zilele Babei",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Zilele Babei.txt"
+    },
+    {
+      "id": "poezie-432",
+      "titlu": "Zimbrul şi vulpea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Zimbrul şi vulpea.txt"
+    },
+    {
+      "id": "poezie-433",
+      "titlu": "Zis a badea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Zis-a badea.txt"
+    },
+    {
+      "id": "poezie-434",
+      "titlu": "Împărate, împărate",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Împărate, împărate.txt"
+    },
+    {
+      "id": "poezie-435",
+      "titlu": "În miezul iernii",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/În miezul iernii.txt"
+    },
+    {
+      "id": "poezie-436",
+      "titlu": "Încununarea steagului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Încununarea steagului.txt"
+    },
+    {
+      "id": "poezie-437",
+      "titlu": "Însura m aș",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Însura-m-aș.txt"
+    },
+    {
+      "id": "poezie-438",
+      "titlu": "Întoarcerea în ţară",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Întoarcerea în ţară.txt"
+    },
+    {
+      "id": "poezie-439",
+      "titlu": "Ştefan şi Dunărea",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ştefan şi Dunărea.txt"
+    },
+    {
+      "id": "poezie-440",
+      "titlu": "Șapte fete",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Șapte fete.txt"
+    },
+    {
+      "id": "poezie-441",
+      "titlu": "Șerb sărac",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Șerb-sărac.txt"
+    },
+    {
+      "id": "poezie-442",
+      "titlu": "Șoimul și floarea fragului",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Șoimul și floarea fragului.txt"
+    },
+    {
+      "id": "poezie-443",
+      "titlu": "Ștefan Vodă și șoimul",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ștefan-Vodă și șoimul.txt"
+    },
+    {
+      "id": "poezie-444",
+      "titlu": "Ștefăniță Vodă",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Ștefăniță Vodă.txt"
+    },
+    {
+      "id": "poezie-445",
+      "titlu": "Țara",
+      "tip": "poezie",
+      "versuri_path": "data/Vasile Alecsandri/poezii/Țara.txt"
+    }
+  ],
+  "proza": []
+}

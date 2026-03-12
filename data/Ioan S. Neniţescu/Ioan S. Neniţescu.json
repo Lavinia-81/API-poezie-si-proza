@@ -1,0 +1,74 @@
+{
+  "autor": "Ioan S. Neniţescu",
+  "poza": "data/Ioan S. Neniţescu/bibliografie/Ioan Nenitescu.jpg",
+  "bibliografie_path": "data/Ioan S. Neniţescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Adio mamei",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Adio mamei.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "După 27 august",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/După 27 august.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Invocare",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Invocare.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Iubire tăinuită",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Iubire tăinuită.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Moartea lui Decebal",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Moartea lui Decebal.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Plugar român",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Plugar român.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Prinosul meu",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Prinosul meu.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Pui de lei",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Pui de lei.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Voinţa neamului",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Voinţa neamului.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Înalță te",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Înalță-te.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Ţara mea",
+      "tip": "poezie",
+      "versuri_path": "data/Ioan S. Neniţescu/poezii/Ţara mea.txt"
+    }
+  ],
+  "proza": []
+}

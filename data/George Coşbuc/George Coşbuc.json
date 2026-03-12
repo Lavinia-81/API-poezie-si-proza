@@ -1,0 +1,2744 @@
+{
+  "autor": "George Coşbuc",
+  "poza": "data/George Coşbuc/bibliografie/george-cosbuc.jpg",
+  "bibliografie_path": "data/George Coşbuc/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "A lui Spiru Hareti",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/A lui Spiru Hareti.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "Ad memorandum",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ad memorandum.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Aghiotantul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Aghiotantul.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Ah, cât ești de frumoasă, doamnă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ah, cât ești de frumoasă, doamnă.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Albiniță",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Albiniță.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Am cercat",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Am cercat.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Am întrebat",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Am întrebat.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Anacreontica",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Anacreontica.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Anagrama",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Anagrama.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "Andromahe",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Andromahe.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "Angelina",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Angelina.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Anotimpurile",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Anotimpurile.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Apa călătoare",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Apa călătoare.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Apa",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Apa.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Apoi preoteasa dragă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Apoi preoteasa dragă.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Apoi vezi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Apoi vezi.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "Arabii și dracul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Arabii și dracul.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "Arde moartea n foc ca bradul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Arde moartea-n foc ca bradul.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Armingenii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Armingenii.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Astăzi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Astăzi.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Atque Nos",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Atque Nos.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Aurora",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Aurora.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Balada albaneză",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Balada albaneză.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Balada despre Țepeș Vodă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Balada despre Țepeș-Vodă.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Baladă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Baladă.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Bea câmpia ploi vărsate",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Bea câmpia ploi vărsate.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Biserica ruinată",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Biserica ruinată.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Bistriţa",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Bistriţa.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Blestemul trădării",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Blestemul trădării.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Blăjenii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Blăjenii.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Blăstăm de mamă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Blăstăm de mamă.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Bordei sărac",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Bordei sărac.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Bradul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Bradul.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Brâul Cosânzenii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Brâul Cosânzenii.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Bunătate și cinste",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Bunătate și cinste.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Bărăganul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Bărăganul.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Bătrânul și copiii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Bătrânul și copiii.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Calul dracului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Calul dracului.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Carol IX",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Carol IX.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Carol Robert",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Carol Robert.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Cartea misterioasă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cartea misterioasă.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Ce bogată i marea cu adâncuri mari",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ce bogată-i marea cu adâncuri mari.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Ce doresc mai mult",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ce doresc mai mult.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Ce ne aduce Moș Crăciun",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ce ne-aduce Moș Crăciun.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Ceas rău",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ceas-rău.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Cei osândiți, mergând pe cale",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cei osândiți, mergând pe cale.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Cetatea neamțului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cetatea neamțului.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Chindia",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Chindia.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Cicoarea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cicoarea.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Coardele de aur",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Coardele de aur.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "Colindătorii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Colindătorii.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "Coloana de atac",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Coloana de atac.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Colonelu n front s arată",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Colonelu-n front s-arată.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Concertul primăverii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Concertul primăverii.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Copilul iubitor de mamă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Copilul iubitor de mamă.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Copilul neastâmpărat",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Copilul neastâmpărat.txt"
+    },
+    {
+      "id": "poezie-57",
+      "titlu": "Copilul și floarea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Copilul și floarea.txt"
+    },
+    {
+      "id": "poezie-58",
+      "titlu": "Copilă, tu crede poeții ce scriu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Copilă, tu crede poeții ce scriu.txt"
+    },
+    {
+      "id": "poezie-59",
+      "titlu": "Cornul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cornul.txt"
+    },
+    {
+      "id": "poezie-60",
+      "titlu": "Cosașul milos",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cosașul milos.txt"
+    },
+    {
+      "id": "poezie-61",
+      "titlu": "Costea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Costea.txt"
+    },
+    {
+      "id": "poezie-62",
+      "titlu": "Coșbuc și Linul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Coșbuc și Linul.txt"
+    },
+    {
+      "id": "poezie-63",
+      "titlu": "Crescent eundo",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Crescent eundo.txt"
+    },
+    {
+      "id": "poezie-64",
+      "titlu": "Cruda noapte",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cruda noapte.txt"
+    },
+    {
+      "id": "poezie-65",
+      "titlu": "Crăciunul în tabără",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Crăciunul în tabără.txt"
+    },
+    {
+      "id": "poezie-66",
+      "titlu": "Crăiasa zânelor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Crăiasa zânelor.txt"
+    },
+    {
+      "id": "poezie-67",
+      "titlu": "Cu noaptea n cap, din casa lor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cu noaptea-n cap, din casa lor.txt"
+    },
+    {
+      "id": "poezie-68",
+      "titlu": "Curriculum Vitae",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Curriculum Vitae.txt"
+    },
+    {
+      "id": "poezie-69",
+      "titlu": "Cuscrii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cuscrii.txt"
+    },
+    {
+      "id": "poezie-70",
+      "titlu": "Când, Arhanghelul, sunând",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Când, Arhanghelul, sunând.txt"
+    },
+    {
+      "id": "poezie-71",
+      "titlu": "Cântec Mărirea voastră n o socot",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec - Mărirea voastră n-o socot.txt"
+    },
+    {
+      "id": "poezie-72",
+      "titlu": "Cântec barbar",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec barbar.txt"
+    },
+    {
+      "id": "poezie-73",
+      "titlu": "Cântec de mai",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec de mai.txt"
+    },
+    {
+      "id": "poezie-74",
+      "titlu": "Cântec de primăvară",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec de primăvară.txt"
+    },
+    {
+      "id": "poezie-75",
+      "titlu": "Cântec de seară",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec de seară.txt"
+    },
+    {
+      "id": "poezie-76",
+      "titlu": "Cântec I",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec I.txt"
+    },
+    {
+      "id": "poezie-77",
+      "titlu": "Cântec II",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec II.txt"
+    },
+    {
+      "id": "poezie-78",
+      "titlu": "Cântec III",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec III.txt"
+    },
+    {
+      "id": "poezie-79",
+      "titlu": "Cântec IV",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec IV.txt"
+    },
+    {
+      "id": "poezie-80",
+      "titlu": "Cântec oriental",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec oriental.txt"
+    },
+    {
+      "id": "poezie-81",
+      "titlu": "Cântec ostăşesc",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec ostăşesc.txt"
+    },
+    {
+      "id": "poezie-82",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-83",
+      "titlu": "Cântece",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântece.txt"
+    },
+    {
+      "id": "poezie-84",
+      "titlu": "Cântecul cel vechi al Oltului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul cel vechi al Oltului.txt"
+    },
+    {
+      "id": "poezie-85",
+      "titlu": "Cântecul cireșului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul cireșului.txt"
+    },
+    {
+      "id": "poezie-86",
+      "titlu": "Cântecul Duminicii al ciobanului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul Duminicii al ciobanului.txt"
+    },
+    {
+      "id": "poezie-87",
+      "titlu": "Cântecul fusului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul fusului.txt"
+    },
+    {
+      "id": "poezie-88",
+      "titlu": "Cântecul lunii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul lunii.txt"
+    },
+    {
+      "id": "poezie-89",
+      "titlu": "Cântecul redutei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul redutei.txt"
+    },
+    {
+      "id": "poezie-90",
+      "titlu": "Cântecul soarelui",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul soarelui.txt"
+    },
+    {
+      "id": "poezie-91",
+      "titlu": "Cântecul unui oraș",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul unui oraș.txt"
+    },
+    {
+      "id": "poezie-92",
+      "titlu": "Cântecul unui ostaș",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântecul unui ostaș.txt"
+    },
+    {
+      "id": "poezie-93",
+      "titlu": "Cântă pilotul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cântă pilotul.txt"
+    },
+    {
+      "id": "poezie-94",
+      "titlu": "Călugărul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Călugărul.txt"
+    },
+    {
+      "id": "poezie-95",
+      "titlu": "Călărețul străin",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Călărețul străin.txt"
+    },
+    {
+      "id": "poezie-96",
+      "titlu": "Cățelușul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Cățelușul.txt"
+    },
+    {
+      "id": "poezie-97",
+      "titlu": "Dacă versurile mele",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dacă versurile mele.txt"
+    },
+    {
+      "id": "poezie-98",
+      "titlu": "Dacă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dacă.txt"
+    },
+    {
+      "id": "poezie-99",
+      "titlu": "Dascălul Pascal",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dascălul Pascal.txt"
+    },
+    {
+      "id": "poezie-100",
+      "titlu": "David și Goliat",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/David și Goliat.txt"
+    },
+    {
+      "id": "poezie-101",
+      "titlu": "De ce te ntrebi tu, Xinte, oare",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/De ce te-ntrebi tu, Xinte, oare.txt"
+    },
+    {
+      "id": "poezie-102",
+      "titlu": "De pe deal",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/De pe deal.txt"
+    },
+    {
+      "id": "poezie-103",
+      "titlu": "De profundis",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/De profundis.txt"
+    },
+    {
+      "id": "poezie-104",
+      "titlu": "De aici culege fata fragi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/De-aici culege fata fragi.txt"
+    },
+    {
+      "id": "poezie-105",
+      "titlu": "Decebal către popor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Decebal către popor.txt"
+    },
+    {
+      "id": "poezie-106",
+      "titlu": "Deșteptarea florilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Deșteptarea florilor.txt"
+    },
+    {
+      "id": "poezie-107",
+      "titlu": "Din adâncimi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Din adâncimi.txt"
+    },
+    {
+      "id": "poezie-108",
+      "titlu": "Din carnetul unui poet simbolist",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Din carnetul unui poet simbolist.txt"
+    },
+    {
+      "id": "poezie-109",
+      "titlu": "Din copilărie",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Din copilărie.txt"
+    },
+    {
+      "id": "poezie-110",
+      "titlu": "Din pământ",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Din pământ.txt"
+    },
+    {
+      "id": "poezie-111",
+      "titlu": "Dintr alte lumi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dintr-alte lumi.txt"
+    },
+    {
+      "id": "poezie-112",
+      "titlu": "Dintr o poveste",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dintr-o poveste.txt"
+    },
+    {
+      "id": "poezie-113",
+      "titlu": "Ditiramb de la Carul cu bere",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ditiramb de la Carul cu bere.txt"
+    },
+    {
+      "id": "poezie-114",
+      "titlu": "Doc. X",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Doc. X.txt"
+    },
+    {
+      "id": "poezie-115",
+      "titlu": "Doctorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Doctorul.txt"
+    },
+    {
+      "id": "poezie-116",
+      "titlu": "Dogarul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dogarul.txt"
+    },
+    {
+      "id": "poezie-117",
+      "titlu": "Doina",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Doina.txt"
+    },
+    {
+      "id": "poezie-118",
+      "titlu": "Dorobanțul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dorobanțul.txt"
+    },
+    {
+      "id": "poezie-119",
+      "titlu": "Draga Mamei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Draga Mamei.txt"
+    },
+    {
+      "id": "poezie-120",
+      "titlu": "Dragoste învrăjbită",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dragoste învrăjbită.txt"
+    },
+    {
+      "id": "poezie-121",
+      "titlu": "Dragostea Pacurareasca",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dragostea Pacurareasca.txt"
+    },
+    {
+      "id": "poezie-122",
+      "titlu": "Drumul Iubirii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Drumul Iubirii.txt"
+    },
+    {
+      "id": "poezie-123",
+      "titlu": "Dumineca",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dumineca.txt"
+    },
+    {
+      "id": "poezie-124",
+      "titlu": "Dumnezeu veghează",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dumnezeu veghează.txt"
+    },
+    {
+      "id": "poezie-125",
+      "titlu": "Dumnezeu și părinții",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dumnezeu și părinții.txt"
+    },
+    {
+      "id": "poezie-126",
+      "titlu": "Dunărea şi Oltul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Dunărea şi Oltul.txt"
+    },
+    {
+      "id": "poezie-127",
+      "titlu": "După furtună",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/După furtună.txt"
+    },
+    {
+      "id": "poezie-128",
+      "titlu": "Duşmancele",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Duşmancele.txt"
+    },
+    {
+      "id": "poezie-129",
+      "titlu": "Ei veseli repetau cântarea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ei veseli repetau cântarea.txt"
+    },
+    {
+      "id": "poezie-130",
+      "titlu": "El Zorab",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/El Zorab.txt"
+    },
+    {
+      "id": "poezie-131",
+      "titlu": "Epilog",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Epilog.txt"
+    },
+    {
+      "id": "poezie-132",
+      "titlu": "Episod războinic",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Episod războinic.txt"
+    },
+    {
+      "id": "poezie-133",
+      "titlu": "Era în noaptea Învierii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Era în noaptea Învierii.txt"
+    },
+    {
+      "id": "poezie-134",
+      "titlu": "Eu am plecat în urmă i și am prins o de veștmânt",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Eu am plecat în urmă-i și-am prins-o de veștmânt.txt"
+    },
+    {
+      "id": "poezie-135",
+      "titlu": "Eu fraze nu știu să nvârtesc",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Eu fraze nu știu să-nvârtesc.txt"
+    },
+    {
+      "id": "poezie-136",
+      "titlu": "Eu o văd ades pe stradă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Eu o văd ades pe stradă.txt"
+    },
+    {
+      "id": "poezie-137",
+      "titlu": "Ex ossibus ultor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ex ossibus ultor.txt"
+    },
+    {
+      "id": "poezie-138",
+      "titlu": "Faptul zilei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Faptul zilei.txt"
+    },
+    {
+      "id": "poezie-139",
+      "titlu": "Fata craiului din cetini",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fata craiului din cetini.txt"
+    },
+    {
+      "id": "poezie-140",
+      "titlu": "Fata mamii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fata mamii.txt"
+    },
+    {
+      "id": "poezie-141",
+      "titlu": "Fata morarului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fata morarului.txt"
+    },
+    {
+      "id": "poezie-142",
+      "titlu": "Fatma",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fatma.txt"
+    },
+    {
+      "id": "poezie-143",
+      "titlu": "Fețe blânde",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fețe blânde.txt"
+    },
+    {
+      "id": "poezie-144",
+      "titlu": "Fierarul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fierarul.txt"
+    },
+    {
+      "id": "poezie-145",
+      "titlu": "Filosoful",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Filosoful.txt"
+    },
+    {
+      "id": "poezie-146",
+      "titlu": "Filozofii și plugarii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Filozofii și plugarii.txt"
+    },
+    {
+      "id": "poezie-147",
+      "titlu": "Floarea soarelui și macul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Floarea-soarelui și macul.txt"
+    },
+    {
+      "id": "poezie-148",
+      "titlu": "Flori de gheață",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Flori de gheață.txt"
+    },
+    {
+      "id": "poezie-149",
+      "titlu": "Fluturașu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fluturașu.txt"
+    },
+    {
+      "id": "poezie-150",
+      "titlu": "Flăcări potolite",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Flăcări potolite.txt"
+    },
+    {
+      "id": "poezie-151",
+      "titlu": "Fragment epic",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fragment epic.txt"
+    },
+    {
+      "id": "poezie-152",
+      "titlu": "Fragment II",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fragment II.txt"
+    },
+    {
+      "id": "poezie-153",
+      "titlu": "Frați răzleți",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Frați răzleți.txt"
+    },
+    {
+      "id": "poezie-154",
+      "titlu": "Fresco ritornele",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fresco-ritornele.txt"
+    },
+    {
+      "id": "poezie-155",
+      "titlu": "Fulger",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Fulger.txt"
+    },
+    {
+      "id": "poezie-156",
+      "titlu": "Furtuna primăverii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Furtuna primăverii.txt"
+    },
+    {
+      "id": "poezie-157",
+      "titlu": "Gazel",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Gazel.txt"
+    },
+    {
+      "id": "poezie-158",
+      "titlu": "Ghiaura",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ghiaura.txt"
+    },
+    {
+      "id": "poezie-159",
+      "titlu": "Ghicitoare",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ghicitoare.txt"
+    },
+    {
+      "id": "poezie-160",
+      "titlu": "Goi sunt umerii rotunzi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Goi sunt umerii rotunzi.txt"
+    },
+    {
+      "id": "poezie-161",
+      "titlu": "Golia ticălosul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Golia ticălosul.txt"
+    },
+    {
+      "id": "poezie-162",
+      "titlu": "Graiul neamului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Graiul neamului.txt"
+    },
+    {
+      "id": "poezie-163",
+      "titlu": "Gramatica şi medicul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Gramatica şi medicul.txt"
+    },
+    {
+      "id": "poezie-164",
+      "titlu": "Grădinarul și pomul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Grădinarul și pomul.txt"
+    },
+    {
+      "id": "poezie-165",
+      "titlu": "Gânduri",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Gânduri.txt"
+    },
+    {
+      "id": "poezie-166",
+      "titlu": "Hora",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Hora.txt"
+    },
+    {
+      "id": "poezie-167",
+      "titlu": "Hrana noastră",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Hrana noastră.txt"
+    },
+    {
+      "id": "poezie-168",
+      "titlu": "Iar când s a născut Hristos",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Iar când s-a născut Hristos.txt"
+    },
+    {
+      "id": "poezie-169",
+      "titlu": "Iarna pe uliţă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Iarna pe uliţă.txt"
+    },
+    {
+      "id": "poezie-170",
+      "titlu": "Iarna, vara și vântul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Iarna, vara și vântul.txt"
+    },
+    {
+      "id": "poezie-171",
+      "titlu": "Ideal",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ideal.txt"
+    },
+    {
+      "id": "poezie-172",
+      "titlu": "Iedera",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Iedera.txt"
+    },
+    {
+      "id": "poezie-173",
+      "titlu": "Ieri ca azi și azi ca mine",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ieri ca azi și azi ca mine.txt"
+    },
+    {
+      "id": "poezie-174",
+      "titlu": "Ieri, pe un trandafir de câmp",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ieri, pe-un trandafir de câmp.txt"
+    },
+    {
+      "id": "poezie-175",
+      "titlu": "Imn",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Imn.txt"
+    },
+    {
+      "id": "poezie-176",
+      "titlu": "Imnul studenţilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Imnul studenţilor.txt"
+    },
+    {
+      "id": "poezie-177",
+      "titlu": "In opressores",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/In opressores.txt"
+    },
+    {
+      "id": "poezie-178",
+      "titlu": "Incompatibilitate",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Incompatibilitate.txt"
+    },
+    {
+      "id": "poezie-179",
+      "titlu": "Inima copilului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Inima copilului.txt"
+    },
+    {
+      "id": "poezie-180",
+      "titlu": "Inima dacă ți ar fi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Inima dacă ți-ar fi.txt"
+    },
+    {
+      "id": "poezie-181",
+      "titlu": "Inima mamei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Inima mamei.txt"
+    },
+    {
+      "id": "poezie-182",
+      "titlu": "Ispita",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ispita.txt"
+    },
+    {
+      "id": "poezie-183",
+      "titlu": "Isus la împăratul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Isus la împăratul.txt"
+    },
+    {
+      "id": "poezie-184",
+      "titlu": "Izvor de apă vie",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Izvor de apă vie.txt"
+    },
+    {
+      "id": "poezie-185",
+      "titlu": "Izvor lin",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Izvor lin.txt"
+    },
+    {
+      "id": "poezie-186",
+      "titlu": "Jertfele împăcării",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Jertfele împăcării.txt"
+    },
+    {
+      "id": "poezie-187",
+      "titlu": "Jucăriile celui cuminte",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Jucăriile celui cuminte.txt"
+    },
+    {
+      "id": "poezie-188",
+      "titlu": "La logodnă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La logodnă.txt"
+    },
+    {
+      "id": "poezie-189",
+      "titlu": "La moară",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La moară.txt"
+    },
+    {
+      "id": "poezie-190",
+      "titlu": "La noi sunt forme, forme toate",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La noi sunt forme, forme toate.txt"
+    },
+    {
+      "id": "poezie-191",
+      "titlu": "La oglindă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La oglindă.txt"
+    },
+    {
+      "id": "poezie-192",
+      "titlu": "La Paşti",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La Paşti.txt"
+    },
+    {
+      "id": "poezie-193",
+      "titlu": "La pârâu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La pârâu.txt"
+    },
+    {
+      "id": "poezie-194",
+      "titlu": "La pământ cu talpa goală",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La pământ cu talpa goală.txt"
+    },
+    {
+      "id": "poezie-195",
+      "titlu": "La Smârdan",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La Smârdan.txt"
+    },
+    {
+      "id": "poezie-196",
+      "titlu": "La spovedanie",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La spovedanie.txt"
+    },
+    {
+      "id": "poezie-197",
+      "titlu": "La sânul mamei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/La sânul mamei.txt"
+    },
+    {
+      "id": "poezie-198",
+      "titlu": "Lacrimile Helenei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lacrimile Helenei.txt"
+    },
+    {
+      "id": "poezie-199",
+      "titlu": "Lady Godiva",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lady Godiva.txt"
+    },
+    {
+      "id": "poezie-200",
+      "titlu": "Legenda rândunelei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Legenda rândunelei.txt"
+    },
+    {
+      "id": "poezie-201",
+      "titlu": "Legenda trandafirilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Legenda trandafirilor.txt"
+    },
+    {
+      "id": "poezie-202",
+      "titlu": "Legenda",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Legenda.txt"
+    },
+    {
+      "id": "poezie-203",
+      "titlu": "Leșule, rău ca vioara",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Leșule, rău ca vioara.txt"
+    },
+    {
+      "id": "poezie-204",
+      "titlu": "Logica",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Logica.txt"
+    },
+    {
+      "id": "poezie-205",
+      "titlu": "Lordul John",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lordul John.txt"
+    },
+    {
+      "id": "poezie-206",
+      "titlu": "Lui Alexandru Coșbuc",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lui Alexandru Coșbuc.txt"
+    },
+    {
+      "id": "poezie-207",
+      "titlu": "Lui Spiru Haret",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lui Spiru Haret.txt"
+    },
+    {
+      "id": "poezie-208",
+      "titlu": "Lumina soarelui",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lumina soarelui.txt"
+    },
+    {
+      "id": "poezie-209",
+      "titlu": "Lumânărica",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lumânărica.txt"
+    },
+    {
+      "id": "poezie-210",
+      "titlu": "Lupii țiganului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lupii țiganului.txt"
+    },
+    {
+      "id": "poezie-211",
+      "titlu": "Lupta vieţii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lupta vieţii.txt"
+    },
+    {
+      "id": "poezie-212",
+      "titlu": "Lângă leagăn",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lângă leagăn.txt"
+    },
+    {
+      "id": "poezie-213",
+      "titlu": "Lăudați pe Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Lăudați pe Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-214",
+      "titlu": "Mama zice din Scriptură",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mama zice din Scriptură.txt"
+    },
+    {
+      "id": "poezie-215",
+      "titlu": "Mama",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mama.txt"
+    },
+    {
+      "id": "poezie-216",
+      "titlu": "Mamă, sunt silită eu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mamă, sunt silită eu.txt"
+    },
+    {
+      "id": "poezie-217",
+      "titlu": "Manioasa",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Manioasa.txt"
+    },
+    {
+      "id": "poezie-218",
+      "titlu": "Maronita",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Maronita.txt"
+    },
+    {
+      "id": "poezie-219",
+      "titlu": "Mila Domnului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mila Domnului.txt"
+    },
+    {
+      "id": "poezie-220",
+      "titlu": "Minciuna creștinilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Minciuna creștinilor.txt"
+    },
+    {
+      "id": "poezie-221",
+      "titlu": "Moartea lui Fulger",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Moartea lui Fulger.txt"
+    },
+    {
+      "id": "poezie-222",
+      "titlu": "Moartea lui Gelu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Moartea lui Gelu.txt"
+    },
+    {
+      "id": "poezie-223",
+      "titlu": "Modern",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Modern.txt"
+    },
+    {
+      "id": "poezie-224",
+      "titlu": "Mormântul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mormântul.txt"
+    },
+    {
+      "id": "poezie-225",
+      "titlu": "Mortul de la Putna",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mortul de la Putna.txt"
+    },
+    {
+      "id": "poezie-226",
+      "titlu": "Muntele rătezat",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Muntele rătezat.txt"
+    },
+    {
+      "id": "poezie-227",
+      "titlu": "Murind",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Murind.txt"
+    },
+    {
+      "id": "poezie-228",
+      "titlu": "Mâna el domol o pune",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mâna el domol o pune.txt"
+    },
+    {
+      "id": "poezie-229",
+      "titlu": "Mă temeam că ea va plânge",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Mă temeam că ea va plânge.txt"
+    },
+    {
+      "id": "poezie-230",
+      "titlu": "Măgura de când e ea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Măgura de când e ea.txt"
+    },
+    {
+      "id": "poezie-231",
+      "titlu": "N am",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/N-am.txt"
+    },
+    {
+      "id": "poezie-232",
+      "titlu": "Nebuna",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nebuna.txt"
+    },
+    {
+      "id": "poezie-233",
+      "titlu": "Nebunul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nebunul.txt"
+    },
+    {
+      "id": "poezie-234",
+      "titlu": "Nedumerire",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nedumerire.txt"
+    },
+    {
+      "id": "poezie-235",
+      "titlu": "Noapte de vară",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Noapte de vară.txt"
+    },
+    {
+      "id": "poezie-236",
+      "titlu": "Noi vrem pământ",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Noi vrem pământ.txt"
+    },
+    {
+      "id": "poezie-237",
+      "titlu": "Non omnis moriar",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Non omnis moriar.txt"
+    },
+    {
+      "id": "poezie-238",
+      "titlu": "Nota bene patentat",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nota bene - patentat.txt"
+    },
+    {
+      "id": "poezie-239",
+      "titlu": "Nu glumiți, v opriți acuma",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nu glumiți, v-opriți acuma.txt"
+    },
+    {
+      "id": "poezie-240",
+      "titlu": "Nu pot scrie",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nu pot scrie.txt"
+    },
+    {
+      "id": "poezie-241",
+      "titlu": "Nu te ai priceput",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nu te-ai priceput.txt"
+    },
+    {
+      "id": "poezie-242",
+      "titlu": "Nucul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nucul.txt"
+    },
+    {
+      "id": "poezie-243",
+      "titlu": "Nulă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nulă.txt"
+    },
+    {
+      "id": "poezie-244",
+      "titlu": "Numai eu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Numai eu.txt"
+    },
+    {
+      "id": "poezie-245",
+      "titlu": "Numai una",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Numai una.txt"
+    },
+    {
+      "id": "poezie-246",
+      "titlu": "Nunta Zamfirei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nunta Zamfirei.txt"
+    },
+    {
+      "id": "poezie-247",
+      "titlu": "Nuntă în codru",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nuntă în codru.txt"
+    },
+    {
+      "id": "poezie-248",
+      "titlu": "Nușa",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Nușa.txt"
+    },
+    {
+      "id": "poezie-249",
+      "titlu": "O istorie veche",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/O istorie veche.txt"
+    },
+    {
+      "id": "poezie-250",
+      "titlu": "O noapte pe Caraiman",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/O noapte pe Caraiman.txt"
+    },
+    {
+      "id": "poezie-251",
+      "titlu": "O scrisoare de la Muselim Selo",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/O scrisoare de la Muselim-Selo.txt"
+    },
+    {
+      "id": "poezie-252",
+      "titlu": "O, vezi l tu cum e! odată",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/O, vezi-l tu cum e! odată.txt"
+    },
+    {
+      "id": "poezie-253",
+      "titlu": "O ntâlnire",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/O-ntâlnire.txt"
+    },
+    {
+      "id": "poezie-254",
+      "titlu": "Ochiul lui Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ochiul lui Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-255",
+      "titlu": "Ocrotirea lui Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ocrotirea lui Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-256",
+      "titlu": "Oltenii lui Tudor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Oltenii lui Tudor.txt"
+    },
+    {
+      "id": "poezie-257",
+      "titlu": "Omonime",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Omonime.txt"
+    },
+    {
+      "id": "poezie-258",
+      "titlu": "Omul plânge",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Omul plânge.txt"
+    },
+    {
+      "id": "poezie-259",
+      "titlu": "Oratorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Oratorul.txt"
+    },
+    {
+      "id": "poezie-260",
+      "titlu": "Osman pașa",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Osman-pașa.txt"
+    },
+    {
+      "id": "poezie-261",
+      "titlu": "Oștirile lui Alah",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Oștirile lui Alah.txt"
+    },
+    {
+      "id": "poezie-262",
+      "titlu": "Pace",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pace.txt"
+    },
+    {
+      "id": "poezie-263",
+      "titlu": "Parabola sămănătorului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Parabola sămănătorului.txt"
+    },
+    {
+      "id": "poezie-264",
+      "titlu": "Pastel",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pastel.txt"
+    },
+    {
+      "id": "poezie-265",
+      "titlu": "Patria noastră",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Patria noastră.txt"
+    },
+    {
+      "id": "poezie-266",
+      "titlu": "Patria română",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Patria română.txt"
+    },
+    {
+      "id": "poezie-267",
+      "titlu": "Patru portărei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Patru portărei.txt"
+    },
+    {
+      "id": "poezie-268",
+      "titlu": "Patruzeci de ani",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Patruzeci de ani.txt"
+    },
+    {
+      "id": "poezie-269",
+      "titlu": "Paşa Hassan",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Paşa Hassan.txt"
+    },
+    {
+      "id": "poezie-270",
+      "titlu": "Pe Bistrița, cântând",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe Bistrița, cântând.txt"
+    },
+    {
+      "id": "poezie-271",
+      "titlu": "Pe Bistrița",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe Bistrița.txt"
+    },
+    {
+      "id": "poezie-272",
+      "titlu": "Pe Caraiman ai pus o cruce",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe Caraiman ai pus o cruce.txt"
+    },
+    {
+      "id": "poezie-273",
+      "titlu": "Pe cine iubesc",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe cine iubesc.txt"
+    },
+    {
+      "id": "poezie-274",
+      "titlu": "Pe câmpie",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe câmpie.txt"
+    },
+    {
+      "id": "poezie-275",
+      "titlu": "Pe deal",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe deal.txt"
+    },
+    {
+      "id": "poezie-276",
+      "titlu": "Pe dealul Plevnei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe dealul Plevnei.txt"
+    },
+    {
+      "id": "poezie-277",
+      "titlu": "Pe drumul Plevnei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe drumul Plevnei.txt"
+    },
+    {
+      "id": "poezie-278",
+      "titlu": "Pe lângă boi",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe lângă boi.txt"
+    },
+    {
+      "id": "poezie-279",
+      "titlu": "Pe munte",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe munte.txt"
+    },
+    {
+      "id": "poezie-280",
+      "titlu": "Pe pământul turcului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe pământul turcului.txt"
+    },
+    {
+      "id": "poezie-281",
+      "titlu": "Pe Tâmpa",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pe Tâmpa.txt"
+    },
+    {
+      "id": "poezie-282",
+      "titlu": "Pentru libertate",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pentru libertate.txt"
+    },
+    {
+      "id": "poezie-283",
+      "titlu": "Pescarul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pescarul.txt"
+    },
+    {
+      "id": "poezie-284",
+      "titlu": "Petrea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Petrea.txt"
+    },
+    {
+      "id": "poezie-285",
+      "titlu": "Peștișorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Peștișorul.txt"
+    },
+    {
+      "id": "poezie-286",
+      "titlu": "Pierde vară",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pierde-vară.txt"
+    },
+    {
+      "id": "poezie-287",
+      "titlu": "Pierdut privesc în urma ta",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pierdut privesc în urma ta.txt"
+    },
+    {
+      "id": "poezie-288",
+      "titlu": "Pierirea Dacilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pierirea Dacilor.txt"
+    },
+    {
+      "id": "poezie-289",
+      "titlu": "Pipăruș Viteaz",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pipăruș-Viteaz.txt"
+    },
+    {
+      "id": "poezie-290",
+      "titlu": "Ploaia",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ploaia.txt"
+    },
+    {
+      "id": "poezie-291",
+      "titlu": "Plugarul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Plugarul.txt"
+    },
+    {
+      "id": "poezie-292",
+      "titlu": "Podul lui Traian",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Podul lui Traian.txt"
+    },
+    {
+      "id": "poezie-293",
+      "titlu": "Poet și critic",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Poet și critic.txt"
+    },
+    {
+      "id": "poezie-294",
+      "titlu": "Poetul și curtenii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Poetul și curtenii.txt"
+    },
+    {
+      "id": "poezie-295",
+      "titlu": "Poetul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Poetul.txt"
+    },
+    {
+      "id": "poezie-296",
+      "titlu": "Poezia unui tipografist",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Poezia unui tipografist.txt"
+    },
+    {
+      "id": "poezie-297",
+      "titlu": "Polemică literară",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Polemică literară.txt"
+    },
+    {
+      "id": "poezie-298",
+      "titlu": "Politică",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Politică.txt"
+    },
+    {
+      "id": "poezie-299",
+      "titlu": "Pomul Crăciunului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pomul Crăciunului.txt"
+    },
+    {
+      "id": "poezie-300",
+      "titlu": "Popasul țiganilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Popasul țiganilor.txt"
+    },
+    {
+      "id": "poezie-301",
+      "titlu": "Poporală",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Poporală.txt"
+    },
+    {
+      "id": "poezie-302",
+      "titlu": "Povață",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Povață.txt"
+    },
+    {
+      "id": "poezie-303",
+      "titlu": "Povestea cântării",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Povestea cântării.txt"
+    },
+    {
+      "id": "poezie-304",
+      "titlu": "Povestea căprarului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Povestea căprarului.txt"
+    },
+    {
+      "id": "poezie-305",
+      "titlu": "Povestea gâștelor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Povestea gâștelor.txt"
+    },
+    {
+      "id": "poezie-306",
+      "titlu": "Prahova",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Prahova.txt"
+    },
+    {
+      "id": "poezie-307",
+      "titlu": "Primăvara",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Primăvara.txt"
+    },
+    {
+      "id": "poezie-308",
+      "titlu": "Prin Mehadia",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Prin Mehadia.txt"
+    },
+    {
+      "id": "poezie-309",
+      "titlu": "Prințului Nicolae",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Prințului Nicolae.txt"
+    },
+    {
+      "id": "poezie-310",
+      "titlu": "Proclamarea independenței",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Proclamarea independenței.txt"
+    },
+    {
+      "id": "poezie-311",
+      "titlu": "Profesorului de latină",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Profesorului de latină.txt"
+    },
+    {
+      "id": "poezie-312",
+      "titlu": "Profeție",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Profeție.txt"
+    },
+    {
+      "id": "poezie-313",
+      "titlu": "Prutul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Prutul.txt"
+    },
+    {
+      "id": "poezie-314",
+      "titlu": "Psalm",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Psalm.txt"
+    },
+    {
+      "id": "poezie-315",
+      "titlu": "Puntea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Puntea.txt"
+    },
+    {
+      "id": "poezie-316",
+      "titlu": "Pământul dormind",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pământul dormind.txt"
+    },
+    {
+      "id": "poezie-317",
+      "titlu": "Pământul uitării",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Pământul uitării.txt"
+    },
+    {
+      "id": "poezie-318",
+      "titlu": "Păstorița",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Păstorița.txt"
+    },
+    {
+      "id": "poezie-319",
+      "titlu": "Păsărică, floarea, valea",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Păsărică, floarea, valea.txt"
+    },
+    {
+      "id": "poezie-320",
+      "titlu": "Rada",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Rada.txt"
+    },
+    {
+      "id": "poezie-321",
+      "titlu": "Raport",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Raport.txt"
+    },
+    {
+      "id": "poezie-322",
+      "titlu": "Rea de plată",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Rea de plată.txt"
+    },
+    {
+      "id": "poezie-323",
+      "titlu": "Recrutul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Recrutul.txt"
+    },
+    {
+      "id": "poezie-324",
+      "titlu": "Regele pontului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Regele pontului.txt"
+    },
+    {
+      "id": "poezie-325",
+      "titlu": "Regele",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Regele.txt"
+    },
+    {
+      "id": "poezie-326",
+      "titlu": "Regina Ostrogotilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Regina Ostrogotilor.txt"
+    },
+    {
+      "id": "poezie-327",
+      "titlu": "Regulă și excepțiune",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Regulă și excepțiune.txt"
+    },
+    {
+      "id": "poezie-328",
+      "titlu": "Roata morii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Roata morii.txt"
+    },
+    {
+      "id": "poezie-329",
+      "titlu": "Rodovica",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Rodovica.txt"
+    },
+    {
+      "id": "poezie-330",
+      "titlu": "Romanţă II",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Romanţă II.txt"
+    },
+    {
+      "id": "poezie-331",
+      "titlu": "Romanță",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Romanță.txt"
+    },
+    {
+      "id": "poezie-332",
+      "titlu": "Românașul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Românașul.txt"
+    },
+    {
+      "id": "poezie-333",
+      "titlu": "Românește așa a fost",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Românește-așa a fost.txt"
+    },
+    {
+      "id": "poezie-334",
+      "titlu": "Roșiorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Roșiorul.txt"
+    },
+    {
+      "id": "poezie-335",
+      "titlu": "Rugămintea din urmă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Rugămintea din urmă.txt"
+    },
+    {
+      "id": "poezie-336",
+      "titlu": "Râușorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Râușorul.txt"
+    },
+    {
+      "id": "poezie-337",
+      "titlu": "Scara",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Scara.txt"
+    },
+    {
+      "id": "poezie-338",
+      "titlu": "Scumpă ţară românească",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Scumpă ţară românească.txt"
+    },
+    {
+      "id": "poezie-339",
+      "titlu": "Scut şi armă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Scut şi armă.txt"
+    },
+    {
+      "id": "poezie-340",
+      "titlu": "Seara",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Seara.txt"
+    },
+    {
+      "id": "poezie-341",
+      "titlu": "Secetă și ploaie",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Secetă și ploaie.txt"
+    },
+    {
+      "id": "poezie-342",
+      "titlu": "Serenada",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Serenada.txt"
+    },
+    {
+      "id": "poezie-343",
+      "titlu": "Somnul codrilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Somnul codrilor.txt"
+    },
+    {
+      "id": "poezie-344",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-345",
+      "titlu": "Sonete de lux",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sonete de lux.txt"
+    },
+    {
+      "id": "poezie-346",
+      "titlu": "Sosirea randunicii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sosirea randunicii.txt"
+    },
+    {
+      "id": "poezie-347",
+      "titlu": "Spada și plugul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Spada și plugul.txt"
+    },
+    {
+      "id": "poezie-348",
+      "titlu": "Spadă și corăbii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Spadă și corăbii.txt"
+    },
+    {
+      "id": "poezie-349",
+      "titlu": "Spadă și credință",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Spadă și credință.txt"
+    },
+    {
+      "id": "poezie-350",
+      "titlu": "Spinul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Spinul.txt"
+    },
+    {
+      "id": "poezie-351",
+      "titlu": "Spânzurați l, de i mișel",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Spânzurați-l, de-i mișel.txt"
+    },
+    {
+      "id": "poezie-352",
+      "titlu": "Stai, iubito, la fântână",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Stai, iubito, la fântână.txt"
+    },
+    {
+      "id": "poezie-353",
+      "titlu": "Stema țării",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Stema țării.txt"
+    },
+    {
+      "id": "poezie-354",
+      "titlu": "Străjerul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Străjerul.txt"
+    },
+    {
+      "id": "poezie-355",
+      "titlu": "Stâncile strigă Amin",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Stâncile strigă Amin.txt"
+    },
+    {
+      "id": "poezie-356",
+      "titlu": "Sub patrafir",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sub patrafir.txt"
+    },
+    {
+      "id": "poezie-357",
+      "titlu": "Sulamita",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sulamita.txt"
+    },
+    {
+      "id": "poezie-358",
+      "titlu": "Supțirica din vecini",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Supțirica din vecini.txt"
+    },
+    {
+      "id": "poezie-359",
+      "titlu": "Sus inima",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sus inima.txt"
+    },
+    {
+      "id": "poezie-360",
+      "titlu": "Să n am zi de veselie",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Să n-am zi de veselie.txt"
+    },
+    {
+      "id": "poezie-361",
+      "titlu": "Săniuța",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Săniuța.txt"
+    },
+    {
+      "id": "poezie-362",
+      "titlu": "Sărindar",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sărindar.txt"
+    },
+    {
+      "id": "poezie-363",
+      "titlu": "Sărută soarele cu drag pământul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Sărută soarele cu drag pământul.txt"
+    },
+    {
+      "id": "poezie-364",
+      "titlu": "Tablou de seară",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Tablou de seară.txt"
+    },
+    {
+      "id": "poezie-365",
+      "titlu": "Teodolinda",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Teodolinda.txt"
+    },
+    {
+      "id": "poezie-366",
+      "titlu": "Timpurile anului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Timpurile anului.txt"
+    },
+    {
+      "id": "poezie-367",
+      "titlu": "Tiranei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Tiranei.txt"
+    },
+    {
+      "id": "poezie-368",
+      "titlu": "Toamna târziu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Toamna târziu.txt"
+    },
+    {
+      "id": "poezie-369",
+      "titlu": "Toamna",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Toamna.txt"
+    },
+    {
+      "id": "poezie-370",
+      "titlu": "Toți sfinții",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Toți sfinții.txt"
+    },
+    {
+      "id": "poezie-371",
+      "titlu": "Traiul când ți se urăște",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Traiul când ți se urăște.txt"
+    },
+    {
+      "id": "poezie-372",
+      "titlu": "Trei, Doamne, şi toţi trei",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Trei, Doamne, şi toţi trei.txt"
+    },
+    {
+      "id": "poezie-373",
+      "titlu": "Trenul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Trenul.txt"
+    },
+    {
+      "id": "poezie-374",
+      "titlu": "Tricolorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Tricolorul.txt"
+    },
+    {
+      "id": "poezie-375",
+      "titlu": "Trond",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Trond.txt"
+    },
+    {
+      "id": "poezie-376",
+      "titlu": "Tu, ulciorule de lut",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Tu, ulciorule de lut.txt"
+    },
+    {
+      "id": "poezie-377",
+      "titlu": "Tulnic și Lioara I, II, III",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Tulnic și Lioara I, II, III.txt"
+    },
+    {
+      "id": "poezie-378",
+      "titlu": "Tulnic și Lioara IV, V, VI",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Tulnic și Lioara IV, V, VI.txt"
+    },
+    {
+      "id": "poezie-379",
+      "titlu": "Tulnic și Lioara VII, VIII",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Tulnic și Lioara VII, VIII.txt"
+    },
+    {
+      "id": "poezie-380",
+      "titlu": "Umbra",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Umbra.txt"
+    },
+    {
+      "id": "poezie-381",
+      "titlu": "Un basm",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un basm.txt"
+    },
+    {
+      "id": "poezie-382",
+      "titlu": "Un brad",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un brad.txt"
+    },
+    {
+      "id": "poezie-383",
+      "titlu": "Un cuvânt aș vrea să fiu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un cuvânt aș vrea să fiu.txt"
+    },
+    {
+      "id": "poezie-384",
+      "titlu": "Un glas din adâncul templului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un glas din adâncul templului.txt"
+    },
+    {
+      "id": "poezie-385",
+      "titlu": "Un imn preasfintei gramatice",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un imn preasfintei gramatice.txt"
+    },
+    {
+      "id": "poezie-386",
+      "titlu": "Un pipăruş modern I",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern I.txt"
+    },
+    {
+      "id": "poezie-387",
+      "titlu": "Un pipăruş modern II",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern II.txt"
+    },
+    {
+      "id": "poezie-388",
+      "titlu": "Un pipăruş modern III",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern III.txt"
+    },
+    {
+      "id": "poezie-389",
+      "titlu": "Un pipăruş modern IV",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern IV.txt"
+    },
+    {
+      "id": "poezie-390",
+      "titlu": "Un pipăruş modern IX",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern IX.txt"
+    },
+    {
+      "id": "poezie-391",
+      "titlu": "Un pipăruş modern V",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern V.txt"
+    },
+    {
+      "id": "poezie-392",
+      "titlu": "Un pipăruş modern VI",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern VI.txt"
+    },
+    {
+      "id": "poezie-393",
+      "titlu": "Un pipăruş modern VII",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern VII.txt"
+    },
+    {
+      "id": "poezie-394",
+      "titlu": "Un pipăruş modern VIII",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern VIII.txt"
+    },
+    {
+      "id": "poezie-395",
+      "titlu": "Un pipăruş modern X",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern X.txt"
+    },
+    {
+      "id": "poezie-396",
+      "titlu": "Un pipăruş modern XI",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern XI.txt"
+    },
+    {
+      "id": "poezie-397",
+      "titlu": "Un pipăruş modern XII",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un pipăruş modern XII.txt"
+    },
+    {
+      "id": "poezie-398",
+      "titlu": "Un voinic și un cuminte",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Un voinic și un cuminte.txt"
+    },
+    {
+      "id": "poezie-399",
+      "titlu": "Unde i apa mai adâncă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Unde-i apa mai adâncă.txt"
+    },
+    {
+      "id": "poezie-400",
+      "titlu": "Undele mării",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Undele mării.txt"
+    },
+    {
+      "id": "poezie-401",
+      "titlu": "Unii vor să aibă multe",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Unii vor să aibă multe.txt"
+    },
+    {
+      "id": "poezie-402",
+      "titlu": "Unui autor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Unui autor.txt"
+    },
+    {
+      "id": "poezie-403",
+      "titlu": "Unul ca o sută",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Unul ca o sută.txt"
+    },
+    {
+      "id": "poezie-404",
+      "titlu": "Vara",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vara.txt"
+    },
+    {
+      "id": "poezie-405",
+      "titlu": "Vestitorii primăverii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vestitorii primăverii.txt"
+    },
+    {
+      "id": "poezie-406",
+      "titlu": "Vierul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vierul.txt"
+    },
+    {
+      "id": "poezie-407",
+      "titlu": "Vine ploaia",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vine ploaia.txt"
+    },
+    {
+      "id": "poezie-408",
+      "titlu": "Visul sclavului",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Visul sclavului.txt"
+    },
+    {
+      "id": "poezie-409",
+      "titlu": "Vitele",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vitele.txt"
+    },
+    {
+      "id": "poezie-410",
+      "titlu": "Vizite",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vizite.txt"
+    },
+    {
+      "id": "poezie-411",
+      "titlu": "Voci din public",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Voci din public.txt"
+    },
+    {
+      "id": "poezie-412",
+      "titlu": "Voi, sălcii triste n cimitir",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Voi, sălcii triste-n cimitir.txt"
+    },
+    {
+      "id": "poezie-413",
+      "titlu": "Voichița lui Ștefan",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Voichița lui Ștefan.txt"
+    },
+    {
+      "id": "poezie-414",
+      "titlu": "Volos, preot dac",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Volos, preot dac.txt"
+    },
+    {
+      "id": "poezie-415",
+      "titlu": "Vulturul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vulturul.txt"
+    },
+    {
+      "id": "poezie-416",
+      "titlu": "Vântoasele",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vântoasele.txt"
+    },
+    {
+      "id": "poezie-417",
+      "titlu": "Vântul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vântul.txt"
+    },
+    {
+      "id": "poezie-418",
+      "titlu": "Vânătoarea lui Mogul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vânătoarea lui Mogul.txt"
+    },
+    {
+      "id": "poezie-419",
+      "titlu": "Vânătorul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Vânătorul.txt"
+    },
+    {
+      "id": "poezie-420",
+      "titlu": "XL",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/XL.txt"
+    },
+    {
+      "id": "poezie-421",
+      "titlu": "XLIV",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/XLIV.txt"
+    },
+    {
+      "id": "poezie-422",
+      "titlu": "Zece mai",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Zece mai.txt"
+    },
+    {
+      "id": "poezie-423",
+      "titlu": "Zeii beau nectaruri",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Zeii beau nectaruri.txt"
+    },
+    {
+      "id": "poezie-424",
+      "titlu": "Zidarul",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Zidarul.txt"
+    },
+    {
+      "id": "poezie-425",
+      "titlu": "Zile de toamna",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Zile de toamna.txt"
+    },
+    {
+      "id": "poezie-426",
+      "titlu": "Ziua nvierii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ziua-nvierii.txt"
+    },
+    {
+      "id": "poezie-427",
+      "titlu": "Zobail",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Zobail.txt"
+    },
+    {
+      "id": "poezie-428",
+      "titlu": "Zâna florilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Zâna florilor.txt"
+    },
+    {
+      "id": "poezie-429",
+      "titlu": "Zâna pădurii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Zâna pădurii.txt"
+    },
+    {
+      "id": "poezie-430",
+      "titlu": "Împăratul Frideric III",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Împăratul Frideric III.txt"
+    },
+    {
+      "id": "poezie-431",
+      "titlu": "În biserică",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În biserică.txt"
+    },
+    {
+      "id": "poezie-432",
+      "titlu": "În fața mi se ntinde al câmpiei cuprins",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În fața-mi se-ntinde-al câmpiei cuprins.txt"
+    },
+    {
+      "id": "poezie-433",
+      "titlu": "În miezul veri",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În miezul veri.txt"
+    },
+    {
+      "id": "poezie-434",
+      "titlu": "În miezul verii",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În miezul verii.txt"
+    },
+    {
+      "id": "poezie-435",
+      "titlu": "În muzeu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În muzeu.txt"
+    },
+    {
+      "id": "poezie-436",
+      "titlu": "În opressores II",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În opressores II.txt"
+    },
+    {
+      "id": "poezie-437",
+      "titlu": "În poiana unde sună",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În poiana unde sună.txt"
+    },
+    {
+      "id": "poezie-438",
+      "titlu": "În pădure",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În pădure.txt"
+    },
+    {
+      "id": "poezie-439",
+      "titlu": "În seara de Crăciun",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În seara de Crăciun.txt"
+    },
+    {
+      "id": "poezie-440",
+      "titlu": "În spital",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În spital.txt"
+    },
+    {
+      "id": "poezie-441",
+      "titlu": "În vis",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În vis.txt"
+    },
+    {
+      "id": "poezie-442",
+      "titlu": "În zori",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În zori.txt"
+    },
+    {
+      "id": "poezie-443",
+      "titlu": "În şanţuri",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/În şanţuri.txt"
+    },
+    {
+      "id": "poezie-444",
+      "titlu": "Înainte",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Înainte.txt"
+    },
+    {
+      "id": "poezie-445",
+      "titlu": "Închinați vă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Închinați-vă.txt"
+    },
+    {
+      "id": "poezie-446",
+      "titlu": "Îngerul copiilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Îngerul copiilor.txt"
+    },
+    {
+      "id": "poezie-447",
+      "titlu": "Îngerul păzitor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Îngerul păzitor.txt"
+    },
+    {
+      "id": "poezie-448",
+      "titlu": "Întrebări despre Dumnezeu",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Întrebări despre Dumnezeu.txt"
+    },
+    {
+      "id": "poezie-449",
+      "titlu": "Ştefăniţă Vodă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ştefăniţă-Vodă.txt"
+    },
+    {
+      "id": "poezie-450",
+      "titlu": "Șarpele n inimă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Șarpele-n inimă.txt"
+    },
+    {
+      "id": "poezie-451",
+      "titlu": "Șchiop dar și eu am să mor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Șchiop dar și eu am să mor.txt"
+    },
+    {
+      "id": "poezie-452",
+      "titlu": "Și ascult",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Și-ascult.txt"
+    },
+    {
+      "id": "poezie-453",
+      "titlu": "Ștefan Vodă",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ștefan-Vodă.txt"
+    },
+    {
+      "id": "poezie-454",
+      "titlu": "Ștrengarul văilor",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ștrengarul văilor.txt"
+    },
+    {
+      "id": "poezie-455",
+      "titlu": "Țară avem și noi sub soare",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Țară avem și noi sub soare.txt"
+    },
+    {
+      "id": "poezie-456",
+      "titlu": "Ți ai mânat prin veacuri turmele pe plai",
+      "tip": "poezie",
+      "versuri_path": "data/George Coşbuc/poezii/Ți-ai mânat prin veacuri turmele pe plai.txt"
+    }
+  ],
+  "proza": []
+}

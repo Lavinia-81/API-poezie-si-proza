@@ -1,0 +1,344 @@
+{
+  "autor": "Panait Cerna",
+  "poza": "data/Panait Cerna/bibliografie/Panait-Cerna.jpg",
+  "bibliografie_path": "data/Panait Cerna/bibliografie/Note Bibliografice.txt",
+  "poezii": [
+    {
+      "id": "poezie-1",
+      "titlu": "Amor",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Amor.txt"
+    },
+    {
+      "id": "poezie-2",
+      "titlu": "April",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/April.txt"
+    },
+    {
+      "id": "poezie-3",
+      "titlu": "Cavaler",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Cavaler.txt"
+    },
+    {
+      "id": "poezie-4",
+      "titlu": "Cel mai frumos",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Cel mai frumos.txt"
+    },
+    {
+      "id": "poezie-5",
+      "titlu": "Celei aşteptate",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Celei aşteptate.txt"
+    },
+    {
+      "id": "poezie-6",
+      "titlu": "Chemare",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Chemare.txt"
+    },
+    {
+      "id": "poezie-7",
+      "titlu": "Cântec",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Cântec.txt"
+    },
+    {
+      "id": "poezie-8",
+      "titlu": "Către Ines",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Către Ines.txt"
+    },
+    {
+      "id": "poezie-9",
+      "titlu": "Către pace",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Către pace.txt"
+    },
+    {
+      "id": "poezie-10",
+      "titlu": "De pe ţărm",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/De pe ţărm.txt"
+    },
+    {
+      "id": "poezie-11",
+      "titlu": "De aş avea eu coiful din poveste",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/De-aş avea eu coiful din poveste.txt"
+    },
+    {
+      "id": "poezie-12",
+      "titlu": "Dedicaţie",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Dedicaţie.txt"
+    },
+    {
+      "id": "poezie-13",
+      "titlu": "Despărţire",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Despărţire.txt"
+    },
+    {
+      "id": "poezie-14",
+      "titlu": "Din depărtare",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Din depărtare.txt"
+    },
+    {
+      "id": "poezie-15",
+      "titlu": "Domniţa din vis",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Domniţa din vis.txt"
+    },
+    {
+      "id": "poezie-16",
+      "titlu": "Dor",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Dor.txt"
+    },
+    {
+      "id": "poezie-17",
+      "titlu": "După furtună",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/După furtună.txt"
+    },
+    {
+      "id": "poezie-18",
+      "titlu": "După un veac",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/După un veac.txt"
+    },
+    {
+      "id": "poezie-19",
+      "titlu": "Dura lex",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Dura lex.txt"
+    },
+    {
+      "id": "poezie-20",
+      "titlu": "Ecouri",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Ecouri.txt"
+    },
+    {
+      "id": "poezie-21",
+      "titlu": "Epigrame",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Epigrame.txt"
+    },
+    {
+      "id": "poezie-22",
+      "titlu": "Farmec de lună",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Farmec de lună.txt"
+    },
+    {
+      "id": "poezie-23",
+      "titlu": "Floare și genune",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Floare și genune.txt"
+    },
+    {
+      "id": "poezie-24",
+      "titlu": "Floarea Oltului",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Floarea Oltului.txt"
+    },
+    {
+      "id": "poezie-25",
+      "titlu": "Ideal",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Ideal.txt"
+    },
+    {
+      "id": "poezie-26",
+      "titlu": "Iisus",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Iisus.txt"
+    },
+    {
+      "id": "poezie-27",
+      "titlu": "Legenda unei stânci",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Legenda unei stânci.txt"
+    },
+    {
+      "id": "poezie-28",
+      "titlu": "Logodna",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Logodna.txt"
+    },
+    {
+      "id": "poezie-29",
+      "titlu": "Lui Leo Tolstoi",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Lui Leo Tolstoi.txt"
+    },
+    {
+      "id": "poezie-30",
+      "titlu": "Mama",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Mama.txt"
+    },
+    {
+      "id": "poezie-31",
+      "titlu": "Noapte de vară",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Noapte de vară.txt"
+    },
+    {
+      "id": "poezie-32",
+      "titlu": "Nocturnă II",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Nocturnă II.txt"
+    },
+    {
+      "id": "poezie-33",
+      "titlu": "Nocturnă",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Nocturnă.txt"
+    },
+    {
+      "id": "poezie-34",
+      "titlu": "Orientale",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Orientale.txt"
+    },
+    {
+      "id": "poezie-35",
+      "titlu": "Plânsul lui Adam",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Plânsul lui Adam.txt"
+    },
+    {
+      "id": "poezie-36",
+      "titlu": "Poporul",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Poporul.txt"
+    },
+    {
+      "id": "poezie-37",
+      "titlu": "Primăvara",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Primăvara.txt"
+    },
+    {
+      "id": "poezie-38",
+      "titlu": "Printre lacrămi",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Printre lacrămi.txt"
+    },
+    {
+      "id": "poezie-39",
+      "titlu": "Părâul și floarea",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Părâul și floarea.txt"
+    },
+    {
+      "id": "poezie-40",
+      "titlu": "Romanţă",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Romanţă.txt"
+    },
+    {
+      "id": "poezie-41",
+      "titlu": "Sonet",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Sonet.txt"
+    },
+    {
+      "id": "poezie-42",
+      "titlu": "Sonete II",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Sonete II.txt"
+    },
+    {
+      "id": "poezie-43",
+      "titlu": "Torquato către Leonora",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Torquato către Leonora.txt"
+    },
+    {
+      "id": "poezie-44",
+      "titlu": "Trecut",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Trecut.txt"
+    },
+    {
+      "id": "poezie-45",
+      "titlu": "Trei sburătoare",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Trei sburătoare.txt"
+    },
+    {
+      "id": "poezie-46",
+      "titlu": "Tristetea Lenorei",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Tristetea Lenorei.txt"
+    },
+    {
+      "id": "poezie-47",
+      "titlu": "Triumf",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Triumf.txt"
+    },
+    {
+      "id": "poezie-48",
+      "titlu": "Vârful cu dor",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Vârful cu dor.txt"
+    },
+    {
+      "id": "poezie-49",
+      "titlu": "Zece maiu",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Zece maiu.txt"
+    },
+    {
+      "id": "poezie-50",
+      "titlu": "Zile de durere",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Zile de durere.txt"
+    },
+    {
+      "id": "poezie-51",
+      "titlu": "În faţa altarului",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/În faţa altarului.txt"
+    },
+    {
+      "id": "poezie-52",
+      "titlu": "În peşteră",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/În peşteră.txt"
+    },
+    {
+      "id": "poezie-53",
+      "titlu": "Închinare",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Închinare.txt"
+    },
+    {
+      "id": "poezie-54",
+      "titlu": "Înseninare",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Înseninare.txt"
+    },
+    {
+      "id": "poezie-55",
+      "titlu": "Şoapte",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Şoapte.txt"
+    },
+    {
+      "id": "poezie-56",
+      "titlu": "Şoimul",
+      "tip": "poezie",
+      "versuri_path": "data/Panait Cerna/poezii/Şoimul.txt"
+    }
+  ],
+  "proza": []
+}
