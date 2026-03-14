@@ -86,11 +86,11 @@ Poezii și Proză/
 Exemplu de JSON:
 ```
   {
-  "autor": "Mihai Eminescu",
-  "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
-  "bibliografie_path": "data/Mihai Eminescu/bibliografie/Note Bibliografice.txt",
-  "poezii": [...],
-  "proza": [...]
+      "autor": "Mihai Eminescu",
+      "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
+      "bibliografie_path": "data/Mihai Eminescu/bibliografie/Note Bibliografice.txt",
+      "poezii": [...],
+      "proza": [...]
  }
 ```
 ---
