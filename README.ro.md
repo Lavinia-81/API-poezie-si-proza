@@ -2,7 +2,13 @@
 ## 📄 Documentație API
 Documentația completă este disponibilă aici:  
 [![Documentation](https://img.shields.io/badge/Docs-OpenAPI%20Redoc-blue)](https://lavinia-81.github.io/API-Poezii-si-Proza/)
-[![Documentation](https://img.shields.io/badge/Docs-OpenAPI%20Redoc-blue)](https://lavinia-81.github.io/API-Poezii-si-Proza/)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-green)
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
+![Express](https://img.shields.io/badge/Express.js-API-blue)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-yellow)
+![License: MIT](https://img.shields.io/badge/License-MIT-purple)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 Perfect, Maria — acum că documentația ta este LIVE și funcționează impecabil, Pasul 5 este despre profesionalizare.
 Aici transformăm proiectul tău într-un API care arată ca unul enterprise, cu branding, badge-uri, linkuri clare și o prezentare impecabilă.
 Hai să-l facem să arate ca un proiect matur, gata de portofoliu și de prezentat oricărui recrutor sau client.
