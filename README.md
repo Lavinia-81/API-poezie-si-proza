@@ -1,4 +1,5 @@
-# 📚 Romanian Classical Literature API   [![Documentation](https://img.shields.io/badge/Docs-OpenAPI%20Redoc-blue)](https://lavinia-81.github.io/API-Poezii-si-Proza/)
+# 📚 Romanian Classical Literature API   
+[![Documentation](https://img.shields.io/badge/Docs-OpenAPI%20Redoc-blue)](https://lavinia-81.github.io/API-Poezii-si-Proza/)
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
 ![Express](https://img.shields.io/badge/Express.js-API-blue)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-yellow)
