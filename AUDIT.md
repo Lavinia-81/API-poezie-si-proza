@@ -1,4 +1,4 @@
-## 🔍 Security & Quality Audit — Poezii și Proză API
+# 🔍 Security & Quality Audit — Poezii și Proză API
 Acest audit evaluează arhitectura, securitatea, performanța și scalabilitatea API‑ului tău Node.js + Express, care servește conținut literar din fișiere locale.
 
 
@@ -86,8 +86,6 @@ Recomandare:
 Adaugă:
 GET /api/health
 
-
-
 ## 🚀 3. Performance Audit
 ✔️ 3.1. Strengths
 - Node.js este rapid pentru I/O
@@ -104,7 +102,7 @@ Cache în memorie cu invalidare manuală.
 Recomandare:
 Adaugă middleware compression().
 
-🧩 4. Maintainability Audit
+## 🧩 4. Maintainability Audit
 ✔️ 4.1. Strengths
 - cod clar
 - funcții bine separate
@@ -120,7 +118,7 @@ Adaugă Jest + Supertest.
 Recomandare:
 Generează un fișier openapi.yaml.
 
-🏆 5. Overall Rating
+## 🏆 5. Overall Rating
 | Categorie       |  Evaluare         |
 | Security        | ⭐⭐⭐⭐☆ (4/5) | 
 | Architecture    | ⭐⭐⭐⭐☆ (4/5) | 

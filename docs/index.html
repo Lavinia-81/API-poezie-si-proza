@@ -20,8 +20,9 @@
 
       /* Header premium */
       .top-header {
-        background-color: #6a1b1a; /* burgundy */
-        color: #fff;
+        background-color: wheat;
+        border-bottom: 2px solid rgba(155, 123, 17, 0.35);
+        margin-bottom: 1px;
         padding: 20px 40px;
         font-size: 26px;
         font-weight: 700;
@@ -42,6 +43,23 @@
       #redoc-container {
         padding: 0;
       }
+      
+      .literary-footer {
+        background-color: wheat;
+        text-align: center;
+        padding: 25px 10px;
+        margin-top: 1px;
+        font-size: 15px;
+        font-family: 'Merriweather', serif;
+        color: #5a5a5a;
+        border-top: 2px solid rgba(155, 123, 17, 0.35);
+        letter-spacing: 0.3px;
+      }
+
+      .literary-footer strong {
+        color: #6a1b1a; /* burgundy */
+        font-weight: 700;
+      }
     </style>
   </head>
 
@@ -49,16 +67,20 @@
     <div class="top-header">
       <img src="pana.jpg" alt="Pana de scris"
           style="width: 45px; height: 45px;
-                  border-radius: 8px;
+                  border-radius: 10px;
                   margin-right: 14px;
                   animation: pulse 3s ease-in-out infinite;
-                  box-shadow: 0 0 6px rgba(212,175,55,0.4);" />
+                  box-shadow: 0 0 10px rgba(135, 107, 16, 0.4);" />
 
-      Poems and Prose – API – Romanian Classical Literature
+      Poems and Prose - API - Romanian Classical Literature
     </div>
 
     <!-- Redoc -->
     <div id="redoc-container"></div>
+    
+    <footer class="literary-footer">
+      Curated by <strong>Maria Lavinia</strong> · Poems and Prose - API Romanian Classical Literature · © 2026
+    </footer>
 
     <script>
       Redoc.init("../openapi.yaml", {

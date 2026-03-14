@@ -11,23 +11,42 @@
 ---
 
 ## 📄 Documentație API
+
 Documentația completă este disponibilă aici:  
 👉 https://lavinia-81.github.io/API-Poezii-si-Proza/
-
+`/docs/swagger.html` 
+`/docs/home.html` 
 ---
 
 ## 📚 Descriere
+
 Acest API oferă acces la poezii, proză, bibliografie și imagini ale autorilor clasici români.  
 Este un API **read-only**, curat, scalabil și structurat pentru utilizare educațională și literară.
 Datele sunt citite direct din structura de fișiere a fiecărui autor, fără baze de date externe.
 
 ---
 
+## ✨ Funcționalități
+
+- 📜 Acces la poezie clasică românească
+- 📘 Acces la proză și povestiri
+- 🖼️ Imagini ale autorilor (JPEG/PNG)
+- 🧾 Text biografic pentru fiecare autor
+- 🔍 Căutare după autor și titlu
+- 📂 Structură curată, bazată pe fișiere (fără bază de date)
+- 🔒 API doar pentru citire — sigur pentru utilizare publică
+- 🌐 Documentație completă folosind OpenAPI 3.0.3
+- 🎨 Interfață elegantă Redoc + opțional Swagger U
+
+---
+
 ## 📁 Structura proiectului
+
 API‑ul funcționează indiferent dacă folderul principal conține sau nu diacritice:
 - Poezii si Proza (fără diacritice)
 - Poezii și Proză (cu diacritice)
 
+```
 Poezii și Proză/
 └── data/
     ├── Mihai Eminescu/
@@ -46,7 +65,16 @@ Poezii și Proză/
     │   │     └── Note Bibliografice.txt
     │   └── George Topîrceanu.json
     │
-    └── ...
+    └── 
+├── docs/
+│   ├── index.html        
+│   ├── pana.jpg
+│   └── home.html         
+├── openapi.yaml         
+├── LICENSE            
+├── README.md
+└── server.js   
+```
     Fiecare autor are:
     - un fișier JSON cu metadate
     - un folder cu poezii (.txt)
@@ -54,6 +82,7 @@ Poezii și Proză/
     - un folder cu bibliografie și imagin
 
     Exemplu de JSON:
+    ```
       {
       "autor": "Mihai Eminescu",
       "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
@@ -61,10 +90,11 @@ Poezii și Proză/
       "poezii": [...],
       "proza": [...]
      }
-
+    ```
 ---
 
 ## ⚙️ Funcționare
+
 API‑ul:
 - detectează automat folderul principal (cu sau fără diacritice)
 - încarcă JSON‑ul fiecărui autor
@@ -85,6 +115,7 @@ Este ideal pentru:
 ---
 
 ## 🛠 Tehnologii
+
 - Node.js  
 - Express  
 - OpenAPI 3.0  
@@ -94,22 +125,18 @@ Este ideal pentru:
 ---
 
 ## 🚀 Pornirea serverului
-Instalare dependențe:
-`npm install`
 
-Pornire server:
-`npm start`
-
-Mod dezvoltare (cu auto‑reload):
-`npm run dev`
-
-Serverul rulează implicit pe:
-`http://localhost:3000`
-
+```bash
+git clone https://github.com/lavinia-81/API-Poezii-si-Proza.git
+cd API-Poezii-si-Proza
+npm install
+npm start
+Serverul rulează implicit pe: `http://localhost:3000`
+```
 ---
 
 ## 📡 Endpoint‑uri disponibil
-
+```
 🔍 1. Lista tuturor poeților
 `GET /api/poeti`
 Returnează lista folderelor din data/.
@@ -146,10 +173,11 @@ Returnează conținutul fișierului Note Bibliografice.txt
 
 🖼️ 7. Afiseaza fotografia unui autor
 `GET /api/autor/:autor/poza`
-
+```
 ---
 
 ## 🛡️ Securitate
+
 API‑ul include:
 - protecție împotriva path traversal
 - validare parametri
@@ -163,6 +191,7 @@ Aceste măsuri îl fac potrivit pentru producție.
 ---
 
 ## 🧩 Observații
+
 - API‑ul este tolerant la diacritice și la variații de nume.
 - Structura este modulară și ușor de extins.
 - Pentru a adăuga un autor nou, este suficient să creezi folderul și fișierul JSON.
@@ -172,6 +201,7 @@ Aceste măsuri îl fac potrivit pentru producție.
 ---
 
 ## 📝 Licență
+
 Acest proiect este distribuit sub licența MIT, una dintre cele mai permisive și utilizate licențe open‑source.
 Aceasta îți oferă libertatea de a utiliza, modifica, distribui și integra codul în proiecte personale sau comerciale, cu condiția păstrării notificării de copyright.
 Pentru detalii complete, consultă fișierul
@@ -180,6 +210,7 @@ LICENSE
 ---
 
 ## ❤️ Autor
+
 Acest API a fost construit cu grijă pentru a oferi acces modern, sigur și elegant la literatura românească clasică.
-Proiect dezvoltat de Maria Lavinia Dusca.
+Proiect dezvoltat de Maria Lavinia.
 

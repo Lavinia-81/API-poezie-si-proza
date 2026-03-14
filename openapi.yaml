@@ -1,21 +1,43 @@
 openapi: 3.0.3
+
 info:
   title: Poems and Prose - API - Romanian Classical Literature
   description: >
     A file-based Node.js + Express API that provides structured access to Romanian
-    classical literature: poetry, prose, bibliography, and author images.   
+    classical literature: poetry, prose, bibliography, and author images.
+    This API is read-only and designed for cultural, educational, and research use.
   version: 1.0.0
   contact:
-    name: Maria Lavinia Dusca
+    name: Maria Lavinia
+  license:
+    name: Creative Commons BY-NC 4.0
+    url: https://creativecommons.org/licenses/by-nc/4.0/
 
 servers:
+  - url: https://lavinia-81.github.io/API-Poezii-si-Proza
+    description: Production (GitHub Pages)
   - url: http://localhost:3000
     description: Local development server
+
+tags:
+  - name: Autori
+    description: Endpoints related to authors
+  - name: Poezii
+    description: Poetry endpoints
+  - name: Proza
+    description: Prose endpoints
+  - name: Cautare
+    description: Search endpoints
+  - name: Bibliografie
+    description: Author bibliography
+  - name: Imagini
+    description: Author images
 
 paths:
 
   /api/poeti:
     get:
+      tags: [Autori]
       summary: List all authors
       description: Returns the list of all author folders inside the `data/` directory.
       responses:
@@ -28,9 +50,12 @@ paths:
                 items:
                   type: string
               example: ["Mihai Eminescu", "George Topîrceanu"]
+        '500':
+          description: Server error
 
   /api/autor/{autor}/poezii:
     get:
+      tags: [Poezii]
       summary: Get all poems by an author
       parameters:
         - in: path
@@ -48,9 +73,19 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/PoezieMeta'
+              example:
+                - id: "em_001"
+                  titlu: "Luceafărul"
+                  tip: "poezie"
+                  text_path: "data/Mihai Eminescu/poezii/luceafarul.txt"
+        '404':
+          description: Author not found
+        '500':
+          description: Server error
 
   /api/autor/{autor}/proza:
     get:
+      tags: [Proza]
       summary: Get all prose by an author
       parameters:
         - in: path
@@ -67,9 +102,19 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/ProzaMeta'
+              example:
+                - id: "sl_001"
+                  titlu: "Moara cu noroc"
+                  tip: "proza"
+                  text_path: "data/Ioan Slavici/proza/moara_cu_noroc.txt"
+        '404':
+          description: Author not found
+        '500':
+          description: Server error
 
   /api/cauta/{autor}/{titlu}:
     get:
+      tags: [Cautare]
       summary: Search poetry and prose by title
       parameters:
         - in: path
@@ -91,9 +136,18 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/SearchResult'
+              example:
+                - id: "em_002"
+                  titlu: "Floare albastră"
+                  tip: "poezie"
+        '404':
+          description: No results found
+        '500':
+          description: Server error
 
   /api/autor/{autor}/id/{id}:
     get:
+      tags: [Autori]
       summary: Get item metadata by ID
       parameters:
         - in: path
@@ -113,11 +167,19 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ItemMeta'
+              example:
+                id: "em_003"
+                titlu: "Sara pe deal"
+                tip: "poezie"
+                text_path: "data/Mihai Eminescu/poezii/sara_pe_deal.txt"
         '404':
           description: Item not found
+        '500':
+          description: Server error
 
   /api/autor/{autor}/poezie/{id}/text:
     get:
+      tags: [Poezii]
       summary: Get full poem text
       parameters:
         - in: path
@@ -137,11 +199,18 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/PoemText'
+              example:
+                id: "em_004"
+                titlu: "Odă (în metru antic)"
+                text: "Nu credeam să-nvăț a muri vreodată..."
         '404':
           description: Poem not found
+        '500':
+          description: Server error
 
   /api/autor/{autor}/bibliografie/text:
     get:
+      tags: [Bibliografie]
       summary: Get bibliography text
       parameters:
         - in: path
@@ -156,9 +225,15 @@ paths:
             text/plain:
               schema:
                 type: string
+              example: "Mihai Eminescu (1850–1889) was a Romanian poet..."
+        '404':
+          description: Bibliography not found
+        '500':
+          description: Server error
 
   /api/autor/{autor}/poza:
     get:
+      tags: [Imagini]
       summary: Get author image
       parameters:
         - in: path
@@ -174,8 +249,14 @@ paths:
               schema:
                 type: string
                 format: binary
+            image/png:
+              schema:
+                type: string
+                format: binary
         '404':
           description: Image not found
+        '500':
+          description: Server error
 
 components:
   schemas:
@@ -190,7 +271,7 @@ components:
         tip:
           type: string
           example: poezie
-        versuri_path:
+        text_path:
           type: string
 
     ProzaMeta:
@@ -203,7 +284,7 @@ components:
         tip:
           type: string
           example: proza
-        versuri_path:
+        text_path:
           type: string
 
     ItemMeta:
@@ -215,7 +296,7 @@ components:
           type: string
         tip:
           type: string
-        versuri_path:
+        text_path:
           type: string
 
     SearchResult:
