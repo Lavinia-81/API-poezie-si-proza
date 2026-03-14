@@ -7,8 +7,19 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-purple)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
+---
+
+## 📄 API Documentation
+Here isthe complet documentation:  
+👉 https://lavinia-81.github.io/API-Poezii-si-Proza/
+
+---
+
+##  📚 Description
 A Node.js + Express API that provides structured access to the works of major Romanian classical authors: poetry, prose, bibliography, and author images.
 The API reads data directly from the project’s folder structure, making it easy to maintain, extend, and integrate into educational or cultural applications.
+
+---
 
 ## 📁 Project Structure
 The API automatically detects the main directory, whether it is named:
@@ -35,7 +46,7 @@ Poezii și Proză/
     │   └── George Topîrceanu.json
     │
     └── ...
-
+---
 
 ## Each author folder contains:
 - poezii/ – poetry text files
@@ -43,6 +54,7 @@ Poezii și Proză/
 - bibliografie/ – author image + bibliography
 - JSON metadata file – author info + file path
 
+---
 
 ## 📦 Author JSON Structure
 Each author has a JSON file containing metadata and references to their works
@@ -54,6 +66,16 @@ Each author has a JSON file containing metadata and references to their works
   "proza": [...]
 }
 
+---
+
+## 🛠 Technologies used
+- Node.js  
+- Express  
+- OpenAPI 3.0  
+- Redoc  
+- GitHub Pages
+
+---
 
 ## 🚀 Running the Server
 Install dependencies (if needed):
@@ -67,7 +89,7 @@ Development mode (auto‑reload):
 Default address:
 `http://localhost:3000`
 
-
+---
 
 ## 📡 Available Endpoints
 🔍 1. List all authors
@@ -100,6 +122,7 @@ Example response:
 `GET /api/autor/:autor/poza`
 Returns the image file.
 
+---
 
 ## 🛡️ Security
 The API includes:
@@ -112,6 +135,7 @@ The API includes:
 - internal caching for performance
 These measures ensure a stable, safe, and production‑ready environment.
 
+---
 
 ## 🧩 Notes
 - The API is fully file‑based: adding a new author requires only a folder and a JSON file.
@@ -119,11 +143,13 @@ These measures ensure a stable, safe, and production‑ready environment.
 - The structure is modular, clean, and easy to extend.
 - Ideal for educational apps, literary archives, digital humanities, and cultural preservation projects.
 
+---
 
 ## 📝 License
 This project is distributed under the MIT License, a permissive open‑source license that allows reuse, modification, and distribution with minimal restrictions.
 See the full license text in the LICENSE file
 
+---
 
 ## ❤️ About This Project
 This API was built to provide modern, structured access to Romanian classical literature, preserving cultural heritage while enabling developers,educators, and researchers to integrate it into contemporary digital experiences.
