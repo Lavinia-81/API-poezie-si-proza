@@ -10,7 +10,7 @@
 ---
 
 ## 📄 API Documentation
-Here isthe complet documentation:  
+Here is the complete documentation 
 👉 https://lavinia-81.github.io/API-Poezii-si-Proza/
 
 ---
