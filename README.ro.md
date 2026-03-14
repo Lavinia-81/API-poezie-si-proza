@@ -8,13 +8,20 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-purple)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
+---
+
 ## 📄 Documentație API
 Documentația completă este disponibilă aici:  
 👉 https://lavinia-81.github.io/API-Poezii-si-Proza/
 
-Un API Node.js + Express care oferă acces la operele marilor poeți români: poezii, proză, bibliografie și imagini.  
+---
+
+## 📚 Descriere
+Acest API oferă acces la poezii, proză, bibliografie și imagini ale autorilor clasici români.  
+Este un API **read-only**, curat, scalabil și structurat pentru utilizare educațională și literară.
 Datele sunt citite direct din structura de fișiere a fiecărui autor, fără baze de date externe.
 
+---
 
 ## 📁 Structura proiectului
 API‑ul funcționează indiferent dacă folderul principal conține sau nu diacritice:
@@ -55,6 +62,7 @@ Poezii și Proză/
       "proza": [...]
      }
 
+---
 
 ## ⚙️ Funcționare
 API‑ul:
@@ -67,7 +75,6 @@ API‑ul:
 - folosește caching intern pentru performanță
 - protejează accesul la fișiere prin safePath (anti‑path‑traversal)
 
-
 Este ideal pentru:
 - aplicații web
 - aplicații mobile
@@ -75,6 +82,16 @@ Este ideal pentru:
 - proiecte educaționale
 - arhive literare digitale
 
+---
+
+## 🛠 Tehnologii
+- Node.js  
+- Express  
+- OpenAPI 3.0  
+- Redoc  
+- GitHub Pages  
+
+---
 
 ## 🚀 Pornirea serverului
 Instalare dependențe:
@@ -89,6 +106,7 @@ Mod dezvoltare (cu auto‑reload):
 Serverul rulează implicit pe:
 `http://localhost:3000`
 
+---
 
 ## 📡 Endpoint‑uri disponibil
 
@@ -126,6 +144,8 @@ Exemplu: /api/autor/Mihai%20Eminescu/poezie/poezie-1/text
 `GET /api/autor/:autor/bibliografie/text`
 Returnează conținutul fișierului Note Bibliografice.txt
 
+---
+
 ## 🛡️ Securitate
 API‑ul include:
 - protecție împotriva path traversal
@@ -137,6 +157,7 @@ API‑ul include:
 - caching intern pentru performanță
 Aceste măsuri îl fac potrivit pentru producție.
 
+---
 
 ## 🧩 Observații
 - API‑ul este tolerant la diacritice și la variații de nume.
@@ -145,6 +166,7 @@ Aceste măsuri îl fac potrivit pentru producție.
 - Endpoint‑urile sunt optimizate pentru consum rapid și caching.
 - Nu necesită baze de date — totul este file‑based
 
+---
 
 ## 📝 Licență
 Acest proiect este distribuit sub licența MIT, una dintre cele mai permisive și utilizate licențe open‑source.
@@ -152,6 +174,7 @@ Aceasta îți oferă libertatea de a utiliza, modifica, distribui și integra co
 Pentru detalii complete, consultă fișierul
 LICENSE
 
+---
 
 ## ❤️ Autor
 Acest API a fost construit cu grijă pentru a oferi acces modern, sigur și elegant la literatura românească clasică.
