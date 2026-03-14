@@ -8,6 +8,10 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-purple)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
+## 📄 Documentație API
+Documentația completă este disponibilă aici:  
+👉 https://lavinia-81.github.io/API-Poezii-si-Proza/
+
 Un API Node.js + Express care oferă acces la operele marilor poeți români: poezii, proză, bibliografie și imagini.  
 Datele sunt citite direct din structura de fișiere a fiecărui autor, fără baze de date externe.
 
