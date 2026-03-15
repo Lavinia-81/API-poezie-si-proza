@@ -158,24 +158,20 @@ Exemplu: /api/autor/Mihai%20Eminescu/poezii
 
 🔎 4. Căutare după titlu (poezie + proză)
 `GET /cauta/:autor/:titlu`
-Exemplu: /api/cauta/mihai_eminescu/adio
+Exemplu: /cauta/mihai_eminescu/adio
+Returnează format JSON:
+  ```{
+    "id": "poezie-1",
+    "titlu": "Adio",
+    "tip": "poezie",
+    "continut": "Textul poeziei..."
+  }```
 
-🆔 5. Căutare după ID  (fără text)
+🆔 5. Căutare după ID 
 `GET /autor/:autor/id/:id`
 Exemplu: /autor/Mihai%20Eminescu/poezie/poezie-1/text
 
-✍️ 6. Poezie în format JSON (cu titlu + text)
-`GET /autor/:autor/poezie/:id/text`
-
-  Returnează:
-    {
-      "id": "poezie-1",
-      "titlu": "Adio",
-      "tip": "poezie",
-      "continut": "Textul poeziei..."
-    }
-
-📚 7. Bibliografie (text simplu)
+📚 6. Bibliografie (text simplu)
 `GET /autor/:autor/bibliografie/text`
 Returnează conținutul fișierului Note Bibliografice.txt
 

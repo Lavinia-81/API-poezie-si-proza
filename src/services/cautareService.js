@@ -1,16 +1,14 @@
 import { loadAutorData } from '../utils/loadAutorData.js';
 
 export function cautaDupaTitlu(autor, titlu) {
-    const autorNormalizat = normalizeAutor(autor);
-
-    const data = loadAutorData(autorNormalizat);
+    const data = loadAutorData(autor);
     if (!data) return null;
 
     const toate = [...data.poezii, ...data.proza];
+    const titluLower = titlu.toLowerCase();
 
-    const rezultat = toate.filter(item =>
-        item.titlu.toLowerCase().includes(titlu.toLowerCase())
-    );
-
-    return rezultat;
+    return toate.filter(item => {
+        if (!item.titlu) return false; // protecție
+        return item.titlu.toLowerCase().includes(titluLower);
+    });
 }
