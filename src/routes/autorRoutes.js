@@ -2,14 +2,13 @@
 import express from 'express';
 import { validateRequest } from '../middleware/validation/validateRequest.js';
 import { autorSchema, idSchema } from '../middleware/validation/schemas.js';
-import { poezieText } from '../controllers/autorController.js';
-
 import {
     poeziiAutor,
     prozaAutor,
     itemById,
     bibliografieText,
-    pozaAutor
+    pozaAutor,
+    poezieText 
 } from '../controllers/autorController.js';
 
 const router = express.Router();

@@ -29,7 +29,7 @@ The API reads data directly from the project’s folder structure, making it eas
 ## ✨ Features
 
 - 📜 Access to classical Romanian poetry  
-- 📘 Access to prose and short stories  
+- 📘 Access to prose and poesis 
 - 🖼️ Author images (JPEG/PNG)  
 - 🧾 Bibliography text for each author  
 - 🔍 Search by author and title  

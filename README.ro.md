@@ -75,22 +75,24 @@ Poezii și Proză/
 ├── README.md
 └── server.js   
 ```
-    Fiecare autor are:
-    - un fișier JSON cu metadate
-    - un folder cu poezii (.txt)
-    - un folder cu proză (.txt)
-    - un folder cu bibliografie și imagin
+  ## Fiecare autor are:
+  - un fișier JSON cu metadate
+  - un folder cu poezii (.txt)
+  - un folder cu proză (.txt)
+  - un folder cu bibliografie și imagin
 
-    Exemplu de JSON:
-    ```
-      {
+---    
+
+  Exemplu de JSON:
+  ```
+    {
       "autor": "Mihai Eminescu",
       "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
       "bibliografie_path": "data/Mihai Eminescu/bibliografie/Note Bibliografice.txt",
       "poezii": [...],
       "proza": [...]
-     }
-    ```
+    }
+  ```
 ---
 
 ## ⚙️ Funcționare

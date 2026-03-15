@@ -44,14 +44,15 @@ app.use(rateLimit({
 }));
 
 // Routes
-app.use('/api/autor', autorRoutes);
-app.use('/api/poezie', poezieRoutes);
-app.use('/api/cauta', cautareRoutes);
-app.use('/api/poeti', poetiRoutes);
+app.use('/autor', autorRoutes);
+app.use('/poezie', poezieRoutes);
+app.use('/cauta', cautareRoutes);
+app.use('/poeti', poetiRoutes);
+
 
 
 // Health check
-app.get("/api/health", (req, res) => {
+app.get("/health", (req, res) => {
     res.json({
         status: "ok",
         timestamp: new Date().toISOString(),
