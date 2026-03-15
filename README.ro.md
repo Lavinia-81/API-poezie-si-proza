@@ -13,9 +13,13 @@
 ## 📄 Documentație API
 
 Documentația completă este disponibilă aici:  
-👉 https://lavinia-81.github.io/API-Poezii-si-Proza/
+### 🔗 Redoc (recomandat)
+https://lavinia-81.github.io/API-Poezii-si-Proza/docs/
+
+### 🔗 Swagger UI (optional)
 `/docs/swagger.html` 
 `/docs/home.html` 
+
 ---
 
 ## 📚 Descriere
@@ -75,6 +79,7 @@ Poezii și Proză/
 ├── README.md
 └── server.js   
 ```
+<<<<<<< HEAD
   ## Fiecare autor are:
   - un fișier JSON cu metadate
   - un folder cu poezii (.txt)
@@ -93,6 +98,25 @@ Poezii și Proză/
       "proza": [...]
     }
   ```
+=======
+## Fiecare autor are:
+- un fișier JSON cu metadate
+- un folder cu poezii (.txt)
+- un folder cu proză (.txt)
+- un folder cu bibliografie și imagine
+---
+
+Exemplu de JSON:
+```
+{
+  "autor": "Mihai Eminescu",
+  "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
+  "bibliografie_path": "data/Mihai Eminescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [...],
+  "proza": [...]
+}
+```
+>>>>>>> a17439589a8b3c1ce4dafac0b9f0340cc660059b
 ---
 
 ## ⚙️ Funcționare
