@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Poems and Prose - API - Romanian Classical Literature</title>
+
+    <!-- Font elegant -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Redoc script -->
+    <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Merriweather', serif;
+        background-color: #faf7f2;
+      }
+
+      /* Header premium */
+      .top-header {
+        background-color: wheat;
+        border-bottom: 2px solid rgba(155, 123, 17, 0.35);
+        margin-bottom: 1px;
+        padding: 20px 40px;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+      }
+      /* Butoane elegante */
+      .top-header a {
+        margin-left: auto;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 8px 14px;
+        border-radius: 6px;
+        background-color: brown;
+        color: white;
+        transition: 0.3s;
+      }
+
+      .top-header a:hover {
+        background-color:#6d1918;
+      }
+
+      /* Animație subtilă pentru logo */
+      @keyframes pulse {
+        0%   { transform: scale(1);   opacity: 0.95; }
+        50%  { transform: scale(1.06); opacity: 1; }
+        100% { transform: scale(1);   opacity: 0.95; }
+      }
+
+      /* Container Redoc */
+      #redoc-container {
+        padding: 0;
+      }
+      
+      .literary-footer {
+        background-color: wheat;
+        text-align: center;
+        padding: 25px 10px;
+        margin-top: 1px;
+        font-size: 15px;
+        font-family: 'Merriweather', serif;
+        color: #5a5a5a;
+        border-top: 2px solid rgba(155, 123, 17, 0.35);
+        letter-spacing: 0.3px;
+      }
+
+      .literary-footer strong {
+        color: #6a1b1a;
+        font-weight: 700;
+      }
+
+      .icon {
+        width: 35px;
+        height: 35px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(212,175,55,0.45);
+        margin-right: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="top-header">
+      <img src="pana.jpg" alt="Pana de scris"
+          style="width: 45px; height: 45px;
+                  border-radius: 10px;
+                  margin-right: 14px;
+                  animation: pulse 3s ease-in-out infinite;
+                  box-shadow: 0 0 10px rgba(135, 107, 16, 0.4);" />
+
+      Poems and Prose - API - Romanian Classical Literature
+
+        <div class="nav-buttons"></div>
+        <a href="swagger.html">Swagger UI</a>
+        <a href="../index.html">Home</a>
+      </div>
+    </div>
+
+    <!-- Redoc -->
+    <div id="redoc-container"></div>
+    
+    <footer class="literary-footer">
+      <img class="icon" src="pana.jpg" alt="Pana de scris">
+      Curated by <strong>Maria Lavinia</strong> · Poems and Prose - API Romanian Classical Literature · © <span id="year"></span>
+    </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear()</script>
+
+    <script>
+      Redoc.init("../openapi.yaml", {
+        theme: {
+          colors: {
+            primary: {
+              main: "#6a1b1a" 
+            },
+            text: {
+              primary: "#2b2b2b",
+              secondary: "#5a5a5a"
+            },
+            http: {
+              get: "#4caf50",
+              post: "#1976d2",
+              put: "#ffa000",
+              delete: "#d32f2f"
+            }
+          },
+          typography: {
+            fontFamily: "Merriweather, serif",
+            fontSize: "16px",
+            headings: {
+              fontFamily: "Merriweather, serif",
+              fontWeight: "700"
+            }
+          },
+          sidebar: {
+            backgroundColor: "#f3ede6"
+          }
+        }
+      }, document.getElementById("redoc-container"));
+    </script>
+  </body>
+</html>
