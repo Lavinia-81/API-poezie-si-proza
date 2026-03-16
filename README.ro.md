@@ -151,7 +151,7 @@ Returnează lista folderelor din data/.
 
 📜 2. Toate poeziile unui autor
 `GET /autor/:autor/poezii`
-Exemplu: /api/autor/Mihai%20Eminescu/poezii
+Exemplu: /autor/Mihai%20Eminescu/poezii
 
 📘 3. Toată proza unui autor
 `GET /autor/:autor/proza`
@@ -168,7 +168,7 @@ Returnează format JSON:
   }```
 
 🆔 5. Căutare după ID 
-`GET /autor/:autor/id/:id`
+`GET /autor/:autor/poezie/:id/text`
 Exemplu: /autor/Mihai%20Eminescu/poezie/poezie-1/text
 
 📚 6. Bibliografie (text simplu)

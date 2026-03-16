@@ -97,3 +97,25 @@ export function poezieText(req, res, next) {
         next(err);
     }
 }
+
+
+export function prozaText(req, res, next) {
+    try {
+         const autorNormalizat = normalizeAutor(req.params.autor);
+        const { id } = req.params;
+
+        const item = getItemById(autorNormalizat, id);
+
+        if (!item) {
+            return res.status(404).json({ mesaj: "Nu există acest ID" });
+        }
+
+        const filePath = safePath(item.versuri_path);
+        const text = fs.readFileSync(filePath, 'utf8');
+
+        res.json({ id, titlu: item.titlu, text });
+
+    } catch (err) {
+        next(err);
+    }
+}

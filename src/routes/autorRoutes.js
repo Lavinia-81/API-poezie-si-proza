@@ -8,7 +8,8 @@ import {
     itemById,
     bibliografieText,
     pozaAutor,
-    poezieText 
+    poezieText,
+    prozaText
 } from '../controllers/autorController.js';
 
 const router = express.Router();
@@ -27,11 +28,18 @@ router.get(
     prozaAutor
 );
 
-// Căutare după ID (poezie sau proză)
+// Căutare poezie după ID
 router.get(
     '/:autor/poezie/:id/text',
     validateRequest({ params: idSchema }),
-    poezieText);
+    poezieText); 
+
+// Căutare proză după ID
+router.get(
+  '/:autor/proza/:id/text',
+  validateRequest({ params: idSchema }),
+  prozaText
+);    
 
 // Bibliografie text
 router.get(
