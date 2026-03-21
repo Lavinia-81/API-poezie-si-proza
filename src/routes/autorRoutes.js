@@ -55,4 +55,11 @@ router.get(
     pozaAutor
 );
 
+router.get(
+    '/:autor/proza/:id',
+    validateRequest({ params: idSchema }),
+    itemById
+);
+
+
 export default router;
