@@ -15,7 +15,7 @@ info:
     url: https://creativecommons.org/licenses/by-nc/4.0/
 
 servers:
-  - url: https://api-poezii-si-proza.onrender.com
+  - url: https://api-poezie-si-proza.onrender.com
     description: Production (Render)
 
 tags:

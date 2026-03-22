@@ -57,7 +57,7 @@ router.get(
 
 // Căutare poezii după ID
 router.get(
-    '/:autor/poezii/:id',
+    '/:autor/poezie/:id',
     validateRequest({ params: idSchema }),
     itemById
 );
