@@ -15,8 +15,8 @@ info:
     url: https://creativecommons.org/licenses/by-nc/4.0/
 
 servers:
-  - url: https://localhost:300
-    description: Production
+  - url: https://api-poezie-si-proza.onrender.com
+    description: Production (Render)
 
 tags:
   - name: Autori
