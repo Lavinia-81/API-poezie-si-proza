@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.post("/register", async (req, res) => {
   try {
+    console.log("BODY PRIMIT:", req.body);
     const { email } = req.body;
 
     if (!email) {
@@ -25,8 +26,8 @@ router.post("/register", async (req, res) => {
     const user = await User.create({
       email,
       apiKey,
-      plan: "free",
-      requestsLimit: 100,
+      requestsToday: 0,
+      lastRequestDate: null
     });
 
     return res.json({
