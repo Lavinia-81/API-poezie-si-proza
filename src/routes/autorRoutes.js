@@ -69,5 +69,4 @@ router.get(
     itemById
 );
 
-71446c0bbc7f906596dd18bdfef7bbec9dcc8551
 export default router;
