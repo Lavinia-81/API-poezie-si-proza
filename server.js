@@ -34,11 +34,15 @@ dotenv.config();
 
 // AICI trebuie să fie definit app
 const app = express();
-
-// Middleware necesar pentru a citi JSON
 app.use(express.json());
-app.use(cors());
 
+// TEST BODY — trebuie să fie aici
+app.post("/test-body", (req, res) => {
+    console.log("BODY TEST:", req.body);
+    res.json({ body: req.body });
+});
+
+app.use(cors({ origin: config.corsOrigin, methods: ["GET", "POST"] }));
 // Conectăm baza de date DUPĂ ce app există
 connectDB();
 
@@ -49,7 +53,6 @@ app.use(responseLogger);
 // Security
 app.use(antiInjection);
 app.use(compression());
-app.use(cors({ origin: config.corsOrigin, methods: ["GET", "POST"] }));
 
 app.use(rateLimit({
     windowMs: config.rateLimit.windowMs,

@@ -42,4 +42,63 @@ router.post("/register", async (req, res) => {
   }
 });
 
+
+router.post("/upgrade", async (req, res) => {
+  try {
+    const { email, newPlan } = req.body;
+
+    if (!["free", "basic", "premium"].includes(newPlan)) {
+      return res.status(400).json({ error: "Invalid plan" });
+    }
+
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    user.plan = newPlan;
+    user.requestsToday = 0;
+    user.lastRequestDate = new Date();
+
+    await user.save();
+
+    res.json({
+      message: "Plan upgraded successfully",
+      email: user.email,
+      newPlan: user.plan
+    });
+
+  } catch (err) {
+    console.error("Upgrade error:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
+
+
+
+router.get("/usage/:email", async (req, res) => {
+  try {
+    const user = await User.findOne({ email: req.params.email });
+
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    res.json({
+      email: user.email,
+      plan: user.plan,
+      requestsToday: user.requestsToday,
+      lastRequestDate: user.lastRequestDate,
+    });
+
+  } catch (err) {
+    console.error("Usage error:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
+
+
+
+
 export default router;

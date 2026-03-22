@@ -19,8 +19,15 @@ const userSchema = new mongoose.Schema({
     default: "free",
   },
 
-  requestsToday: { type: Number, default: 0 },
-  lastRequestDate: { type: String, default: null },
+  requestsToday: {
+  type: Number,
+  default: 0,
+  },
+
+  lastRequestDate: {
+    type: Date,
+    default: null,
+  },
 
   requestsUsed: {
     type: Number,
