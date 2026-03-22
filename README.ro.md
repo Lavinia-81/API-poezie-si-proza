@@ -14,7 +14,7 @@
 
 Documentația completă este disponibilă aici:  
 ### 🔗 Redoc (recomandat)
-https://lavinia-81.github.io/API-Poezii-si-Proza/docs/
+https://lavinia-81.github.io/API-poezie-si-proza/
 
 ### 🔗 Swagger UI (optional)
 `/docs/swagger.html` 
