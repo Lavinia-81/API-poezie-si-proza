@@ -7,6 +7,10 @@ import { fileURLToPath } from 'url';
 import path from 'path';
 import logger from './src/logger/logger.js';
 
+import { connectDB } from "./src/db.js";
+import User from "./src/models/User.js";
+import authRoutes from "./src/routes/auth.js";
+
 // Middleware
 import { requestLogger } from './src/middleware/logging/requestLogger.js';
 import { responseLogger } from './src/middleware/logging/responseLogger.js';
@@ -23,7 +27,11 @@ import poetiRoutes from './src/routes/poetiRoutes.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// AICI trebuie să fie definit app
 const app = express();
+
+// Conectăm baza de date DUPĂ ce app există
+connectDB();
 
 // Logging
 app.use(requestLogger);
@@ -32,7 +40,7 @@ app.use(responseLogger);
 // Security
 app.use(antiInjection);
 app.use(compression());
-app.use(cors({ origin: config.corsOrigin, methods: ["GET"] }));
+app.use(cors({ origin: config.corsOrigin, methods: ["GET", "POST"] }));
 
 app.use(rateLimit({
     windowMs: config.rateLimit.windowMs,
@@ -43,13 +51,14 @@ app.use(rateLimit({
     }
 }));
 
-// Routes
+// AICI adaugi ruta de autentificare
+app.use("/auth", authRoutes);
+
+// Routes existente
 app.use('/autor', autorRoutes);
 app.use('/poezie', poezieRoutes);
 app.use('/cauta', cautareRoutes);
 app.use('/poeti', poetiRoutes);
-
-
 
 // Health check
 app.get("/health", (req, res) => {
