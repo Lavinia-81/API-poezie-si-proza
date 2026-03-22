@@ -12,4 +12,11 @@ const config = {
   },
 };
 
+export const PLAN_LIMITS = {
+  free: 500,
+  basic: 5000,
+  premium: 50000
+};
+
+
 export default config;

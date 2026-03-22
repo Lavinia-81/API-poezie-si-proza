@@ -1,9 +1,9 @@
 import User from "../../models/User.js";
-import { plans } from "../../config/plans.js";
+import { PLAN_LIMITS } from "../../config/config.js";
 
 export const verifyApiKey = async (req, res, next) => {
   try {
-    const apiKey = req.header("x-api-key");
+    const apiKey = req.headers["x-api-key"];
 
     if (!apiKey) {
       return res.status(401).json({ error: "API key missing" });
@@ -15,45 +15,38 @@ export const verifyApiKey = async (req, res, next) => {
       return res.status(401).json({ error: "Invalid API key" });
     }
 
-    // Reset daily counter if date changed
-    let lastDate = null;
+    // Reset zilnic
+    const today = new Date().toISOString().split("T")[0];
+    const last = user.lastRequestDate
+      ? user.lastRequestDate.toISOString().split("T")[0]
+      : null;
 
-    if (user.lastRequestDate) {
-      const parsed = new Date(user.lastRequestDate);
-      if (!isNaN(parsed)) {
-        lastDate = parsed.toISOString().split("T")[0];
-      }
-    }
-
-
-    if (today !== lastDate) {
+    if (today !== last) {
       user.requestsToday = 0;
       user.lastRequestDate = new Date();
     }
 
-    // Get plan limits
-    const userPlan = plans[user.plan] || plans.free;
+    // Limita per plan
+    const limit = PLAN_LIMITS[user.plan];
 
-    if (user.requestsToday >= userPlan.dailyLimit) {
+    if (user.requestsToday >= limit) {
       return res.status(429).json({
-        error: "Daily limit reached",
+        error: "Daily request limit reached",
         plan: user.plan,
-        limit: userPlan.dailyLimit
+        limit
       });
     }
 
-    // Increment usage
+    // Incrementăm consumul
     user.requestsToday += 1;
     user.lastRequestDate = new Date();
     await user.save();
 
-    // Attach user to request
     req.user = user;
-
     next();
 
   } catch (err) {
-    console.error("API key verification error:", err);
+    console.error("verifyApiKey error:", err);
     res.status(500).json({ error: "Server error" });
   }
 };
