@@ -2,16 +2,15 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import config from './src/config/config.js';
 import rateLimit from 'express-rate-limit';
 import compression from 'compression';
 import { fileURLToPath } from 'url';
 import path from 'path';
-import logger from './src/logger/logger.js';
 
+import logger from './src/logger/logger.js';
+import config from './src/config/config.js';
 import { connectDB } from "./src/db.js";
 import User from "./src/models/User.js";
-import authRoutes from "./src/routes/auth.js";
 
 // Middleware
 import { requestLogger } from './src/middleware/logging/requestLogger.js';
@@ -20,11 +19,16 @@ import { antiInjection } from './src/middleware/security/antiInjection.js';
 import { errorHandler } from './src/middleware/error/errorHandler.js';
 import { verifyApiKey } from "./src/middleware/auth/verifyApiKey.js";
 
+
 // Routes
 import autorRoutes from './src/routes/autorRoutes.js';
 import poezieRoutes from './src/routes/poezieRoutes.js';
 import cautareRoutes from './src/routes/cautareRoutes.js';
 import poetiRoutes from './src/routes/poetiRoutes.js';
+import authRoutes from './src/routes/auth.js';
+import webhookRoutes from './src/routes/webhook.js';
+import createCheckoutRouter from './src/routes/createCheckout.js';
+
 
 // Fix dirname
 const __filename = fileURLToPath(import.meta.url);
@@ -34,17 +38,27 @@ dotenv.config();
 
 // AICI trebuie să fie definit app
 const app = express();
-app.use(express.json());
+app.use("/", webhookRoutes);  
 
-// TEST BODY — trebuie să fie aici
-app.post("/test-body", (req, res) => {
-    console.log("BODY TEST:", req.body);
-    res.json({ body: req.body });
-});
-
+app.use(express.static("public"));   // 1. Servește HTML-ul
+app.use(express.json());             // 2. Body parser
 app.use(cors({ origin: config.corsOrigin, methods: ["GET", "POST"] }));
-// Conectăm baza de date DUPĂ ce app există
-connectDB();
+
+// app.use("/", webhookRoutes);         // 3. Webhook
+app.use("/", createCheckoutRouter);  // 4. Checkout session
+
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => {
+    console.log("MongoDB connected");
+    app.listen(process.env.PORT, () => {
+      console.log(`Server running on port ${process.env.PORT}`);
+    });
+  })
+  .catch(err => {
+    console.error("MongoDB connection error:", err);
+  });
+
+
 
 // Logging
 app.use(requestLogger);
@@ -53,7 +67,6 @@ app.use(responseLogger);
 // Security
 app.use(antiInjection);
 app.use(compression());
-
 app.use(rateLimit({
     windowMs: config.rateLimit.windowMs,
     max: config.rateLimit.max,

@@ -1,6 +1,8 @@
 import express from "express";
 import User from "../models/User.js";
 import { generateApiKey } from "../utils/generateApiKey.js";
+import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";
+import { plans } from "../config/plans.js";
 
 const router = express.Router();
 
@@ -99,6 +101,59 @@ router.get("/usage/:email", async (req, res) => {
 });
 
 
+router.post("/create-checkout-session", async (req, res) => {
+  try {
+    const { email, plan } = req.body;
 
+    if (!["basic", "premium"].includes(plan)) {
+      return res.status(400).json({ error: "Invalid plan" });
+    }
+
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ["card"],
+      mode: "subscription",
+      customer_email: email,
+      line_items: [
+        {
+          price: plan === "basic"
+            ? process.env.STRIPE_BASIC_PRICE_ID
+            : process.env.STRIPE_PREMIUM_PRICE_ID,
+          quantity: 1
+        }
+      ],
+      success_url: `${process.env.FRONTEND_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${process.env.FRONTEND_URL}/cancel`
+    });
+
+    res.json({ url: session.url });
+
+  } catch (err) {
+    console.error("Stripe session error:", err);
+    res.status(500).json({ error: "Stripe session creation failed" });
+  }
+});
+
+
+router.get("/me", verifyApiKey, async (req, res) => {
+  try {
+    const user = req.user; // deja setat de verifyApiKey
+
+    const limit = plans[user.plan]?.dailyLimit || plans.free.dailyLimit;
+    const remaining = limit - user.requestsToday;
+
+    res.json({
+      email: user.email,
+      plan: user.plan,
+      dailyLimit: limit,
+      requestsToday: user.requestsToday,
+      remainingRequests: remaining < 0 ? 0 : remaining,
+      lastRequestDate: user.lastRequestDate
+    });
+
+  } catch (err) {
+    console.error("Me endpoint error:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
 
 export default router;

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planurile de Abonament</title>
+</head>
+
+<body>
+  <button onclick="buy('basic')" type="button">Cumpără Basic</button>
+  <button onclick="buy('premium')" type="button">Cumpără Premium</button>
+
+  <script>
+  async function buy(plan) {
+    const response = await fetch("http://localhost:3000/create-checkout-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ plan })
+    });
+
+    const data = await response.json();
+    console.log("Stripe response:", data);
+
+    if (data.url) {
+      window.location.href = data.url;
+    } else {
+      alert("Eroare: " + JSON.stringify(data));
+    }
+  }
+  </script>
+
+</body>
+</html>

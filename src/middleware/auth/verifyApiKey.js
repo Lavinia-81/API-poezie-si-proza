@@ -1,3 +1,4 @@
+// src/middleware/auth/verifyApiKey.js
 import User from "../../models/User.js";
 import { PLAN_LIMITS } from "../../config/config.js";
 
