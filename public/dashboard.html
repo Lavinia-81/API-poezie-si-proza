@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/docs/style.css">
+  <title>Dashboard API Premium</title>
+</head>
+
+<body>
+  <nav class="navbar">
+
+      <div class="navbar-top">
+        <div class="navbar-left">
+          <img class="icon" src="/docs/pana.jpg" alt="Pana de scris">
+          <button id="langToggle">RO</button>
+        </div>
+
+        <div class="navbar-center">
+          <h1 id="navTitle">API - Dashboard</h1>
+        </div>
+      </div>
+
+      <div class="navbar-right">
+        <a href="/index.html">Home</a>
+        <a href="/docs/overview.html" >Overview</a>
+        <a href="/docs/redoc.html">Redoc</a>
+        <a href="/docs/swagger.html">Swagger</a>
+        <a href="/public/checkout.html">Checkout</a>
+        <a href="/public/dashboard.html" class="active">Dashboard</a>
+      </div>
+
+  </nav>
+
+
+  <main>
+  <div class="container">
+    <h2 id="authTitle">Authentication</h2>
+    <p id="introText" >
+      This page gives you access to your personal API management panel.
+      Authentication is required to view your active plan, API key, usage limits,
+      and upgrade options. The dashboard allows you to manage your subscription
+      securely and monitor your API usage in real time.
+    </p>
+    <input id="email" type="email" placeholder="Enter your email">
+    <button id="btnLogin" onclick="loadDashboard()">Enter Dashboard</button>
+
+    <div id="dashboard" style="display:none;">
+
+      <h2 class="section-title" id="accountInfoTitle">Account Information</h2>
+
+      <div class="info-box">
+        <div><span class="label" id="labelEmail">Email:</span> <span id="d-email"></span></div>
+        <div><span class="label" id="labelPlan">Plan:</span> <span id="d-plan"></span></div>
+        <div><span class="label" id="labelKey">API Key:</span> <span id="d-key"></span></div>
+      </div>
+
+      <h2 class="section-title" id="usageTitle">API Usage</h2>
+
+      <div class="info-box">
+        <div><span class="label" id="labelReqToday">Requests today:</span> <span id="d-requests"></span></div>
+        <div><span class="label" id="labelLimit">Daily limit:</span> <span id="d-limit"></span></div>
+        <div><span class="label" id="labelRemaining">Requests remaining:</span> <span id="d-remaining"></span></div>
+      </div>
+
+      <h2 class="section-title" id="subscriptionTitle">Subscription Management</h2>
+
+      <button id="btnBasic" onclick="upgrade('basic')">Upgrade to BASIC</button>
+      <button id="btnPremium" onclick="upgrade('premium')">Upgrade to PREMIUM</button>
+      <button id="btnPortal" onclick="openPortal()">Manage subscription</button>
+
+    </div>
+  </div>
+</main>
+
+  <footer class="literary-footer">
+    <img class="icon" src="/docs/pana.jpg" alt="Pana de scris" style="margin-right:40px;">
+    Curated by <strong> - Maria Lavinia </strong> · Poems and Prose - API Romanian Classical Literature · © <span id="year"></span>
+  </footer>
+
+ <script src="dashboard.js"></script>
+
+</body>
+</html>

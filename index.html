@@ -1,286 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ro">
-<head>
-  <meta charset="UTF-8">
-  <title>Poems and Prose - Romanian Classical Literature API</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/jpg" href="docs/pana.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="docs/style.css" />
+    <title>Poems and Prose - Romanian Classical Literature API</title>
+  </head>
 
-  <style>
-    html, body {
-      height: 100%;
-    }
+  <body>
+    <nav class="navbar">
 
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: "Merriweather", serif;
-      background-color: #f8f5f2;
-      color: #3d1212;
-      display: flex;
-      flex-direction: column;
+      <div class="navbar-top">
+        <div class="navbar-left">
+          <img class="icon" src="/docs/pana.jpg" alt="Pana de scris">
+          <button id="langToggle">EN</button>
+        </div>
+        
+        <div class="navbar-center">
+          <h1 id="navTitle">API - Poems and Prose</h1>
+        </div>
+      </div>
 
-    }
-    main {
-      flex: 1;
-    }
+      <div class="navbar-right">
+        <a href="/index.html" class="active">Home</a>
+        <a href="/docs/overview.html" >Overview</a>
+        <a href="/docs/redoc.html">Redoc</a>
+        <a href="/docs/swagger.html">Swagger</a>
+        <a href="/public/checkout.html">Checkout</a>
+        <a href="/public/dashboard.html">Dashboard</a>
+      </div>
+  </nav>
 
-    /* HERO */
-    .hero {
-      text-align: center;
-      padding: 80px 20px;
-    }
+    <main>
+      <div class="hero">
+        <img src="docs/pana.jpg" alt="Pana de scris" />
+        <h1 id="mainTitle">
+          Poems and Prose - Romanian Classical Literature - API
+        </h1>
+        <h2 class="subtitle" id="subtitle">
+          A refined digital archive of Romanian literary heritage, designed for
+          developers, researchers, and cultural institutions.
+        </h2>
+      </div>
 
-    .hero img {
-      width: 120px;
-      height: 120px;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(212,175,55,0.45);
-      animation: pulse 4s ease-in-out infinite;
-    }
+      <div class="section">
+        <h2 id="aboutTitle">About the Project</h2>
 
-    /* ANIMAȚIE */
-    @keyframes pulse {
-      0% { transform: scale(1); opacity: 0.95; }
-      50% { transform: scale(1.05); opacity: 1; }
-      100% { transform: scale(1); opacity: 0.95; }
-    }
+        <p id="about1">
+          The <strong>Poems and Prose API</strong> is a digital archive
+          dedicated to Romanian classical literature. It was designed as a
+          long-term cultural resource, offering structured access to poetry,
+          prose, author metadata, and biographical elements that are often
+          difficult to find in a consistent, developer-friendly format.
+        </p>
 
-    /* TITLU CALIGRAFIC */
-    h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 58px;
-      margin-top: 25px;
-      color: #6a1b1a;
-      letter-spacing: 1px;
-      text-align: center;
-    }
+        <p id="about2">
+          Although the Romanian literary heritage includes over
+          <strong>300 classical authors</strong>, not all can be featured in
+          this API. Many literary works remain protected by copyright, and
+          therefore cannot be distributed or exposed through a public interface.
+          The authors and texts included here belong to the
+          <strong>public domain</strong>, which allows their preservation,
+          indexing, and educational reuse in a legally compliant way. If a poet
+          or a specific work does not appear in the collection, this is the
+          reason.
+        </p>
 
-    /* SUBTITLU */
-    p.subtitle {
-      text-align: center;
-      font-size: 18px;
-      color: #4a3f35;
-      margin-top: -10px;
-      margin-bottom: 30px;
-      font-family: 'Merriweather', serif;
-      letter-spacing: 0.3px;
-    }
+        <p id="about3">
+          The API is <strong>read-only</strong> by design. Its purpose is not to
+          modify or reinterpret cultural content, but to preserve it and make it
+          accessible for:
+        </p>
 
-    .api-tag {
-      font-family: 'Playfair Display', serif;
-      font-weight: 600;
-      color: #6a1b1a;
-      margin-left: 6px;
-    }
+        <ul>
+          <li id="list1">
+            educational platforms and digital humanities projects
+          </li>
+          <li id="list2">researchers and students of Romanian literature</li>
+          <li id="list3">
+            developers building cultural or linguistic applications
+          </li>
+          <li id="list4">
+            archival, bibliographic, and heritage-preservation initiatives
+          </li>
+        </ul>
 
-    /* SECȚIUNE EDITORIALĂ */
-    .section {
-      background: #f7f2e9;
-      border: 1px solid rgba(155, 123, 17, 0.25);
-      border-radius: 12px;
-      padding: 35px 40px;
-      margin: 40px auto;
-      max-width: 900px;
-      box-shadow: 0 0 12px rgba(212,175,55,0.45);
-      font-family: 'Merriweather', serif;
-      color: #4a3f35;
-      line-height: 1.7;
-      text-align: left;
-    }
-
-    /* TITLU SECȚIUNE */
-    .section h2 {
-      color: #6a1b1a;
-      font-size: 32px;
-      margin-top: 25px;
-      margin-bottom: 20px;
-      letter-spacing: 0.5px;
-      font-weight: 700;
-      text-align: center;
-    }
-
-    /* PARAGRAFE */
-    .section p {
-      font-size: 17px;
-      margin-bottom: 18px;
-    }
-
-    /* LISTĂ ELEGANTĂ */
-    .section ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 20px 0;
-    }
-
-    .section ul li {
-      margin-bottom: 12px;
-      padding-left: 28px;
-      position: relative;
-      font-size: 17px;
-    }
-
-    /* BULLET LITERAR */
-    .section ul li::before {
-      content: "❧";
-      position: absolute;
-      left: 0;
-      top: 0;
-      color: #6a1b1a;
-      font-size: 20px;
-    }
-
-    /* BUTOANE */
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 14px 28px;
-      background-color: #d4af37;
-      color: #3d1212;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 8px;
-      box-shadow: 0 0 18px rgba(0,0,0,0.45);
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background-color: #f7e9a0;
-    }
-
-    /* FOOTER */
-    .literary-footer {
-      background-color: wheat;
-      text-align: center;
-      padding: 25px 10px;
-      margin-top: 1px;
-      font-size: 15px;
-      font-family: 'Merriweather', serif;
-      color: #5a5a5a;
-      border-top: 2px solid rgba(155, 123, 17, 0.35);
-      letter-spacing: 0.3px;
-    }
-
-    .literary-footer strong {
-      color: #6a1b1a;
-      font-weight: 700;
-    }
-
-    .icon {
-      width: 35px;
-      height: 35px;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(212,175,55,0.45);
-      margin-right: 3px;
-    }
-
-    /* RESPONSIVE DESIGN */
-
-    /* Telefoane mici */
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 42px;
-      }
-
-      .hero img {
-        width: 90px;
-        height: 90px;
-      }
-
-      .section {
-        padding: 25px 20px;
-        margin: 20px 10px;
-      }
-
-      .section h2 {
-        font-size: 26px;
-      }
-
-      .section p,
-      .section ul li {
-        font-size: 15px;
-      }
-
-      p.subtitle {
-        font-size: 16px;
-      }
-    }
-
-    /* Tablete */
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 50px;
-      }
-
-      .section {
-        padding: 30px;
-        margin: 30px 20px;
-      }
-
-      .section h2 {
-        font-size: 28px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <main>
-    <div class="hero">
-      <img src="docs/pana.jpg" alt="Pana de scris">
-      <h1>Poems and Prose - Romanian Classical Literature - API</h1>
-          <p class="subtitle">
-        A curated digital archive of Romanian literary heritage  
-        <span class="api-tag">API</span>
-      </p>
-      <a class="btn" href="docs/redoc.html">View API Documentation</a>
-    </div>
-
-    <div class="section">
-    <h2>About the Project</h2>
-
-    <p>
-      The <strong>Poems and Prose API</strong> is a curated digital archive dedicated to 
-      Romanian classical literature. It was designed as a long-term cultural resource, 
-      offering structured access to poetry, prose, author metadata, and biographical 
-      elements that are often difficult to find in a consistent, developer-friendly format.
-    </p>
-
-    <p>
-      Although the archive currently includes over <strong>300 authors</strong>, not all can 
-      be featured in this API. Many literary works remain protected by copyright, and 
-      therefore cannot be distributed or exposed through a public interface.  
-      The authors and texts included here belong to the <strong>public domain</strong>, which allows 
-      their preservation, indexing, and educational reuse in a legally compliant way.  
-      If a poet or a specific work does not appear in the collection, this is the reason.
-    </p>
-
-    <p>
-      The API is <strong>read-only</strong> by design. Its purpose is not to modify or 
-      reinterpret cultural content, but to preserve it and make it accessible for:
-    </p>
-
-    <ul>
-      <li>educational platforms and digital humanities projects</li>
-      <li>researchers and students of Romanian literature</li>
-      <li>developers building cultural or linguistic applications</li>
-      <li>archival, bibliographic, and heritage-preservation initiatives</li>
-    </ul>
-
-    <p>
-      Beyond its technical structure, this project is a personal contribution to the 
-      digital preservation of Romanian literary heritage. It aims to bring classical 
-      texts into modern ecosystems, where they can be explored, indexed, visualized, 
-      and integrated into new creative or academic tools.
-    </p>
-  </div>
-</main>
+        <p id="about4">
+          Beyond its technical structure, this project is a personal
+          contribution to the digital preservation of Romanian literary
+          heritage. It aims to bring classical texts into modern ecosystems,
+          where they can be explored, indexed, visualized, and integrated into
+          new creative or academic tools.
+        </p>
+      </div>
+    </main>
 
     <footer class="literary-footer">
-      <img class="icon" src="docs/pana.jpg" alt="Pana de scris">
-      Curated by <strong>Maria Lavinia</strong> · Poems and Prose - API Romanian Classical Literature · © <span id="year"></span>
+      <img class="iconf" src="docs/pana.jpg" alt="Pană de scris" />
+      Curated by <strong>Maria Lavinia</strong> · Poems & Prose API · Romanian
+      Classical Literature · © <span id="year"></span>
     </footer>
 
- </body>
+    <script src="/docs/lang_index.js"></script>
+
+  </body>
 </html>

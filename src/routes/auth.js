@@ -3,28 +3,23 @@ import User from "../models/User.js";
 import { generateApiKey } from "../utils/generateApiKey.js";
 import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";
 import { plans } from "../config/plans.js";
+import { stripe } from "../config/stripe.js";
+import {requireValidEmail,requireValidPlan} from "../validators.js";
 
 const router = express.Router();
 
-router.post("/register", async (req, res) => {
+/* REGISTER USER */
+router.post("/register", requireValidEmail, async (req, res) => {
   try {
-    console.log("BODY PRIMIT:", req.body);
     const { email } = req.body;
 
-    if (!email) {
-      return res.status(400).json({ error: "Email is required" });
-    }
-
-    // verifică dacă există deja
     const existing = await User.findOne({ email });
     if (existing) {
-      return res.status(400).json({ error: "User already exists" });
+      return res.status(400).json({ error: "Operation failed" });
     }
 
-    // generează cheia
     const apiKey = generateApiKey();
 
-    // creează userul
     const user = await User.create({
       email,
       apiKey,
@@ -33,42 +28,37 @@ router.post("/register", async (req, res) => {
     });
 
     return res.json({
-      message: "User created successfully",
+      message: "User created",
       apiKey: user.apiKey,
       plan: user.plan,
     });
 
   } catch (err) {
-    console.error(err);
+    console.error("Register error:", err);
     res.status(500).json({ error: "Server error" });
   }
 });
 
-
-router.post("/upgrade", async (req, res) => {
+/* UPGRADE PLAN */
+router.post("/upgrade", requireValidEmail, requireValidPlan, async (req, res) => {
   try {
-    const { email, newPlan } = req.body;
-
-    if (!["free", "basic", "premium"].includes(newPlan)) {
-      return res.status(400).json({ error: "Invalid plan" });
-    }
+    const { email, plan } = req.body;
 
     const user = await User.findOne({ email });
-
     if (!user) {
-      return res.status(404).json({ error: "User not found" });
+      return res.status(400).json({ error: "Operation failed" });
     }
 
-    user.plan = newPlan;
+    user.plan = plan;
     user.requestsToday = 0;
     user.lastRequestDate = new Date();
 
     await user.save();
 
     res.json({
-      message: "Plan upgraded successfully",
+      message: "Plan updated",
       email: user.email,
-      newPlan: user.plan
+      plan: user.plan
     });
 
   } catch (err) {
@@ -77,14 +67,13 @@ router.post("/upgrade", async (req, res) => {
   }
 });
 
-
-
-router.get("/usage/:email", async (req, res) => {
+/* USAGE */
+router.get("/usage/:email", requireValidEmail, async (req, res) => {
   try {
     const user = await User.findOne({ email: req.params.email });
 
     if (!user) {
-      return res.status(404).json({ error: "User not found" });
+      return res.status(400).json({ error: "Operation failed" });
     }
 
     res.json({
@@ -100,19 +89,16 @@ router.get("/usage/:email", async (req, res) => {
   }
 });
 
-
-router.post("/create-checkout-session", async (req, res) => {
+/* STRIPE CHECKOUT */
+router.post("/create-checkout-session", requireValidEmail, requireValidPlan, async (req, res) => {
   try {
     const { email, plan } = req.body;
-
-    if (!["basic", "premium"].includes(plan)) {
-      return res.status(400).json({ error: "Invalid plan" });
-    }
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       mode: "subscription",
       customer_email: email,
+      metadata: { plan },
       line_items: [
         {
           price: plan === "basic"
@@ -121,8 +107,8 @@ router.post("/create-checkout-session", async (req, res) => {
           quantity: 1
         }
       ],
-      success_url: `${process.env.FRONTEND_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.FRONTEND_URL}/cancel`
+      success_url: `${process.env.FRONTEND_URL}/checkout.html`,
+      cancel_url: `${process.env.FRONTEND_URL}/checkout.html`
     });
 
     res.json({ url: session.url });
@@ -133,26 +119,49 @@ router.post("/create-checkout-session", async (req, res) => {
   }
 });
 
-
+/* ME (API KEY PROTECTED) */
 router.get("/me", verifyApiKey, async (req, res) => {
   try {
-    const user = req.user; // deja setat de verifyApiKey
+    const user = req.user;
 
     const limit = plans[user.plan]?.dailyLimit || plans.free.dailyLimit;
-    const remaining = limit - user.requestsToday;
+    const remaining = Math.max(0, limit - user.requestsToday);
 
     res.json({
       email: user.email,
       plan: user.plan,
       dailyLimit: limit,
       requestsToday: user.requestsToday,
-      remainingRequests: remaining < 0 ? 0 : remaining,
+      remainingRequests: remaining,
       lastRequestDate: user.lastRequestDate
     });
 
   } catch (err) {
     console.error("Me endpoint error:", err);
     res.status(500).json({ error: "Server error" });
+  }
+});
+
+/* CUSTOMER PORTAL */
+router.post("/customer-portal", requireValidEmail, async (req, res) => {
+  try {
+    const { email } = req.body;
+
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(400).json({ error: "Operation failed" });
+    }
+
+    const session = await stripe.billingPortal.sessions.create({
+      customer: user.stripeCustomerId,
+      return_url: `${process.env.FRONTEND_URL}/dashboard`
+    });
+
+    res.json({ url: session.url });
+
+  } catch (err) {
+    console.error("Customer portal error:", err);
+    res.status(500).json({ error: "Stripe portal creation failed" });
   }
 });
 

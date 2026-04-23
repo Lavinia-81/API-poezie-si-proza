@@ -1,19 +1,27 @@
 import express from "express";
 import { stripe } from "../config/stripe.js";
 import User from "../models/User.js";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const router = express.Router();
 
-// Stripe webhook — raw body
+// Allowed Stripe events
+const ALLOWED_EVENTS = new Set([
+  "checkout.session.completed",
+  "customer.subscription.updated",
+  "customer.subscription.deleted"
+]);
+
+// Webhook route
 router.post(
-  "/webhook/stripe",
-  express.raw({ type: "application/json" }),
+  "/",
+  express.raw({ type: "application/json", limit: "1mb" }), // limit body size
   async (req, res) => {
     const sig = req.headers["stripe-signature"];
     const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET;
+
+    if (!sig) {
+      return res.status(400).send("Missing Stripe signature");
+    }
 
     let event;
 
@@ -24,76 +32,144 @@ router.post(
         endpointSecret
       );
     } catch (err) {
-      console.error("Webhook signature error:", err.message);
-      return res.status(400).send(`Webhook Error: ${err.message}`);
+      console.error("❌ Invalid webhook signature");
+      return res.status(400).send("Invalid signature");
     }
 
-    console.log("Received event:", event.type);
+    // Reject unknown events
+    if (!ALLOWED_EVENTS.has(event.type)) {
+      console.warn(`⚠️ Ignored event: ${event.type}`);
+      return res.json({ received: true });
+    }
 
-    switch (event.type) {
-      case "checkout.session.completed":
-        await handleCheckoutCompleted(event.data.object);
-        break;
+    // Protect against replay attacks (timestamp older than 5 minutes)
+    const timestamp = Number(sig.split(",")[0].replace("t=", ""));
+    const now = Math.floor(Date.now() / 1000);
 
-      case "customer.subscription.deleted":
-        await handleSubscriptionCancelled(event.data.object);
-        break;
+    if (now - timestamp > 300) {
+      console.warn("⚠️ Replay attack detected");
+      return res.status(400).send("Event too old");
+    }
 
-      default:
-        console.log(`Unhandled event type: ${event.type}`);
+    try {
+      switch (event.type) {
+        case "checkout.session.completed":
+          await handleCheckoutCompleted(event.data.object);
+          break;
+
+        case "customer.subscription.updated":
+          await handleSubscriptionUpdated(event.data.object);
+          break;
+
+        case "customer.subscription.deleted":
+          await handleSubscriptionCancelled(event.data.object);
+          break;
+      }
+    } catch (err) {
+      console.error("❌ Webhook handler error:", err);
+      return res.status(500).send("Webhook handler failed");
     }
 
     res.json({ received: true });
   }
 );
 
+// ---------------------------------------------------------
+// HANDLE CHECKOUT COMPLETED
+// ---------------------------------------------------------
 async function handleCheckoutCompleted(session) {
-  const email = session.customer_email;
+  try {
+    let email = session.customer_email;
 
-  // 1. Încercăm să luăm planul din metadata (funcționează și cu Stripe CLI)
-  let plan = session.metadata?.plan;
+    if (!email && session.customer) {
+      const customer = await stripe.customers.retrieve(session.customer);
+      email = customer.email;
+    }
 
-  // 2. Dacă metadata nu există, încercăm fallback la line_items (pentru evenimente reale)
-  if (!plan) {
-    const priceId = session.line_items?.[0]?.price?.id;
+    if (!email) return;
 
-    plan =
+    let plan = session.metadata?.plan;
+
+    if (!["basic", "premium"].includes(plan)) {
+      const lineItems = await stripe.checkout.sessions.listLineItems(session.id);
+      const priceId = lineItems.data?.[0]?.price?.id;
+
+      plan =
+        priceId === process.env.STRIPE_BASIC_PRICE_ID
+          ? "basic"
+          : priceId === process.env.STRIPE_PREMIUM_PRICE_ID
+          ? "premium"
+          : null;
+    }
+
+    if (!plan) return;
+
+    const customerId = session.customer;
+    let user = await User.findOne({ email }) || await User.findOne({ stripeCustomerId: customerId });
+
+    if (!user) return;
+
+    user.stripeCustomerId = customerId;
+    user.stripeSubscriptionId = session.subscription;
+    user.plan = plan;
+    user.status = "active";
+    user.requestsToday = 0;
+    user.lastRequestDate = new Date();
+
+    await user.save();
+  } catch (err) {
+    console.error("Checkout handler error:", err);
+  }
+}
+
+// ---------------------------------------------------------
+// HANDLE SUBSCRIPTION UPDATED
+// ---------------------------------------------------------
+async function handleSubscriptionUpdated(subscription) {
+  try {
+    const customerId = subscription.customer;
+    const priceId = subscription.items.data[0].price.id;
+
+    const plan =
       priceId === process.env.STRIPE_BASIC_PRICE_ID
         ? "basic"
         : priceId === process.env.STRIPE_PREMIUM_PRICE_ID
         ? "premium"
         : null;
+
+    if (!plan) return;
+
+    const user = await User.findOne({ stripeCustomerId: customerId });
+    if (!user) return;
+
+    user.plan = plan;
+    user.status = "active";
+    user.stripeSubscriptionId = subscription.id;
+
+    await user.save();
+  } catch (err) {
+    console.error("Subscription update error:", err);
   }
-
-  if (!plan) {
-    console.log("No plan found in session — skipping upgrade.");
-    return;
-  }
-
-  const user = await User.findOne({ email });
-  if (!user) return;
-
-  user.plan = plan;
-  user.requestsToday = 0;
-  user.lastRequestDate = new Date();
-  await user.save();
-
-  console.log(`User ${email} upgraded to ${plan}`);
 }
 
-
-
+// ---------------------------------------------------------
+// HANDLE SUBSCRIPTION CANCELLED
+// ---------------------------------------------------------
 async function handleSubscriptionCancelled(subscription) {
-  const customer = await stripe.customers.retrieve(subscription.customer);
-  const email = customer.email;
+  try {
+    const customerId = subscription.customer;
 
-  const user = await User.findOne({ email });
-  if (!user) return;
+    const user = await User.findOne({ stripeCustomerId: customerId });
+    if (!user) return;
 
-  user.plan = "free";
-  await user.save();
+    user.plan = "free";
+    user.status = "cancelled";
 
-  console.log(`User ${email} downgraded to free`);
+    await user.save();
+  } catch (err) {
+    console.error("Subscription cancel error:", err);
+  }
 }
+
 
 export default router;

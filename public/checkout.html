@@ -3,31 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planurile de Abonament</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/docs/style.css">
+  <title>Subscription Plans - Poems & Prose API</title>
 </head>
 
 <body>
-  <button onclick="buy('basic')" type="button">Cumpără Basic</button>
-  <button onclick="buy('premium')" type="button">Cumpără Premium</button>
+  <nav class="navbar">
 
-  <script>
-  async function buy(plan) {
-    const response = await fetch("http://localhost:3000/create-checkout-session", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ plan })
-    });
+    <div class="navbar-top">
+    <div class="navbar-left">
+      <img class="icon" src="/docs/pana.jpg" alt="Pana de scris">
+      <button id="langToggle">RO</button>
+    </div>
 
-    const data = await response.json();
-    console.log("Stripe response:", data);
+    <div class="navbar-center">
+      <h1 data-i18n="navTitle">Subscription Plans</h1>
+    </div>
+    </div>
 
-    if (data.url) {
-      window.location.href = data.url;
-    } else {
-      alert("Eroare: " + JSON.stringify(data));
-    }
-  }
-  </script>
+    <div class="navbar-right">
+      <a href="/index.html">Home</a>
+      <a href="/docs/overview.html" >Overview</a>
+      <a href="/docs/redoc.html">Redoc</a>
+      <a href="/docs/swagger.html">Swagger</a>
+      <a href="/public/checkout.html" class="active">Checkout</a>
+      <a href="/public/dashboard.html">Dashboard</a>
+    </div>
+  </nav>
+  
 
+  <main>
+    <div class="email-box">
+      <h2 data-i18n="auth_title"></h2>
+      <input id="email" type="email" data-i18n-placeholder="email_placeholder">
+    </div>
+
+    <section class="intro">
+      <h2 data-i18n="intro_title"></h2>
+      <p data-i18n="intro_text"></p>
+    </section>
+
+    <div class="plans">
+      <div class="plan-card">
+        <div class="plan-title" data-i18n="free_title"></div>
+        <div class="plan-price" data-i18n="free_price"></div>
+        <div class="plan-desc" data-i18n="free_desc"></div>
+        <button class="btn" data-i18n="free_btn" id="btnFree"></button>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-title" data-i18n="basic_title"></div>
+        <div class="plan-price" data-i18n="basic_price"></div>
+        <div class="plan-desc" data-i18n="basic_desc"></div>
+        <button class="btn" data-i18n="basic_btn" id="btnBasic"></button>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-title" data-i18n="premium_title"></div>
+        <div class="plan-price" data-i18n="premium_price"></div>
+        <div class="plan-desc" data-i18n="premium_desc"></div>
+        <button class="btn" data-i18n="premium_btn" id="btnPremium"></button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="literary-footer">
+    <img class="iconf" src="/docs/pana.jpg" alt="Pană de scris">
+    Curated by <strong>Maria Lavinia</strong> · Poems & Prose API · Romanian Classical Literature · © <span id="year"></span>
+  </footer>
+
+ <script src="checkout.js"></script>
+ 
 </body>
 </html>

@@ -5,104 +5,127 @@ Acest audit evaluează arhitectura, securitatea, performanța și scalabilitatea
 ## 🛡️ 1. Security Audit
 ✔️ 1.1. Strengths (lucruri deja implementate corect)
 ✓ Path Traversal Protection
-Folosirea funcției safePath() împiedică accesul la fișiere din afara proiectului.
-Este una dintre cele mai importante măsuri de securitate pentru un API care servește fișiere.
-✓ Anti‑Injection Middleware
-Middleware‑ul care blochează caractere periculoase (.., <, >, %00, etc.) reduce riscul de:
-- command injection
-- script injection
-- malformed requests
+Utilizarea safePath() împiedică accesul la fișiere din afara directorului data/.
+Este una dintre cele mai importante măsuri pentru un API care servește fișiere.
+✓ Input Validation Middleware
+Există un sistem de validare (Zod/Joi sau custom) pentru unele rute.
+Acesta reduce riscul de:
+- path traversal
+- malformed input
+- Unicode spoofing (parțial)
+✓ API Key Authentication (pe majoritatea rutelor)
+Protejează resursele împotriva accesului neautorizat.
 ✓ Rate Limiting
-Limitezi numărul de request‑uri per IP, ceea ce protejează API‑ul de:
+Limitează numărul de requesturi per IP, reducând riscul de:
 - brute force
 - scraping agresiv
 - DoS de nivel mic
 ✓ CORS Restrictiv
-Ai configurat CORS pentru a permite doar anumite origini — foarte bine pentru un API public.
-✓ No eval / no dynamic code execution
-Codul tău nu folosește:
+Permiți doar origini specifice — foarte bine pentru un API public.
+✓ Fără execuție de cod dinamic
+Nu folosești:
 - eval
 - Function()
-- exec din child_process
-Acest lucru elimină o categorie întreagă de vulnerabilități.
+- child_process.exec
+Elimină o categorie întreagă de vulnerabilități.
 
 ⚠️ 1.2. Weaknesses (riscuri identificate)
-⚠️ 1.2.1. Lipsa validării stricte a parametrilor
-Parametrii precum :autor, :id, :titlu sunt folosiți direct în logică.
+⚠️ 1.2.1. Validare incompletă a parametrilor
+Unele rute validează doar id, dar nu și autor sau titlu.
+Riscuri:
+- Unicode spoofing
+- control characters
+- path traversal indirect
+- input malițios
 Recomandare:
-Folosește un validator precum Zod sau Joi.
+Validare strictă pentru TOȚI parametrii.
 
-⚠️ 1.2.2. Lipsa unui sistem de logging pentru erori suspecte
-În prezent, erorile sunt trimise doar către client.
+⚠️ 1.2.2. Unele rute sunt publice fără API key
+Exemple:
+- /poezii
+- /proza
+- /cautare/:autor/:titlu
+Riscuri:
+- scraping masiv
+- brute-force
+- DoS
 Recomandare:
-Integrează un logger (Winston / Pino) pentru:
+Adaugă verifyApiKey pe toate rutele sensibile.
+
+⚠️ 1.2.3. Lipsa sanitizării pentru autor și titlu
+Fără normalizare Unicode, pot apărea:
+- caractere rusești/grecești care arată identic
+- diacritice compuse/decompuse
+- %00 injection
+Recomandare:
+Normalizează cu NFKC și permite DOAR alfabetul românesc.
+
+⚠️ 1.2.4. Lipsa protecției împotriva requesturilor foarte mari
+Express poate crăpa dacă primește:
+- URL-uri de 100k caractere
+- header-uri uriașe
+Recomandare:
+Setează limite în express.json() și express.urlencoded().
+
+⚠️ 1.2.5. Lipsa unui sistem de logging profesionist
+console.log nu este suficient pentru:
 - tentative de atac
 - erori de acces la fișiere
-- request‑uri anormale
-
-⚠️ 1.2.3. Lipsa unui firewall extern
-API‑ul nu este protejat de:
-- Cloudflare
-- rate limiting la nivel de edge
-- caching pentru fișiere statice
+- requesturi suspecte
 Recomandare:
-Activează Cloudflare (gratuit) pentru:
-- DDoS protection
-- caching pentru imagini și texte
-- firewall rules
+Folosește Winston sau Pino.
 
-⚠️ 1.2.4. Lipsa unui mecanism de sanitizare pentru output
-Deși conținutul este text literar, un fișier .txt ar putea conține accidental:
-- HTML
-- JS
-- markup
+⚠️ 1.2.6. Endpoint Stripe fără protecție
+/create-checkout-session este public.
+Riscuri:
+- fraudă
+- spam Stripe sessions
+- costuri neprevăzute
 Recomandare:
-Sanitize output pentru endpointurile care returnează text brut.
+Adaugă verifyApiKey + validare strictă.
+
 
 
 ## ⚙️ 2. Architecture Audit
 ✔️ 2.1. Strengths
-✓ File‑based architecture
-Simplă, transparentă, ușor de extins.
+✓ Arhitectură modulară
+Controllers, services, utils, routes — bine separate.
+✓ File-based content
+Simplu, transparent, ușor de extins.
 ✓ JSON metadata per author
 Separă clar:
 - metadatele
 - conținutul
 - structura folderelor
-✓ Modular endpoints
-Fiecare endpoint are o responsabilitate clară.
 
 ⚠️ 2.2. Weaknesses
-⚠️ 2.2.1. Lipsa unui layer de caching
-Fiecare request citește fișiere de pe disc.
+⚠️ 2.2.1. Caching incomplet
+Unele servicii folosesc cache, altele nu.
+Unele cache-uri nu invalidează fișiere modificate.
 Recomandare:
-Cache în memorie pentru:
-- lista autorilor
-- JSON‑urile autorilor
-- bibliografii
+Cache unificat + invalidare manuală.
 
-⚠️ 2.2.2. Lipsa unui health check endpoint
+⚠️ 2.2.2. Lipsa unui health check
+Nu există un endpoint pentru monitorizare.
 Recomandare:
-Adaugă:
 GET /api/health
 
-## 🚀 3. Performance Audit
+🚀 3. Performance Audit
 ✔️ 3.1. Strengths
-- Node.js este rapid pentru I/O
-- Fișierele sunt mici
-- Structura este simplă
+- Node.js excelent pentru I/O
+- Fișiere mici
+- Structură simplă
 
 ⚠️ 3.2. Weaknesses
 ⚠️ 3.2.1. Citire repetată a fișierelor
-Fiecare request re‑citește fișierele .txt.
+Fiecare request re-citește .txt și .json.
 Recomandare:
-Cache în memorie cu invalidare manuală.
+Cache în memorie.
 
 ⚠️ 3.2.2. Lipsa compresiei
-Recomandare:
-Adaugă middleware compression().
+Fără compression(), răspunsurile text sunt mai mari decât trebuie.
 
-## 🧩 4. Maintainability Audit
+🧩 4. Maintainability Audit
 ✔️ 4.1. Strengths
 - cod clar
 - funcții bine separate
@@ -111,14 +134,21 @@ Adaugă middleware compression().
 
 ⚠️ 4.2. Weaknesses
 ⚠️ 4.2.1. Lipsa testelor
+Nu există teste unitare sau de integrare.
 Recomandare:
-Adaugă Jest + Supertest.
+Jest + Supertest.
 
 ⚠️ 4.2.2. Lipsa documentației OpenAPI
-Recomandare:
-Generează un fișier openapi.yaml.
+Nu există un fișier openapi.yaml.
 
-## 🏆 5. Overall Rating
+📈 5. Scalability Audit
+⚠️ 5.1. Weaknesses
+⚠️ 5.1.1. File-based storage nu scalează
+Pentru trafic mare, filesystem-ul devine bottleneck.
+⚠️ 5.1.2. Lipsa unui CDN
+Imaginile și textele nu sunt servite prin caching extern.
+
+## 🏆 6. Overall Rating
 | Categorie       |  Evaluare         |
 | Security        | ⭐⭐⭐⭐☆ (4/5) | 
 | Architecture    | ⭐⭐⭐⭐☆ (4/5) | 
@@ -127,12 +157,20 @@ Generează un fișier openapi.yaml.
 | Scalability     | ⭐⭐⭐☆☆ (3/5)  | 
 
 
-## 🎯 6. Recommended Next Steps
-- Adaugă validare parametri (Zod / Joi).
-- Adaugă caching pentru fișiere.
-- Activează Cloudflare pentru protecție DDoS.
-- Adaugă logging profesionist (Winston).
-- Adaugă compresie HTTP.
-- Creează un health check endpoint.
-- Adaugă teste automate.
-- Generează documentație OpenAPI.
+## 🎯  7. Recommended Next Steps
+🔐 Securitate
+- Validare strictă pentru autor, id, titlu
+- Normalizare Unicode (NFKC)
+- Autentificare pe toate rutele sensibile
+- Rate limiting global + per rută
+- Logging profesionist (Winston/Pino)
+- Protecție Stripe endpoint
+⚙️ Arhitectură
+- Cache unificat pentru fișiere
+- Health check endpoint
+🚀 Performanță
+- Adaugă compression()
+- CDN / Cloudflare caching
+🧪 Testare & Documentație
+- Teste automate (Jest + Supertest)
+- Documentație OpenAPI

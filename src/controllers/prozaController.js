@@ -1,38 +1,66 @@
-// src/controllers/prozaController.js
 import { getPoeziiAutor, getProzaAutor } from '../services/autorService.js';
 import { normalizeAutor } from "../utils/normalizeAutor.js";
 import logger from '../logger/logger.js';
 
 export function poeziiAutor(req, res) {
-    const autorNormalizat = normalizeAutor(req.params.autor);
+  try {
+    // Sanitize autor
+    const autorNormalizat = normalizeAutor(
+      String(req.params.autor || "")
+        .normalize("NFKC")
+        .replace(/[\u0000-\u001F\u007F]/g, "")
+        .trim()
+    );
 
-    try {
-        const poezii = getPoeziiAutor(autorNormalizat);
-
-        if (!poezii) {
-            return res.status(404).json({ mesaj: "Autorul nu există" });
-        }
-
-        res.json(poezii);
-    } catch (err) {
-        logger.error("Eroare în controller poeziiAutor", { error: err.message });
-        res.status(500).json({ mesaj: "Eroare internă" });
+    if (autorNormalizat.length > 200) {
+      return res.status(400).json({ message: "Author name too long" });
     }
+
+    const poezii = getPoeziiAutor(autorNormalizat);
+
+    if (!poezii) {
+      return res.status(404).json({ message: "Author not found" });
+    }
+
+    res.json(poezii);
+
+  } catch (err) {
+    logger.error("Error in controller poeziiAutor", {
+      error: err.message.replace(/[\n\r]/g, "")
+    });
+    res.status(500).json({ message: "Internal server error" });
+  }
 }
 
 export function prozaAutor(req, res) {
-    const autorNormalizat = normalizeAutor(req.params.autor);
+  try {
+    // Sanitize autor
+    const autorNormalizat = normalizeAutor(
+      String(req.params.autor || "")
+       .normalize("NFKC") // normalizează diacriticele
+        .replace(/[\u0000-\u001F\u007F]/g, "") // elimină caractere de control
+        .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "") // păstrează DOAR alfabetul românesc
+        .replace(/\s+/g, " ") // normalizează spațiile
+        .trim()
+        .toLowerCase()
+    );
 
-    try {
-        const proza = getProzaAutor(autorNormalizat);
-
-        if (!proza) {
-            return res.status(404).json({ mesaj: "Autorul nu există" });
-        }
-
-        res.json(proza);
-    } catch (err) {
-        logger.error("Eroare în controller prozaAutor", { error: err.message });
-        res.status(500).json({ mesaj: "Eroare internă" });
+    if (autorNormalizat.length > 200) {
+      return res.status(400).json({ message: "Author name too long" });
     }
+
+    const proza = getProzaAutor(autorNormalizat);
+
+    if (!proza) {
+      return res.status(404).json({ message: "Author not found" });
+    }
+
+    res.json(proza);
+
+  } catch (err) {
+    logger.error("Error in controller prozaAutor", {
+      error: err.message.replace(/[\n\r]/g, "")
+    });
+    res.status(500).json({ message: "Internal server error" });
+  }
 }

@@ -1,91 +1,101 @@
-// src/services/autorService.js
-import fs from 'fs';
-import path from 'path';
-import logger from '../logger/logger.js';
-import { loadAutorData } from '../utils/loadAutorData.js';
-import { safePath } from '../utils/safePath.js';
-import { cache } from '../utils/cache.js';
+import fs from "fs";
+import logger from "../logger/logger.js";
+import { loadAutorData } from "../utils/loadAutorData.js";
+import { safePath } from "../utils/safePath.js";
+import { cache } from "../utils/cache.js";
 
+function cleanId(id) {
+  return String(id || "")
+    .normalize("NFKC") // normalizează diacriticele
+    .replace(/[\u0000-\u001F\u007F]/g, "") // elimină caractere de control
+    .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "") // păstrează DOAR alfabetul românesc
+    .replace(/\s+/g, " ") // normalizează spațiile
+    .trim()
+    .toLowerCase();
+
+}
 
 // Poeziile unui autor
 export function getPoeziiAutor(autor) {
-    const data = loadAutorData(autor);
-    if (!data) return null;
+  const data = loadAutorData(autor);
+  if (!data) return null;
 
-    return data.poezii || [];
+  return Array.isArray(data.poezii) ? data.poezii : [];
 }
 
 // Proza unui autor
 export function getProzaAutor(autor) {
-    const data = loadAutorData(autor);
-    if (!data) return null;
+  const data = loadAutorData(autor);
+  if (!data) return null;
 
-    return data.proza || [];
+  return Array.isArray(data.proza) ? data.proza : [];
 }
 
-// Item după ID (poezie sau proză)
-export function getItemById(autor, id) {
-    const data = loadAutorData(autor);
-    if (!data) return null;
+// Item după ID
+export function getItemById(autor, idRaw) {
+  const data = loadAutorData(autor);
+  if (!data) return null;
 
-    const toate = [...data.poezii, ...data.proza];
+  const id = cleanId(idRaw);
 
-    // Acceptă:
-    // - "1"
-    // - "poezie-1"
-    // - "proza-1"
-    // - "Poezie-1" (case-insensitive)
-    const idLower = id.toLowerCase();
+  const toate = [...(data.poezii || []), ...(data.proza || [])];
 
-    const item = toate.find(p => {
-        const pid = p.id.toLowerCase();
-        return (
-            pid === idLower ||                // exact match
-            pid === `poezie-${idLower}` ||    // poezie-1
-            pid === `proza-${idLower}` ||     // proza-1
-            pid.endsWith(`-${idLower}`)       // orice tip-1
-        );
-    });
+  const item = toate.find((p) => {
+    if (!p?.id) return false;
 
-    return item || false;
+    const pid = cleanId(p.id);
+
+    return (
+      pid === id ||
+      pid === `poezie-${id}` ||
+      pid === `proza-${id}` ||
+      pid.endsWith(`-${id}`)
+    );
+  });
+
+  return item || false;
 }
 
 // Bibliografia unui autor
 export function getBibliografieText(autor) {
-    const data = loadAutorData(autor);
-    if (!data) return null;
+  const data = loadAutorData(autor);
+  if (!data) return null;
 
-    const biblioPath = data.bibliografie_path;
+  const biblioPath = data.bibliografie_path;
 
-    // caching
-    if (cache.bibliografieText.has(biblioPath)) {
-        return cache.bibliografieText.get(biblioPath);
+  if (cache.bibliografieText.has(biblioPath)) {
+    return cache.bibliografieText.get(biblioPath);
+  }
+
+  try {
+    const filePath = safePath(biblioPath);
+
+    const stats = fs.statSync(filePath);
+    if (stats.size > 2 * 1024 * 1024) {
+      throw new Error("Bibliography file too large");
     }
 
-    try {
-        const filePath = safePath(biblioPath);
-        const text = fs.readFileSync(filePath, 'utf-8');
+    const text = fs.readFileSync(filePath, "utf-8");
 
-        cache.bibliografieText.set(biblioPath, text);
+    cache.bibliografieText.set(biblioPath, text);
 
-        return text;
-
-    } catch (err) {
-        logger.error("Eroare la citirea bibliografiei", { error: err.message });
-        throw new Error("Eroare la citirea bibliografiei");
-    }
+    return text;
+  } catch (err) {
+    logger.error("Error reading bibliography", { error: err.message });
+    throw new Error("Error reading bibliography");
+  }
 }
 
-// Poza (fotografia) unui autor
+// Poza autorului
 export function getPozaAutor(autor) {
-    const data = loadAutorData(autor);
-    if (!data) return null;
+  const data = loadAutorData(autor);
+  if (!data) return null;
 
-    try {
-        const filePath = safePath(data.poza);
-        return filePath;
-    } catch (err) {
-        logger.warn("Cale invalidă la poza autorului", { error: err.message });
-        throw new Error("Cale invalidă");
-    }
+  try {
+    const filePath = safePath(data.poza);
+    return filePath;
+  } catch (err) {
+    logger.warn("Invalid path for author photo", { error: err.message });
+    throw new Error("Invalid path");
+  }
 }

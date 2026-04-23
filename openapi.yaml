@@ -1,4 +1,6 @@
 openapi: 3.0.3
+security:
+  - ApiKeyAuth: []
 
 info:
   title: Poems and Prose - API - Romanian Classical Literature
@@ -170,6 +172,30 @@ paths:
         '500':
           description: Server error
 
+  /autor/{autor}/proza:
+    get:
+      tags: [Proza]
+      summary: Get all prose works for an author
+      parameters:
+        - in: path
+          name: autor
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of prose works for the author
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ProzaMeta'
+        '404':
+          description: Author not found
+        '500':
+          description: Server error
+
   /autor/{autor}/proza/{id}:
     get:
       tags: [Proza]
@@ -307,3 +333,9 @@ components:
           type: string
         tip:
           type: string
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key  

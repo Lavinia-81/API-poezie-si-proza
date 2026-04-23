@@ -6,10 +6,19 @@ dotenv.config();
 
 const router = express.Router();
 
-router.post("/create-checkout-session", async (req, res) => {
-  const { plan } = req.body;
+/**
+ * PUBLIC Stripe Checkout Session Route
+ * This route must NOT be protected by API keys, anti-scraping,
+ * anti-cloning, text limiters, or validation middleware.
+ * Stripe requires a clean, untouched JSON body.
+ */
 
-  // Alegem priceId în funcție de plan
+router.post("/create-checkout-session", async (req, res) => {
+  console.log("BODY RECEIVED:", req.body); // Debug log
+
+  const { email, plan } = req.body;
+
+  // Select Stripe price ID based on the chosen plan
   const priceId =
     plan === "basic"
       ? process.env.STRIPE_BASIC_PRICE_ID
@@ -22,9 +31,11 @@ router.post("/create-checkout-session", async (req, res) => {
   }
 
   try {
+    // Create Stripe Checkout session
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       mode: "subscription",
+      customer_email: email,
       line_items: [
         {
           price: priceId,
@@ -32,13 +43,15 @@ router.post("/create-checkout-session", async (req, res) => {
         },
       ],
       metadata: {
-        plan: plan, // AICI punem metadata
+        plan: plan, // Store plan for webhook processing
       },
       success_url: `${process.env.FRONTEND_URL}/success`,
       cancel_url: `${process.env.FRONTEND_URL}/cancel`,
     });
 
+    // Return the Stripe Checkout URL to the frontend
     res.json({ url: session.url });
+
   } catch (error) {
     console.error("Stripe error:", error);
     res.status(500).json({ error: "Stripe session creation failed" });

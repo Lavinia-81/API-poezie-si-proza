@@ -3,6 +3,9 @@ import express from 'express';
 import { validateRequest } from '../middleware/validation/validateRequest.js';
 import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";
 import { autorSchema, idSchema } from '../middleware/validation/schemas.js';
+import { antiCloning } from "../middleware/security/antiCloning.js";
+import { antiScraping } from "../middleware/security/antiScraping.js";
+import { textLimiter } from "../middleware/security/textLimiter.js";
 import {
     poeziiAutor,
     prozaAutor,
@@ -14,69 +17,87 @@ import {
 } from '../controllers/autorController.js';
 
 const router = express.Router();
+router.use(antiCloning);
 
-// Toate poeziile unui autor
-router.get(
-    '/:autor/poezii',
-    verifyApiKey,
-    validateRequest({ params: autorSchema }),
-    poeziiAutor
-    );
 
-// Toată proza unui autor
 router.get(
-    '/:autor/proza',
-    verifyApiKey,
-    validateRequest({ params: autorSchema }),
-    prozaAutor
-    );
+  '/:autor/poezii',
+  validateRequest({ params: autorSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  poeziiAutor
+);
 
-// Căutare poezie după ID si textul acesteia
 router.get(
-    '/:autor/poezie/:id/text',
-    verifyApiKey,
-    validateRequest({ params: idSchema }),
-    poezieText
-    ); 
+  '/:autor/proza',
+  validateRequest({ params: autorSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  prozaAutor
+);
 
-// Căutare proză după ID si textul acesteia
 router.get(
-    '/:autor/proza/:id/text',
-    verifyApiKey,
-    validateRequest({ params: idSchema }),
-    prozaText
-    );    
+  '/:autor/poezie/:id/text',
+  validateRequest({ params: idSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  poezieText
+);
 
-// Bibliografie text
 router.get(
-    '/:autor/bibliografie/text',
-    verifyApiKey,
-    validateRequest({ params: autorSchema }),
-    bibliografieText
-    );
+  '/:autor/proza/:id/text',
+  validateRequest({ params: idSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  prozaText
+);
 
-// Poza autorului
 router.get(
-    '/:autor/poza',
-    verifyApiKey,
-    validateRequest({ params: autorSchema }),
-    pozaAutor
-    );
+  '/:autor/bibliografie/text',
+  validateRequest({ params: autorSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  bibliografieText
+);
 
-// Căutare poezii după ID
 router.get(
-    '/:autor/poezie/:id',
-    verifyApiKey,
-    validateRequest({ params: idSchema }),
-    itemById
-    );
+  '/:autor/poza',
+  validateRequest({ params: autorSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  pozaAutor
+);
 
-// Căutare proză după ID
 router.get(
-    '/:autor/proza/:id',
-    verifyApiKey,
-    validateRequest({ params: idSchema }),
-    itemById
-    );
+  '/:autor/poezie/:id',
+  validateRequest({ params: idSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  itemById
+);
+
+router.get(
+  '/:autor/proza/:id',
+  validateRequest({ params: idSchema }),
+  verifyApiKey,
+  antiCloning,
+  antiScraping,
+  textLimiter,
+  itemById
+);
 
 export default router;

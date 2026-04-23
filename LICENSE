@@ -1,21 +1,38 @@
-MIT License
+# MIT License – Enhanced Version for Security‑Sensitive Software
 
-Copyright (c) 2026 Maria Lavinia
+### Copyright (c) 2026 Maria Lavinia
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
+ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. The Software may not be used for any purpose that violates applicable law,
+   including but not limited to:
+   - unauthorized access to systems or data,
+   - scraping at a scale intended to degrade service availability,
+   - bypassing security controls,
+   - distributing modified versions that introduce malicious behavior.
+
+3. Any modified version of the Software must clearly document all changes and
+   must not misrepresent the original author or imply endorsement.
+
+4. The Software is provided for educational, research, and non‑malicious
+   purposes. Use of the Software in high‑risk environments (financial,
+   medical, critical infrastructure) is done entirely at the user's own risk.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE, SECURITY, AND NON‑INFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE, INCLUDING BUT NOT LIMITED TO SECURITY BREACHES,
+DATA LOSS, SERVICE INTERRUPTION, OR ANY OTHER OPERATIONAL IMPACT.
+
+By using the Software, the user acknowledges and agrees to these terms.

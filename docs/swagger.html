@@ -2,132 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Swagger UI - Poems and Prose - API - Romanian Classical Literature</title>
-
-  <!-- Swagger UI CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css" />
-
-  <!-- Font premium -->
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Merriweather', serif;
-      background-color: #faf7f2;
-    }
-
-  
-    .top-header {
-      background-color: wheat;
-      border-bottom: 2px solid rgba(155, 123, 17, 0.35);
-      padding: 20px 40px;
-      font-size: 24px;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 170px;
-      letter-spacing: 0.5px;
-    }
-    .nav-buttons {
-      display: flex;
-      gap: 10px;
-    }
-  
-    @keyframes pulse {
-      0%   { transform: scale(1);   opacity: 0.95; }
-      50%  { transform: scale(1.06); opacity: 1; }
-      100% { transform: scale(1);   opacity: 0.95; }
-    }
-
-    .top-header img {
-      width: 45px;
-      height: 45px;
-      border-radius: 10px;
-      animation: pulse 3s ease-in-out infinite;
-      box-shadow: 0 0 10px rgba(135, 107, 16, 0.4);
-    }
-
-    /* Butoane elegante */
-    .top-header a {
-      margin-left: auto;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 600;
-      padding: 8px 14px;
-      border-radius: 6px;
-      background-color: brown;
-      color: white;
-      transition: 0.3s;
-    }
-
-    .top-header a:hover {
-      background-color:#6d1918;
-    }
-
-    /* Footer */
-    .literary-footer {
-      background-color: wheat;
-      text-align: center;
-      padding: 25px 10px;
-      margin-top: 1px;
-      font-size: 15px;
-      color: #5a5a5a;
-      border-top: 2px solid rgba(155, 123, 17, 0.35);
-      letter-spacing: 0.3px;
-    }
-
-    .literary-footer strong {
-      color: #6a1b1a;
-      font-weight: 700;
-    }
-     .icon {
-      width: 35px;
-      height: 35px;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(212,175,55,0.45);
-      margin-right: 3px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/docs/swagger/swagger-ui-dist/swagger-ui.css">
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/docs/style.css">
+   <title>Swagger UI - Poems and Prose API</title>
 </head>
 
 <body>
+  <nav class="navbar">
 
-  <!-- HEADER PREMIUM -->
-  <div class="top-header">
-    <img src="pana.jpg" alt="Pana de scris">
-    Swagger UI - Poems and Prose API
-
-      <!-- Butoane -->
-      <div class="nav-buttons">
-      <a href="redoc.html">Redoc</a>
-      <a href="../index.html">Home</a>
+    <div class="navbar-top">
+      <div class="navbar-left">
+        <img class="icon" src="/docs/pana.jpg" alt="Pana de scris">
+      </div>
+      
+      <div class="navbar-center">
+        <h1 id="navTitle">API - Swagger</h1>
+      </div>
     </div>
-  </div>
+  
+    <div class="navbar-right" >
+      <a href="/index.html" >Home</a>
+      <a href="/docs/redoc.html">Redoc</a>
+      <a href="/docs/swagger.html" class="active">Swagger</a>
+      <a href="/public/checkout.html">Checkout</a>
+      <a href="/public/dashboard.html">Dashboard</a>
+      </div>
+     
+ </nav>
 
-  <!-- Swagger UI container -->
-  <div id="swagger-ui"></div>
+  <main>
+    <div id="swagger-ui"></div>
+  </main>
 
-  <!-- Footer -->
+
   <footer class="literary-footer">
-    <img class="icon" src="pana.jpg" alt="Pana de scris">
-    Curated by <strong>Maria Lavinia</strong> · Poems and Prose - API Romanian Classical Literature · © <span id="year"></span>
+    <img class="iconf" src="/docs/pana.jpg" alt="Pană de scris">
+    Curated by <strong>Maria Lavinia</strong> · Poems & Prose API · Romanian Classical Literature · © <span id="year"></span>
   </footer>
-  <script>document.getElementById("year").textContent = new Date().getFullYear()</script>
 
-  <!-- Swagger UI Script -->
-  <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
   <script>
-    SwaggerUIBundle({
-      url: "../openapi.yaml",
-      dom_id: '#swagger-ui',
-      presets: [
-        SwaggerUIBundle.presets.apis,
-      ],
-      layout: "BaseLayout",
-    });
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="/docs/swagger/swagger-ui-dist/swagger-ui-bundle.js"></script>
+  <script src="/docs/swagger/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
+  <script>
+    window.onload = function () {
+      SwaggerUIBundle({
+        url: "/openapi.yaml",
+        dom_id: "#swagger-ui",
+        presets: [
+          SwaggerUIBundle.presets.apis,
+          SwaggerUIStandalonePreset
+        ],
+        layout: "StandaloneLayout"
+      });
+    };
   </script>
 
 </body>

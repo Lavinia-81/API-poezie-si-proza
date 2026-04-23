@@ -1,25 +1,44 @@
 // src/middleware/validation/validateRequest.js
-import { AppError } from '../error/errorTypes.js';
+import { AppError } from "../error/errorTypes.js";
+import logger from "../../logger/logger.js";
 
 export function validateRequest(schemas) {
-    return (req, res, next) => {
-        try {
-            if (schemas.params) {
-                schemas.params.parse({ ...req.params });
-            }
+  return (req, res, next) => {
+    try {
+      // Limit total input size (prevents DoS)
+      const totalSize = JSON.stringify({
+        params: req.params,
+        query: req.query,
+        body: req.body
+      }).length;
 
-            if (schemas.query) {
-                schemas.query.parse({ ...req.query });
-            }
+      if (totalSize > 5000) {
+        throw new AppError("Input too large", 400, "INPUT_TOO_LARGE");
+      }
 
-            if (schemas.body) {
-                schemas.body.parse({ ...req.body });
-            }
+      if (schemas.params) {
+        schemas.params.parse({ ...req.params });
+      }
 
-            next();
+      if (schemas.query) {
+        schemas.query.parse({ ...req.query });
+      }
 
-        } catch (err) {
-            throw new AppError('Date invalide', 400, 'VALIDATION_ERROR');
-        }
-    };
+      if (schemas.body) {
+        schemas.body.parse({ ...req.body });
+      }
+
+      next();
+
+    } catch (err) {
+      // Log validation error safely
+      logger.warn("Validation failed", {
+        error: err?.issues || err?.message || "Unknown validation error",
+        path: req.originalUrl.slice(0, 200),
+        ip: req.ip.replace(/[\n\r]/g, "")
+      });
+
+      throw new AppError("Invalid input", 400, "VALIDATION_ERROR");
+    }
+  };
 }
