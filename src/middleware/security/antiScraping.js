@@ -6,7 +6,7 @@ const suspiciousUserAgents = [
   /curl/i,
   /wget/i,
   /scrapy/i,
-  /bot/i,
+  // /bot/i,
   /spider/i,
   /crawler/i
 ];
@@ -31,12 +31,12 @@ export function antiScraping(req, res, next) {
   recentRequests.set(ip, now);
 
   // 3. Block missing headers typical for bots
-  if (!req.headers["accept-language"] || !req.headers["referer"]) {
-    // Allow your frontend, block others
-    if (!req.headers["referer"]?.includes(process.env.FRONTEND_URL)) {
-      return res.status(403).json({ error: "Suspicious request blocked" });
-    }
-  }
+  // if (!req.headers["accept-language"] || !req.headers["referer"]) {
+  //   // Allow your frontend, block others
+  //   if (!req.headers["referer"]?.includes(process.env.FRONTEND_URL)) {
+  //     return res.status(403).json({ error: "Suspicious request blocked" });
+  //   }
+  // }
 
   next();
 }

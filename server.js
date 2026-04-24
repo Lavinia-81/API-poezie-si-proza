@@ -110,15 +110,15 @@ app.use(
 app.use("/", createCheckoutRouter);
 app.use("/auth", authRoutes);
 
-app.use("/v1", verifyApiKey, autorRoutes);
-app.use("/v1/autor", verifyApiKey, autorRoutes);
-app.use("/v1/poezii", verifyApiKey, autorRoutes);
-app.use("/v1/poezie", verifyApiKey, poezieRoutes);
-app.use("/v1/proza", verifyApiKey, autorRoutes);
-app.use("/v1/bibliografie", verifyApiKey, autorRoutes);
-app.use("/v1/poza", verifyApiKey, autorRoutes);
-app.use("/v1/cauta", verifyApiKey, cautareRoutes);
-app.use("/v1/poeti", verifyApiKey, poetiRoutes);
+app.use("/", verifyApiKey, autorRoutes);
+app.use("/autor", verifyApiKey, autorRoutes);
+app.use("/poezii", verifyApiKey, autorRoutes);
+app.use("/poezie", verifyApiKey, poezieRoutes);
+app.use("/proza", verifyApiKey, autorRoutes);
+app.use("/bibliografie", verifyApiKey, autorRoutes);
+app.use("/poza", verifyApiKey, autorRoutes);
+app.use("/cauta", verifyApiKey, cautareRoutes);
+app.use("/poeti", verifyApiKey, poetiRoutes);
 
 // -----------------------------------------------------
 // 11. Health check

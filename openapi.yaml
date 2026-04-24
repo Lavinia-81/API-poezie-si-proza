@@ -30,7 +30,7 @@ tags:
 
 paths:
 
-  /v1/autori:
+  /autori:
     get:
       tags: [Autori]
       summary: List all authors
@@ -47,7 +47,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}:
+  /autor/{autor}:
     get:
       tags: [Autori]
       summary: Get full metadata for an author
@@ -69,7 +69,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}/poza:
+  /autor/{autor}/poza:
     get:
       tags: [Imagini]
       summary: Get author image
@@ -96,7 +96,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}/bibliografie/text:
+  /autor/{autor}/bibliografie/text:
     get:
       tags: [Bibliografie]
       summary: Get bibliography text
@@ -118,7 +118,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}/poezie/{id}:
+  /autor/{autor}/poezie/{id}:
     get:
       tags: [Poezii]
       summary: Get poem metadata by ID
@@ -145,7 +145,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}/poezie/{id}/text:
+  /autor/{autor}/poezie/{id}/text:
     get:
       tags: [Poezii]
       summary: Get full poem text
@@ -172,7 +172,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}/proza:
+  /autor/{autor}/proza:
     get:
       tags: [Proza]
       summary: Get all prose works for an author
@@ -196,7 +196,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}/proza/{id}:
+  /autor/{autor}/proza/{id}:
     get:
       tags: [Proza]
       summary: Get prose metadata by ID
@@ -223,7 +223,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/autor/{autor}/proza/{id}/text:
+  /autor/{autor}/proza/{id}/text:
     get:
       tags: [Proza]
       summary: Get full prose text
@@ -250,7 +250,7 @@ paths:
         '500':
           description: Server error
 
-  /v1/cauta/{autor}/{titlu}:
+  /cauta/{autor}/{titlu}:
     get:
       tags: [Cautare]
       summary: Search poetry and prose by title
