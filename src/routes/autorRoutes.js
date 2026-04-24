@@ -18,14 +18,14 @@ import {
 } from '../controllers/autorController.js';
 
 const router = express.Router();
-router.use(antiCloning);
+// router.use(antiCloning);
 
 
 router.get(
   '/:autor/poezii',
   validateRequest({ params: autorSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   poeziiAutor
@@ -35,7 +35,7 @@ router.get(
   '/:autor/proza',
   validateRequest({ params: autorSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   prozaAutor
@@ -45,7 +45,7 @@ router.get(
   '/:autor/poezie/:id/text',
   validateRequest({ params: idSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   poezieText
@@ -55,7 +55,7 @@ router.get(
   '/:autor/proza/:id/text',
   validateRequest({ params: idSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   prozaText
@@ -65,7 +65,7 @@ router.get(
   '/:autor/bibliografie/text',
   validateRequest({ params: autorSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   bibliografieText
@@ -75,7 +75,7 @@ router.get(
   '/:autor/poza',
   validateRequest({ params: autorSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   pozaAutor
@@ -85,7 +85,7 @@ router.get(
   '/:autor/poezie/:id',
   validateRequest({ params: idSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   itemById
@@ -95,7 +95,7 @@ router.get(
   '/:autor/proza/:id',
   validateRequest({ params: idSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   itemById

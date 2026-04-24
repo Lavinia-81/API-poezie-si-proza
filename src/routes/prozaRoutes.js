@@ -16,7 +16,7 @@ router.use(textLimiter);
 router.get(
   '/',
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   prozaController.getAll

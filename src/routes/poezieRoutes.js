@@ -9,7 +9,7 @@ import { textLimiter } from "../middleware/security/textLimiter.js";
 
 const router = express.Router();
 
-router.use(antiCloning);
+// router.use(antiCloning);
 router.use(antiScraping);
 router.use(textLimiter);
 
@@ -17,7 +17,7 @@ router.use(textLimiter);
 router.get(
   '/:autor/:id/versuri',
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   validateRequest({ params: { autor: autorSchema, id: idSchema } }),
@@ -27,7 +27,7 @@ router.get(
 router.get(
   '/:autor/:id/text',
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   validateRequest({ params: { autor: autorSchema, id: idSchema } }),

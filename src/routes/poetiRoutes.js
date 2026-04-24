@@ -9,7 +9,7 @@ import { textLimiter } from "../middleware/security/textLimiter.js";
 
 const router = express.Router();
 
-router.use(antiCloning);
+// router.use(antiCloning);
 router.use(antiScraping);
 router.use(textLimiter);
 

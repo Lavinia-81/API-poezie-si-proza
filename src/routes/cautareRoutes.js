@@ -18,7 +18,7 @@ router.get(
   '/:autor/:titlu',
   validateRequest({ params: cautareSchema }),
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   cautareTitlu

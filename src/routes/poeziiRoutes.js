@@ -9,14 +9,14 @@ import { textLimiter } from "../middleware/security/textLimiter.js";
 
 const router = express.Router();
 
-router.use(antiCloning);
+// router.use(antiCloning);
 router.use(antiScraping);
 router.use(textLimiter);
 
 router.get(
   '/',
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   poeziiController.getAll
@@ -25,7 +25,7 @@ router.get(
 router.get(
   '/:id',
   verifyApiKey,
-  antiCloning,
+  // antiCloning,
   antiScraping,
   textLimiter,
   validateRequest({ params: idSchema }),
