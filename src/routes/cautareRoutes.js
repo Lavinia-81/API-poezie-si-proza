@@ -10,7 +10,7 @@ import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";
 
 const router = express.Router();
 
-router.use(antiCloning);
+// router.use(antiCloning);
 router.use(antiScraping);
 router.use(textLimiter);
 
