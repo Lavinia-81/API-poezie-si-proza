@@ -3,7 +3,8 @@ import express from 'express';
 import { validateRequest } from '../middleware/validation/validateRequest.js';
 import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";
 import { autorSchema, idSchema } from '../middleware/validation/schemas.js';
-import { antiCloning } from "../middleware/security/antiCloning.js";
+// import { antiCloning } from "../middleware/security/antiCloning.js";
+  // TEMPORAR dezactivat pentru testare
 import { antiScraping } from "../middleware/security/antiScraping.js";
 import { textLimiter } from "../middleware/security/textLimiter.js";
 import {

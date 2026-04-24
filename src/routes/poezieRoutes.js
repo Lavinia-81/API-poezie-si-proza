@@ -3,7 +3,7 @@ import { poezieVersuri, poezieText } from '../controllers/poezieController.js';
 import { validateRequest } from '../middleware/validation/validateRequest.js';
 import { autorSchema, idSchema } from '../middleware/validation/schemas.js';
 import { verifyApiKey } from '../middleware/auth/verifyApiKey.js';
-import { antiCloning } from "../middleware/security/antiCloning.js";
+// import { antiCloning } from "../middleware/security/antiCloning.js";   // TEMPORAR dezactivat pentru testare
 import { antiScraping } from "../middleware/security/antiScraping.js";
 import { textLimiter } from "../middleware/security/textLimiter.js";
 
