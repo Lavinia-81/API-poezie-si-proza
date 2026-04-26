@@ -12,7 +12,8 @@ import {
     bibliografieText,
     pozaAutor,
     poezieText,
-    prozaText
+    prozaText,
+    itemById
 } from '../controllers/autorController.js';
 
 const router = express.Router();
@@ -38,6 +39,7 @@ router.get(
   // textLimiter,
   prozaAutor
 );
+
 
 router.get(
   '/:autor/poezie/:id/text',
@@ -86,7 +88,7 @@ router.get(
   // antiCloning,
   // antiScraping,
   // textLimiter,
-  poezieText
+  itemById
 );
 
 router.get(
@@ -96,32 +98,18 @@ router.get(
   // antiCloning,
   // antiScraping,
   // textLimiter,
-  prozaText
+  itemById
 );
 
 
+// METADATE AUTOR
 router.get(
   '/:autor',
-  validateRequest({ params: autorSchema }),
-  async (req, res, next) => {
-    try {
-      const { autor } = req.params;
-
-      // Normalizează numele autorului (spații, diacritice)
-      const normalized = autor.replace(/%20/g, ' ');
-
-      // Construiește path-ul către JSON
-      const filePath = `../../data/${normalized}/${normalized}.json`;
-
-      // Încarcă JSON-ul
-      const json = await import(filePath, {
-        assert: { type: "json" }
-      });
-
-      res.json(json.default || json);
-    } catch (err) {
-      next(err);
-    }
+  validateRequest({ params: { autor: autorSchema } }),
+  (req, res) => {
+    const data = loadAutorData(req.params.autor);
+    if (!data) return res.status(404).json({ message: "Author not found" });
+    res.json(data);
   }
 );
 

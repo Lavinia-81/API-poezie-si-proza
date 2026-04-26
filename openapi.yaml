@@ -21,7 +21,7 @@ servers:
     description: Production (Render)
 
 tags:
-  - name: Autori
+  - name: Poeti
   - name: Poezii
   - name: Proza
   - name: Cautare
@@ -43,23 +43,6 @@ paths:
                 type: array
                 items:
                   type: string
-        '500':
-          description: Server error
-
-  /autori:
-    get:
-      tags: [Autori]
-      summary: List all authors
-      responses:
-        '200':
-          description: List of authors
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  type: string
-              example: ["Mihai Eminescu", "George Topîrceanu", "Alecu Donici"]
         '500':
           description: Server error
 

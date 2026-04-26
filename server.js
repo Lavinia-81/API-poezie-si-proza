@@ -20,9 +20,8 @@ import { errorHandler } from "./src/middleware/error/errorHandler.js";
 // import { verifyApiKey } from "./src/middleware/auth/verifyApiKey.js";// TEMPORAR dezactivat pentru testare
 
 import autorRoutes from "./src/routes/autorRoutes.js";
-import poezieRoutes from "./src/routes/poezieRoutes.js";
-import cautareRoutes from "./src/routes/cautareRoutes.js";
 import poetiRoutes from "./src/routes/poetiRoutes.js";
+import cautareRoutes from "./src/routes/cautareRoutes.js";
 import authRoutes from "./src/routes/auth.js";
 import webhookRoutes from "./src/routes/webhook.js";
 import createCheckoutRouter from "./src/routes/createCheckout.js";
@@ -88,6 +87,13 @@ app.use(
 app.use(requestLogger);
 app.use(responseLogger);
 
+// -----------------------------------------------------
+// 8. Static files (după Helmet, înainte de rute)
+// -----------------------------------------------------
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, "public")));
+app.use("/docs", express.static(path.join(__dirname, "docs")));
+
 
 // -----------------------------------------------------
 // 9. Stripe webhook (raw body)
@@ -101,22 +107,11 @@ app.use(
 // -----------------------------------------------------
 // 10. Routes
 // -----------------------------------------------------
-app.use("/", cautareRoutes);
 app.use("/", createCheckoutRouter);
+app.use("/", cautareRoutes);
 app.use("/auth", authRoutes);
-
 app.use("/autor", autorRoutes);
-app.use("/poezie", poezieRoutes);
-app.use("/cauta", cautareRoutes);
 app.use("/poeti", poetiRoutes);
-
-// -----------------------------------------------------
-// 8. Static files (după Helmet, înainte de rute)
-// -----------------------------------------------------
-app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, "public")));
-app.use("/docs", express.static(path.join(__dirname, "docs")));
-
 
 // -----------------------------------------------------
 // 11. Health check

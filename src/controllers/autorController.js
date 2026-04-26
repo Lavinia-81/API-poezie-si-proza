@@ -132,3 +132,30 @@ export function pozaAutor(req, res) {
     res.status(500).json({ message: "Internal server error" });
   }
 }
+
+// -----------------------------------------------------
+// Metadate poezie/proză după ID
+// -----------------------------------------------------
+export function itemById(req, res) {
+  try {
+    const autor = req.params.autor;
+    const id = req.params.id;
+
+    const data = loadAutorData(autor);
+    if (!data) return res.status(404).json({ message: "Author not found" });
+
+    // Caută în poezii
+    const poezie = data.poezii.find(p => p.id === id);
+    if (poezie) return res.json(poezie);
+
+    // Caută în proză
+    const proza = data.proza.find(p => p.id === id);
+    if (proza) return res.json(proza);
+
+    return res.status(404).json({ message: "Item not found" });
+
+  } catch (err) {
+    logger.error("Error in itemById", { error: err.message });
+    res.status(500).json({ message: "Internal server error" });
+  }
+}
