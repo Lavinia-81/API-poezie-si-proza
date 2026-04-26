@@ -21,7 +21,7 @@ servers:
     description: Production (Render)
 
 tags:
-  - name: Poeti
+  - name: Autori
   - name: Poezii
   - name: Proza
   - name: Cautare
