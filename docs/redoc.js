@@ -1,5 +1,5 @@
-    
-Redoc.init("../openapi.yaml", {
+ // docs/redoc.js   
+Redoc.init("/openapi.yaml", {
   theme: {
     colors: {
       primary: {

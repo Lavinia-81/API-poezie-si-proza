@@ -15,9 +15,9 @@ import { connectDB } from "./src/db.js";
 
 import { requestLogger } from "./src/middleware/logging/requestLogger.js";
 import { responseLogger } from "./src/middleware/logging/responseLogger.js";
-import { antiInjection } from "./src/middleware/security/antiInjection.js";
+// import { antiInjection } from "./src/middleware/security/antiInjection.js";// TEMPORAR dezactivat pentru testare
 import { errorHandler } from "./src/middleware/error/errorHandler.js";
-import { verifyApiKey } from "./src/middleware/auth/verifyApiKey.js";
+// import { verifyApiKey } from "./src/middleware/auth/verifyApiKey.js";// TEMPORAR dezactivat pentru testare
 
 import autorRoutes from "./src/routes/autorRoutes.js";
 import poezieRoutes from "./src/routes/poezieRoutes.js";
@@ -47,23 +47,23 @@ applySecurity(app);
 // -----------------------------------------------------
 // 4. Security middlewares
 // -----------------------------------------------------
-app.use(antiInjection);
-app.use(compression());
-app.use(
-  rateLimit({
-    windowMs: config.rateLimit.windowMs,
-    max: config.rateLimit.max,
-    handler: (req, res) => {
-      logger.warn("Rate limit exceeded", {
-        ip: req.ip,
-        path: req.originalUrl,
-      });
-      res
-        .status(429)
-        .json({ mesaj: "Rate limit exceeded. Try again later." });
-    },
-  })
-);
+// app.use(antiInjection);
+// app.use(compression());
+// app.use(
+//   rateLimit({
+//     windowMs: config.rateLimit.windowMs,
+//     max: config.rateLimit.max,
+//     handler: (req, res) => {
+//       logger.warn("Rate limit exceeded", {
+//         ip: req.ip,
+//         path: req.originalUrl,
+//       });
+//       res
+//         .status(429)
+//         .json({ mesaj: "Rate limit exceeded. Try again later." });
+//     },
+//   })
+// );
 
 // -----------------------------------------------------
 // 5. Body parsers
@@ -88,12 +88,6 @@ app.use(
 app.use(requestLogger);
 app.use(responseLogger);
 
-// -----------------------------------------------------
-// 8. Static files (după Helmet, înainte de rute)
-// -----------------------------------------------------
-app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, "public")));
-app.use("/docs", express.static(path.join(__dirname, "docs")));
 
 // -----------------------------------------------------
 // 9. Stripe webhook (raw body)
@@ -107,18 +101,22 @@ app.use(
 // -----------------------------------------------------
 // 10. Routes
 // -----------------------------------------------------
+app.use("/", cautareRoutes);
 app.use("/", createCheckoutRouter);
 app.use("/auth", authRoutes);
 
-app.use("/", verifyApiKey, autorRoutes);
-app.use("/autor", verifyApiKey, autorRoutes);
-app.use("/poezii", verifyApiKey, autorRoutes);
-app.use("/poezie", verifyApiKey, poezieRoutes);
-app.use("/proza", verifyApiKey, autorRoutes);
-app.use("/bibliografie", verifyApiKey, autorRoutes);
-app.use("/poza", verifyApiKey, autorRoutes);
-app.use("/cauta", verifyApiKey, cautareRoutes);
-app.use("/poeti", verifyApiKey, poetiRoutes);
+app.use("/autor", autorRoutes);
+app.use("/poezie", poezieRoutes);
+app.use("/cauta", cautareRoutes);
+app.use("/poeti", poetiRoutes);
+
+// -----------------------------------------------------
+// 8. Static files (după Helmet, înainte de rute)
+// -----------------------------------------------------
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, "public")));
+app.use("/docs", express.static(path.join(__dirname, "docs")));
+
 
 // -----------------------------------------------------
 // 11. Health check
@@ -134,6 +132,10 @@ app.get("/health", (req, res) => {
 // -----------------------------------------------------
 // 12. Global error handler
 // -----------------------------------------------------
+app.get('/.well-known/appspecific/com.chrome.devtools.json', (req, res) => {
+  res.status(204).end(); // No Content
+});
+
 app.use(errorHandler);
 
 // -----------------------------------------------------

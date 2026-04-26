@@ -30,6 +30,22 @@ tags:
 
 paths:
 
+  /poeti:
+    get:
+      tags: [Autori]
+      summary: List all poets (folder names)
+      responses:
+        '200':
+          description: List of poets
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+        '500':
+          description: Server error
+
   /autori:
     get:
       tags: [Autori]
@@ -69,10 +85,10 @@ paths:
         '500':
           description: Server error
 
-  /autor/{autor}/poza:
+  /autor/{autor}/poezii:
     get:
-      tags: [Imagini]
-      summary: Get author image
+      tags: [Poezii]
+      summary: List all poems for an author
       parameters:
         - in: path
           name: autor
@@ -81,40 +97,15 @@ paths:
             type: string
       responses:
         '200':
-          description: Author image
+          description: List of poems
           content:
-            image/jpeg:
+            application/json:
               schema:
-                type: string
-                format: binary
-            image/png:
-              schema:
-                type: string
-                format: binary
+                type: array
+                items:
+                  $ref: '#/components/schemas/PoezieMeta'
         '404':
-          description: Image not found
-        '500':
-          description: Server error
-
-  /autor/{autor}/bibliografie/text:
-    get:
-      tags: [Bibliografie]
-      summary: Get bibliography text
-      parameters:
-        - in: path
-          name: autor
-          required: true
-          schema:
-            type: string
-      responses:
-        '200':
-          description: Bibliography text
-          content:
-            text/plain:
-              schema:
-                type: string
-        '404':
-          description: Bibliography not found
+          description: Author not found
         '500':
           description: Server error
 
@@ -279,6 +270,79 @@ paths:
         '500':
           description: Server error
 
+  /autor/{autor}/bibliografie/text:
+    get:
+      tags: [Bibliografie]
+      summary: Get bibliography text
+      parameters:
+        - in: path
+          name: autor
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Bibliography text
+          content:
+            text/plain:
+              schema:
+                type: string
+        '404':
+          description: Bibliography not found
+        '500':
+          description: Server error
+  
+  /autor/{autor}/poza:
+    get:
+      tags: [Imagini]
+      summary: Get author image
+      parameters:
+        - in: path
+          name: autor
+          required: true
+          schema:
+            type: string
+          description: Author name (supports fuzzy search)
+      responses:
+        '200':
+          description: Author image
+          content:
+            image/jpeg:
+              schema:
+                type: string
+                format: binary
+            image/png:
+              schema:
+                type: string
+                format: binary
+        '404':
+          description: Image not found
+        '500':
+          description: Server error
+
+  /cauta-global:
+    get:
+      tags: [Cautare]
+      summary: Global fuzzy search across authors, poems, and prose
+      parameters:
+        - in: query
+          name: text
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CautareGlobal'
+        '500':
+          description: Server error
+
+
 components:
   schemas:
 
@@ -333,6 +397,21 @@ components:
           type: string
         tip:
           type: string
+
+    CautareGlobal:
+      type: object
+      properties:
+        autor:
+          type: string
+        titlu:
+          type: string
+          nullable: true
+        tip:
+          type: string
+          description: "poezie | proza | autor"
+        scor:
+          type: number
+          format: float
 
   securitySchemes:
     ApiKeyAuth:

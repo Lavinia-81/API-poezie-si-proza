@@ -1,16 +1,14 @@
 // src/routes/autorRoutes.js
 import express from 'express';
 import { validateRequest } from '../middleware/validation/validateRequest.js';
-import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";
+// import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";// TEMPORAR dezactivat pentru testare
 import { autorSchema, idSchema } from '../middleware/validation/schemas.js';
-// import { antiCloning } from "../middleware/security/antiCloning.js";
-  // TEMPORAR dezactivat pentru testare
-import { antiScraping } from "../middleware/security/antiScraping.js";
-import { textLimiter } from "../middleware/security/textLimiter.js";
+// import { antiCloning } from "../middleware/security/antiCloning.js"; // TEMPORAR dezactivat pentru testare
+// import { antiScraping } from "../middleware/security/antiScraping.js";// TEMPORAR dezactivat pentru testare
+// import { textLimiter } from "../middleware/security/textLimiter.js";// TEMPORAR dezactivat pentru testare
 import {
     poeziiAutor,
     prozaAutor,
-    itemById,
     bibliografieText,
     pozaAutor,
     poezieText,
@@ -24,81 +22,107 @@ const router = express.Router();
 router.get(
   '/:autor/poezii',
   validateRequest({ params: autorSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
+  // antiScraping,
+  // textLimiter,
   poeziiAutor
 );
 
 router.get(
   '/:autor/proza',
   validateRequest({ params: autorSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
+  // antiScraping,
+  // textLimiter,
   prozaAutor
 );
 
 router.get(
   '/:autor/poezie/:id/text',
   validateRequest({ params: idSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
+  // antiScraping,
+  // textLimiter,
   poezieText
 );
 
 router.get(
   '/:autor/proza/:id/text',
   validateRequest({ params: idSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
+  // antiScraping,
+  // textLimiter,
   prozaText
 );
 
 router.get(
   '/:autor/bibliografie/text',
   validateRequest({ params: autorSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
+  // antiScraping,
+  // textLimiter,
   bibliografieText
 );
 
 router.get(
   '/:autor/poza',
   validateRequest({ params: autorSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
+  // antiScraping,
+  // textLimiter,
   pozaAutor
 );
 
 router.get(
   '/:autor/poezie/:id',
   validateRequest({ params: idSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
-  itemById
+  // antiScraping,
+  // textLimiter,
+  poezieText
 );
 
 router.get(
   '/:autor/proza/:id',
   validateRequest({ params: idSchema }),
-  verifyApiKey,
+  // verifyApiKey,
   // antiCloning,
-  antiScraping,
-  textLimiter,
-  itemById
+  // antiScraping,
+  // textLimiter,
+  prozaText
+);
+
+
+router.get(
+  '/:autor',
+  validateRequest({ params: autorSchema }),
+  async (req, res, next) => {
+    try {
+      const { autor } = req.params;
+
+      // Normalizează numele autorului (spații, diacritice)
+      const normalized = autor.replace(/%20/g, ' ');
+
+      // Construiește path-ul către JSON
+      const filePath = `../../data/${normalized}/${normalized}.json`;
+
+      // Încarcă JSON-ul
+      const json = await import(filePath, {
+        assert: { type: "json" }
+      });
+
+      res.json(json.default || json);
+    } catch (err) {
+      next(err);
+    }
+  }
 );
 
 export default router;

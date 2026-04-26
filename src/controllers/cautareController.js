@@ -1,27 +1,28 @@
+// src/controllers/cautareController.js
 import { cautaDupaTitlu } from '../services/cautareService.js';
-import { normalizeAutor } from "../utils/normalizeAutor.js";
 import logger from '../logger/logger.js';
 
 export function cautareTitlu(req, res) {
   try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
+    // NU mai normalizăm autorul aici
+    const autorRaw = req.params.autor;
 
     // Sanitize title
     let titlu = String(req.params.titlu || "")
-      .normalize("NFKC") // normalizează diacriticele
-      .replace(/[\u0000-\u001F\u007F]/g, "") // elimină caractere de control
-      .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "") // păstrează DOAR alfabetul românesc
-      .replace(/\s+/g, " ") // normalizează spațiile
+      .normalize("NFKC")
+      .replace(/[\u0000-\u001F\u007F]/g, "")
+      .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "")
+      .replace(/\s+/g, " ")
       .trim()
       .toLowerCase();
-
 
     // Prevent DoS
     if (titlu.length > 200) {
       return res.status(400).json({ message: "Title too long" });
     }
 
-    const rezultat = cautaDupaTitlu(autorNormalizat, titlu);
+    // Trimitem autorul BRUT către serviciu
+    const rezultat = cautaDupaTitlu(autorRaw, titlu);
 
     if (rezultat === null) {
       return res.status(404).json({ message: "Author not found" });

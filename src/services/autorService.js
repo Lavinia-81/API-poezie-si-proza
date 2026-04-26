@@ -1,5 +1,6 @@
 import fs from "fs";
 import logger from "../logger/logger.js";
+import { resolveAutorName } from "../utils/resolveAutorName.js";
 import { loadAutorData } from "../utils/loadAutorData.js";
 import { safePath } from "../utils/safePath.js";
 import { cache } from "../utils/cache.js";
@@ -15,87 +16,52 @@ function cleanId(id) {
 
 }
 
-// Poeziile unui autor
-export function getPoeziiAutor(autor) {
-  const data = loadAutorData(autor);
-  if (!data) return null;
+export function getPoeziiAutor(inputAutor) {
+  const autor = resolveAutorName(inputAutor);
+  if (!autor) return null;
 
-  return Array.isArray(data.poezii) ? data.poezii : [];
+  const data = loadAutorData(autor);
+  return data?.poezii || null;
 }
 
-// Proza unui autor
-export function getProzaAutor(autor) {
-  const data = loadAutorData(autor);
-  if (!data) return null;
+export function getProzaAutor(inputAutor) {
+  const autor = resolveAutorName(inputAutor);
+  if (!autor) return null;
 
-  return Array.isArray(data.proza) ? data.proza : [];
+  const data = loadAutorData(autor);
+  return data?.proza || null;
 }
 
-// Item după ID
-export function getItemById(autor, idRaw) {
+export function getItemById(inputAutor, id) {
+  const autor = resolveAutorName(inputAutor);
+  if (!autor) return null;
+
   const data = loadAutorData(autor);
   if (!data) return null;
 
-  const id = cleanId(idRaw);
-
-  const toate = [...(data.poezii || []), ...(data.proza || [])];
-
-  const item = toate.find((p) => {
-    if (!p?.id) return false;
-
-    const pid = cleanId(p.id);
-
-    return (
-      pid === id ||
-      pid === `poezie-${id}` ||
-      pid === `proza-${id}` ||
-      pid.endsWith(`-${id}`)
-    );
-  });
+  const all = [...data.poezii, ...data.proza];
+  const item = all.find(i => i.id === id);
 
   return item || false;
 }
 
-// Bibliografia unui autor
-export function getBibliografieText(autor) {
+export function getBibliografieText(inputAutor) {
+  const autor = resolveAutorName(inputAutor);
+  if (!autor) return null;
+
   const data = loadAutorData(autor);
-  if (!data) return null;
+  if (!data?.bibliografie_path) return null;
 
-  const biblioPath = data.bibliografie_path;
-
-  if (cache.bibliografieText.has(biblioPath)) {
-    return cache.bibliografieText.get(biblioPath);
-  }
-
-  try {
-    const filePath = safePath(biblioPath);
-
-    const stats = fs.statSync(filePath);
-    if (stats.size > 2 * 1024 * 1024) {
-      throw new Error("Bibliography file too large");
-    }
-
-    const text = fs.readFileSync(filePath, "utf-8");
-
-    cache.bibliografieText.set(biblioPath, text);
-
-    return text;
-  } catch (err) {
-    logger.error("Error reading bibliography", { error: err.message });
-    throw new Error("Error reading bibliography");
-  }
+  const filePath = safePath(data.bibliografie_path);
+  return fs.readFileSync(filePath, "utf8");
 }
 
-// Poza autorului
-export function getPozaAutor(autor) {
-  const data = loadAutorData(autor);
-  if (!data) return null;
+export function getPozaAutor(inputAutor) {
+  const autor = resolveAutorName(inputAutor);
+  if (!autor) return null;
 
-  try {
-    const filePath = safePath(data.poza);
-    return filePath;
-  } catch (err) {
-    logger.warn("Invalid path for author photo", { error: err.message });
-    throw new Error("Invalid path");
-  }
+  const data = loadAutorData(autor);
+  if (!data?.poza) return null;
+
+  return safePath(data.poza);
 }

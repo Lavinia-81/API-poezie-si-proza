@@ -5,7 +5,7 @@ import logger from "../logger/logger.js";
 import { getDataFolder } from "./getDataFolder.js";
 import { safePath } from "./safePath.js";
 import { cache } from "./cache.js";
-import { normalizeAutor } from "./normalizeAutor.js";
+import { normalizeAutor, levenshtein } from "./normalizeAutor.js";
 
 export function loadAutorData(autorRaw) {
   try {
@@ -32,10 +32,17 @@ export function loadAutorData(autorRaw) {
       return null;
     }
 
-    // Find matching folder
-    const match = folders.find(
+    // Exact match
+    let match = folders.find(
       f => f.isDirectory() && normalizeAutor(f.name) === autorNormalizat
     );
+
+    // Fuzzy fallback
+    if (!match) {
+      match = folders.find(
+        f => f.isDirectory() && levenshtein(normalizeAutor(f.name), autorNormalizat) <= 2
+      );
+    }
 
     if (!match) return null;
 

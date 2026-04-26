@@ -3,19 +3,24 @@ import logger from "../logger/logger.js";
 import { loadAutorData } from "../utils/loadAutorData.js";
 import { safePath } from "../utils/safePath.js";
 import { cache } from "../utils/cache.js";
+import { normalizeAutor } from "../utils/normalizeAutor.js";
 
 function cleanId(id) {
   return String(id || "")
-    .normalize("NFKC") // normalizează diacriticele
-    .replace(/[\u0000-\u001F\u007F]/g, "") // elimină caractere de control
-    .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "") // păstrează DOAR alfabetul românesc
-    .replace(/\s+/g, " ") // normalizează spațiile
+    .normalize("NFKC")
+    .replace(/[\u0000-\u001F\u007F]/g, "")
+    .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "")
+    .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
-
 }
 
-export function getPoezieVersuri(autor, idRaw) {
+export function getPoezieVersuri(autorRaw, idRaw) {
+  // 1. găsim numele REAL al autorului
+  const autor = normalizeAutor(autorRaw);
+  if (!autor) return null;
+
+  // 2. încărcăm JSON-ul autorului
   const data = loadAutorData(autor);
   if (!data) return null;
 
@@ -60,7 +65,12 @@ export function getPoezieVersuri(autor, idRaw) {
   }
 }
 
-export function getPoezieText(autor, idRaw) {
+export function getPoezieText(autorRaw, idRaw) {
+  // 1. găsim numele REAL al autorului
+  const autor = normalizeAutor(autorRaw);
+  if (!autor) return null;
+
+  // 2. încărcăm JSON-ul autorului
   const data = loadAutorData(autor);
   if (!data) return null;
 

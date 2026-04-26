@@ -1,26 +1,25 @@
+// src/controllers/poezieController.js
 import { getPoezieVersuri, getPoezieText } from '../services/poezieService.js';
-import { normalizeAutor } from "../utils/normalizeAutor.js";
 import logger from '../logger/logger.js';
 
 export function poezieVersuri(req, res) {
   try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
+    const autorRaw = req.params.autor;
 
     // Sanitize ID
     const id = String(req.params.id || "")
-      .normalize("NFKC") // normalizează diacriticele
-      .replace(/[\u0000-\u001F\u007F]/g, "") // elimină caractere de control
-      .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "") // păstrează DOAR alfabetul românesc
-      .replace(/\s+/g, " ") // normalizează spațiile
+      .normalize("NFKC")
+      .replace(/[\u0000-\u001F\u007F]/g, "")
+      .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "")
+      .replace(/\s+/g, " ")
       .trim()
       .toLowerCase();
-
 
     if (id.length > 200) {
       return res.status(400).json({ message: "ID too long" });
     }
 
-    const rezultat = getPoezieVersuri(autorNormalizat, id);
+    const rezultat = getPoezieVersuri(autorRaw, id);
 
     if (rezultat === null) {
       return res.status(404).json({ message: "Author not found" });
@@ -42,7 +41,7 @@ export function poezieVersuri(req, res) {
 
 export function poezieText(req, res) {
   try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
+    const autorRaw = req.params.autor;
 
     // Sanitize ID
     const id = String(req.params.id || "")
@@ -54,7 +53,7 @@ export function poezieText(req, res) {
       return res.status(400).json({ message: "ID too long" });
     }
 
-    const text = getPoezieText(autorNormalizat, id);
+    const text = getPoezieText(autorRaw, id);
 
     if (text === null) {
       return res.status(404).json({ message: "Author not found" });

@@ -1,156 +1,134 @@
 // src/controllers/autorController.js
-import fs from 'fs';
-import { safePath } from '../utils/safePath.js';
-import { normalizeAutor } from "../utils/normalizeAutor.js";
-import logger from '../logger/logger.js';
-import {
-    getPoeziiAutor,
-    getProzaAutor,
-    getItemById,
-    getBibliografieText,
-    getPozaAutor
-} from '../services/autorService.js';
+import fs from "fs";
+import path from "path";
+import logger from "../logger/logger.js";
+import { loadAutorData } from "../utils/loadAutorData.js";
+import { fileURLToPath } from "url";
 
-export function poeziiAutor(req, res, next) {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// -----------------------------------------------------
+// Poeziile unui autor
+// -----------------------------------------------------
+export function poeziiAutor(req, res) {
   try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
-    const data = getPoeziiAutor(autorNormalizat);
+    const autor = req.params.autor;
+    const data = loadAutorData(autor);
 
     if (!data) return res.status(404).json({ message: "Author not found" });
 
-    res.json(data);
+    res.json(data.poezii || []);
   } catch (err) {
-    next(err);
+    logger.error("Error in poeziiAutor", { error: err.message });
+    res.status(500).json({ message: "Internal server error" });
   }
 }
 
-export function prozaAutor(req, res, next) {
+// -----------------------------------------------------
+// Proza unui autor
+// -----------------------------------------------------
+export function prozaAutor(req, res) {
   try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
-    const data = getProzaAutor(autorNormalizat);
+    const autor = req.params.autor;
+    const data = loadAutorData(autor);
 
     if (!data) return res.status(404).json({ message: "Author not found" });
 
-    res.json(data);
+    res.json(data.proza || []);
   } catch (err) {
-    next(err);
+    logger.error("Error in prozaAutor", { error: err.message });
+    res.status(500).json({ message: "Internal server error" });
   }
 }
 
-export function itemById(req, res, next) {
+// -----------------------------------------------------
+// Text poezie
+// -----------------------------------------------------
+export function poezieText(req, res) {
   try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
-    const id = String(req.params.id).replace(/[\u0000-\u001F\u007F]/g, "").trim();
+    const autor = req.params.autor;
+    const id = req.params.id;
 
-    const data = getItemById(autorNormalizat, id);
+    const data = loadAutorData(autor);
+    if (!data) return res.status(404).json({ message: "Author not found" });
 
-    if (data === null) return res.status(404).json({ message: "Author not found" });
-    if (data === false) return res.status(404).json({ message: "Item not found" });
+    const poezie = data.poezii.find(p => p.id === id);
+    if (!poezie) return res.status(404).json({ message: "Poem not found" });
 
-    res.json(data);
+    const filePath = path.join(__dirname, "../../", poezie.versuri_path);
+    const text = fs.readFileSync(filePath, "utf8");
+
+    res.type("text/plain").send(text);
   } catch (err) {
-    next(err);
+    logger.error("Error in poezieText", { error: err.message });
+    res.status(500).json({ message: "Internal server error" });
   }
 }
 
+// -----------------------------------------------------
+// Text proză
+// -----------------------------------------------------
+export function prozaText(req, res) {
+  try {
+    const autor = req.params.autor;
+    const id = req.params.id;
+
+    const data = loadAutorData(autor);
+    if (!data) return res.status(404).json({ message: "Author not found" });
+
+    const proza = data.proza.find(p => p.id === id);
+    if (!proza) return res.status(404).json({ message: "Prose not found" });
+
+    const filePath = path.join(__dirname, "../../", proza.versuri_path);
+    const text = fs.readFileSync(filePath, "utf8");
+
+    res.type("text/plain").send(text);
+  } catch (err) {
+    logger.error("Error in prozaText", { error: err.message });
+    res.status(500).json({ message: "Internal server error" });
+  }
+}
+
+// -----------------------------------------------------
+// Bibliografie
+// -----------------------------------------------------
 export function bibliografieText(req, res) {
-  const autorNormalizat = normalizeAutor(req.params.autor);
-
   try {
-    const text = getBibliografieText(autorNormalizat);
+    const autor = req.params.autor;
+    const data = loadAutorData(autor);
 
-    if (text === null) {
-      return res.status(404).json({ message: "Author not found" });
-    }
+    if (!data) return res.status(404).json({ message: "Author not found" });
 
-    res.type("text/plain").send(text.replace(/\u0000/g, ""));
+    const filePath = path.join(__dirname, "../../", data.bibliografie_path);
+    const text = fs.readFileSync(filePath, "utf8");
+
+    res.type("text/plain").send(text);
   } catch (err) {
-    logger.error("Error in controller bibliografieText", { error: err.message });
-    res.status(500).json({ message: "Error reading bibliography" });
+    logger.error("Error in bibliografieText", { error: err.message });
+    res.status(500).json({ message: "Internal server error" });
   }
 }
 
+// -----------------------------------------------------
+// Poza autorului
+// -----------------------------------------------------
 export function pozaAutor(req, res) {
-  const autorNormalizat = normalizeAutor(req.params.autor);
-
   try {
-    const filePath = getPozaAutor(autorNormalizat);
+    const autor = req.params.autor;
+    const data = loadAutorData(autor);
 
-    if (filePath === null) {
-      return res.status(404).json({ message: "Author not found" });
-    }
+    if (!data) return res.status(404).json({ message: "Author not found" });
 
-    res.sendFile(filePath, { root: "/" }, (err) => {
-      if (err) {
-        logger.error("sendFile error", { error: err.message });
-        return res.status(400).json({ message: "Invalid file path" });
-      }
-    });
-
-  } catch (err) {
-    logger.error("Error in controller pozaAutor", { error: err.message });
-    res.status(400).json({ message: "Invalid file path" });
-  }
-}
-
-export function poezieText(req, res, next) {
-  try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
-    const id = String(req.params.id).replace(/[\u0000-\u001F\u007F]/g, "").trim();
-
-    const item = getItemById(autorNormalizat, id);
-
-    if (!item) {
-      return res.status(404).json({ message: "Item not found" });
-    }
-
-    const filePath = safePath(item.versuri_path);
+    const filePath = path.join(__dirname, "../../", data.poza);
 
     if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ message: "File not found" });
+      return res.status(404).json({ message: "Image not found" });
     }
 
-    const stats = fs.statSync(filePath);
-
-    if (stats.size > 2 * 1024 * 1024) {
-      return res.status(413).json({ message: "File too large" });
-    }
-
-    const text = fs.readFileSync(filePath, "utf8");
-
-    res.type("text/plain").send(text.replace(/\u0000/g, ""));
+    res.sendFile(filePath);
   } catch (err) {
-    next(err);
-  }
-}
-
-export function prozaText(req, res, next) {
-  try {
-    const autorNormalizat = normalizeAutor(req.params.autor);
-    const id = String(req.params.id).replace(/[\u0000-\u001F\u007F]/g, "").trim();
-
-    const item = getItemById(autorNormalizat, id);
-
-    if (!item) {
-      return res.status(404).json({ message: "Item not found" });
-    }
-
-    const filePath = safePath(item.versuri_path);
-
-    if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ message: "File not found" });
-    }
-
-    const stats = fs.statSync(filePath);
-
-    if (stats.size > 2 * 1024 * 1024) {
-      return res.status(413).json({ message: "File too large" });
-    }
-
-    const text = fs.readFileSync(filePath, "utf8");
-
-    res.type("text/plain").send(text.replace(/\u0000/g, ""));
-  } catch (err) {
-    next(err);
+    logger.error("Error in pozaAutor", { error: err.message });
+    res.status(500).json({ message: "Internal server error" });
   }
 }

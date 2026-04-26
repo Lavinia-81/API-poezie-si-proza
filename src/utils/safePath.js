@@ -41,14 +41,34 @@ export function safePath(filePath) {
     throw new Error("Invalid path");
   }
 
-  // 6. (Optional) Permite doar anumite extensii
-  const allowedExtensions = [".txt", ".json", ".md"];
-  const ext = path.extname(resolved).toLowerCase();
+ // 6. Permite foldere + extensii sigure
 
-  if (!allowedExtensions.includes(ext)) {
-    logger.warn("Blocked file extension", { filePath });
-    throw new Error("Invalid file type");
+// Dacă este folder → îl permitem
+try {
+  if (fs.existsSync(resolved) && fs.statSync(resolved).isDirectory()) {
+    return resolved;
   }
+} catch (err) {
+  logger.warn("Failed to stat path", { filePath });
+}
 
+// Dacă nu este folder → verificăm extensia
+const ext = path.extname(resolved).toLowerCase();
+
+const allowedExtensions = [".txt", ".json", ".md"];
+
+// Dacă nu are extensie → este folder → PERMITEM
+if (ext === "") {
   return resolved;
+}
+
+// Dacă extensia nu este permisă → blocăm
+if (!allowedExtensions.includes(ext)) {
+  logger.warn("Blocked file extension", { filePath });
+  throw new Error("Invalid file type");
+}
+
+return resolved;
+
+
 }
