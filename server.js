@@ -1,3 +1,4 @@
+// server.js
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
@@ -87,12 +88,7 @@ app.use(
 app.use(requestLogger);
 app.use(responseLogger);
 
-// -----------------------------------------------------
-// 8. Static files (după Helmet, înainte de rute)
-// -----------------------------------------------------
-app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, "public")));
-app.use("/docs", express.static(path.join(__dirname, "docs")));
+
 
 
 // -----------------------------------------------------
@@ -108,10 +104,17 @@ app.use(
 // 10. Routes
 // -----------------------------------------------------
 app.use("/", createCheckoutRouter);
-app.use("/", cautareRoutes);
 app.use("/auth", authRoutes);
 app.use("/autor", autorRoutes);
 app.use("/poeti", poetiRoutes);
+app.use("/", cautareRoutes);
+
+// -----------------------------------------------------
+// 8. Static files (după Helmet, înainte de rute)
+// -----------------------------------------------------
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, "public")));
+app.use("/docs", express.static(path.join(__dirname, "docs")));
 
 // -----------------------------------------------------
 // 11. Health check

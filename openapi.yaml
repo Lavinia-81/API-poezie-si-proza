@@ -224,9 +224,9 @@ paths:
         '500':
           description: Server error
 
-  /cauta/{autor}/{titlu}:
+  /autor/{autor}/{titlu}:
     get:
-      tags: [Cautare]
+      tags: [Autori]
       summary: Search poetry and prose by title
       parameters:
         - in: path

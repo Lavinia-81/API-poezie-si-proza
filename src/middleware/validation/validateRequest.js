@@ -1,4 +1,5 @@
 // src/middleware/validation/validateRequest.js
+import { z } from "zod";
 import { AppError } from "../error/errorTypes.js";
 import logger from "../../logger/logger.js";
 

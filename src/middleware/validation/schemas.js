@@ -1,7 +1,16 @@
 // src/middleware/validation/schemas.js
 import { z } from "zod";
 
-// Helper: creează un string sigur cu limită variabilă
+// Autor — permite litere, diacritice, spații, apostrof, cratimă, punct
+const safeAutor = z
+  .string()
+  .min(1)
+  .max(100)
+  .transform((val) => val.normalize("NFC"))
+  .transform((val) => val.replace(/\s+/g, " ").trim())
+  .refine((val) => /^[\p{L}\s.'-]+$/u.test(val), "Invalid characters in author name");
+
+// Generic safeString pentru alte câmpuri
 const safeString = (max) =>
   z
     .string()
@@ -14,23 +23,29 @@ const safeString = (max) =>
     .refine((val) => !/(\.\.|\/|\\)/.test(val), "Path traversal detected")
     .refine((val) => !/\$[a-z]+/i.test(val), "Mongo operator detected");
 
-// Schemas
+// SCHEME
 export const autorSchema = z.object({
-  autor: safeString(100)
-});
-
-export const cautareSchema = z.object({
-  autor: safeString(50),
-  titlu: safeString(100)
+  autor: safeAutor
 });
 
 export const idSchema = z.object({
-  autor: safeString(100),
+  autor: safeAutor,
   id: safeString(100)
+});
+
+export const cautareSchema = z.object({
+  autor: safeAutor,
+  titlu: safeString(100)
 });
 
 export const checkoutSchema = z.object({
   priceId: safeString(200),
   successUrl: safeString(200),
   cancelUrl: safeString(200)
+});
+
+
+export const titluSchema = z.object({
+  autor: safeAutor,
+  titlu: safeString(200)
 });

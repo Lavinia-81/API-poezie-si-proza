@@ -16,7 +16,7 @@ const router = express.Router();
 // router.use(textLimiter);
 
 router.get(
-  '/:autor/:titlu',
+  '/autor/:autor/:titlu',
   validateRequest({ params: cautareSchema }),
   // verifyApiKey,
   // antiCloning,

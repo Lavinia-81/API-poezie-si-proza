@@ -1,5 +1,6 @@
 // src/routes/autorRoutes.js
 import express from 'express';
+import { loadAutorData } from '../utils/loadAutorData.js';
 import { validateRequest } from '../middleware/validation/validateRequest.js';
 // import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";// TEMPORAR dezactivat pentru testare
 import { autorSchema, idSchema } from '../middleware/validation/schemas.js';
@@ -18,6 +19,20 @@ import {
 
 const router = express.Router();
 // router.use(antiCloning);
+
+
+// METADATE AUTOR
+router.get(
+  '/:autor',
+  validateRequest({ params:  autorSchema }),
+  (req, res) => {
+    const autorRaw = req.params.autor;
+    const data = loadAutorData(autorRaw);
+    if (!data) return res.status(404).json({ message: "Author not found" });
+    res.json(data);
+  }
+);
+
 
 
 router.get(
@@ -102,15 +117,7 @@ router.get(
 );
 
 
-// METADATE AUTOR
-router.get(
-  '/:autor',
-  validateRequest({ params: { autor: autorSchema } }),
-  (req, res) => {
-    const data = loadAutorData(req.params.autor);
-    if (!data) return res.status(404).json({ message: "Author not found" });
-    res.json(data);
-  }
-);
+
+
 
 export default router;
