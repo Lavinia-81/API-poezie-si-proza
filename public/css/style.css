@@ -1,0 +1,42 @@
+/* ----------------------------------------------------
+   SUCCESS PAGE
+---------------------------------------------------- */
+
+.success-container {
+  max-width: 600px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 40px;
+  background: #f7e9a0;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.success-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.success-text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.success-buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background: #2c3e50;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.success-buttons .btn:hover {
+  background: #1a242f;
+}

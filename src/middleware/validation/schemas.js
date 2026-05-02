@@ -1,7 +1,7 @@
 // src/middleware/validation/schemas.js
 import { z } from "zod";
 
-// Autor — permite litere, diacritice, spații, apostrof, cratimă, punct
+
 const safeAutor = z
   .string()
   .min(1)

@@ -36,12 +36,16 @@ const __dirname = path.dirname(__filename);
 // -----------------------------------------------------
 // 2. Initialize app
 // -----------------------------------------------------
-const app = express();
+
 dotenv.config();
+const app = express();
+app.use("/webhook", webhookRoutes);
 app.use("/docs", express.static(path.join(__dirname, "docs")));
+app.use(express.static(path.join(__dirname, "public")));
 // -----------------------------------------------------
 // 3. Helmet + CSP (MUST BE FIRST!)
 // -----------------------------------------------------
+
 applySecurity(app);
 
 // -----------------------------------------------------
@@ -88,17 +92,12 @@ app.use(
 app.use(requestLogger);
 app.use(responseLogger);
 
-
-
-
 // -----------------------------------------------------
 // 9. Stripe webhook (raw body)
 // -----------------------------------------------------
-app.use(
-  "/webhook",
-  express.raw({ type: "application/json" }),
-  webhookRoutes
-);
+
+// apoi:
+app.use(express.json());
 
 // -----------------------------------------------------
 // 10. Routes

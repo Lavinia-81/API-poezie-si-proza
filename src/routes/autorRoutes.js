@@ -4,6 +4,7 @@ import { loadAutorData } from '../utils/loadAutorData.js';
 import { validateRequest } from '../middleware/validation/validateRequest.js';
 // import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";// TEMPORAR dezactivat pentru testare
 import { autorSchema, idSchema } from '../middleware/validation/schemas.js';
+import { planLimiter } from '../middleware/security/planLimiter.js';
 // import { antiCloning } from "../middleware/security/antiCloning.js"; // TEMPORAR dezactivat pentru testare
 // import { antiScraping } from "../middleware/security/antiScraping.js";// TEMPORAR dezactivat pentru testare
 // import { textLimiter } from "../middleware/security/textLimiter.js";// TEMPORAR dezactivat pentru testare
@@ -115,9 +116,6 @@ router.get(
   // textLimiter,
   itemById
 );
-
-
-
 
 
 export default router;

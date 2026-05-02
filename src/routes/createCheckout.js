@@ -1,3 +1,4 @@
+// src/routes/createCheckout.js
 import express from "express";
 import { stripe } from "../config/stripe.js";
 import dotenv from "dotenv";
@@ -43,10 +44,10 @@ router.post("/create-checkout-session", async (req, res) => {
         },
       ],
       metadata: {
-        plan: plan, // Store plan for webhook processing
+        plan: plan, 
       },
-      success_url: `${process.env.FRONTEND_URL}/success`,
-      cancel_url: `${process.env.FRONTEND_URL}/cancel`,
+      success_url: `${process.env.FRONTEND_URL}/success.html`,
+      cancel_url: `${process.env.FRONTEND_URL}/cancel.html`,
     });
 
     // Return the Stripe Checkout URL to the frontend

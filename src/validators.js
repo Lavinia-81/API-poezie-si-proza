@@ -1,33 +1,33 @@
 // validators.js
 
-// Validare email (strict, fără caractere suspecte)
+// Validate email (without allowing dangerous characters)
 export function validateEmail(email) {
   if (typeof email !== "string") return false;
 
-  // Regex simplu, sigur și suficient pentru validare generală
+  // Regex simple for validare email, without suspicious characters
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   return emailRegex.test(email.trim());
 }
 
-// Validare plan (doar valorile permise)
+// Validate plan (only "basic" or "premium")
 export function validatePlan(plan) {
   const allowedPlans = ["basic", "premium"];
 
   return allowedPlans.includes(plan);
 }
 
-// Validare API key (format sigur, fără caractere periculoase)
+// Validate API key (safe format, no special characters)
 export function validateApiKey(key) {
   if (typeof key !== "string") return false;
 
-  // Acceptă doar litere, cifre și liniuțe — nimic executabil
+  // Accept only alphanumeric and dashes, length between 20 and 100 characters
   const apiKeyRegex = /^[A-Za-z0-9\-]{20,100}$/;
 
   return apiKeyRegex.test(key);
 }
 
-// Middleware Express pentru validarea emailului
+// Middleware Express for validate email
 export function requireValidEmail(req, res, next) {
   const email = req.body.email || req.params.email;
 
@@ -38,7 +38,7 @@ export function requireValidEmail(req, res, next) {
   next();
 }
 
-// Middleware Express pentru validarea planului
+// Middleware Express for validate plan
 export function requireValidPlan(req, res, next) {
   const { plan } = req.body;
 
@@ -49,7 +49,7 @@ export function requireValidPlan(req, res, next) {
   next();
 }
 
-// Middleware Express pentru validarea API key-ului
+// Middleware Express for validate API key
 export function requireValidApiKey(req, res, next) {
   const key = req.headers["x-api-key"];
 

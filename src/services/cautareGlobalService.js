@@ -14,7 +14,7 @@ export function cautaGlobal(textRaw) {
 
   const results = [];
 
-  // 1. Citește toate folderele de autori
+  // 1. Reading all folders (authors) and their works, calculating similarity
   const folders = fs.readdirSync(dataFolder, { withFileTypes: true })
     .filter(f => f.isDirectory())
     .map(f => f.name);
@@ -48,7 +48,7 @@ export function cautaGlobal(textRaw) {
       const titluNorm = normalizeString(item.titlu);
       const dist = levenshtein(titluNorm, text);
 
-      // scor între 0 și 1
+      // scor bitween 0 și 1
       const scor = 1 - dist / Math.max(titluNorm.length, text.length);
 
       if (titluNorm.includes(text) || dist <= 3 || scor > 0.6) {
@@ -62,7 +62,7 @@ export function cautaGlobal(textRaw) {
     }
   }
 
-  // 2. Sortează după scor descrescător
+  // 2. Sort results by score descending
   results.sort((a, b) => b.scor - a.scor);
 
   return results;

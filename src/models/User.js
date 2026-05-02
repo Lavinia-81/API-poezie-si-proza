@@ -32,34 +32,24 @@ const userSchema = new mongoose.Schema({
     default: "free"
   },
 
+  // FREE plan
   requestsToday: {
     type: Number,
     default: 0
   },
-
-  lastRequestDate: {
+  lastDailyReset: {
     type: Date,
     default: null
   },
 
-  requestsUsed: {
+  // BASIC / PREMIUM plans
+  requestsThisMonth: {
     type: Number,
     default: 0
   },
-
-  requestsLimit: {
-    type: Number,
-    default: 500
-  },
-
-  resetDate: {
+  lastMonthlyReset: {
     type: Date,
-    default: () => {
-      const d = new Date();
-      d.setHours(0, 0, 0, 0);
-      d.setDate(d.getDate() + 1);
-      return d;
-    }
+    default: null
   },
 
   stripeCustomerId: {
@@ -78,13 +68,12 @@ const userSchema = new mongoose.Schema({
 
   status: {
     type: String,
-    enum: ["active", "canceled", "past_due"],
+    enum: ["active", "pending_cancel", "cancelled"],
     default: "active"
   }
 });
 
-// Indexes for performance
-// userSchema.index({ apiKey: 1 });
+// Indexes
 userSchema.index({ stripeCustomerId: 1 });
 userSchema.index({ stripeSubscriptionId: 1 });
 

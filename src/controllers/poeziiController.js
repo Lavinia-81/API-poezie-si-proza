@@ -9,21 +9,21 @@ const DATA_DIR = "data";
 
 export function getAll(req, res) {
   try {
-    // 1. citim toți autorii din folderul data/
+    // 1. Read all authors (folders) from the data directory
     const autori = fs.readdirSync(DATA_DIR, { withFileTypes: true })
       .filter(dir => dir.isDirectory())
       .map(dir => dir.name);
 
     let toatePoeziile = [];
 
-    // 2. încărcăm JSON-ul fiecărui autor
+    // 2. JSON loading for each author and collecting all poems, adding author name to each poem
     for (const autor of autori) {
       const data = loadAutorData(autor);
       if (!data) continue;
 
       const poezii = Array.isArray(data.poezii) ? data.poezii : [];
 
-      // 3. adăugăm numele autorului în fiecare poezie
+      // 3. Add author name to each poem and collect
       poezii.forEach(p => {
         toatePoeziile.push({
           ...p,
@@ -57,12 +57,12 @@ export function getById(req, res) {
       return res.status(400).json({ message: "ID too long" });
     }
 
-    // 1. citim toți autorii
+    // 1. Read all authors (folders) from the data directory
     const autori = fs.readdirSync(DATA_DIR, { withFileTypes: true })
       .filter(dir => dir.isDirectory())
       .map(dir => dir.name);
 
-    // 2. căutăm poezia în fiecare JSON
+    // 2. Search for the poem in each JSON
     for (const autor of autori) {
       const data = loadAutorData(autor);
       if (!data) continue;

@@ -6,10 +6,10 @@ import { cache } from "../utils/cache.js";
 
 function cleanName(name) {
   return String(name || "")
-    .normalize("NFKC") // normalizează diacriticele
-    .replace(/[\u0000-\u001F\u007F]/g, "") // elimină caractere de control
-    .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "") // păstrează DOAR alfabetul românesc
-    .replace(/\s+/g, " ") // normalizează spațiile
+    .normalize("NFKC")
+    .replace(/[\u0000-\u001F\u007F]/g, "")
+    .replace(/[^a-zA-ZăâîșțĂÂÎȘȚ0-9\s'-]/g, "")
+    .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
 

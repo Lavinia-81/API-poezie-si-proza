@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/docs/style.css">
-  <title>Dashboard API Premium</title>
+  <title>Dashboard</title>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
       securely and monitor your API usage in real time.
     </p>
     <input id="email" type="email" placeholder="Enter your email">
-    <button id="btnLogin" onclick="loadDashboard()">Enter Dashboard</button>
+    <button id="btnLogin">Enter Dashboard</button>
 
     <div id="dashboard" style="display:none;">
 
@@ -64,15 +64,42 @@
         <div><span class="label" id="labelRemaining">Requests remaining:</span> <span id="d-remaining"></span></div>
       </div>
 
+    
+        <div id="cancelNotice" class="cancelNotice hidden" >
+
+          <div class="notice pending">
+            <h3 class="title">Subscription pending cancellation</h3>
+            <p class="line1">You requested to cancel your BASIC subscription.</p>
+            <p class="line2">Your subscription will remain active until the end of the current billing period, which is one month from the date you requested cancellation.</p>
+            <p class="line3">After this date you will automatically switch to the FREE plan.</p>
+          </div>
+
+          <div class="notice cancelled">
+            <h3 class="title">Subscription cancelled</h3>
+            <p class="line1">You are now on the FREE plan.</p>
+          </div>
+
+        </div>
+      
+
       <h2 class="section-title" id="subscriptionTitle">Subscription Management</h2>
-
-      <button id="btnBasic" onclick="upgrade('basic')">Upgrade to BASIC</button>
-      <button id="btnPremium" onclick="upgrade('premium')">Upgrade to PREMIUM</button>
-      <button id="btnPortal" onclick="openPortal()">Manage subscription</button>
-
+      <div class="dashboard-buttons">
+      <button id="btnBasic" >Upgrade to BASIC</button>
+      <button id="btnPremium">Upgrade to PREMIUM</button>
+      <button id="btnPortal">Manage subscription</button>
+      <button id="btnDelete">Delete my account and all data</button>
+      <p id="delete-warning" class="warning"></p>
+      </div>
     </div>
   </div>
 </main>
+
+<p class="note" id="paragraph"> <strong>API Performance Notice</strong><br>
+  This service currently runs on Render's free tier. 
+  The first request after a period of inactivity may experience a delay of up to 60 seconds 
+  while the instance wakes up. Once active, all responses are delivered instantly. 
+  We are working on optimizations and future improvements to enhance the overall experience.
+</p>
 
   <footer class="literary-footer">
     <img class="icon" src="/docs/pana.jpg" alt="Pana de scris" style="margin-right:40px;">

@@ -19,19 +19,12 @@ const config = {
 
   port: cleanNumber(process.env.PORT, 3000),
 
-  corsOrigin: cleanEnv(process.env.CORS_ORIGIN, "https://yourdomain.com"), // <= domeniul tau aici
+  corsOrigin: cleanEnv(process.env.CORS_ORIGIN, "https://api-poezie-si-proza.onrender.com"),
 
   rateLimit: {
     windowMs: cleanNumber(process.env.RATE_LIMIT_WINDOW_MS, 60000),
     max: cleanNumber(process.env.RATE_LIMIT_MAX, 100)
   }
 };
-
-// Freeze to prevent accidental mutation
-export const PLAN_LIMITS = Object.freeze({
-  free: 500,
-  basic: 5000,
-  premium: 50000
-});
 
 export default config;

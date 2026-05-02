@@ -1,4 +1,5 @@
 # 📚 API –  Poezii și Proză - Poeții Clasici ai României
+### Acces modern la literatura clasică românească + platformă API completă cu planuri și abonamente
 
 [![Documentation](https://img.shields.io/badge/Docs-OpenAPI%20Redoc-blue)](https://lavinia-81.github.io/API-Poezii-si-Proza/)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-green)
@@ -12,7 +13,6 @@
 
 ## 📄 Documentație API
 
-Documentația completă este disponibilă aici:  
 ### 🔗 Redoc (recomandat)
 https://lavinia-81.github.io/API-poezie-si-proza/
 
@@ -24,24 +24,52 @@ https://lavinia-81.github.io/API-poezie-si-proza/
 
 ## 📚 Descriere
 
-Un API modern construit cu **Node.js + Express**, care oferă acces structurat la operele marilor autori clasici români: poezie, proză, bibliografie și imagini ale autorilor.
+Acest proiect oferă un API modern, construit cu **Node.js + Express**, care pune la dispoziție operele marilor autori clasici români: poezii, proză, bibliografie și imagini.
 
-API‑ul citește datele direct dintr-o structură de fișiere clară și predictibilă — fără baze de date — fiind ideal pentru platforme educaționale, arhive culturale, proiecte de digital humanities și aplicații literare.
+Pe lângă accesul la conținut literar, API‑ul include acum o platformă completă de abonamente, cu:
+- conturi de utilizator
+- chei API
+- planuri Free / Basic / Premium
+- Stripe Checkout
+- Stripe Webhooks
+- rate‑limiting în funcție de plan
+- Customer Portal
+- pagini bilingve (EN/RO)
+- securitate avansată
+Conținutul literar rămâne file‑based, ușor de extins și fără baze de date.
 
 ---
 
 ## ✨ Funcționalități
 
-- 📜 Acces la poezie clasică românească
-- 📘 Acces la proză și povestiri
-- 🖼️ Imagini ale autorilor (JPEG/PNG)
-- 🧾 Text biografic pentru fiecare autor
-- 🔍 Căutare după autor și titlu
-- 🔤 Suport complet pentru diacritice și variații de scriere  
-- 📂 Arhitectură file‑based (ușor de extins) 
-- 🌐 Documentație completă folosind OpenAPI 3.0.3
-- 🎨 Interfață elegantă Redoc + opțional Swagger U
+### 📖 Acces la literatură
+- Poezii clasice româneșt
+- Proză și povestiri
+- Bibliografie text
+- Imagini ale autorilor
+- Căutare după autor și titlu
+- Suport complet pentru diacritice
 
+### 🧩 Funcționalități API Platform
+- Înregistrare utilizatori (plan Free)
+- Stripe Checkout pentru Basic & Premium
+- Creare automată utilizator prin webhook
+- Generare automată API key
+- Rate‑limiting zilnic/lunar
+- Upgrade / downgrade abonament
+- Pending cancellation + cancelAt
+- Downgrade automat la Free
+- Customer Portal securizat
+- Interfață bilingvă (EN/RO)
+
+### 🛡️ Securitate
+- Protecție path traversal
+- Middleware anti‑injection
+- CORS strict
+- CSP compatibil
+- Limitare per minut anti‑abuz
+- Verificare semnătură webhook
+- Acces read‑only la fișiere
 ---
 
 ## 📁 Structura proiectului
@@ -68,38 +96,81 @@ Poezii și Proză/
     │   │     ├── George Topîrceanu.jpg
     │   │     └── Note Bibliografice.txt
     │   └── George Topîrceanu.json
-    │
-    └── 
+│
+├── src/
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── createCheckout.js
+│   │   ├── webhook.js
+│   │   ├── authors.js
+│   │   └── search.js
+│   ├── middleware/
+│   │   ├── verifyApiKey.js
+│   │   ├── rateLimiter.js
+│   │   └── security.js
+│   ├── models/
+│   │   └── User.js
+│   └── config/
+│       └── stripe.js
+│
+├── public/
+│   ├── success.html
+│   ├── cancel.html
+│   ├── dashboard.html
+│   └── js/
+│       ├── success.js
+│       ├── cancel.js
+│       └── dashboard.js
+│
 ├── docs/
-│   ├── index.html        
+│   ├── index.html
 │   ├── pana.jpg
-│   └── home.html         
-├── openapi.yaml         
-├── LICENSE            
+│   └── home.html
+│
+├── openapi.yaml
+├── LICENSE
 ├── README.md
-└── server.js   
+└── server.js
+
 ```
-  ## 📦 Structura fiecărui autor
 
-  - un fișier JSON cu metadate
-  - un folder cu poezii (.txt)
-  - un folder cu proză (.txt)
-  - un folder cu bibliografie și imagin
+---
 
----    
-
-  Exemplu de JSON:
+## 📦 Structura JSON pentru fiecare autor
   ```
     {
-      "autor": "Mihai Eminescu",
-      "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
-      "bibliografie_path": "data/Mihai Eminescu/bibliografie/Note Bibliografice.txt",
-      "poezii": [...],
-      "proza": [...]
-    }
+  "autor": "Mihai Eminescu",
+  "poza": "data/Mihai Eminescu/bibliografie/Eminescu.jpg",
+  "bibliografie_path": "data/Mihai Eminescu/bibliografie/Note Bibliografice.txt",
+  "poezii": [...],
+  "proza": [...]
+}
   ```
   
 ---  
+
+## 💳 Planuri și abonamente
+```
+Plan	Limită	Facturare	Beneficii
+Free	500 cereri/zi	Gratuit	API key, acces read‑only
+Basic	5000 cereri/lună	Stripe	Limite mai mari, Customer Portal
+Premium	50.000 cereri/lună	Stripe	Limite maxime, prioritate
+```
+
+---
+
+## Stripe Integration
+### Stripe Checkout (subscription mode)
+- Webhook‑uri:
+- ``checkout.session.completed``
+- ``customer.subscription.updated``
+- ``customer.subscription.deleted``
+- Creare automată utilizator
+- Actualizare automată plan
+- Pending cancellation
+- Downgrade automat la Free
+
+---
 
 ## ⚙️ Funcționare
 
@@ -132,65 +203,44 @@ Este ideal pentru:
 
 ---
 
-## 🚀 Pornirea serverului
+## 📡 Endpoint‑uri (protejate cu API key
 
-```bash
+```
+GET /poeti
+GET /autor/{autor}/poezii
+GET /autor/{autor}/proza
+GET /autor/{autor}/id/{id}
+GET /autor/{autor}/poezie/{id}/text
+GET /autor/{autor}/bibliografie/text
+GET /autor/{autor}/poza
+GET /cauta/{autor}/{titlu}
+```
+
+---
+
+## 🔐 Autentificare
+### Înregistrare (plan Free)
+```
+POST /auth/register
+{
+  "email": "user@example.com"
+}
+```
+
+### Login
+```POST /auth/login```
+
+### Folosirea API key‑ului
+```GET /poeti?apiKey=CHEIA_TA_API```
+
+## 🛠 Instalare
+```
 git clone https://github.com/lavinia-81/API-Poezii-si-Proza.git
 cd API-Poezii-si-Proza
 npm install
 npm start
-Serverul rulează implicit pe: `http://localhost:3000`
+Serverul rulează la:```http://localhost:3000
 ```
----
-
-## 📡 Endpoint‑uri disponibil
-```
-🔍 1. Lista tuturor poeților
-`GET /poeti`
-Returnează lista folderelor din data/.
-
-📜 2. Toate poeziile unui autor
-`GET /autor/:autor/poezii`
-Exemplu: /autor/Mihai%20Eminescu/poezii
-
-📘 3. Toată proza unui autor
-`GET /autor/:autor/proza`
-
-🔎 4. Căutare după titlu (poezie + proză)
-`GET /cauta/:autor/:titlu`
-Exemplu: /cauta/mihai_eminescu/adio
-Returnează format JSON:
-  ```{
-    "id": "poezie-1",
-    "titlu": "Adio",
-    "tip": "poezie",
-    "continut": "Textul poeziei..."
-  }```
-
-🆔 5. Căutare după ID 
-`GET /autor/:autor/poezie/:id/text`
-Exemplu: /autor/Mihai%20Eminescu/poezie/poezie-1/text
-
-📚 6. Bibliografie (text simplu)
-`GET /autor/:autor/bibliografie/text`
-Returnează conținutul fișierului Note Bibliografice.txt
-
-🖼️ 7. Afiseaza fotografia unui autor
-`GET /autor/:autor/poza`
-```
----
-
-## 🛡️ Securitate
-
-API‑ul include:
-- protecție împotriva path traversal
-- validare parametri
-- middleware anti‑injection
-- rate limiting
-- CORS configurabil
-- acces controlat la fișiere
-- caching intern pentru performanță
-Aceste măsuri îl fac potrivit pentru producție.
 
 ---
 
@@ -211,7 +261,19 @@ Pentru detalii complete, consultă fișierul LICENSE
 
 ---
 
+## Despre proiect
+Acest API a fost creat pentru a moderniza accesul la literatura românească clasică și pentru a o integra în aplicații educaționale, culturale și digitale moderne.
+
+---
+
 ## ❤️ Autor
 
 Acest API a fost construit cu grijă pentru a oferi acces modern, sigur și elegant la literatura românească clasică.
 Proiect dezvoltat de Maria Lavinia.
+
+## Notă:  
+Notă privind performanța API‑ului  
+Acest serviciu rulează în prezent pe un plan gratuit Render.
+Prima cerere după o perioadă de inactivitate poate avea o întârziere de aproximativ 60 de secunde, deoarece instanța este repornită automat.
+După activare, toate răspunsurile sunt livrate instant.
+Lucrăm la optimizări și viitoare actualizări pentru a îmbunătăți experiența de utilizare.

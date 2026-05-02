@@ -4,7 +4,6 @@ import logger from '../logger/logger.js';
 
 export function cautareTitlu(req, res) {
   try {
-    // NU mai normalizăm autorul aici
     const autorRaw = req.params.autor;
 
     // Sanitize title
@@ -20,8 +19,6 @@ export function cautareTitlu(req, res) {
     if (titlu.length > 200) {
       return res.status(400).json({ message: "Title too long" });
     }
-
-    // Trimitem autorul BRUT către serviciu
     const rezultat = cautaDupaTitlu(autorRaw, titlu);
 
     if (rezultat === null) {

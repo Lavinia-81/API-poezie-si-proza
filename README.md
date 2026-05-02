@@ -23,7 +23,16 @@ https://lavinia-81.github.io/API-poezie-si-proza/
 
 A modern **Node.js + Express** API that provides structured access to the works of major Romanian classical authors: poetry, prose, bibliography, and author images.
 
-The API reads directly from a clean, predictable folder structure — no database required — making it ideal for educational platforms, cultural archives, digital humanities, and literary applications.
+The API is now backed by a full SaaS architecture, including:
+
+- user accounts
+- API keys
+-  plans (Free, Basic, Premium)
+- Stripe Checkout
+- Stripe Webhooks
+- rate limiting per plan
+- secure access to all endpoints
+The literary content remains file‑based, predictable, and easy to extend.
 
 ---
 
@@ -42,13 +51,24 @@ The API reads directly from a clean, predictable folder structure — no databas
 
 ---
 
+## 🛡️ Security
+
+- Path traversal protection
+- Anti‑injection middleware
+- Strict CORS
+- CSP‑compliant frontend
+- Anti‑abuse per‑minute limiter
+- Read‑only file access
+- Webhook signature verification
+
+---
+
 ## 📁 Project Structure
 
 The API automatically detects the main directory, whether it is named:
 - Poezii si Proza (without diacritics), or
 - Poezii și Proză (with diacritics)
 Internal structure:
-
 ```
 Poezii și Proză/
 └── data/
@@ -68,15 +88,42 @@ Poezii și Proză/
     │   │     └── Note Bibliografice.txt
     │   └── George Topîrceanu.json
     │
+├── src/
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── createCheckout.js
+│   │   ├── webhook.js
+│   │   ├── authors.js
+│   │   └── search.js
+│   ├── middleware/
+│   │   ├── verifyApiKey.js
+│   │   ├── rateLimiter.js
+│   │   └── security.js
+│   ├── models/
+│   │   └── User.js
+│   └── config/
+│       └── stripe.js
+│
+├── public/
+│   ├── success.html
+│   ├── cancel.html
+│   ├── dashboard.html
+│   └── js/
+│       ├── success.js
+│       ├── cancel.js
+│       └── dashboard.js
+│
 ├── docs/
-│   ├── index.html        
+│   ├── index.html
 │   ├── pana.jpg
-│   └── home.html         
-├── openapi.yaml         
-├── LICENSE            
+│   └── home.html
+│
+├── openapi.yaml
+├── LICENSE
 ├── README.md
-└── server.js     
-```        
+└── server.js
+```
+
 ---
 
 ## Each author folder contains:
@@ -103,6 +150,27 @@ Each author has a JSON file containing metadata and references to their works
 
 ---
 
+## 🧪 Subscription Plans
+Plan	Limits	Billing	Features
+Free	500 requests/day	Free	API key, read-only access
+Basic	5000 requests/month	Paid (Stripe)	Higher limits, Customer Portal
+Premium	50,000 requests/month	Paid (Stripe)	Highest limits, priority access
+
+---
+
+## Stripe Integration
+Stripe Checkout (subscription mode)
+Webhooks:
+- ``checkout.session.completed``
+- ``customer.subscription.updated``
+- ``customer.subscription.deleted``
+- Automatic user creation
+- Automatic plan updates
+- Pending cancellation
+- Downgrade to Free
+
+---
+
 ## 🛠 Technologies used
 
 - Node.js  
@@ -113,46 +181,37 @@ Each author has a JSON file containing metadata and references to their works
 
 ---
 
-## 📦 Installation (local development)
-
-```bash
-git clone https://github.com/lavinia-81/API-Poezii-si-Proza.git
-cd API-Poezii-si-Proza
-npm install
-npm start
-Server runs at: `http://localhost:3000`
-```
----
-
-## 📡 Available Endpoints
+## 📡 Endpoints (Protected by API Key)
 
 The API exposes the following main resources:
 ```
-- `/poeti` — list all authors  
-- `/autor/{autor}/poezii` — poems by author  
-- `/autor/{autor}/proza` — prose by author  
-- `/autor/{autor}/id/{id}` — metadata by ID  
-- `/autor/{autor}/poezie/{id}/text` — full poem text  
-- `/autor/{autor}/bibliografie/text` — bibliography  
-- `/autor/{autor}/poza` — author image  
-- `/cauta/{autor}/{titlu}` — search  
-
+  GET /poeti
+  GET /autor/{autor}/poezii
+  GET /autor/{autor}/proza
+  GET /autor/{autor}/id/{id}
+  GET /autor/{autor}/poezie/{id}/text
+  GET /autor/{autor}/bibliografie/text
+  GET /autor/{autor}/poza
+  GET /cauta/{autor}/{titlu} 
 ```
 All endpoints are **read‑only**
 
----
+--- 
 
-## 🛡️ Security
+## 🔐 Authentication
+# Register (Free plan)
+```
+POST /auth/register
+  {
+    "email": "user@example.com"
+  }
+  ```
 
-The API includes:
-- path traversal protection
-- parameter validation
-- anti‑injection middleware
-- rate limiting
-- strict CORS configuration
-- controlled file access
-- internal caching for performance
-These measures ensure a stable, safe, and production‑ready environment.
+# Login
+```POST /auth/login```
+
+# API Key Usage
+```GET /poeti?apiKey=YOUR_API_KEY```
 
 ---
 
@@ -174,4 +233,4 @@ See the LICENSE file for details
 
 ## ❤️ About This Project
 
-This API was built to provide modern, structured access to Romanian classical literature, preserving cultural heritage while enabling developers,educators, and researchers to integrate it into contemporary digital experiences.
+This API was built to preserve and modernize access to Romanian classical literature, enabling developers, educators, and researchers to integrate cultural heritage into modern digital experiences

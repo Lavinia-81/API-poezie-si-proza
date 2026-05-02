@@ -4,7 +4,8 @@ import { generateApiKey } from "../utils/generateApiKey.js";
 import { verifyApiKey } from "../middleware/auth/verifyApiKey.js";
 import { plans } from "../config/plans.js";
 import { stripe } from "../config/stripe.js";
-import {requireValidEmail,requireValidPlan} from "../validators.js";
+import { requireValidEmail, requireValidPlan } from "../validators.js";
+import { planLimiter } from "../middleware/security/planLimiter.js";
 
 const router = express.Router();
 
@@ -39,6 +40,7 @@ router.post("/register", requireValidEmail, async (req, res) => {
   }
 });
 
+
 /* UPGRADE PLAN */
 router.post("/upgrade", requireValidEmail, requireValidPlan, async (req, res) => {
   try {
@@ -67,8 +69,9 @@ router.post("/upgrade", requireValidEmail, requireValidPlan, async (req, res) =>
   }
 });
 
+
 /* USAGE */
-router.get("/usage/:email", requireValidEmail, async (req, res) => {
+router.get("/usage/:email", async (req, res) => {
   try {
     const user = await User.findOne({ email: req.params.email });
 
@@ -79,6 +82,7 @@ router.get("/usage/:email", requireValidEmail, async (req, res) => {
     res.json({
       email: user.email,
       plan: user.plan,
+      apiKey: user.apiKey,  
       requestsToday: user.requestsToday,
       lastRequestDate: user.lastRequestDate,
     });
@@ -88,6 +92,7 @@ router.get("/usage/:email", requireValidEmail, async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 });
+
 
 /* STRIPE CHECKOUT */
 router.post("/create-checkout-session", requireValidEmail, requireValidPlan, async (req, res) => {
@@ -119,21 +124,42 @@ router.post("/create-checkout-session", requireValidEmail, requireValidPlan, asy
   }
 });
 
-/* ME (API KEY PROTECTED) */
-router.get("/me", verifyApiKey, async (req, res) => {
-  try {
-    const user = req.user;
 
-    const limit = plans[user.plan]?.dailyLimit || plans.free.dailyLimit;
-    const remaining = Math.max(0, limit - user.requestsToday);
+/* ME (API KEY PROTECTED) */
+/* ME (API KEY PROTECTED) */
+router.get("/me", async (req, res) => {
+  try {
+    const apiKey = req.query.apiKey;
+    if (!apiKey) return res.status(401).json({ error: "Unauthorized" });
+
+    const user = await User.findOne({ apiKey });
+    if (!user) return res.status(401).json({ error: "Unauthorized" });
+
+    const plan = user.plan.toLowerCase();
+    const limits = plans[plan];
+
+    let requestsUsed = 0;
+    let requestsLimit = 0;
+
+    if (plan === "free") {
+      requestsUsed = user.requestsToday;
+      requestsLimit = limits.dailyLimit;
+    } else {
+      requestsUsed = user.requestsThisMonth;
+      requestsLimit = limits.monthlyLimit;
+    }
+
+    const remaining = Math.max(0, requestsLimit - requestsUsed);
 
     res.json({
       email: user.email,
       plan: user.plan,
-      dailyLimit: limit,
-      requestsToday: user.requestsToday,
+      requestsUsed,
+      requestsLimit,
       remainingRequests: remaining,
-      lastRequestDate: user.lastRequestDate
+      apiKey: user.apiKey,
+      status: user.status,
+      cancelAt: user.cancelAt
     });
 
   } catch (err) {
@@ -141,6 +167,8 @@ router.get("/me", verifyApiKey, async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 });
+
+
 
 /* CUSTOMER PORTAL */
 router.post("/customer-portal", requireValidEmail, async (req, res) => {
@@ -154,7 +182,7 @@ router.post("/customer-portal", requireValidEmail, async (req, res) => {
 
     const session = await stripe.billingPortal.sessions.create({
       customer: user.stripeCustomerId,
-      return_url: `${process.env.FRONTEND_URL}/dashboard`
+      return_url: `${process.env.FRONTEND_URL}/dashboard.html`
     });
 
     res.json({ url: session.url });
@@ -164,5 +192,45 @@ router.post("/customer-portal", requireValidEmail, async (req, res) => {
     res.status(500).json({ error: "Stripe portal creation failed" });
   }
 });
+
+/* DELETE ACCOUNT */
+router.post("/delete", async (req, res) => {
+  try {
+    const { email } = req.body;
+    console.log("BODY:", req.body);
+
+    if (!email) {
+      return res.status(400).json({ error: "Email missing" });
+    }
+
+    // 1. Găsim userul
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    // 2. Verificăm planul
+    if (user.plan !== "free") {
+      return res.status(403).json({
+        error: "Cannot delete account while subscription is active. Please cancel your subscription first."
+      });
+    }
+
+    // 3. Ștergem userul DOAR dacă planul este FREE
+    const result = await User.deleteOne({ email });
+
+    if (result.deletedCount === 0) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    return res.json({ success: true });
+
+  } catch (err) {
+    console.error("DELETE ERROR:", err.stack);
+    return res.status(500).json({ error: "Server error" });
+  }
+});
+
 
 export default router;

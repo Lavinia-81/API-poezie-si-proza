@@ -2,14 +2,13 @@
 import { loadAutorData } from '../utils/loadAutorData.js';
 import { normalizeAutor } from '../utils/normalizeAutor.js';
 import { normalizeString, levenshtein } from "../utils/normalizeAutor.js"; 
-// ai spus că le-ai pus pe toate în normalizeAutor.js
 
 export function cautaDupaTitlu(autorRaw, titluRaw) {
-  // 1. normalizăm autorul
+  // 1. Author normalization and fuzzy matching in loadAutorData
   const autorNormalizat = normalizeAutor(autorRaw);
   if (!autorNormalizat) return null;
 
-  // 2. încărcăm JSON-ul autorului (cu fuzzy search în loadAutorData)
+  // 2. Author data loading with fuzzy search
   const data = loadAutorData(autorNormalizat);
   if (!data) return null;
 
@@ -17,11 +16,11 @@ export function cautaDupaTitlu(autorRaw, titluRaw) {
   const proza = Array.isArray(data.proza) ? data.proza : [];
   const toate = [...poezii, ...proza];
 
-  // 3. normalizăm titlul căutat
+  // 3.Titlu normalization
   const titluCautat = normalizeString(titluRaw);
   if (titluCautat.length > 200) return [];
 
-  // 4. fuzzy search pe titluri
+  // 4. fuzzy search pe titles
   return toate.filter(item => {
     if (!item?.titlu) return false;
 
@@ -29,8 +28,8 @@ export function cautaDupaTitlu(autorRaw, titluRaw) {
     const dist = levenshtein(titluItem, titluCautat);
 
     return (
-      titluItem.includes(titluCautat) ||   // match direct
-      dist <= 2                            // fuzzy match tolerant
+      titluItem.includes(titluCautat) ||  
+      dist <= 2
     );
   });
 }

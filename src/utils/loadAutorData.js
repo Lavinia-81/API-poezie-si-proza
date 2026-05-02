@@ -7,7 +7,7 @@ import { safePath } from "./safePath.js";
 import { cache } from "./cache.js";
 import { levenshtein } from "./normalizeAutor.js";
 
-// 🔥 Normalizare tolerantă pentru comparare (nu elimină caractere valide)
+// 🔥 Normalize the author name 
 function normalizeSoft(str) {
   return String(str || "")
     .normalize("NFD")
@@ -33,7 +33,7 @@ export function loadAutorData(autorRaw) {
       return cache.autoriData.get(autorSoft);
     }
 
-    // Citește folderele autorilor
+    // Read the author folders
     let folders;
     try {
       folders = fs.readdirSync(dataFolder, { withFileTypes: true })
@@ -43,7 +43,7 @@ export function loadAutorData(autorRaw) {
       return null;
     }
 
-    // Normalizează numele folderelor
+    // Normalize the folder names
     const folderMap = folders.map(f => ({
       real: f.name,
       soft: normalizeSoft(f.name)
@@ -59,7 +59,7 @@ export function loadAutorData(autorRaw) {
       );
     }
 
-    // 3️⃣ Fallback: caută în JSON numele autorului
+    // 3️⃣ Fallback: search the JSON files for a match
     if (!match) {
       for (const f of folderMap) {
         try {
@@ -88,7 +88,7 @@ export function loadAutorData(autorRaw) {
       return null;
     }
 
-    // Citește JSON-ul autorului
+    // read JSON file
     const autorFolder = safePath(path.join(dataFolder, match.real));
 
     let jsonFile;
@@ -104,7 +104,7 @@ export function loadAutorData(autorRaw) {
 
     const jsonPath = safePath(path.join(autorFolder, jsonFile.name));
 
-    // Verifică dimensiunea
+    // check size (max 5MB)
     const stats = fs.statSync(jsonPath);
     if (stats.size > 5 * 1024 * 1024) {
       logger.warn("JSON file too large", { file: jsonPath });

@@ -1,77 +1,73 @@
 // src/middleware/auth/verifyApiKey.js
 import User from "../../models/User.js";
-import { PLAN_LIMITS } from "../../config/config.js";
+import { plans } from "../../config/plans.js";
 import { validateApiKey } from "../../validators.js";
 
 export const verifyApiKey = async (req, res, next) => {
   try {
     const apiKey = req.headers["x-api-key"];
+    if (!apiKey) return res.status(401).json({ error: "Unauthorized" });
 
-    // 1. Missing key
-    if (!apiKey) {
-      return res.status(401).json({ error: "Unauthorized" });
-    }
-
-    // 2. Validate format (anti-XSS, anti-injection)
     if (!validateApiKey(apiKey)) {
       return res.status(401).json({ error: "Unauthorized" });
     }
 
-    // 3. Find user (constant-time lookup)
-    const user = await User.findOne({ apiKey }).lean();
+    const user = await User.findOne({ apiKey });
+    if (!user) return res.status(401).json({ error: "Unauthorized" });
 
-    if (!user) {
-      // generic response (anti-enumeration)
-      return res.status(401).json({ error: "Unauthorized" });
-    }
+    const plan = user.plan.toLowerCase();
+    const limits = plans[plan];
 
-    // 4. Daily reset (safe)
-    const today = new Date().toISOString().split("T")[0];
-    const last = user.lastRequestDate
-      ? user.lastRequestDate.toISOString().split("T")[0]
-      : null;
+    const now = new Date();
+    const today = now.toISOString().split("T")[0];
 
-    if (today !== last) {
-      await User.updateOne(
-        { apiKey },
-        { $set: { requestsToday: 0, lastRequestDate: new Date() } }
-      );
-      user.requestsToday = 0;
-    }
+    // DAILY RESET (FREE)
+    if (plan === "free") {
+      const last = user.lastDailyReset
+        ? user.lastDailyReset.toISOString().split("T")[0]
+        : null;
 
-    // 5. Validate plan
-    const limit = PLAN_LIMITS[user.plan] ?? PLAN_LIMITS["free"];
-
-    if (typeof limit !== "number") {
-      return res.status(500).json({ error: "Invalid plan configuration" });
-    }
-
-    // 6. Rate limit per user
-    if (user.requestsToday >= limit) {
-      return res.status(429).json({
-        error: "Daily request limit reached",
-        plan: user.plan,
-        limit
-      });
-    }
-
-    // 7. Atomic increment (prevents race conditions)
-    await User.updateOne(
-      { apiKey },
-      {
-        $inc: { requestsToday: 1 },
-        $set: { lastRequestDate: new Date() }
+      if (today !== last) {
+        user.requestsToday = 0;
+        user.lastDailyReset = now;
       }
-    );
 
-    // 8. Attach user to request (safe version)
-    req.user = {
-      email: user.email,
-      plan: user.plan,
-      requestsToday: user.requestsToday + 1,
-      lastRequestDate: new Date()
-    };
+      if (user.requestsToday >= limits.dailyLimit) {
+        return res.status(429).json({
+          error: "Daily request limit reached",
+          plan: user.plan,
+          limit: limits.dailyLimit
+        });
+      }
 
+      user.requestsToday += 1;
+    }
+
+    // MONTHLY RESET (BASIC / PREMIUM)
+    if (plan !== "free") {
+      const lastMonth = user.lastMonthlyReset
+        ? user.lastMonthlyReset.getMonth()
+        : null;
+
+      if (lastMonth !== now.getMonth()) {
+        user.requestsThisMonth = 0;
+        user.lastMonthlyReset = now;
+      }
+
+      if (user.requestsThisMonth >= limits.monthlyLimit) {
+        return res.status(429).json({
+          error: "Monthly request limit reached",
+          plan: user.plan,
+          limit: limits.monthlyLimit
+        });
+      }
+
+      user.requestsThisMonth += 1;
+    }
+
+    await user.save();
+
+    req.user = user;
     next();
 
   } catch (err) {
