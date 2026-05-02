@@ -4,7 +4,7 @@ import rateLimit from "express-rate-limit";
 // 1. Creăm limiterele O SINGURĂ DATĂ
 const freeLimiter = rateLimit({
   windowMs: 60 * 1000,
-  max: 3,
+  max: 5,
   message: { error: "Free plan limit reached. Slow down." },
   standardHeaders: true,
   legacyHeaders: false

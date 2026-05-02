@@ -11,11 +11,13 @@ app.use(
       directives: {
         defaultSrc: ["'self'"],
 
-        imgSrc: [
+        scriptSrc: [
           "'self'",
-          "data:",
+          "'unsafe-inline'",
           "https://cdn.redoc.ly",
-          "https://unpkg.com"
+          "https://cdnjs.cloudflare.com",
+          "https://unpkg.com",
+          "https://petstore.swagger.io"
         ],
 
         styleSrc: [
@@ -25,26 +27,36 @@ app.use(
           "https://unpkg.com"
         ],
 
-        fontSrc: [
+        imgSrc: [
           "'self'",
-          "https://fonts.gstatic.com"],
-
-        scriptSrc: [
-          "'self'",
-          "https://cdn.redoc.ly",
-          "https://cdnjs.cloudflare.com",
-          "https://unpkg.com",
-          "https://petstore.swagger.io"
+          "data:",
+          "https:",
+          "https://cdn.redoc.ly"
         ],
 
-        workerSrc: ["'self'", "blob:"],
-        childSrc: ["'self'", "blob:"],
+        fontSrc: [
+          "'self'",
+          "https://fonts.gstatic.com"
+        ],
+
+        workerSrc: [
+          "'self'",
+          "blob:"
+        ],
 
         connectSrc: [
           "'self'",
-          "https://unpkg.com"]
+          "https://cdn.redoc.ly",
+          "https://unpkg.com"
+        ],
+
+        childSrc: [
+          "'self'",
+          "blob:"
+        ]
       }
     }
+
   })
 );
 

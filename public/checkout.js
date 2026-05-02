@@ -53,12 +53,12 @@ const translations = {
 
     free_title: "FREE",
     free_price: "£0 / lună",
-    free_desc: "• Acces limitat<br>• 500 request-uri / zi<br>• Fără acces la endpoint-uri premium",
+    free_desc: "• Acces limitat<br>• 100 request-uri / zi<br>• Fără acces la endpoint-uri premium",
     free_btn: "Activează GRATUIT",
 
     basic_title: "BASIC",
     basic_price: "£7 / lună",
-    basic_desc: "• 5.000 request-uri / lună<br>• Acces la endpoint-uri standard<br>• Suport prin email",
+    basic_desc: "• 10.000 request-uri / lună<br>• Acces la endpoint-uri standard<br>• Suport prin email",
     basic_btn: "Cumpără BASIC",
 
     premium_title: "PREMIUM",
@@ -80,12 +80,12 @@ const translations = {
 
     free_title: "FREE",
     free_price: "£0 / month",
-    free_desc: "• Limited access<br>• 500 requests / day<br>• No access to premium endpoints",
+    free_desc: "• Limited access<br>• 100 requests / day<br>• No access to premium endpoints",
     free_btn: "Activate FREE",
 
     basic_title: "BASIC",
     basic_price: "£7 / month",
-    basic_desc: "• 5,000 requests / month<br>• Access to standard endpoints<br>• Email support",
+    basic_desc: "• 10,000 requests / month<br>• Access to standard endpoints<br>• Email support",
     basic_btn: "Buy BASIC",
 
     premium_title: "PREMIUM",

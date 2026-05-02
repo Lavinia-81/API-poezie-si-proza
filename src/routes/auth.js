@@ -126,7 +126,6 @@ router.post("/create-checkout-session", requireValidEmail, requireValidPlan, asy
 
 
 /* ME (API KEY PROTECTED) */
-/* ME (API KEY PROTECTED) */
 router.get("/me", async (req, res) => {
   try {
     const apiKey = req.query.apiKey;
@@ -169,7 +168,6 @@ router.get("/me", async (req, res) => {
 });
 
 
-
 /* CUSTOMER PORTAL */
 router.post("/customer-portal", requireValidEmail, async (req, res) => {
   try {
@@ -192,6 +190,7 @@ router.post("/customer-portal", requireValidEmail, async (req, res) => {
     res.status(500).json({ error: "Stripe portal creation failed" });
   }
 });
+
 
 /* DELETE ACCOUNT */
 router.post("/delete", async (req, res) => {

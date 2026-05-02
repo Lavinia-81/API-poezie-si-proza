@@ -26,7 +26,9 @@
 
     <div class="navbar-right">
       <a href="/index.html">Home</a>
-      <a href="/docs/overview.html" class="active">Overview</a>
+      <a href="/docs/overview"  class="active">Overview</a>
+      <a id="nav-redoc" href="/docs/redoc" style="display:none">Redoc</a>
+      <a id="nav-swagger" href="/docs/swagger" style="display:none">Swagger</a>
       <a href="/public/checkout.html">Checkout</a>
       <a href="/public/dashboard.html">Dashboard</a>
     </div>
@@ -37,10 +39,11 @@
 
     <h2 id="introTitle">Why Some Documentation Is Restricted</h2>
     <p id="introText">
-      To protect the Poems & Prose API from cloning, scraping, and unauthorized automated extraction, 
-      the full technical documentation (Redoc & Swagger) is not publicly accessible. 
-      Only authenticated users with a valid plan can view sensitive details such as request structures, 
-      response schemas, rate limits, and advanced endpoints.
+        To protect the Poems & Prose API from scraping, automated cloning, and unauthorized extraction of structured literary data, full technical documentation is available only to authenticated users.
+        Each plan unlocks a different level of documentation:
+        Free users receive this Overview page, which explains the API structure and available endpoints.
+        Basic users gain access to the full Redoc documentation.
+        Premium users gain access to both Redoc and Swagger, including live testing tools.
     </p>
 
     <h2 id="plansTitle">API Access Plans</h2>
@@ -48,31 +51,34 @@
     <div class="info-box">
       <h3 id="freeTitle">Free Plan</h3>
       <p id="freeText">
-        Limited access to essential endpoints. Suitable for testing, learning, and small personal projects.
-        Does not include access to full documentation or advanced search features.
+        Access to essential endpoints with generous daily limits.
+        This plan includes this Overview page, which explains how the API works and how to call the main endpoints.
+        Full documentation (Redoc/Swagger) is not included. Suitable for testing, learning, and small personal projects.
       </p>
     </div>
 
     <div class="info-box">
       <h3 id="basicTitle">Basic Plan</h3>
       <p id="basicText">
-        Includes access to core endpoints with moderate rate limits. 
-        Users can view partial documentation and receive structured examples for integration.
+        Includes access to all core endpoints and full Redoc documentation.
+        Redoc provides structured, human‑readable documentation with schemas, examples, and endpoint descriptions.
+        Swagger is not included in this plan. Recommended for developers who want clear documentation without interactive testing features.
       </p>
     </div>
 
     <div class="info-box">
       <h3 id="premiumTitle">Premium Plan</h3>
       <p id="premiumText">
-        Full access to all endpoints, advanced search, metadata, and complete Redoc/Swagger documentation.
+        Full access to all endpoints, advanced search, metadata, and both documentation systems:
+        Redoc (complete structured documentation) and Swagger (interactive testing, live requests, schema introspection).
         Recommended for production applications, research platforms, and cultural institutions.
       </p>
     </div>
 
     <h2 id="endpointsTitle">What Endpoints Exist?</h2>
     <p id="endpointsText">
-      The API provides structured access to public‑domain Romanian literature. 
-      While the full technical details are restricted, here is a general overview:
+      The API provides structured access to public‑domain Romanian literature.
+      Free users can call the main endpoints directly using their API key, while Basic and Premium users can explore full documentation through Redoc or Swagger.
     </p>
 
     <ul>
@@ -84,9 +90,11 @@
 
     <h2 id="accessTitle">How to Access Full Documentation</h2>
     <p id="accessText">
-      After choosing a plan, you will receive a secure link to the full Redoc and Swagger pages, 
-      along with your API key and usage instructions. 
-      These pages remain hidden from the public to ensure the long‑term safety and integrity of the API.
+      After choosing a plan, your dashboard will automatically unlock the documentation available for your tier:
+      Free → Overview only
+      Basic → Redoc
+      Premium → Redoc + Swagger
+      These pages remain protected to ensure the long‑term integrity and security of the API.
     </p>
   </main>
   <p class="note">
@@ -99,5 +107,6 @@
   </footer>
 
   <script src="lang_overview.js"></script>
+  <!-- <script src="/docs/navbar.js"></script>  -->
 </body>
 </html>

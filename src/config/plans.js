@@ -3,13 +3,13 @@
 export const plans = Object.freeze({
   free: Object.freeze({
     name: "Free",
-    dailyLimit: 500,
+    dailyLimit: 100,
     monthlyLimit: null
   }),
   basic: Object.freeze({
     name: "Basic",
     dailyLimit: null,
-    monthlyLimit: 5000
+    monthlyLimit: 10000
   }),
   premium: Object.freeze({
     name: "Premium",

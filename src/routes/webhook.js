@@ -78,8 +78,6 @@ router.post(
 
 // ---------------------------------------------------------
 // HANDLE CHECKOUT COMPLETED
-// - user nou cu BASIC/PREMIUM → îl creăm
-// - user existent (FREE sau plătit) → îl actualizăm
 // ---------------------------------------------------------
 async function handleCheckoutCompleted(session) {
   try {
@@ -95,7 +93,7 @@ async function handleCheckoutCompleted(session) {
       return;
     }
 
-    // Determinăm planul
+    // Plan settings
     let plan = session.metadata?.plan;
 
     if (!["basic", "premium"].includes(plan)) {
@@ -120,12 +118,12 @@ async function handleCheckoutCompleted(session) {
     const customerId = session.customer;
     const subscriptionId = session.subscription;
 
-    // Căutăm userul după email sau stripeCustomerId
+    // Create or update user in Stripe database
     let user =
       (await User.findOne({ email })) ||
       (await User.findOne({ stripeCustomerId: customerId }));
 
-    // Dacă NU există → îl CREĂM
+    // If user doesn't exist → it's a NEW subscription → CREATE the record
     if (!user) {
       const apiKey = crypto.randomBytes(32).toString("hex");
 
@@ -147,16 +145,18 @@ async function handleCheckoutCompleted(session) {
       return;
     }
 
-    // Dacă există → îl ACTUALIZĂM
+    // If user exists → it's an UPGRADE or RENEWAL → UPDATE the record
     user.stripeCustomerId = customerId;
     user.stripeSubscriptionId = subscriptionId;
     user.plan = plan;
     user.status = "active";
     user.cancelAt = null;
 
-    // La upgrade/downgrade, poți reseta și contorii dacă vrei:
-    // user.requestsToday = 0;
-    // user.requestsThisMonth = 0;
+    //  If user doesn't have an API key (e.g. created before), generate one
+    if (!user.apiKey) {
+      user.apiKey = crypto.randomBytes(32).toString("hex");
+      console.log("🔑 API key generated for existing Stripe user:", user.email);
+    }
 
     await user.save();
     console.log("✅ User updated from Stripe checkout:", email);
@@ -167,15 +167,12 @@ async function handleCheckoutCompleted(session) {
 
 // ---------------------------------------------------------
 // HANDLE SUBSCRIPTION UPDATED
-// - cancel_at_period_end = true → pending_cancel + cancelAt
-// - status = "canceled" → lăsăm deleted handler să se ocupe
-// - altfel → upgrade/downgrade normal (basic/premium)
 // ---------------------------------------------------------
 async function handleSubscriptionUpdated(subscription) {
   try {
     const customerId = subscription.customer;
 
-    // 1. User a apăsat "Cancel subscription" → pending_cancel
+    // 1. User press "Cancel subscription" → pending_cancel
     if (subscription.cancel_at_period_end === true) {
       const user = await User.findOne({ stripeCustomerId: customerId });
       if (!user) return;
@@ -192,7 +189,7 @@ async function handleSubscriptionUpdated(subscription) {
       return;
     }
 
-    // 2. Dacă statusul e deja "canceled", lăsăm `customer.subscription.deleted` să facă downgrade
+    // 2. If the status is already "canceled", we let `customer.subscription.deleted` handle the downgrade
     if (subscription.status === "canceled") {
       console.log("ℹ️ Subscription already canceled, waiting for deleted event:", customerId);
       return;
@@ -230,8 +227,6 @@ async function handleSubscriptionUpdated(subscription) {
 
 // ---------------------------------------------------------
 // HANDLE SUBSCRIPTION CANCELLED
-// - downgrade la FREE
-// - resetăm contorii
 // ---------------------------------------------------------
 async function handleSubscriptionCancelled(subscription) {
   try {

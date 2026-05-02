@@ -12,7 +12,6 @@
 <body>
 
   <nav class="navbar">
-
     <div class="navbar-top">
     <div class="navbar-left">
       <img class="icon" src="/docs/pana.jpg" alt="Pana de scris">
@@ -25,10 +24,12 @@
 
   <div class="navbar-right" >
     <a href="/index.html">Home</a>
-    <a href="/docs/redoc.html" class="active">Redoc</a>
-    <a href="/docs/swagger.html">Swagger</a>
+    <!-- <a id="nav-redoc" href="/docs/redoc" style="display:none" class="active">Redoc</a>
+    <a id="nav-swagger" href="/docs/swagger" style="display:none">Swagger</a> -->
     <a href="/public/checkout.html">Checkout</a>
     <a href="/public/dashboard.html">Dashboard</a>
+    <a href="/docs/redoc.html" class="active">Redoc</a>
+    <a href="/docs/swagger.html">Swagger</a>
     </div>
      
  </nav>
@@ -42,10 +43,9 @@
     Curated by <strong>Maria Lavinia</strong> · Poems & Prose API · Romanian Classical Literature · © <span id="year"></span>
   </footer>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-    Redoc.init('/openapi.yaml', {}, document.getElementById('redoc-container'));
-  </script>
+  <script src="/docs/redoc.js"></script>
+  <!-- <script src="/docs/navbar.js"></script> -->
+
 
 </body>
 </html>

@@ -468,6 +468,21 @@ button.disabled {
   min-height: 60vh;
   padding: 20px;
 }
+/* Face secțiunile compacte și verticale */
+.swagger-ui .opblock-tag-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Reduce spațiul gol */
+.swagger-ui .opblock {
+  margin-bottom: 10px;
+}
+
+/* Împiedică întinderea orizontală */
+.swagger-ui .opblock-summary {
+  flex-wrap: wrap;
+}
 
 #redoc-container > div {
   height: auto !important;

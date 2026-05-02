@@ -7,21 +7,21 @@ const translations = {
 
     introTitle: "De ce documentația completă este restricționată",
     introText:
-      "Pentru a proteja API-ul Poems & Prose de clonare, scraping și extragere automată neautorizată, documentația tehnică completă (Redoc & Swagger) nu este accesibilă public. Doar utilizatorii autentificați cu un plan valid pot vedea detalii sensibile precum structura requesturilor, schema răspunsurilor, limitele și endpointurile avansate.",
+      "Pentru a proteja API-ul Poezii și Proză de scraping, clonare automată și extragere neautorizată a datelor literare structurate, documentația tehnică completă este disponibilă doar utilizatorilor autentificați. Fiecare plan de acces deblochează un nivel diferit de documentație: Utilizatorii gratuiti primesc această pagină de prezentare, care explică structura API-ului și endpointurile disponibile. Utilizatorii basic au acces la documentația completă Redoc. Utilizatorii premium au acces atât la Redoc, cât și la Swagger, inclusiv la instrumente de testare live.",
 
     plansTitle: "Planurile API",
 
     freeTitle: "Plan Gratuit",
     freeText:
-      "Acces limitat la endpointurile esențiale. Potrivit pentru testare, învățare și proiecte personale mici. Nu include acces la documentația completă sau funcțiile avansate de căutare.",
+      "Acces la endpointurile esențiale cu limite generoase. Acest plan include această pagină de prezentare, care explică cum funcționează API-ul și cum se apelă endpointurile principale. Documentația completă (Redoc/Swagger) nu este inclusă. Potrivit pentru testare, învățare și proiecte personale mici.",
 
     basicTitle: "Plan Basic",
     basicText:
-      "Include acces la endpointurile de bază cu limite moderate. Utilizatorii pot vedea documentație parțială și exemple structurate pentru integrare.",
+      "Include acces la toate endpointurile de bază și documentația completă Redoc. Redoc oferă documentație structurată și ușor de citit cu scheme, exemple și descrieri ale endpointurilor. Swagger nu este inclus în acest plan. Recomandat pentru dezvoltatori care doresc o documentație clară fără funcții de testare interactivă.",
 
     premiumTitle: "Plan Premium",
     premiumText:
-      "Acces complet la toate endpointurile, căutare avansată, metadate și documentația completă Redoc/Swagger. Recomandat pentru aplicații de producție, platforme de cercetare și instituții culturale.",
+      "Acces complet la toate endpointurile, căutare avansată, metadate și ambele sisteme de documentație: Redoc (documentație completă și structurată) și Swagger (testare interactivă, cereri live, introspecție de scheme). Recomandat pentru aplicații de producție, platforme de cercetare și instituții culturale.",
 
     endpointsTitle: "Ce endpointuri există?",
     endpointsText:
@@ -34,7 +34,7 @@ const translations = {
 
     accessTitle: "Cum obții acces la documentația completă",
     accessText:
-      "După alegerea unui plan, vei primi un link securizat către paginile Redoc și Swagger, împreună cu cheia ta API și instrucțiuni de utilizare. Aceste pagini rămân ascunse publicului pentru a proteja API-ul."
+      "După alegerea unui plan, dashboard-ul tău va debloca automat documentația disponibilă pentru nivelul tău: Free → doar prezentare Basic → Redoc Premium → Redoc + Swagger Aceste pagini rămân protejate pentru a asigura integritatea și securitatea pe termen lung a API-ului."
   },
 
   en: {
@@ -42,25 +42,25 @@ const translations = {
 
     introTitle: "Why Some Documentation Is Restricted",
     introText:
-      "To protect the Poems & Prose API from cloning, scraping, and unauthorized automated extraction, the full technical documentation (Redoc & Swagger) is not publicly accessible. Only authenticated users with a valid plan can view sensitive details such as request structures, response schemas, rate limits, and advanced endpoints.",
+      "To protect the Poems & Prose API from scraping, automated cloning, and unauthorized extraction of structured literary data, full technical documentation is available only to authenticated users.Each plan unlocks a different level of documentation:Free users receive this Overview page, which explains the API structure and available endpoints.Basic users gain access to the full Redoc documentation.Premium users gain access to both Redoc and Swagger, including live testing tools.",
 
     plansTitle: "API Access Plans",
 
     freeTitle: "Free Plan",
     freeText:
-      "Limited access to essential endpoints. Suitable for testing, learning, and small personal projects. Does not include access to full documentation or advanced search features.",
+      "Access to essential endpoints with generous daily limits. This plan includes this Overview page, which explains how the API works and how to call the main endpoints. Full documentation (Redoc/Swagger) is not included. Suitable for testing, learning, and small personal projects.",
 
     basicTitle: "Basic Plan",
     basicText:
-      "Includes access to core endpoints with moderate rate limits. Users can view partial documentation and receive structured examples for integration.",
+      "Includes access to all core endpoints and full Redoc documentation. Redoc provides structured, human‑readable documentation with schemas, examples, and endpoint descriptions. Swagger is not included in this plan. Recommended for developers who want clear documentation without interactive testing features.",
 
     premiumTitle: "Premium Plan",
     premiumText:
-      "Full access to all endpoints, advanced search, metadata, and complete Redoc/Swagger documentation. Recommended for production applications, research platforms, and cultural institutions.",
+      "Full access to all endpoints, advanced search, metadata, and both documentation systems: Redoc (complete structured documentation) and Swagger (interactive testing, live requests, schema introspection).Recommended for production applications, research platforms, and cultural institutions.",
 
     endpointsTitle: "What Endpoints Exist?",
     endpointsText:
-      "The API provides structured access to public‑domain Romanian literature. Here is a general overview without exposing sensitive details:",
+      " The API provides structured access to public‑domain Romanian literature. Free users can call the main endpoints directly using their API key, while Basic and Premium users can explore full documentation through Redoc or Swagger.",
 
     ep1: "Authors – retrieve available authors and metadata",
     ep2: "Poems – access poetry from public‑domain authors",
@@ -69,7 +69,7 @@ const translations = {
 
     accessTitle: "How to Access Full Documentation",
     accessText:
-      "After choosing a plan, you will receive a secure link to the full Redoc and Swagger pages, along with your API key and usage instructions. These pages remain hidden from the public to ensure long‑term safety."
+      "After choosing a plan, your dashboard will automatically unlock the documentation available for your tier:Free → Overview only Basic → Redoc Premium → Redoc + Swagger These pages remain protected to ensure the long‑term integrity and security of the API."
   }
 };
 

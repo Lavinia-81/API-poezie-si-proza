@@ -6,7 +6,12 @@ import { validateApiKey } from "../../validators.js";
 export const verifyApiKey = async (req, res, next) => {
   try {
     const apiKey = req.headers["x-api-key"];
+    console.log("VALID?", validateApiKey(apiKey));
+
     if (!apiKey) return res.status(401).json({ error: "Unauthorized" });
+    console.log("API KEY QUERY:", req.query.apiKey);
+    console.log("API KEY HEADER:", req.headers["x-api-key"]);
+
 
     if (!validateApiKey(apiKey)) {
       return res.status(401).json({ error: "Unauthorized" });

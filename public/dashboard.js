@@ -329,7 +329,7 @@ applyTranslations(currentLang);
 langToggle.addEventListener("click", () => {
   currentLang = currentLang === "en" ? "ro" : "en";
   langToggle.innerText = currentLang === "en" ? "RO" : "EN";
-  localStorage.setItem("lang", currentLang);   // 🔥 asta lipsea
+  localStorage.setItem("lang", currentLang);
   
   applyTranslations(currentLang);
 
