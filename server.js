@@ -20,6 +20,7 @@ import { antiInjection } from "./src/middleware/security/antiInjection.js";
 import { errorHandler } from "./src/middleware/error/errorHandler.js";
 import { verifyApiKey } from "./src/middleware/auth/verifyApiKey.js";
 import { antiCloning } from "./src/middleware/security/antiCloning.js";
+import { trackUsage } from "./src/middleware/trackUsage.js";
 
 import autorRoutes from "./src/routes/autorRoutes.js";
 import poetiRoutes from "./src/routes/poetiRoutes.js";
@@ -29,13 +30,13 @@ import webhookRoutes from "./src/routes/webhook.js";
 import createCheckoutRouter from "./src/routes/createCheckout.js";
 
 // -----------------------------------------------------
-// 1. Setup dirname
+// Setup dirname
 // -----------------------------------------------------
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // -----------------------------------------------------
-// 2. Initialize app
+// Initialize app
 // -----------------------------------------------------
 
 dotenv.config();
@@ -45,13 +46,13 @@ app.use("/webhook", webhookRoutes);
 app.use("/docs", express.static(path.join(__dirname, "docs")));
 app.use(express.static(path.join(__dirname, "public")));
 // -----------------------------------------------------
-// 3. Helmet + CSP (MUST BE FIRST!)
+// Helmet + CSP (MUST BE FIRST!)
 // -----------------------------------------------------
 
 applySecurity(app);
 
 // -----------------------------------------------------
-// 4. Security middlewares
+// Security middlewares
 // -----------------------------------------------------
 app.use(antiInjection);
 app.use(compression());
@@ -72,13 +73,13 @@ app.use(
 );
 
 // -----------------------------------------------------
-// 5. Body parsers
+// Body parsers
 // -----------------------------------------------------
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // -----------------------------------------------------
-// 6. CORS (o singură instanță)
+// CORS (just one instance)
 // -----------------------------------------------------
 app.use(
   cors({
@@ -88,43 +89,36 @@ app.use(
   })
 );
 
+// for testing only
+// app.use(cors({
+//   origin: "*",
+//   allowedHeaders: ["Content-Type", "x-api-key"]
+// }));
+
 // -----------------------------------------------------
-// 7. Logging
+// Logging
 // -----------------------------------------------------
 app.use(requestLogger);
 app.use(responseLogger);
 
-// redoc docs - disponibil pentru toți utilizatorii cu API key valid
-// app.get("/docs/redoc", verifyApiKey, (req, res) => {
-//   res.sendFile(path.join(__dirname, "docs/redoc.html"));
-// });
-
-// swagger docs - doar pentru premium, cu anti-cloning
-// app.get("/docs/swagger", verifyApiKey, antiCloning, (req, res) => {
-//   if (req.user.plan !== "premium") {
-//     return res.status(403).send("Swagger is available only for Premium users");
-//   }
-
-//   res.sendFile(path.join(__dirname, "docs/swagger.html"));
-// });
-
 // -----------------------------------------------------
-// 10. Routes
+// Routes
 // -----------------------------------------------------
+
 app.use("/", createCheckoutRouter);
 app.use("/auth", authRoutes);
-app.use("/autor", verifyApiKey, autorRoutes);
-app.use("/poeti", verifyApiKey, poetiRoutes);
-app.use("/cauta", verifyApiKey, cautareRoutes);
+app.use("/autor", verifyApiKey, trackUsage, autorRoutes);
+app.use("/poeti", verifyApiKey, trackUsage, poetiRoutes);
+app.use("/cauta", verifyApiKey, trackUsage, cautareRoutes);
 
 // -----------------------------------------------------
-// 8. Static files (după Helmet, înainte de rute)
+//  Static files (after Helmet, before the rutes)
 // -----------------------------------------------------
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, "public")));
 
 // -----------------------------------------------------
-// 11. Health check
+// Health check
 // -----------------------------------------------------
 app.get("/health", (req, res) => {
   res.json({
@@ -135,16 +129,16 @@ app.get("/health", (req, res) => {
 });
 
 // -----------------------------------------------------
-// 12. Global error handler
+// Global error handler
 // -----------------------------------------------------
 app.use(errorHandler);
 
 app.get('/.well-known/appspecific/com.chrome.devtools.json', (req, res) => {
-  res.status(204).end(); // No Content
+  res.status(204).end(); 
 });
 
 // -----------------------------------------------------
-// 13. Start server
+// Start server
 // -----------------------------------------------------
 mongoose
   .connect(process.env.MONGODB_URI)
