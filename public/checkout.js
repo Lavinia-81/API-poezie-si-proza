@@ -1,8 +1,12 @@
 // checkout.js
+
 // FREE registration
 async function registerFree() {
   const email = document.getElementById("email").value;
-  if (!email) return alert("Please enter your email address.");
+  if (!email) {
+    showPopup("emailPopup", "email_required");
+    return;
+  }
 
   const response = await fetch("/auth/register", {
     method: "POST",
@@ -11,14 +15,21 @@ async function registerFree() {
   });
 
   const data = await response.json();
-  if (data.apiKey) alert("Account created successfully! The FREE plan is activated.");
-  else alert("Error: " + JSON.stringify(data));
+
+  if (data.apiKey) {
+    showPopup("emailPopup", "free_success");
+  } else {
+    showPopup("emailPopup", "error_generic");
+  }
 }
+
+
 
 // Stripe checkout
 async function buy(plan) {
   const email = document.getElementById("email").value;
-  if (!email) return alert("Please enter your email address.");
+  if (!email)
+    return showPopup("emailPopup", "email_required");
 
   const response = await fetch("/create-checkout-session", {
     method: "POST",
@@ -28,7 +39,20 @@ async function buy(plan) {
 
   const data = await response.json();
   if (data.url) window.location.href = data.url;
-  else alert("Error: " + JSON.stringify(data));
+  else
+    showPopup("emailPopup", "checkout_error");
+}
+
+
+
+function showPopup(id, messageKey) {
+  const popup = document.getElementById(id);
+  popup.innerHTML = translations[currentLang][messageKey];
+  popup.style.display = "block";
+
+  setTimeout(() => {
+    popup.style.display = "none";
+  }, 3000);
 }
 
 
@@ -39,7 +63,7 @@ document.getElementById("btnPremium").addEventListener("click", () => buy("premi
 });
 
   
-// /js/lang.js
+
 // Language toggle and translations
 const translations = {
   ro: {
@@ -47,23 +71,29 @@ const translations = {
     auth_title: "Autentificare / Înregistrare",
     email_placeholder: "Introduceți adresa de email",
 
+    email_required: "Introduceți adresa de email.",
+    free_success: "Cont creat! Planul FREE este activ. Mergi in Dashboard și verifică contul.",
+    error_generic: "A apărut o eroare. Introduceți adresa de email din nou.",
+    checkout_error: "A apărut o eroare. Încercați din nou.",
+
+
     intro_title: "Acces la API-ul Poezii și Proza",
     intro_text:
       "Această pagină îți permite să îți creezi un cont, să activezi planul gratuit sau să alegi un abonament premium pentru acces extins la colecția noastră digitală de literatură clasică românească.",
 
     free_title: "FREE",
     free_price: "£0 / lună",
-    free_desc: "• Acces limitat<br>• 100 request-uri / zi<br>• Fără acces la endpoint-uri premium",
+    free_desc: "• Acces limitat<br>• 100 request-uri / zi",//<br>• Fără acces la endpoint-uri premium",
     free_btn: "Activează GRATUIT",
 
     basic_title: "BASIC",
     basic_price: "£7 / lună",
-    basic_desc: "• 10.000 request-uri / lună<br>• Acces la endpoint-uri standard<br>• Suport prin email",
+    basic_desc: "• 10.000 request-uri / lună<br>• Acces la endpoint-uri standard",//<br>• Suport prin email",
     basic_btn: "Cumpără BASIC",
 
     premium_title: "PREMIUM",
     premium_price: "£15 / lună",
-    premium_desc: "• 50.000 request-uri / lună<br>• Acces complet la API<br>• Prioritate suport<br>• Funcții exclusive",
+    premium_desc: "• 50.000 request-uri / lună<br>• Acces complet la API",//<br>• Prioritate suport<br>• Funcții exclusive",
     premium_btn: "Cumpără PREMIUM",
 
     paragraph: "<strong>Notă privind performanța API-ului</strong><br> Acest serviciu rulează în prezent pe un plan gratuit Render. Prima cerere după o perioadă de inactivitate poate avea o întârziere de aproximativ 60 de secunde, deoarece instanța este repornită automat.După activare, toate răspunsurile sunt livrate instant. Lucrăm la optimizări și viitoare actualizări pentru a îmbunătăți experiența de utilizare."
@@ -73,6 +103,14 @@ const translations = {
     navTitle: "Subscription Plans",
     auth_title: "Login / Register",
     email_placeholder: "Enter your email address",
+    
+
+    email_required: "Please enter your email address.",
+    free_success: "Account created! FREE plan activated. Go to Dashboard and check your account.",
+    error_generic: "An error occurred. Please enter your email address again.",
+    checkout_error: "An error occurred. Please try again.",
+
+
 
     intro_title: "Access to the Poems & Prose API",
     intro_text:
@@ -80,17 +118,17 @@ const translations = {
 
     free_title: "FREE",
     free_price: "£0 / month",
-    free_desc: "• Limited access<br>• 100 requests / day<br>• No access to premium endpoints",
+    free_desc: "• Limited access<br>• 100 requests / day",//<br>• No access to premium endpoints",
     free_btn: "Activate FREE",
 
     basic_title: "BASIC",
     basic_price: "£7 / month",
-    basic_desc: "• 10,000 requests / month<br>• Access to standard endpoints<br>• Email support",
+    basic_desc: "• 10,000 requests / month<br>• Access to standard endpoints",//<br>• Email support",
     basic_btn: "Buy BASIC",
 
     premium_title: "PREMIUM",
     premium_price: "£15 / month",
-    premium_desc: "• 50,000 requests / month<br>• Full API access<br>• Priority support<br>• Exclusive features",
+    premium_desc: "• 50,000 requests / month<br>• Full API access",//<br>• Priority support<br>• Exclusive features",
     premium_btn: "Buy PREMIUM",
 
     paragraph: "<strong>API Performance Notice</strong><br> This service currently runs on Render's free tier. The first request after a period of inactivity may experience a delay of up to 60 seconds while the instance wakes up. Once active, all responses are delivered instantly. We are working on optimizations and future improvements to enhance the overall experience."
@@ -122,6 +160,12 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleBtn.textContent = currentLang === "ro" ? "EN" : "RO";
     applyTranslations();
   });
+});
+
+
+// Input sanitization for email field
+document.getElementById("email").addEventListener("input", function () {
+  this.value = this.value.replace(/[<>]/g, "");
 });
 
 

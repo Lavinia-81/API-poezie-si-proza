@@ -3,7 +3,7 @@ async function loadDashboard() {
   const email = document.getElementById("email").value;
 
   if (!email) {
-    alert(currentLang === "en" ? "Please enter your email" : "Introdu emailul");
+    showPopup("emailPopup", "dashboard_email_required");
     return;
   }
 
@@ -12,7 +12,7 @@ async function loadDashboard() {
   const usage = await usageRes.json();
 
   if (usage.error) {
-    alert(currentLang === "en" ? "User does not exist" : "Userul nu există");
+    showPopup("emailPopup", "dashboard_user_not_found");
     return;
   }
 
@@ -21,10 +21,10 @@ async function loadDashboard() {
   // 2. Luăm datele complete din /auth/me folosind Bearer
   const meRes = await fetch(`/auth/me?apiKey=${apiKey}`);
   const me = await meRes.json();
-  window._meData = me;   // 🔥 asta lipsea
+  window._meData = me;
   
   if (me.error) {
-    alert("Eroare la /me");
+    showPopup("emailPopup", "dashboard_me_error");
     return;
   }
 
@@ -60,6 +60,7 @@ async function loadDashboard() {
 }
 
 
+
 async function upgrade(plan) {
   const email = document.getElementById("email").value;
 
@@ -74,9 +75,10 @@ async function upgrade(plan) {
   if (data.url) {
     window.location.href = data.url;
   } else {
-    alert("Eroare: " + JSON.stringify(data));
+    showPopup("emailPopup", "dashboard_me_error");
   }
 }
+
 
 
 async function openPortal() {
@@ -93,9 +95,49 @@ async function openPortal() {
   if (data.url) {
     window.location.href = data.url;
   } else {
-    alert("Eroare: " + JSON.stringify(data));
+    showPopup("emailPopup", "portal_error");
   }
 }
+
+
+
+async function deleteAccount() {
+  const email = window._meData.email;
+  const res = await fetch("/auth/delete", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email })
+  });
+
+  const data = await res.json();
+
+  if (data.success) {
+    showPopup("emailPopup", "delete_success");
+    window.location.reload();
+  } else {
+    showPopup("emailPopup", "delete_error");
+  }
+
+  if (window._meData.plan !== "free") {
+  showPopup("emailPopup", "delete_not_free");
+  return;
+  }
+
+}
+
+
+
+
+function showPopup(id, messageKey) {
+  const popup = document.getElementById(id);
+  popup.innerHTML = translations[currentLang][messageKey];
+  popup.style.display = "block";
+
+  setTimeout(() => {
+    popup.style.display = "none";
+  }, 3000);
+}
+
 
 
 function renderCancellationNotice(user) {
@@ -193,32 +235,6 @@ console.log("CONTAINER:", container);
 }
 
 
-async function deleteAccount() {
-  const email = window._meData.email; // 🔥 asta e cheia
-
-  console.log("EMAIL TRIMIS:", email);
-
-  const res = await fetch("/auth/delete", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ email })
-  });
-
-  const data = await res.json();
-
-  if (data.success) {
-    alert("Your account has been deleted successfully.");
-    window.location.reload();
-  } else {
-    alert("Error occurred while deleting the account.");
-  }
-
-  if (window._meData.plan !== "free") {
-  alert("You cannot delete your account while you have an active subscription. Please cancel your subscription first.");
-  return;
-  }
-
-}
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -252,6 +268,17 @@ const translations = {
     usageTitle: "API Usage",
     subscriptionTitle: "Subscription Management",
 
+    dashboard_email_required: "Please enter your email.",
+    dashboard_user_not_found: "User does not exist.",
+    dashboard_me_error: "Error loading user data.",
+    dashboard_loading: "Loading data...",
+    portal_error: "An error occurred. Please try again.",
+    delete_not_free: "You cannot delete your account while you have an active subscription. Please cancel it first.",
+    delete_confirm: "Deleting your account...",
+    delete_success: "Your account has been deleted successfully.",
+    delete_error: "An error occurred while deleting the account.",
+
+
     labelEmail: "Email:",
     labelPlan: "Plan:",
     labelKey: "API Key:",
@@ -278,6 +305,19 @@ const translations = {
     accountInfoTitle: "Informații Cont",
     usageTitle: "Utilizare API",
     subscriptionTitle: "Administrare Abonament",
+
+
+    dashboard_email_required: "Introduceți adresa de email.",
+    dashboard_user_not_found: "Utilizatorul nu există.",
+    dashboard_me_error: "Eroare la încărcarea datelor utilizatorului.",
+    dashboard_loading: "Se încarcă datele...",
+    portal_error: "A apărut o eroare. Încercați din nou.",
+    delete_not_free: "Nu puteți șterge contul cât timp aveți un abonament activ. Anulați abonamentul mai întâi.",
+    delete_confirm: "Ștergem contul...",
+    delete_success: "Contul a fost șters cu succes.",
+    delete_error: "A apărut o eroare la ștergerea contului.",
+
+
 
     labelEmail: "Email:",
     labelPlan: "Plan:",
@@ -336,6 +376,12 @@ langToggle.addEventListener("click", () => {
   if (window._meData) {
   renderCancellationNotice(window._meData);
   }
+});
+
+
+// Input sanitization for email field
+document.getElementById("email").addEventListener("input", function () {
+  this.value = this.value.replace(/[<>]/g, "");
 });
 
 

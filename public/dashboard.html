@@ -6,6 +6,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/docs/style.css">
   <title>Dashboard</title>
+  <link rel="icon" type="image/jpeg" href="/docs/pana.jpg">
+  <link rel="apple-touch-icon" href="/docs/apple-touch-icon.jpeg">
 </head>
 
 <body>
@@ -45,7 +47,11 @@
       and upgrade options. The dashboard allows you to manage your subscription
       securely and monitor your API usage in real time.
     </p>
-    <input id="email" type="email" placeholder="Enter your email">
+     <div class="input-wrapper">
+        <input id="email" type="email" maxlength="80" data-i18n-placeholder="email_placeholder">
+        <div id="emailPopup" class="popup"></div>
+      </div>
+
     <button id="btnLogin">Enter Dashboard</button>
 
     <div id="dashboard" style="display:none;">

@@ -20,7 +20,10 @@
     list3: "dezvoltatori care construiesc aplicații culturale sau lingvistice",
     list4: "inițiative arhivistice, bibliografice și de conservare a patrimoniului",
 
-    about4: "Dincolo de structura sa tehnică, acest proiect reprezintă o contribuție personală la conservarea digitală a patrimoniului literar românesc. Scopul său este de a aduce textele clasice în ecosisteme moderne, unde pot fi explorate, indexate, vizualizate și integrate în noi instrumente creative sau academice."
+      about4: "Dincolo de structura sa tehnică, acest proiect reprezintă o contribuție personală la conservarea digitală a patrimoniului literar românesc. Scopul său este de a aduce textele clasice în ecosisteme moderne, unde pot fi explorate, indexate, vizualizate și integrate în noi instrumente creative sau academice.",
+    
+    paragraph: "<strong>Notă privind performanța API-ului</strong><br> Acest serviciu rulează în prezent pe un plan gratuit Render. Prima cerere după o perioadă de inactivitate poate avea o întârziere de aproximativ 60 de secunde, deoarece instanța este repornită automat.După activare, toate răspunsurile sunt livrate instant. Lucrăm la optimizări și viitoare actualizări pentru a îmbunătăți experiența de utilizare." 
+    
   },
 
     en: {
@@ -40,7 +43,9 @@
     list3: "developers building cultural or linguistic applications",
     list4: "archival, bibliographic, and heritage-preservation initiatives",
 
-    about4: "Beyond its technical structure, this project is a personal contribution to the digital preservation of Romanian literary heritage. It aims to bring classical texts into modern ecosystems, where they can be explored, indexed, visualized, and integrated into new creative or academic tools."
+    about4: "Beyond its technical structure, this project is a personal contribution to the digital preservation of Romanian literary heritage. It aims to bring classical texts into modern ecosystems, where they can be explored, indexed, visualized, and integrated into new creative or academic tools.",
+
+    paragraph: "<strong>API Performance Notice</strong><br> This service currently runs on Render's free tier. The first request after a period of inactivity may experience a delay of up to 60 seconds while the instance wakes up. Once active, all responses are delivered instantly. We are working on optimizations and future improvements to enhance the overall experience."
     }
 };
     
@@ -60,6 +65,7 @@ function applyTranslations(lang) {
   document.getElementById("list2").innerText = translations[lang].list2;
   document.getElementById("list3").innerText = translations[lang].list3;
   document.getElementById("list4").innerText = translations[lang].list4;
+  document.getElementById("paragraph").innerHTML = translations[lang].paragraph;
 }
 
 // Initialize with default language

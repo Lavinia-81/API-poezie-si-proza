@@ -6,6 +6,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/docs/style.css">
   <title>Subscription Plans - Poems & Prose API</title>
+  <link rel="icon" type="image/jpeg" href="/docs/pana.jpg">
+  <link rel="apple-touch-icon" href="/docs/apple-touch-icon.jpeg">
 </head>
 
 <body>
@@ -39,9 +41,13 @@
   <main>
     <div class="email-box">
       <h2 data-i18n="auth_title"></h2>
-      <input id="email" type="email" data-i18n-placeholder="email_placeholder">
-    </div>
 
+      <div class="input-wrapper">
+        <input id="email" type="email" maxlength="80" data-i18n-placeholder="email_placeholder">
+        <div id="emailPopup" class="popup"></div>
+      </div>
+
+  </div>
     <section class="intro">
       <h2 data-i18n="intro_title"></h2>
       <p data-i18n="intro_text"></p>
