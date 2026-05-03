@@ -2,7 +2,7 @@
    SUCCESS PAGE
 ---------------------------------------------------- */
 
-.success-container {
+/* .success-container {
   max-width: 600px;
   margin: 80px auto;
   text-align: center;
@@ -10,7 +10,7 @@
   background: #f7e9a0;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-}
+} */
 
 .success-title {
   font-size: 2rem;

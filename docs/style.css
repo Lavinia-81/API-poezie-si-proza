@@ -394,7 +394,7 @@ p {
 }
 
 .btn:hover, button:hover {
-  background: #350a19;
+  background: #9c0539;
 }
 
 .input-wrapper {
@@ -511,7 +511,7 @@ button.disabled {
 /* Face secțiunile compacte și verticale */
 .swagger-ui .opblock-tag-section {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 /* Reduce spațiul gol */
@@ -528,12 +528,14 @@ button.disabled {
   height: auto !important;
   min-height: auto !important;
   overflow: visible !important;
+  margin: auto;
 }
 
 #redoc-container > div > div {
   min-height: auto !important;
   overflow: visible !important;
 }
+
 
 
 /* ----------------------------------------------------
@@ -543,68 +545,54 @@ button.disabled {
 
 @media (max-width: 700px) {
 
+  /* NAVBAR devine vertical */
   .navbar {
-    display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
     padding: 15px 20px;
-    gap: 12px;
+    gap: 10px;
   }
 
-  .navbar-top {
+  /* Grupăm icon + titlu + EN pe același rând */
+  .navbar-header {
     width: 100%;
-    display: grid;
-    grid-template-columns: 40px 1fr 40px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
   }
 
   .navbar-left {
-    grid-column: 1;
     display: flex;
     align-items: center;
-  }
-
-  .navbar-center {
-    grid-column: 2;
-    text-align: center;
+    gap: 8px;
   }
 
   .navbar-center h1 {
-    font-size: 2rem;
+    font-size: 1.1rem;
     margin: 0;
     white-space: nowrap;
   }
 
   #langToggle {
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
   }
 
+  /* Linkurile pe un singur rând */
   .navbar-right {
     width: 100%;
-    justify-content: center;
-    display: flex !important;
-    flex-direction: row;
+    display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 8px;
   }
 
   .navbar-right a {
+    font-size: 1rem;
     white-space: nowrap;
-    font-size: 1.2rem;
-    padding: 4px 0;
-    border: none;
-  }
-
-  .literary-footer {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 10px;
-    text-align: center;
   }
 }
+
+
