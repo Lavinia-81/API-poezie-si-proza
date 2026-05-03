@@ -111,6 +111,7 @@ app.use("/autor", verifyApiKey, trackUsage, autorRoutes);
 app.use("/poeti", verifyApiKey, trackUsage, poetiRoutes);
 app.use("/cauta", verifyApiKey, trackUsage, cautareRoutes);
 
+
 // -----------------------------------------------------
 //  Static files (after Helmet, before the rutes)
 // -----------------------------------------------------

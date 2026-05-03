@@ -16,22 +16,20 @@ router.use(antiCloning);
 router.use(antiScraping);
 router.use(textLimiter);
 
-router.get(
-  '/autor/:autor/:titlu',
-  validateRequest({ params: cautareSchema }),
-  verifyApiKey,
-  antiCloning,
-  antiScraping,
-  textLimiter,
-  cautareTitlu
-);
 
-
-router.get("/cauta-global", (req, res) => {
+router.get("/global", verifyApiKey, (req, res) => {
   const { text } = req.query;
   const results = cautaGlobal(text);
   res.json(results);
 });
+
+
+router.get(
+  "/:autor/:titlu",
+  validateRequest({ params: cautareSchema }),
+  verifyApiKey,
+  cautareTitlu
+);
 
 
 export default router;
