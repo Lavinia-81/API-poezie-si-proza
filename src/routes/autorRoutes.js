@@ -8,6 +8,8 @@ import { planLimiter } from '../middleware/security/planLimiter.js';
 import { antiCloning } from "../middleware/security/antiCloning.js"; 
 import { antiScraping } from "../middleware/security/antiScraping.js";
 import { textLimiter } from "../middleware/security/textLimiter.js";
+import { cautareTitlu } from "../controllers/cautareController.js";
+
 import {
     poeziiAutor,
     prozaAutor,
@@ -15,7 +17,7 @@ import {
     pozaAutor,
     poezieText,
     prozaText,
-    itemById
+    itemById,
 } from '../controllers/autorController.js';
 
 const router = express.Router();
@@ -117,5 +119,10 @@ router.get(
   itemById
 );
 
+
+router.get(
+  '/:autor/:titlu',
+  verifyApiKey,
+  cautareTitlu);
 
 export default router;

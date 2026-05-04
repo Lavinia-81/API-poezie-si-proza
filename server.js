@@ -81,19 +81,26 @@ app.use(express.urlencoded({ extended: true }));
 // -----------------------------------------------------
 // CORS (just one instance)
 // -----------------------------------------------------
-app.use(
-  cors({
-    origin: config.corsOrigin,
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "x-api-key"],
-  })
-);
+// app.use(
+//   cors({
+//     origin: config.corsOrigin,
+//     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+//     allowedHeaders: ["Content-Type", "x-api-key"],
+//   })
+// );
+// CORS — trebuie să fie înainte de orice alt middleware
 
-// for testing only
-// app.use(cors({
-//   origin: "*",
-//   allowedHeaders: ["Content-Type", "x-api-key"]
-// }));
+app.use(cors({
+  origin: [
+    "http://localhost:3000",
+    "https://api-poezie-si-proza.onrender.com"
+  ],
+  methods: ["GET"],
+  allowedHeaders: ["Content-Type", "x-api-key"]
+}));
+
+
+
 
 // -----------------------------------------------------
 // Logging
@@ -106,10 +113,12 @@ app.use(responseLogger);
 // -----------------------------------------------------
 
 app.use("/", createCheckoutRouter);
-app.use("/auth", authRoutes);
-app.use("/autor", verifyApiKey, trackUsage, autorRoutes);
-app.use("/poeti", verifyApiKey, trackUsage, poetiRoutes);
-app.use("/cauta", verifyApiKey, trackUsage, cautareRoutes);
+app.use("/auth", authRoutes)
+
+app.use("/cauta-global", trackUsage, cautareRoutes);
+app.use("/autor", trackUsage, autorRoutes);
+app.use("/poeti", trackUsage, poetiRoutes);
+app.use("/cauta", trackUsage, cautareRoutes);
 
 
 // -----------------------------------------------------

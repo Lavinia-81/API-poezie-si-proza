@@ -17,7 +17,7 @@ router.use(antiScraping);
 router.use(textLimiter);
 
 
-router.get("/global", verifyApiKey, (req, res) => {
+router.get("/", verifyApiKey, (req, res) => {
   const { text } = req.query;
   const results = cautaGlobal(text);
   res.json(results);
