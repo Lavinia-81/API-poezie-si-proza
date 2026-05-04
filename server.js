@@ -115,10 +115,10 @@ app.use(responseLogger);
 app.use("/", createCheckoutRouter);
 app.use("/auth", authRoutes)
 
-app.use("/cauta-global", trackUsage, cautareRoutes);
-app.use("/autor", trackUsage, autorRoutes);
-app.use("/poeti", trackUsage, poetiRoutes);
-app.use("/cauta", trackUsage, cautareRoutes);
+app.use("/v1/cauta-global", trackUsage, cautareRoutes);
+app.use("/v1/autor", trackUsage, autorRoutes);
+app.use("/v1/autori", trackUsage, poetiRoutes);
+app.use("/v1/cauta", trackUsage, cautareRoutes);
 
 
 // -----------------------------------------------------

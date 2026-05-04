@@ -1,4 +1,5 @@
 // dashboard.js
+
 async function loadDashboard() {
   const email = document.getElementById("email").value;
 
@@ -18,11 +19,11 @@ async function loadDashboard() {
 
   const apiKey = usage.apiKey;
 
-  // 2. Luăm datele complete din /auth/me folosind Bearer
+  // 2. Luăm datele complete din /auth/me
   const meRes = await fetch(`/auth/me?apiKey=${apiKey}`);
   const me = await meRes.json();
   window._meData = me;
-  
+
   if (me.error) {
     showPopup("emailPopup", "dashboard_me_error");
     return;
@@ -33,19 +34,21 @@ async function loadDashboard() {
 
   document.getElementById("d-email").innerText = me.email;
   document.getElementById("d-plan").innerText = me.plan.toUpperCase();
-  document.getElementById("d-requests").innerText = me.requestsToday;
-  document.getElementById("d-limit").innerText = me.requestsLimit;
-  document.getElementById("d-remaining").innerText = me.remainingRequests;
   document.getElementById("d-key").innerText = apiKey;
 
-  // 4. Dacă userul nu e FREE, dezactivăm butonul de delete și afișăm un mesaj
+  // Folosim câmpurile TRIMISE de backend:
+  // requestsUsed, requestsLimit, remainingRequests
+  document.getElementById("d-requests").innerText = me.requestsUsed;
+  document.getElementById("d-limit").innerText = me.requestsLimit;
+  document.getElementById("d-remaining").innerText = me.remainingRequests;
+
+  // 4. Logica pentru delete
   const deleteBtn = document.getElementById("btnDelete");
   const deleteWarning = document.getElementById("delete-warning");
 
-  if (window._meData.plan !== "free") {
+  if (me.plan !== "free") {
     deleteBtn.disabled = true;
     deleteBtn.classList.add("disabled");
-
     deleteWarning.innerText =
       "For security reasons, you cannot delete your account while you have an active subscription. Please cancel your subscription first.";
   } else {
@@ -53,12 +56,10 @@ async function loadDashboard() {
     deleteWarning.innerText = "";
   }
 
- 
   renderCancellationNotice(me);
 
   console.log("ME DATA:", me);
 }
-
 
 
 async function upgrade(plan) {

@@ -10,35 +10,53 @@ import { planLimiter } from "../middleware/security/planLimiter.js";
 const router = express.Router();
 
 /* REGISTER USER */
-router.post("/register", requireValidEmail, async (req, res) => {
+router.get("/me", async (req, res) => {
   try {
-    const { email } = req.body;
+    const apiKey = req.query.apiKey;
+    if (!apiKey) return res.status(401).json({ error: "Unauthorized" });
 
-    const existing = await User.findOne({ email });
-    if (existing) {
-      return res.status(400).json({ error: "Operation failed" });
+    const user = await User.findOne({ apiKey });
+    if (!user) return res.status(401).json({ error: "Unauthorized" });
+
+    const plan = user.plan.toLowerCase();
+    const limits = plans[plan];
+
+    let used, limit;
+
+    if (plan === "free") {
+      used = user.requestsToday;
+      limit = limits.dailyLimit;
+    } else {
+      used = user.requestsThisMonth;
+      limit = limits.monthlyLimit;
     }
 
-    const apiKey = generateApiKey();
+    const remaining = Math.max(0, limit - used);
 
-    const user = await User.create({
-      email,
-      apiKey,
-      requestsToday: 0,
-      lastRequestDate: null
-    });
-
-    return res.json({
-      message: "User created",
-      apiKey: user.apiKey,
+    res.json({
+      email: user.email,
       plan: user.plan,
+      apiKey: user.apiKey,
+
+      // câmpuri pentru dashboard
+      requestsToday: user.requestsToday,
+      requestsThisMonth: user.requestsThisMonth,
+      dailyLimit: limits.dailyLimit || null,
+      monthlyLimit: limits.monthlyLimit || null,
+      remainingRequests: remaining,
+
+      // extra
+      status: user.status,
+      cancelAt: user.cancelAt
     });
 
   } catch (err) {
-    console.error("Register error:", err);
+    console.error("Me endpoint error:", err);
     res.status(500).json({ error: "Server error" });
   }
 });
+
+
 
 
 /* UPGRADE PLAN */
@@ -137,26 +155,31 @@ router.get("/me", async (req, res) => {
     const plan = user.plan.toLowerCase();
     const limits = plans[plan];
 
-    let requestsUsed = 0;
-    let requestsLimit = 0;
+    let used, limit;
 
     if (plan === "free") {
-      requestsUsed = user.requestsToday;
-      requestsLimit = limits.dailyLimit;
+      used = user.requestsToday;
+      limit = limits.dailyLimit;
     } else {
-      requestsUsed = user.requestsThisMonth;
-      requestsLimit = limits.monthlyLimit;
+      used = user.requestsThisMonth;
+      limit = limits.monthlyLimit;
     }
 
-    const remaining = Math.max(0, requestsLimit - requestsUsed);
+    const remaining = Math.max(0, limit - used);
 
     res.json({
       email: user.email,
       plan: user.plan,
-      requestsUsed,
-      requestsLimit,
-      remainingRequests: remaining,
       apiKey: user.apiKey,
+
+      // câmpuri pentru dashboard
+      requestsToday: user.requestsToday,
+      requestsThisMonth: user.requestsThisMonth,
+      dailyLimit: limits.dailyLimit || null,
+      monthlyLimit: limits.monthlyLimit || null,
+      remainingRequests: remaining,
+
+      // extra
       status: user.status,
       cancelAt: user.cancelAt
     });
@@ -166,6 +189,7 @@ router.get("/me", async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 });
+
 
 
 
